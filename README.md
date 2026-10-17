@@ -1,8 +1,30 @@
-# Edu RAG · V0
+# Edu RAG · V1
 
-一个从基础检索逐步演进的教育 RAG 项目。V0 提供 **Conda 环境、Supabase 数据库迁移、原创演示数据、数据库检查和最小 FastAPI 后端**。
+V1 增加原创知识库、BGE-M3 真实向量、基础检索、DeepSeek 带引用问答和本机浏览页面。当前文件夹仍叫 `Edu_RAG_V0`，项目代码版本为 0.1.0。
 
-当前数据库使用 Supabase PostgreSQL + pgvector。V0 不调用语言模型、不生成 Embedding，不需要 Docker。部署到你自己的 Supabase 项目后，数据才会出现在云端；解压代码本身不会创建云端数据库。
+## V1 快速使用
+
+已完成 V0 初始化的本机，在项目根目录运行：
+
+```powershell
+$ragPython = 'D:\Anaconda\envs\edu-rag\python.exe'
+& $ragPython -m pip install -r requirements-rag-lock.txt
+& $ragPython -m pip install --no-deps -e .
+& $ragPython -m edu_rag.ingest demo
+& $ragPython -m uvicorn edu_rag.main:app --host 127.0.0.1 --port 8000
+```
+
+打开 [学习工作台](http://127.0.0.1:8000)，可以直接浏览知识点、正文、练习题和答案解析。问答需要本机 `.env` 中的 `DEEPSEEK_API_KEY`；仅浏览知识库无需调用模型 API。
+
+全新 V0 样例升级后的预期总数为 **16 个知识点、17 份资料、51 道题、69 个真实向量片段**。这些内容是原创功能样例，不是完整课程体系。样例原文见 [三年级数学知识库](data/v1/math_g3.md)，导入源为 [JSON 数据](data/v1/math_g3.json)。
+
+完整操作和验证范围见 [V1 说明](docs/V1.md)。下方保留 V0 的首次初始化流程；已初始化的项目直接使用上面的 V1 命令。
+
+## V0 首次初始化参考
+
+V0 提供 Conda 环境、Supabase 数据库迁移、原创演示数据、数据库检查和最小 FastAPI 后端。以下内容保留其初始化操作。
+
+数据库使用 Supabase PostgreSQL + pgvector。V0 阶段不调用语言模型、不生成 Embedding，不需要 Docker。部署到你自己的 Supabase 项目后，数据才会出现在云端；解压代码本身不会创建云端数据库。
 
 ## 1. 放到你的 Windows 文件夹
 
@@ -12,12 +34,12 @@
 D:\2026-2027telecom_sudparis\Edu_RAG
 ```
 
-确认该文件夹下直接有 `README.md`、`environment.yml`、`pyproject.toml` 和 `supabase` 文件夹。
+进入实际包含 `README.md`、`environment.yml`、`pyproject.toml` 和 `supabase` 文件夹的项目根目录。当前解压后多了一层 `Edu_RAG_V0`，下方命令按这个实际路径编写。
 
 在支持 Conda 的 PowerShell / Anaconda Prompt 中运行：
 
 ```powershell
-Set-Location 'D:\2026-2027telecom_sudparis\Edu_RAG'
+Set-Location 'D:\2026-2027telecom_sudparis\Edu_RAG\Edu_RAG_V0'
 conda env create -f environment.yml
 conda activate edu-rag
 python --version
@@ -26,6 +48,14 @@ python -m pip install --no-deps -e .
 ```
 
 Python 应显示 3.11.x。`requirements-lock.txt` 固定本次验证过的依赖版本；项目以 editable 方式安装，之后修改源码无需重新安装。若你已有同名 Conda 环境，先查看 `conda env list`，不要重复创建。
+
+如果 PowerShell 的脚本执行策略阻止环境激活，可直接使用环境内的 Python。后续命令中的 `python` 替换为 `& $ragPython`：
+
+```powershell
+$ragPython = 'D:\Anaconda\envs\edu-rag\python.exe'
+& $ragPython --version
+& $ragPython -m pytest -q
+```
 
 ## 2. 准备 Supabase 项目
 
@@ -145,7 +175,7 @@ Python 测试覆盖无数据库时的启动、数据库失败返回状态、凭�
 
 ## 后续迭代
 
-V1：文本入库、BGE-M3 向量化、基础检索与带引用的回答。后续分别评测元数据过滤、BM25/RRF、重排、门控与 LangGraph。当前不提前安装这些模型或框架。
+V1 提供原始知识卡入库、BGE-M3 向量化、基础检索与带引用的回答。后续分别评测数据清洗与切分、BM25/RRF、重排、门控与 LangGraph。
 
 参考项目：[Edu-RAG](https://github.com/easyroc/edu-rag)、[RAG Web UI 教程](https://github.com/rag-web-ui/rag-web-ui/blob/main/docs/tutorial/README.md)、[All-in-RAG](https://github.com/yingqilin-32/all-in-rag)。本项目骨架和演示数据为本次新建，未复制参考仓库代码。
 

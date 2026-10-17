@@ -8,7 +8,7 @@ def test_liveness_does_not_require_a_database():
     with TestClient(app) as client:
         response = client.get("/health")
         assert response.status_code == 200
-        assert response.json()["stage"] == "V0"
+        assert response.json()["stage"] == "V1"
 
 
 def test_database_failure_is_not_reported_as_healthy(monkeypatch):

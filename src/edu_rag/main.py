@@ -1,19 +1,30 @@
-"""V0 read-only API. Start locally; database writes are explicit CLI commands."""
+"""Local V1 knowledge browser and RAG API; ingestion remains an explicit CLI action."""
+
+from pathlib import Path
+from uuid import UUID
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
 from edu_rag import __version__
 from edu_rag.config import ConfigurationError
 from edu_rag.db import database_status, get_engine
+from edu_rag import knowledge, rag
+from edu_rag.embedding import EmbeddingError
 
 app = FastAPI(title="Edu RAG", version=__version__)
 
 
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+def home():
+    return (Path(__file__).parent / "static" / "index.html").read_text(encoding="utf-8")
+
+
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "version": __version__, "stage": "V0"}
+    return {"status": "ok", "version": __version__, "stage": "V1"}
 
 
 @app.get("/health/db")
@@ -39,4 +50,52 @@ def list_courses() -> list[dict]:
             return [dict(row) for row in rows.mappings()]
     except (ConfigurationError, SQLAlchemyError):
         raise HTTPException(status_code=503, detail="数据库尚未就绪，请先完成 V0 初始化。") from None
+
+
+@app.get("/api/v1/courses")
+def v1_courses():
+    try:
+        return knowledge.courses(get_engine())
+    except (ConfigurationError, SQLAlchemyError):
+        raise HTTPException(503, "数据库尚未就绪，请检查本机连接。") from None
+
+
+@app.get("/api/v1/knowledge-points")
+def topics(course_id: UUID | None = None):
+    try:
+        return knowledge.knowledge_points(get_engine(), course_id)
+    except (ConfigurationError, SQLAlchemyError):
+        raise HTTPException(503, "暂时无法读取知识目录。") from None
+
+
+@app.get("/api/v1/knowledge-points/{knowledge_point_id}")
+def topic_detail(knowledge_point_id: UUID):
+    try:
+        result = knowledge.knowledge_detail(get_engine(), knowledge_point_id)
+    except (ConfigurationError, SQLAlchemyError):
+        raise HTTPException(503, "暂时无法读取知识正文。") from None
+    if result is None:
+        raise HTTPException(404, "知识点不存在。")
+    return result
+
+
+def run_rag(operation, request):
+    try:
+        return operation(request)
+    except (ConfigurationError, EmbeddingError) as exc:
+        raise HTTPException(503, str(exc)) from None
+    except rag.ModelError as exc:
+        raise HTTPException(502, str(exc)) from None
+    except SQLAlchemyError:
+        raise HTTPException(503, "检索数据库暂时不可用。") from None
+
+
+@app.post("/api/v1/search")
+def search(request: rag.SearchRequest):
+    return run_rag(rag.search, request)
+
+
+@app.post("/api/v1/ask")
+def ask(request: rag.SearchRequest):
+    return run_rag(rag.ask, request)
 

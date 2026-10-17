@@ -31,6 +31,12 @@ class Settings(BaseSettings):
     db_sslmode: Literal["require", "verify-ca", "verify-full"] = "require"
     db_connect_timeout: int = Field(default=10, ge=1, le=60)
     embedding_model: str = "BAAI/bge-m3"
+    deepseek_api_key: SecretStr = SecretStr("")
+    deepseek_base_url: str = "https://api.deepseek.com"
+    deepseek_model: str = "deepseek-flash"
+    deepseek_timeout: int = Field(default=45, ge=5, le=120)
+    embedding_device: str = "cpu"
+    embedding_max_length: int = Field(default=512, ge=64, le=8192)
 
     def database_url(self) -> URL:
         missing = []

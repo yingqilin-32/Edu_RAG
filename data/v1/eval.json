@@ -1,0 +1,20 @@
+[
+  {"id":"g3-01","question":"四位数比较大小时先看哪一位？","topic":"place-value"},
+  {"id":"g3-02","question":"三位数减法个位不够减时应该怎么办？","topic":"addition-subtraction"},
+  {"id":"g3-03","question":"每袋8支铅笔，5袋一共有多少支？","topic":"multiplication-facts"},
+  {"id":"g3-04","question":"32乘12可以怎样拆开计算？","topic":"two-digit-multiplication"},
+  {"id":"g3-05","question":"53人坐船，每条船最多8人，至少几条船？","topic":"division-with-remainder"},
+  {"id":"g3-06","question":"有余数的除法应该怎样验算？","topic":"division-check"},
+  {"id":"g3-07","question":"1米长的绳子剪去35厘米，还剩多长？","topic":"length-units"},
+  {"id":"g3-08","question":"3千克加500克一共多少克？","topic":"mass-units"},
+  {"id":"g3-09","question":"从8点35分到9点10分经过多少分钟？","topic":"time-duration"},
+  {"id":"g3-10","question":"长方形长8厘米宽3厘米，周长是多少？","topic":"rectangle-perimeter"},
+  {"id":"g3-11","question":"长方形长9厘米宽4厘米，面积是多少？","topic":"rectangle-area"},
+  {"id":"g3-12","question":"正方形周长24厘米，它的面积怎样计算？","topic":"square-area"},
+  {"id":"g3-13","question":"同样大的蛋糕，三分之一和六分之一哪个更大？","topic":"unit-fraction"},
+  {"id":"g3-14","question":"同分母分数相加时分母要相加吗？","topic":"same-denominator-fractions"},
+  {"id":"g3-15","question":"付10元买7.8元的物品，应找回多少钱？","topic":"decimal-money"},
+  {"id":"g3-16","question":"分类统计中怎样避免重复计数，怎样求总数？","topic":"data-classification"},
+  {"id":"outside-01","question":"地球绕太阳公转一周大约需要多久？","topic":null},
+  {"id":"outside-02","question":"化学中的氧化还原反应如何配平？","topic":null}
+]

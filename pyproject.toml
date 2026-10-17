@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edu-rag-lab"
-version = "0.0.1"
-description = "An educational RAG project: V0 Supabase database foundation"
+version = "0.1.0"
+description = "Educational RAG: original knowledge, BGE-M3 retrieval and cited answers"
 requires-python = ">=3.11,<3.14"
 dependencies = [
   "fastapi>=0.115,<1",
@@ -14,10 +14,15 @@ dependencies = [
   "psycopg[binary]>=3.2,<4",
   "pgvector>=0.3,<1",
   "pydantic-settings>=2.7,<3",
+  "httpx>=0.28,<1",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+rag = ["FlagEmbedding==1.4.2", "torch==2.14.1"]
+
+[tool.setuptools.package-data]
+edu_rag = ["static/*.html"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

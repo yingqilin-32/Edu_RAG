@@ -1,0 +1,233 @@
+{
+  "set": "original-g3-development-v1",
+  "queries": 16,
+  "knowledge_point_hit_at_5": 1.0,
+  "knowledge_point_mrr_at_5": 1.0,
+  "note": "Small in-domain development set, not a held-out benchmark. Negative cases require separate answer checks.",
+  "results": [
+    {
+      "id": "g3-01",
+      "question": "四位数比较大小时先看哪一位？",
+      "topic": "place-value",
+      "rank": 1,
+      "seconds": 0.688,
+      "retrieved_topics": [
+        "place-value",
+        "unit-fraction",
+        "two-digit-multiplication",
+        "two-digit-multiplication",
+        "division-check"
+      ]
+    },
+    {
+      "id": "g3-02",
+      "question": "三位数减法个位不够减时应该怎么办？",
+      "topic": "addition-subtraction",
+      "rank": 1,
+      "seconds": 0.641,
+      "retrieved_topics": [
+        "addition-subtraction",
+        "division-with-remainder",
+        "two-digit-multiplication",
+        "multiplication-facts",
+        "multiplication-facts"
+      ]
+    },
+    {
+      "id": "g3-03",
+      "question": "每袋8支铅笔，5袋一共有多少支？",
+      "topic": "multiplication-facts",
+      "rank": 1,
+      "seconds": 0.65,
+      "retrieved_topics": [
+        "multiplication-facts",
+        "two-digit-multiplication",
+        "unit-fraction",
+        "division-with-remainder",
+        "decimal-money"
+      ]
+    },
+    {
+      "id": "g3-04",
+      "question": "32乘12可以怎样拆开计算？",
+      "topic": "two-digit-multiplication",
+      "rank": 1,
+      "seconds": 0.656,
+      "retrieved_topics": [
+        "two-digit-multiplication",
+        "two-digit-multiplication",
+        "multiplication-facts",
+        "two-digit-multiplication",
+        "addition-subtraction"
+      ]
+    },
+    {
+      "id": "g3-05",
+      "question": "53人坐船，每条船最多8人，至少几条船？",
+      "topic": "division-with-remainder",
+      "rank": 1,
+      "seconds": 0.593,
+      "retrieved_topics": [
+        "division-with-remainder",
+        "multiplication-facts",
+        "data-classification",
+        "two-digit-multiplication",
+        "mass-units"
+      ]
+    },
+    {
+      "id": "g3-06",
+      "question": "有余数的除法应该怎样验算？",
+      "topic": "division-check",
+      "rank": 1,
+      "seconds": 0.742,
+      "retrieved_topics": [
+        "division-check",
+        "division-with-remainder",
+        "multiplication-facts",
+        "division-with-remainder",
+        "division-check"
+      ]
+    },
+    {
+      "id": "g3-07",
+      "question": "1米长的绳子剪去35厘米，还剩多长？",
+      "topic": "length-units",
+      "rank": 1,
+      "seconds": 0.702,
+      "retrieved_topics": [
+        "length-units",
+        "same-denominator-fractions",
+        "rectangle-area",
+        "length-units",
+        "rectangle-perimeter"
+      ]
+    },
+    {
+      "id": "g3-08",
+      "question": "3千克加500克一共多少克？",
+      "topic": "mass-units",
+      "rank": 1,
+      "seconds": 0.616,
+      "retrieved_topics": [
+        "mass-units",
+        "mass-units",
+        "mass-units",
+        "mass-units",
+        "length-units"
+      ]
+    },
+    {
+      "id": "g3-09",
+      "question": "从8点35分到9点10分经过多少分钟？",
+      "topic": "time-duration",
+      "rank": 1,
+      "seconds": 0.6,
+      "retrieved_topics": [
+        "time-duration",
+        "time-duration",
+        "time-duration",
+        "time-duration",
+        "length-units"
+      ]
+    },
+    {
+      "id": "g3-10",
+      "question": "长方形长8厘米宽3厘米，周长是多少？",
+      "topic": "rectangle-perimeter",
+      "rank": 1,
+      "seconds": 0.601,
+      "retrieved_topics": [
+        "rectangle-perimeter",
+        "rectangle-area",
+        "rectangle-perimeter",
+        "rectangle-area",
+        "rectangle-perimeter"
+      ]
+    },
+    {
+      "id": "g3-11",
+      "question": "长方形长9厘米宽4厘米，面积是多少？",
+      "topic": "rectangle-area",
+      "rank": 1,
+      "seconds": 0.581,
+      "retrieved_topics": [
+        "rectangle-area",
+        "rectangle-area",
+        "square-area",
+        "rectangle-perimeter",
+        "rectangle-perimeter"
+      ]
+    },
+    {
+      "id": "g3-12",
+      "question": "正方形周长24厘米，它的面积怎样计算？",
+      "topic": "square-area",
+      "rank": 1,
+      "seconds": 0.67,
+      "retrieved_topics": [
+        "square-area",
+        "square-area",
+        "square-area",
+        "rectangle-area",
+        "square-area"
+      ]
+    },
+    {
+      "id": "g3-13",
+      "question": "同样大的蛋糕，三分之一和六分之一哪个更大？",
+      "topic": "unit-fraction",
+      "rank": 1,
+      "seconds": 0.63,
+      "retrieved_topics": [
+        "unit-fraction",
+        "unit-fraction",
+        "unit-fraction",
+        "unit-fraction",
+        "unit-fraction"
+      ]
+    },
+    {
+      "id": "g3-14",
+      "question": "同分母分数相加时分母要相加吗？",
+      "topic": "same-denominator-fractions",
+      "rank": 1,
+      "seconds": 0.62,
+      "retrieved_topics": [
+        "same-denominator-fractions",
+        "multiplication-facts",
+        "unit-fraction",
+        "two-digit-multiplication",
+        "unit-fraction"
+      ]
+    },
+    {
+      "id": "g3-15",
+      "question": "付10元买7.8元的物品，应找回多少钱？",
+      "topic": "decimal-money",
+      "rank": 1,
+      "seconds": 0.591,
+      "retrieved_topics": [
+        "decimal-money",
+        "decimal-money",
+        "multiplication-facts",
+        "decimal-money",
+        "unit-fraction"
+      ]
+    },
+    {
+      "id": "g3-16",
+      "question": "分类统计中怎样避免重复计数，怎样求总数？",
+      "topic": "data-classification",
+      "rank": 1,
+      "seconds": 0.599,
+      "retrieved_topics": [
+        "data-classification",
+        "multiplication-facts",
+        "division-with-remainder",
+        "division-check",
+        "addition-subtraction"
+      ]
+    }
+  ]
+}

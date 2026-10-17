@@ -1,0 +1,71 @@
+{
+  "verified_at_utc": "2026-10-17T17:25:16.826882+00:00",
+  "database": {
+    "status": "ok",
+    "pgvector_version": "0.8.2",
+    "tables": {
+      "edu_courses": 1,
+      "edu_knowledge_points": 16,
+      "edu_documents": 17,
+      "edu_exercises": 51,
+      "edu_exercise_knowledge_points": 51,
+      "edu_chunks": 69
+    },
+    "embedded_chunks": 69,
+    "embedding_dimensions": 1024
+  },
+  "idempotence_verified": true,
+  "answers": [
+    {
+      "question": "长方形长8厘米、宽3厘米，周长和面积分别是多少？",
+      "answer": "周长是 **22厘米**。  \n计算：周长 =（长 + 宽）× 2 =（8 + 3）× 2 = 22（厘米）[C1]\n\n面积是 **24平方厘米**。  \n计算：面积 = 长 × 宽 = 8 × 3 = 24（平方厘米）[C2]",
+      "status": "answered",
+      "usage": {
+        "prompt_tokens": 548,
+        "completion_tokens": 74,
+        "total_tokens": 622
+      },
+      "citations": [
+        {
+          "citation": "C1",
+          "source_title": "V1-RECTANGLE-PERIMETER-001"
+        },
+        {
+          "citation": "C2",
+          "source_title": "DEMO-AREA-001"
+        }
+      ]
+    },
+    {
+      "question": "53个人乘船，每条船最多坐8人，至少需要几条船？",
+      "answer": "至少需要 **7条船**。[C1][C4]\n\n计算：53÷8=6……5，6条船坐满后还剩5人，这5人也需要1条船，所以6+1=7条。[C1][C4]",
+      "status": "answered",
+      "usage": {
+        "prompt_tokens": 660,
+        "completion_tokens": 56,
+        "total_tokens": 716
+      },
+      "citations": [
+        {
+          "citation": "C1",
+          "source_title": "V1-DIVISION-WITH-REMAINDER-003"
+        },
+        {
+          "citation": "C4",
+          "source_title": "有余数除法 · 原创知识卡"
+        }
+      ]
+    },
+    {
+      "question": "化学中的氧化还原反应应该怎样配平？",
+      "answer": "当前资料不足。提供的资料都是小学数学内容（如小数、分数、乘法口诀、除法），没有关于化学氧化还原反应配平的知识，因此无法依据这些资料回答。需要补充化学中氧化还原反应配平的相关资料。",
+      "status": "insufficient_evidence",
+      "usage": {
+        "prompt_tokens": 678,
+        "completion_tokens": 49,
+        "total_tokens": 727
+      },
+      "citations": []
+    }
+  ]
+}
