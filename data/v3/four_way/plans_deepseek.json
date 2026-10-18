@@ -1,0 +1,2898 @@
+{
+  "signature": {
+    "eval_sha256": "6d142cf6f7360fd073c32ff7dd8ea3fac679e52bcfe2059a1e9ad9e71ad85096",
+    "corpus_sha256": "a339528b8dc21f20dcae98d7103ea7c06fe41b33c52aecf9ba13b9f8bb709946",
+    "planner_prompt_sha256": "61924218045ff8518fbc6e89d78e769933aef03931a78f4bbbbbae0c6345ff8c",
+    "plan_version": "four-intent-v2",
+    "code_sha256": "eee54fd686ec0c428289ffc8be238bee6ad3e0466c9e07eda0b83d9cc146afe4",
+    "model": "deepseek-flash"
+  },
+  "plans": {
+    "qa01": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "四位数比较大小时应该先比较哪个数位？",
+        "filters": {
+          "knowledge_point": "四位数的数位与大小比较"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "四位数比较大小时应该先比较哪个数位？",
+        "bm25_query": "四位数 大小比较 数位",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "四位数的数位与大小比较"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 124,
+          "total_tokens": 1767
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "7ea3958c-b2c3-5ece-b97c-c4e44bb7e560",
+            "title": "四位数的数位与大小比较"
+          }
+        ]
+      },
+      "planning_ms": 1724.5240999909583,
+      "created_at_utc": "2026-10-18T17:41:27.725964+00:00"
+    },
+    "qa02": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "三位数减法个位不够减时为什么要退一作十",
+        "filters": {
+          "knowledge_point": "三位数加减法"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "三位数减法个位不够减时为什么要退一作十",
+        "bm25_query": "三位数减法 退位 退一作十",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "三位数加减法"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1646,
+          "completion_tokens": 126,
+          "total_tokens": 1772
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "16e85f93-75d5-558e-8606-4894b2b26709",
+            "title": "三位数加减法"
+          }
+        ]
+      },
+      "planning_ms": 1372.3188000149094,
+      "created_at_utc": "2026-10-18T17:41:29.099657+00:00"
+    },
+    "qa03": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "有余数的除法中，为什么余数必须比除数小？",
+        "filters": {
+          "knowledge_point": "有余数除法"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "有余数的除法中，为什么余数必须比除数小？",
+        "bm25_query": "有余数除法 余数 除数",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "有余数除法"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1645,
+          "completion_tokens": 122,
+          "total_tokens": 1767
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "403cfc87-4329-5c24-9d92-1af5b3b9f35f",
+            "title": "有余数除法"
+          }
+        ]
+      },
+      "planning_ms": 1407.5778000114951,
+      "created_at_utc": "2026-10-18T17:41:30.508064+00:00"
+    },
+    "qa04": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "为什么长度相加之前要先统一米和厘米？",
+        "filters": {
+          "knowledge_point": "长度单位与换算"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "为什么长度相加之前要先统一米和厘米？",
+        "bm25_query": "长度单位 单位换算 米 厘米",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "长度单位与换算"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1642,
+          "completion_tokens": 121,
+          "total_tokens": 1763
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "ffce99cc-976a-57d7-94a7-70a7f72518fe",
+            "title": "长度单位与换算"
+          }
+        ]
+      },
+      "planning_ms": 1477.307600027416,
+      "created_at_utc": "2026-10-18T17:41:31.985683+00:00"
+    },
+    "qa05": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "长方形的周长公式为什么要把长加宽再乘2？",
+        "filters": {
+          "knowledge_point": "长方形的周长"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形的周长公式为什么要把长加宽再乘2？",
+        "bm25_query": "长方形的周长公式为什么要把长加宽再乘2？ 长方形周长 周长公式 长加宽 乘2",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "长方形的周长"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1645,
+          "completion_tokens": 126,
+          "total_tokens": 1771
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "title": "长方形的周长"
+          }
+        ]
+      },
+      "planning_ms": 1313.1129999819677,
+      "created_at_utc": "2026-10-18T17:41:33.299432+00:00"
+    },
+    "qa06": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "为什么长方形面积可以用长乘宽来计算？",
+        "filters": {
+          "knowledge_point": "长方形的面积"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "为什么长方形面积可以用长乘宽来计算？",
+        "bm25_query": "长方形面积 长乘宽 面积原理",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "长方形的面积"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1641,
+          "completion_tokens": 119,
+          "total_tokens": 1760
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          }
+        ]
+      },
+      "planning_ms": 1258.7450999999419,
+      "created_at_utc": "2026-10-18T17:41:34.559795+00:00"
+    },
+    "qa07": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "正方形的周长和面积有什么区别？",
+        "filters": {
+          "knowledge_point": "正方形的周长和面积"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "正方形的周长和面积有什么区别？",
+        "bm25_query": "正方形 周长 面积",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "正方形的周长和面积"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1638,
+          "completion_tokens": 113,
+          "total_tokens": 1751
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "ad1a0380-4496-5023-b796-e8cf9adaf157",
+            "title": "正方形的周长和面积"
+          }
+        ]
+      },
+      "planning_ms": 1445.9318000008352,
+      "created_at_utc": "2026-10-18T17:41:36.006362+00:00"
+    },
+    "qa08": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "单位分数中分母越大，每一份越小需要什么前提？",
+        "filters": {
+          "knowledge_point": "几分之一"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "单位分数中分母越大，每一份越小需要什么前提？",
+        "bm25_query": "单位分数 分母 每一份",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "几分之一"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1645,
+          "completion_tokens": 120,
+          "total_tokens": 1765
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000002",
+            "title": "几分之一"
+          }
+        ]
+      },
+      "planning_ms": 1520.76680000755,
+      "created_at_utc": "2026-10-18T17:41:37.527882+00:00"
+    },
+    "qa09": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "同分母分数相加时为什么分母保持不变",
+        "filters": {
+          "knowledge_point": "同分母分数的简单加减"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "同分母分数相加时为什么分母保持不变",
+        "bm25_query": "同分母分数 分数加法 分母不变",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "同分母分数的简单加减"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1641,
+          "completion_tokens": 120,
+          "total_tokens": 1761
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "bc1f2686-ac6c-5620-a4ed-87662856cc46",
+            "title": "同分母分数的简单加减"
+          }
+        ]
+      },
+      "planning_ms": 1791.5078999940306,
+      "created_at_utc": "2026-10-18T17:41:39.321122+00:00"
+    },
+    "qa10": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "钟面长针指6时，为什么不能只看短针指的数字？",
+        "filters": {
+          "knowledge_point": "钟面和时刻"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "钟面长针指6时，为什么不能只看短针指的数字？",
+        "bm25_query": "钟面长针指6时，为什么不能只看短针指的数字？ 钟面 长针 短针 时刻",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "钟面和时刻"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1355,
+          "completion_tokens": 127,
+          "total_tokens": 1482
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "c96bb7a9-6c4b-5ecc-bc47-42ef6b462283",
+            "title": "钟面和时刻"
+          }
+        ]
+      },
+      "planning_ms": 1556.4494999998715,
+      "created_at_utc": "2026-10-18T17:41:40.879312+00:00"
+    },
+    "qa11": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "按颜色分类时为什么不能一部分又按形状分类",
+        "filters": {
+          "knowledge_point": "按不同标准分类"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "按颜色分类时为什么不能一部分又按形状分类",
+        "bm25_query": "分类标准 颜色 形状",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "按不同标准分类"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1351,
+          "completion_tokens": 119,
+          "total_tokens": 1470
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "c50ab139-cd41-5e6b-9df9-48eb691a9463",
+            "title": "按不同标准分类"
+          }
+        ]
+      },
+      "planning_ms": 1468.2085000094958,
+      "created_at_utc": "2026-10-18T17:41:42.348812+00:00"
+    },
+    "qa12": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_qa",
+        "search_text": "元角分相加之前为什么要先统一单位",
+        "filters": {
+          "knowledge_point": "人民币单位及换算"
+        },
+        "raw_intent": "knowledge_qa",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "元角分相加之前为什么要先统一单位",
+        "bm25_query": "元角分 单位统一 人民币单位换算",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "人民币单位及换算"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1297,
+          "completion_tokens": 121,
+          "total_tokens": 1418
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "f9d9d34d-2b2c-58a3-93db-48188d3a53ee",
+            "title": "人民币单位及换算"
+          }
+        ]
+      },
+      "planning_ms": 1876.5019999991637,
+      "created_at_utc": "2026-10-18T17:41:44.226168+00:00"
+    },
+    "ex01": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "题号 V1-TIME-DURATION-002",
+        "filters": {},
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "请查找题号 V1-TIME-DURATION-002 的题目",
+        "bm25_query": "V1-TIME-DURATION-002",
+        "exercise_code": "V1-TIME-DURATION-002",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1648,
+          "completion_tokens": 116,
+          "total_tokens": 1764
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1252.6176000246778,
+      "created_at_utc": "2026-10-18T17:41:45.480852+00:00"
+    },
+    "ex02": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "V1-RECTANGLE-AREA-002",
+        "filters": {},
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "给我题号 V1-RECTANGLE-AREA-002 的原题",
+        "bm25_query": "V1-RECTANGLE-AREA-002",
+        "exercise_code": "V1-RECTANGLE-AREA-002",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1649,
+          "completion_tokens": 118,
+          "total_tokens": 1767
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1340.9839000087231,
+      "created_at_utc": "2026-10-18T17:41:46.823106+00:00"
+    },
+    "ex03": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001",
+        "filters": {},
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "查找 G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001 这道题",
+        "bm25_query": "G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001",
+        "exercise_code": "G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1365,
+          "completion_tokens": 140,
+          "total_tokens": 1505
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 5094.57200000179,
+      "created_at_utc": "2026-10-18T17:41:51.918651+00:00"
+    },
+    "ex04": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001",
+        "filters": {},
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "查找 G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001 的题干",
+        "bm25_query": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001",
+        "exercise_code": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1312,
+          "completion_tokens": 138,
+          "total_tokens": 1450
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1251.217799988808,
+      "created_at_utc": "2026-10-18T17:41:53.171921+00:00"
+    },
+    "ex05": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "长方形面积计算题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形面积计算题",
+        "bm25_query": "长方形面积 三年级 难度2 计算题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 114,
+          "total_tokens": 1757
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          }
+        ]
+      },
+      "planning_ms": 1716.465999983484,
+      "created_at_utc": "2026-10-18T17:41:54.889514+00:00"
+    },
+    "ex06": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "长方形周长计算题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的周长",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形周长计算题",
+        "bm25_query": "长方形周长 三年级 难度2",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的周长",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 111,
+          "total_tokens": 1754
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "title": "长方形的周长"
+          }
+        ]
+      },
+      "planning_ms": 1506.633500015596,
+      "created_at_utc": "2026-10-18T17:41:56.398163+00:00"
+    },
+    "ex07": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "长度单位换算计算题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长度单位与换算",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长度单位换算计算题",
+        "bm25_query": "长度单位换算 计算题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长度单位与换算",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 112,
+          "total_tokens": 1755
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "ffce99cc-976a-57d7-94a7-70a7f72518fe",
+            "title": "长度单位与换算"
+          }
+        ]
+      },
+      "planning_ms": 1577.2529999958351,
+      "created_at_utc": "2026-10-18T17:41:57.977353+00:00"
+    },
+    "ex08": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "质量单位换算计算题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "质量单位与换算",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "质量单位换算计算题",
+        "bm25_query": "质量单位 单位换算 计算题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "质量单位与换算",
+          "question_type": "calculation",
+          "difficulty": 2
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 114,
+          "total_tokens": 1757
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "09d2bb9a-9057-5aae-9d31-3be93d5a86d6",
+            "title": "质量单位与换算"
+          }
+        ]
+      },
+      "planning_ms": 1477.896199998213,
+      "created_at_utc": "2026-10-18T17:41:59.456851+00:00"
+    },
+    "ex09": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "几分之一 简答题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "unit-fraction",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "几分之一 简答题",
+        "bm25_query": "几分之一 简答题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "unit-fraction",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1641,
+          "completion_tokens": 111,
+          "total_tokens": 1752
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000002",
+            "title": "几分之一"
+          }
+        ]
+      },
+      "planning_ms": 1743.7629999767523,
+      "created_at_utc": "2026-10-18T17:42:01.203093+00:00"
+    },
+    "ex10": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "四位数数位比较 简答题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "四位数的数位与大小比较",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "四位数数位比较 简答题",
+        "bm25_query": "四位数 数位比较 简答题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "四位数的数位与大小比较",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1644,
+          "completion_tokens": 122,
+          "total_tokens": 1766
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "7ea3958c-b2c3-5ece-b97c-c4e44bb7e560",
+            "title": "四位数的数位与大小比较"
+          }
+        ]
+      },
+      "planning_ms": 1579.966500023147,
+      "created_at_utc": "2026-10-18T17:42:02.784523+00:00"
+    },
+    "ex11": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "平面与立体形状 简答题",
+        "filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "basic-shapes",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "平面与立体形状 简答题",
+        "bm25_query": "平面图形 立体图形 形状认识",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "first",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "basic-shapes",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1351,
+          "completion_tokens": 116,
+          "total_tokens": 1467
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "78635567-b0d0-580e-8ed3-c15973b0c2cb",
+            "title": "平面与立体形状初步认识"
+          }
+        ]
+      },
+      "planning_ms": 1353.8371000031475,
+      "created_at_utc": "2026-10-18T17:42:04.140242+00:00"
+    },
+    "ex12": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "钟面时刻 简答题",
+        "filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "钟面和时刻",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "钟面时刻 简答题",
+        "bm25_query": "钟面时刻 一年级 简答题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "first",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "钟面和时刻",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1350,
+          "completion_tokens": 115,
+          "total_tokens": 1465
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "c96bb7a9-6c4b-5ecc-bc47-42ef6b462283",
+            "title": "钟面和时刻"
+          }
+        ]
+      },
+      "planning_ms": 1713.0423999915365,
+      "created_at_utc": "2026-10-18T17:42:05.855645+00:00"
+    },
+    "ex13": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "人民币计算题",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "money-units",
+          "question_type": "calculation",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "人民币计算题",
+        "bm25_query": "人民币 计算题 一年级",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "money-units",
+          "question_type": "calculation",
+          "difficulty": "easy"
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1297,
+          "completion_tokens": 109,
+          "total_tokens": 1406
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "f9d9d34d-2b2c-58a3-93db-48188d3a53ee",
+            "title": "人民币单位及换算"
+          }
+        ]
+      },
+      "planning_ms": 1671.5236000018194,
+      "created_at_utc": "2026-10-18T17:42:07.529518+00:00"
+    },
+    "ex14": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "重复与数列规律 填空题",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "重复与数列规律",
+          "question_type": "fill_blank",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "重复与数列规律 填空题",
+        "bm25_query": "重复与数列规律 一年级 下学期 填空题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "重复与数列规律",
+          "question_type": "fill_blank",
+          "difficulty": "easy"
+        },
+        "question_type": "fill_blank",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1298,
+          "completion_tokens": 119,
+          "total_tokens": 1417
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "91bd0825-528b-54de-a00f-255eabbaf8f3",
+            "title": "重复与数列规律"
+          }
+        ]
+      },
+      "planning_ms": 1566.6110999882221,
+      "created_at_utc": "2026-10-18T17:42:09.098529+00:00"
+    },
+    "ex15": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "100以内数位 简答题",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "numbers-within-100",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "100以内数位 简答题",
+        "bm25_query": "100以内 数位 简答题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "numbers-within-100",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1299,
+          "completion_tokens": 118,
+          "total_tokens": 1417
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "6955a045-ec80-5565-84df-2964b65c2af2",
+            "title": "100以内的数与数位"
+          }
+        ]
+      },
+      "planning_ms": 1647.4898000014946,
+      "created_at_utc": "2026-10-18T17:42:10.749008+00:00"
+    },
+    "ex16": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "物体轻重比较 简答题",
+        "filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "物体数量与属性的比较",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "物体轻重比较 简答题",
+        "bm25_query": "物体轻重比较 简答题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "first",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math",
+          "knowledge_point": "物体数量与属性的比较",
+          "question_type": "short_answer",
+          "difficulty": "easy"
+        },
+        "question_type": "short_answer",
+        "difficulty_levels": [
+          1,
+          2
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1350,
+          "completion_tokens": 115,
+          "total_tokens": 1465
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "39225e98-de67-5368-a4a0-2b2c8d4acfca",
+            "title": "物体数量与属性的比较"
+          }
+        ]
+      },
+      "planning_ms": 1665.8071000128984,
+      "created_at_utc": "2026-10-18T17:42:12.416907+00:00"
+    },
+    "solve01": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "53个人乘船，每条船最多8人，至少要几条船？请解答。",
+        "filters": {},
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "53个人乘船，每条船最多8人，至少要几条船？请解答。",
+        "bm25_query": "53个人乘船，每条船最多8人，至少要几条船？请解答。",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1650,
+          "completion_tokens": 116,
+          "total_tokens": 1766
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1798.4569999971427,
+      "created_at_utc": "2026-10-18T17:42:14.218316+00:00"
+    },
+    "solve02": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "长方形长8厘米、宽3厘米，周长和面积分别是多少？",
+        "filters": {},
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形长8厘米、宽3厘米，周长和面积分别是多少？",
+        "bm25_query": "长方形长8厘米、宽3厘米，周长和面积分别是多少？",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1647,
+          "completion_tokens": 113,
+          "total_tokens": 1760
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          },
+          {
+            "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "title": "长方形的周长"
+          }
+        ]
+      },
+      "planning_ms": 1787.5653999799397,
+      "created_at_utc": "2026-10-18T17:42:16.008748+00:00"
+    },
+    "solve03": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "付10元买7.8元的物品，应找回多少钱？请解答。",
+        "filters": {
+          "knowledge_point": "小数与人民币"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "付10元买7.8元的物品，应找回多少钱？请解答。",
+        "bm25_query": "付10元买7.8元的物品，应找回多少钱？请解答。 小数与人民币 找回多少钱",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "小数与人民币"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1649,
+          "completion_tokens": 124,
+          "total_tokens": 1773
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "37e3aa95-068b-5c93-a603-9f5d878c8225",
+            "title": "小数与人民币"
+          }
+        ]
+      },
+      "planning_ms": 1773.150799999712,
+      "created_at_utc": "2026-10-18T17:42:17.784373+00:00"
+    },
+    "solve04": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "3千克加500克，一共是多少克？",
+        "filters": {
+          "knowledge_point": "质量单位与换算"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "3千克加500克，一共是多少克？",
+        "bm25_query": "3千克加500克，一共是多少克？",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "质量单位与换算"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1642,
+          "completion_tokens": 111,
+          "total_tokens": 1753
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "09d2bb9a-9057-5aae-9d31-3be93d5a86d6",
+            "title": "质量单位与换算"
+          }
+        ]
+      },
+      "planning_ms": 1536.711099994136,
+      "created_at_utc": "2026-10-18T17:42:19.323737+00:00"
+    },
+    "solve05": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "从8点35分到9点10分经过多少分钟？",
+        "filters": {
+          "knowledge_point": "时分与经过时间"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "从8点35分到9点10分经过多少分钟？",
+        "bm25_query": "从8点35分到9点10分经过多少分钟？",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "时分与经过时间"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1646,
+          "completion_tokens": 115,
+          "total_tokens": 1761
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "e77f505d-67ed-5762-9059-8b6dc578da89",
+            "title": "时分与经过时间"
+          }
+        ]
+      },
+      "planning_ms": 1811.7118999944068,
+      "created_at_utc": "2026-10-18T17:42:21.138158+00:00"
+    },
+    "solve06": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "用凑十的方法计算9+6，并解释步骤。",
+        "filters": {
+          "knowledge_point": "20以内加减与凑十"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "用凑十的方法计算9+6，并解释步骤。",
+        "bm25_query": "用凑十的方法计算9+6，并解释步骤。",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "20以内加减与凑十"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [
+          "关键词含新增数字，关键词检索保留原问题。"
+        ],
+        "usage": {
+          "prompt_tokens": 1352,
+          "completion_tokens": 128,
+          "total_tokens": 1480
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "287b9998-102d-59cc-ac34-13fb3eb556a4",
+            "title": "20以内加减与凑十"
+          }
+        ]
+      },
+      "planning_ms": 1444.1654999973252,
+      "created_at_utc": "2026-10-18T17:42:22.584497+00:00"
+    },
+    "solve07": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "计算27+8，说明个位满十怎么处理。",
+        "filters": {
+          "knowledge_point": "100以内加减及进退位"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "计算27+8，说明个位满十怎么处理。",
+        "bm25_query": "计算27+8，说明个位满十怎么处理。",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "100以内加减及进退位"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1300,
+          "completion_tokens": 116,
+          "total_tokens": 1416
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "0dcf8833-d8e2-5ef4-941b-5ca6a881c1df",
+            "title": "100以内加减及进退位"
+          }
+        ]
+      },
+      "planning_ms": 1597.0708999957424,
+      "created_at_utc": "2026-10-18T17:42:24.184572+00:00"
+    },
+    "solve08": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "problem_solving",
+        "search_text": "总结题号 V1-DIVISION-CHECK-003 的验算方法和易错点",
+        "filters": {
+          "knowledge_point": "一位数除法与验算"
+        },
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "topic",
+        "exercise_task": "summarize",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "总结题号 V1-DIVISION-CHECK-003 的验算方法和易错点",
+        "bm25_query": "V1-DIVISION-CHECK-003",
+        "exercise_code": "V1-DIVISION-CHECK-003",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "knowledge_point": "一位数除法与验算"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1652,
+          "completion_tokens": 141,
+          "total_tokens": 1793
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1531.4774999860674,
+      "created_at_utc": "2026-10-18T17:42:25.719219+00:00"
+    },
+    "sum01": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "三年级数学知识点",
+        "filters": {
+          "grade": 3,
+          "subject": "math"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "三年级数学知识点",
+        "bm25_query": "三年级数学知识点",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1639,
+          "completion_tokens": 101,
+          "total_tokens": 1740
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1345.1481999945827,
+      "created_at_utc": "2026-10-18T17:42:27.067878+00:00"
+    },
+    "sum02": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "一年级上学期数学知识点",
+        "filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "course",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "一年级上学期数学知识点",
+        "bm25_query": "一年级 上学期 数学 知识点",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "first",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "first",
+          "subject": "math"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1347,
+          "completion_tokens": 110,
+          "total_tokens": 1457
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1728.9930999977514,
+      "created_at_utc": "2026-10-18T17:42:28.799710+00:00"
+    },
+    "sum03": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "一年级下学期数学知识点",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "course",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "一年级下学期数学知识点",
+        "bm25_query": "一年级下学期数学知识点",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1295,
+          "completion_tokens": 102,
+          "total_tokens": 1397
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 2051.0667999915313,
+      "created_at_utc": "2026-10-18T17:42:30.854037+00:00"
+    },
+    "sum04": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "一年级全年数学已收录知识点",
+        "filters": {
+          "grade": 1,
+          "subject": "math"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "一年级全年数学已收录知识点",
+        "bm25_query": "一年级 数学 全年 知识点",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": null,
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "subject": "math"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1713,
+          "completion_tokens": 112,
+          "total_tokens": 1825
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1385.1093999983277,
+      "created_at_utc": "2026-10-18T17:42:32.242517+00:00"
+    },
+    "sum05": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "长方形周长和面积",
+        "filters": {},
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "topic",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "长方形周长和面积",
+        "bm25_query": "长方形周长 长方形面积",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1639,
+          "completion_tokens": 108,
+          "total_tokens": 1747
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          },
+          {
+            "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "title": "长方形的周长"
+          }
+        ]
+      },
+      "planning_ms": 1500.0768000027165,
+      "created_at_utc": "2026-10-18T17:42:33.745873+00:00"
+    },
+    "sum06": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "knowledge_summary",
+        "search_text": "几分之一",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "几分之一"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "topic",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "几分之一",
+        "bm25_query": "几分之一 分数",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 10,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "几分之一"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1638,
+          "completion_tokens": 106,
+          "total_tokens": 1744
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000002",
+            "title": "几分之一"
+          }
+        ]
+      },
+      "planning_ms": 1826.7147000005934,
+      "created_at_utc": "2026-10-18T17:42:35.575469+00:00"
+    },
+    "neg01": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "no_matching_scope",
+        "message": "按问题中的年级、教材、学期和科目条件没有找到课程资料；未改查其他范围。",
+        "intent": "knowledge_summary",
+        "search_text": "一元二次方程",
+        "filters": {
+          "grade": 9,
+          "subject": "math",
+          "knowledge_point": "一元二次方程",
+          "chapter": "一元二次方程"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "chapter",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "一元二次方程",
+        "bm25_query": "一元二次方程 初三 章节总结",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": null,
+          "grade": 9,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 9,
+          "subject": "math",
+          "knowledge_point": "一元二次方程",
+          "chapter": "一元二次方程"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 2449,
+          "completion_tokens": 114,
+          "total_tokens": 2563
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1538.9694000186864,
+      "created_at_utc": "2026-10-18T17:42:37.119367+00:00"
+    },
+    "neg02": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "长方形面积计算题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "calculation",
+          "difficulty": "medium"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形面积计算题",
+        "bm25_query": "长方形面积 三年级 中等难度",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "calculation",
+          "difficulty": "medium"
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          3
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1643,
+          "completion_tokens": 111,
+          "total_tokens": 1754
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          }
+        ]
+      },
+      "planning_ms": 1641.3571999873966,
+      "created_at_utc": "2026-10-18T17:42:38.763739+00:00"
+    },
+    "neg03": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "人民币计算题",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "money-units",
+          "question_type": "calculation",
+          "difficulty": "hard"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "人民币计算题",
+        "bm25_query": "人民币 计算题 一年级 下学期 困难",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "money-units",
+          "question_type": "calculation",
+          "difficulty": "hard"
+        },
+        "question_type": "calculation",
+        "difficulty_levels": [
+          4,
+          5
+        ],
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1297,
+          "completion_tokens": 113,
+          "total_tokens": 1410
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "f9d9d34d-2b2c-58a3-93db-48188d3a53ee",
+            "title": "人民币单位及换算"
+          }
+        ]
+      },
+      "planning_ms": 1453.2734999957029,
+      "created_at_utc": "2026-10-18T17:42:40.220265+00:00"
+    },
+    "neg04": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "no_matching_chapter",
+        "message": "当前范围未收录该章节层级。",
+        "intent": "knowledge_summary",
+        "search_text": "长方形 周长 面积",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "chapter": "长方形"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "chapter",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "长方形 周长 面积",
+        "bm25_query": "长方形 周长 面积",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "chapter": "长方形"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1637,
+          "completion_tokens": 109,
+          "total_tokens": 1746
+        },
+        "model": "deepseek-flash",
+        "topic_filter": []
+      },
+      "planning_ms": 1273.9257999928668,
+      "created_at_utc": "2026-10-18T17:42:41.497519+00:00"
+    },
+    "neg05": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "no_matching_scope",
+        "message": "按问题中的年级、教材、学期和科目条件没有找到课程资料；未改查其他范围。",
+        "intent": "knowledge_summary",
+        "search_text": "一年级人教版数学知识点",
+        "filters": {
+          "grade": 1,
+          "subject": "math",
+          "textbook_edition": "人教版"
+        },
+        "raw_intent": "knowledge_summary",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": null,
+        "content_kind": "knowledge",
+        "strategy": "catalog_overview",
+        "semantic_query": "一年级人教版数学知识点",
+        "bm25_query": "一年级 人教版 数学 知识点",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": null,
+          "grade": 1,
+          "textbook_edition": "人教版",
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "subject": "math",
+          "textbook_edition": "人教版"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1710,
+          "completion_tokens": 110,
+          "total_tokens": 1820
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1473.4762999869417,
+      "created_at_utc": "2026-10-18T17:42:42.975246+00:00"
+    },
+    "neg06": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "rules",
+        "status": "needs_clarification",
+        "message": "目前没有多轮对话上下文，请补充具体题干、完整题号或要总结的知识点名称。",
+        "intent": "problem_solving",
+        "search_text": "这道方程题怎么解？",
+        "filters": {},
+        "raw_intent": "problem_solving",
+        "intent_guard_applied": false,
+        "needs_clarification": true,
+        "limit": null,
+        "summary_scope": "focused",
+        "summary_level": "topic",
+        "exercise_task": "solve",
+        "content_kind": "all",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "这道方程题怎么解？",
+        "bm25_query": "这道方程题怎么解？",
+        "exercise_code": null,
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {},
+        "model": null
+      },
+      "planning_ms": 126.77669999538921,
+      "created_at_utc": "2026-10-18T17:42:43.105041+00:00"
+    },
+    "neg07": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "no_matching_topic",
+        "message": "当前范围未收录问题所指知识主题，请调整主题、范围或补充资料。",
+        "intent": "exercise_search",
+        "search_text": "分数练习题",
+        "filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "分数"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "分数练习题",
+        "bm25_query": "分数 一年级 下学期",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+          "grade": 1,
+          "textbook_edition": null,
+          "semester": "second",
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 1,
+          "semester": "second",
+          "subject": "math",
+          "knowledge_point": "分数"
+        },
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1294,
+          "completion_tokens": 105,
+          "total_tokens": 1399
+        },
+        "model": "deepseek-flash",
+        "topic_filter": []
+      },
+      "planning_ms": 1973.535900004208,
+      "created_at_utc": "2026-10-18T17:42:45.082463+00:00"
+    },
+    "neg08": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "长方形面积 单选题",
+        "filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "single_choice"
+        },
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": 5,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "长方形面积 单选题",
+        "bm25_query": "长方形面积 三年级 单选题",
+        "exercise_code": null,
+        "requested_limit": 5,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": 3,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": "math",
+          "curriculum": null
+        },
+        "extracted_filters": {
+          "grade": 3,
+          "subject": "math",
+          "knowledge_point": "长方形的面积",
+          "question_type": "single_choice"
+        },
+        "question_type": "single_choice",
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1639,
+          "completion_tokens": 112,
+          "total_tokens": 1751
+        },
+        "model": "deepseek-flash",
+        "topic_filter": [
+          {
+            "id": "20000000-0000-4000-8000-000000000001",
+            "title": "长方形的面积"
+          }
+        ]
+      },
+      "planning_ms": 1442.528499988839,
+      "created_at_utc": "2026-10-18T17:42:46.528654+00:00"
+    },
+    "neg09": {
+      "plan": {
+        "version": "four-intent-v2",
+        "origin": "deepseek",
+        "status": "ready",
+        "message": "",
+        "intent": "exercise_search",
+        "search_text": "查找题号 V1-NO-EXERCISE-999 的题目",
+        "filters": {},
+        "raw_intent": "exercise_search",
+        "intent_guard_applied": false,
+        "needs_clarification": false,
+        "limit": null,
+        "summary_scope": "overview",
+        "summary_level": "grade",
+        "exercise_task": "find",
+        "content_kind": "exercise",
+        "strategy": "filtered_retrieval",
+        "semantic_query": "查找题号 V1-NO-EXERCISE-999 的题目",
+        "bm25_query": "V1-NO-EXERCISE-999",
+        "exercise_code": "V1-NO-EXERCISE-999",
+        "requested_limit": null,
+        "effective_top_k": 5,
+        "effective_scope": {
+          "course_id": "10000000-0000-4000-8000-000000000001",
+          "grade": null,
+          "textbook_edition": null,
+          "semester": null,
+          "subject": null,
+          "curriculum": null
+        },
+        "extracted_filters": {},
+        "question_type": null,
+        "difficulty_levels": null,
+        "warnings": [],
+        "usage": {
+          "prompt_tokens": 1648,
+          "completion_tokens": 122,
+          "total_tokens": 1770
+        },
+        "model": "deepseek-flash"
+      },
+      "planning_ms": 1651.5896000200883,
+      "created_at_utc": "2026-10-18T17:42:48.183513+00:00"
+    }
+  }
+}

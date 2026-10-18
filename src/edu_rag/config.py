@@ -13,7 +13,7 @@ VECTOR_DIMENSIONS = 1024
 
 
 class ConfigurationError(ValueError):
-    """A required database setting is missing."""
+    """A required setting is missing or the configured resource limit is exceeded."""
 
 
 class Settings(BaseSettings):
@@ -37,6 +37,7 @@ class Settings(BaseSettings):
     deepseek_timeout: int = Field(default=45, ge=5, le=120)
     embedding_device: str = "cpu"
     embedding_max_length: int = Field(default=512, ge=64, le=8192)
+    bm25_max_documents: int = Field(default=5000, ge=1, le=50000)
 
     def database_url(self) -> URL:
         missing = []

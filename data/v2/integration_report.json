@@ -1,0 +1,85 @@
+{
+  "verified_at_utc": "2026-10-18T00:17:11.941466+00:00",
+  "database": {
+    "status": "ok",
+    "pgvector_version": "0.8.2",
+    "tables": {
+      "edu_courses": 1,
+      "edu_knowledge_points": 16,
+      "edu_documents": 17,
+      "edu_exercises": 51,
+      "edu_exercise_knowledge_points": 51,
+      "edu_chunks": 69
+    },
+    "embedded_chunks": 69,
+    "embedding_dimensions": 1024
+  },
+  "import": {
+    "dataset": "v1-original-g3-math",
+    "topics_in_dataset": 16,
+    "exercises_in_dataset": 48
+  },
+  "upgrade_reembedded_chunks": 0,
+  "idempotence_verified": true,
+  "original_vectors_unchanged": true,
+  "example": {
+    "card_chunks": 8,
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "max_tokens": 103,
+    "formula_and_table_preserved": true,
+    "duplicate_blocks_removed": 1
+  },
+  "scope_cases": [
+    {
+      "course_id": null,
+      "grade": 3,
+      "textbook_edition": "V2 原创测试版 A",
+      "semester": "first",
+      "subject": null,
+      "curriculum": "V2 自动验收样例，非官方课标",
+      "returned_sources": 1,
+      "isolated": true
+    },
+    {
+      "course_id": null,
+      "grade": 4,
+      "textbook_edition": "V2 原创测试版 A",
+      "semester": "first",
+      "subject": null,
+      "curriculum": "V2 自动验收样例，非官方课标",
+      "returned_sources": 1,
+      "isolated": true
+    },
+    {
+      "course_id": null,
+      "grade": 3,
+      "textbook_edition": "V2 原创测试版 B",
+      "semester": "first",
+      "subject": null,
+      "curriculum": "V2 自动验收样例，非官方课标",
+      "returned_sources": 1,
+      "isolated": true
+    },
+    {
+      "course_id": null,
+      "grade": 3,
+      "textbook_edition": "V2 原创测试版 A",
+      "semester": "second",
+      "subject": null,
+      "curriculum": "V2 自动验收样例，非官方课标",
+      "returned_sources": 1,
+      "isolated": true
+    }
+  ],
+  "fixture_embedded_chunks": 36,
+  "empty_scope_skips_model": true,
+  "conflicting_scope_returns_empty": true,
+  "metadata_mismatch_refused": true,
+  "stale_chunks_removed": true,
+  "fixture_transaction_rolled_back": true,
+  "paid_model_calls": 0
+}

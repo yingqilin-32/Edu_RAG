@@ -1,15 +1,19 @@
-# Edu RAG · V1
+# Edu RAG · V3.2
 
-V1 增加原创知识库、BGE-M3 真实向量、基础检索、DeepSeek 带引用问答和本机浏览页面。当前文件夹仍叫 `Edu_RAG_V0`，项目代码版本为 0.1.0。
+V3.2 实现 **查询构建 → 范围筛选 → 选择检索方式 → 组织上下文 → 回答或展示题目**：区分知识问答、知识总结、查找练习题、解答用户题目；题目总结归入解题子任务。找题支持知识点、题型和难度过滤，展示题库原题和折叠答案；总结按已收录目录组织并报告覆盖率。当前文件夹仍叫 `Edu_RAG_V0`，项目代码版本为 0.3.2。
 
-## V1 快速使用
+固定114个向量片段和51个开发问题完成四组实验：36道检索问题中，DeepSeek查询构建使BM25的nDCG@5从0.7916升至0.9899，加入Dense后指标持平。页面优先选择BM25；免费本地解析和DeepSeek解析均可切换，本次主实验使用DeepSeek。实测数据、限制和复现方法见 [四类意图与对照实验](docs/four-intent-ablation.md)、[逐题完整报告](data/v3/four_way/report_deepseek.json)。V3.1说明和旧数据保留在 [查询构建说明](docs/query-construction.md)、[历史验收记录](data/v3/query_construction/report.json)。
+
+检索入口在 `src/edu_rag/rag.py` 的 `search()`，词项、BM25 和 RRF 在 `src/edu_rag/retrieval.py`。工作台的“资料问答”可切换三种方式，点“仅检索”查看排名、分数和候选。选择本地解析或关闭查询构建时无需调用 DeepSeek；选择 DeepSeek 解析时会单独产生解析调用。无需新增依赖、数据库迁移或重新生成向量。详见 [V3 实现与使用](docs/V3.md)、[实测记录](docs/V3-verification.md) 和 [逐题对照数据](data/v3/retrieval_report.json)。
+
+## 快速使用
 
 已完成 V0 初始化的本机，在项目根目录运行：
 
 ```powershell
 $ragPython = 'D:\Anaconda\envs\edu-rag\python.exe'
 & $ragPython -m pip install -r requirements-rag-lock.txt
-& $ragPython -m pip install --no-deps -e .
+& $ragPython -m pip install --no-deps --no-build-isolation -e .
 & $ragPython -m edu_rag.ingest demo
 & $ragPython -m uvicorn edu_rag.main:app --host 127.0.0.1 --port 8000
 ```
@@ -18,7 +22,11 @@ $ragPython = 'D:\Anaconda\envs\edu-rag\python.exe'
 
 全新 V0 样例升级后的预期总数为 **16 个知识点、17 份资料、51 道题、69 个真实向量片段**。这些内容是原创功能样例，不是完整课程体系。样例原文见 [三年级数学知识库](data/v1/math_g3.md)，导入源为 [JSON 数据](data/v1/math_g3.json)。
 
-完整操作和验证范围见 [V1 说明](docs/V1.md)。下方保留 V0 的首次初始化流程；已初始化的项目直接使用上面的 V1 命令。
+页面支持年级、教材版本和学期筛选。暂无匹配资料时显示空结果，不会扩大到其他课程。当前已收录三年级全年样例，以及一年级上、下学期原创补充资料；筛选功能不会自动补齐尚未导入的教材。
+
+一年级资料参考用户提供网页的主题目录，讲解和 30 道练习由本项目重新编写，未直接转载原文或图片。已导入的数据库合计 **3 门课程、31 个知识点、81 道题、114 个真实向量片段**。来源、范围和导入记录见 [一年级入库说明](docs/G1-import.md)；可阅读 [上学期知识库](data/g1/math_first.md) 和 [下学期知识库](data/g1/math_second.md)。
+
+完整操作与导入格式见 [V2 说明](docs/V2.md)，[V1 说明](docs/V1.md) 保留历史范围。V2 复用 V0 数据库结构，无需重建表；下方保留 V0 的首次初始化流程。
 
 ## V0 首次初始化参考
 
@@ -175,7 +183,7 @@ Python 测试覆盖无数据库时的启动、数据库失败返回状态、凭�
 
 ## 后续迭代
 
-V1 提供原始知识卡入库、BGE-M3 向量化、基础检索与带引用的回答。后续分别评测数据清洗与切分、BM25/RRF、重排、门控与 LangGraph。
+V1 完成知识卡与向量问答，V2 完成清洗、切分及范围过滤，V3 完成 BM25/RRF 混合检索与同语料对照。后续可分别评测重排、门控与 LangGraph。
 
 参考项目：[Edu-RAG](https://github.com/easyroc/edu-rag)、[RAG Web UI 教程](https://github.com/rag-web-ui/rag-web-ui/blob/main/docs/tutorial/README.md)、[All-in-RAG](https://github.com/yingqilin-32/all-in-rag)。本项目骨架和演示数据为本次新建，未复制参考仓库代码。
 

@@ -2,9 +2,11 @@
 
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
+from edu_rag.scope import CurriculumScope, SCOPE_SQL
 
 
-def courses(engine: Engine) -> list[dict]:
+def courses(engine: Engine, scope: CurriculumScope | None = None) -> list[dict]:
+    scope = scope or CurriculumScope()
     with engine.connect() as conn:
         conn.execute(text("SET TRANSACTION READ ONLY"))
         return [dict(row) for row in conn.execute(text(
@@ -12,33 +14,36 @@ def courses(engine: Engine) -> list[dict]:
             "(SELECT count(*) FROM public.edu_exercises e WHERE e.course_id=c.id) AS exercises, "
             "(SELECT count(*) FROM public.edu_chunks ch WHERE ch.course_id=c.id) AS chunks, "
             "(SELECT count(*) FROM public.edu_chunks ch WHERE ch.course_id=c.id AND ch.embedding IS NOT NULL) AS embedded_chunks "
-            "FROM public.edu_courses c ORDER BY c.code"
-        )).mappings()]
+            "FROM public.edu_courses c WHERE " + SCOPE_SQL + " ORDER BY c.code"
+        ), scope.sql_params()).mappings()]
 
 
-def knowledge_points(engine: Engine, course_id=None) -> list[dict]:
+def knowledge_points(engine: Engine, course_id=None, scope: CurriculumScope | None = None) -> list[dict]:
+    scope = scope or CurriculumScope(course_id=course_id)
     with engine.connect() as conn:
         conn.execute(text("SET TRANSACTION READ ONLY"))
         return [dict(row) for row in conn.execute(text(
-            "SELECT k.*, (SELECT count(*) FROM public.edu_exercise_knowledge_points ek "
+            "SELECT k.*, (SELECT count(*) FROM public.edu_chunks ch WHERE ch.knowledge_point_id=k.id AND ch.document_id IS NOT NULL) AS knowledge_chunks, "
+            "(SELECT count(*) FROM public.edu_exercise_knowledge_points ek "
             "WHERE ek.knowledge_point_id=k.id) AS exercises "
-            "FROM public.edu_knowledge_points k "
-            "WHERE (CAST(:course AS uuid) IS NULL OR k.course_id=CAST(:course AS uuid)) "
+            "FROM public.edu_knowledge_points k JOIN public.edu_courses c ON c.id=k.course_id "
+            "WHERE " + SCOPE_SQL +
             "ORDER BY k.sort_order,k.code"
-        ), {"course": str(course_id) if course_id else None}).mappings()]
+        ), scope.sql_params()).mappings()]
 
 
-def knowledge_detail(engine: Engine, knowledge_point_id) -> dict | None:
-    params = {"id": str(knowledge_point_id)}
+def knowledge_detail(engine: Engine, knowledge_point_id, scope: CurriculumScope | None = None) -> dict | None:
+    params = {"id": str(knowledge_point_id), **(scope or CurriculumScope()).sql_params()}
     with engine.connect() as conn:
         conn.execute(text("SET TRANSACTION READ ONLY"))
         topic = conn.execute(text(
-            "SELECT * FROM public.edu_knowledge_points WHERE id=CAST(:id AS uuid)"
+            "SELECT k.* FROM public.edu_knowledge_points k JOIN public.edu_courses c ON c.id=k.course_id "
+            "WHERE k.id=CAST(:id AS uuid) AND " + SCOPE_SQL
         ), params).mappings().first()
         if topic is None:
             return None
         cards = [dict(row) for row in conn.execute(text(
-            "SELECT c.id,c.content,c.chunk_index,d.title,d.source_uri,d.license_note, "
+            "SELECT c.id,c.content,c.chunk_index,c.source_page,c.metadata,d.title,d.source_uri,d.license_note, "
             "(c.embedding IS NOT NULL) AS indexed "
             "FROM public.edu_chunks c JOIN public.edu_documents d ON d.id=c.document_id "
             "WHERE c.knowledge_point_id=CAST(:id AS uuid) ORDER BY d.source_key,c.chunk_index"

@@ -1,0 +1,19 @@
+{
+  "set": "query-construction-development-v1",
+  "note": "Authored functional development cases, frozen before the first live run. Route, scope and coverage checks; not a held-out relevance or answer-accuracy benchmark.",
+  "cases": [
+    {"id":"summary-g1","question":"总结一年级下学期数学有哪些知识点","scope":{"grade":1,"semester":"second"},"intent":"summary","strategy":"catalog_overview","topics":7},
+    {"id":"summary-g3","question":"总结三年级数学知识点","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"intent":"summary","strategy":"catalog_overview","topics":16,"compare_raw":true},
+    {"id":"summary-focused","question":"梳理长方形周长和面积的公式","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"intent":"summary","strategy":"filtered_retrieval","topic_codes":["rectangle-perimeter","rectangle-area"]},
+    {"id":"exercise-list","question":"找3道一年级下学期人民币练习题","scope":{"grade":1,"semester":"second"},"intent":"exercise","strategy":"filtered_retrieval","topic_codes":["money-units"],"sources":2,"compare_raw":true},
+    {"id":"exercise-solve","question":"长方形长8厘米、宽3厘米，周长和面积分别是多少？","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"intent":"exercise","topic_codes":["rectangle-perimeter","rectangle-area"]},
+    {"id":"exact-id","question":"请查找题号 V1-TIME-DURATION-002 的题目","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"intent":"exercise","exercise_code":"V1-TIME-DURATION-002","sources":1,"compare_raw":true},
+    {"id":"missing-id","question":"请查找题号 V1-NO-EXERCISE-999 的题目","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"intent":"exercise","sources":0},
+    {"id":"scope-conflict","question":"总结一年级下学期数学知识点","scope":{"course_id":"10000000-0000-4000-8000-000000000001"},"status":"needs_clarification","sources":0},
+    {"id":"missing-edition","question":"总结一年级人教版数学知识点","scope":{"grade":1},"status":"no_matching_scope","sources":0},
+    {"id":"missing-context","question":"请讲解这道题","scope":{"grade":3},"status":"needs_clarification","sources":0},
+    {"id":"summary-partial","question":"总结三年级数学知识点","scope":{"grade":3},"summary_max_sources":3,"intent":"summary","strategy":"catalog_overview","topics":3,"omitted_topics":13},
+    {"id":"summary-year","question":"总结一年级全年数学知识点","scope":{"grade":1},"intent":"summary","strategy":"catalog_overview","topics":15},
+    {"id":"missing-topic","question":"找一年级下学期分数练习题","scope":{"grade":1,"semester":"second"},"status":"no_matching_topic","sources":0}
+  ]
+}

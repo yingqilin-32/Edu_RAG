@@ -7,13 +7,14 @@ from edu_rag.config import PROJECT_ROOT
 from edu_rag.rag import SearchRequest, search
 
 
-def main():
+def main(output=None):
     cases = json.loads((PROJECT_ROOT / "data/v1/eval.json").read_text(encoding="utf-8"))
     cases = [case for case in cases if case["topic"] is not None]
     results = []
     for case in cases:
         start = perf_counter()
-        sources = search(SearchRequest(question=case["question"]))["sources"]
+        sources = search(SearchRequest(question=case["question"], retrieval_mode="dense",
+                                       course_id="10000000-0000-4000-8000-000000000001"))["sources"]
         rank = next((i for i, source in enumerate(sources, 1) if source["knowledge_point_code"] == case["topic"]), None)
         results.append({**case, "rank": rank, "seconds": round(perf_counter() - start, 3),
                         "retrieved_topics": [s["knowledge_point_code"] for s in sources]})
@@ -24,7 +25,7 @@ def main():
         "note": "Small in-domain development set, not a held-out benchmark. Negative cases require separate answer checks.",
         "results": results,
     }
-    output = PROJECT_ROOT / "data/v1/retrieval_report.json"
+    output = output or PROJECT_ROOT / "data/v1/retrieval_report.json"
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k != "results"}, ensure_ascii=False, indent=2))
 

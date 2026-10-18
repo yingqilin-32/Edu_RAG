@@ -1,0 +1,81 @@
+{
+  "verified_at_utc": "2026-10-18T15:49:44.008849+00:00",
+  "database": {
+    "status": "ok",
+    "pgvector_version": "0.8.2",
+    "tables": {
+      "edu_courses": 3,
+      "edu_knowledge_points": 31,
+      "edu_documents": 32,
+      "edu_exercises": 81,
+      "edu_exercise_knowledge_points": 81,
+      "edu_chunks": 114
+    },
+    "embedded_chunks": 114,
+    "embedding_dimensions": 1024
+  },
+  "courses": [
+    {
+      "id": "e311f354-e970-585d-835b-5fa0b9a9a21f",
+      "code": "DEMO-CN-G1-MATH-FIRST",
+      "title": "一年级数学上学期（原创补充）",
+      "grade": 1,
+      "semester": "first",
+      "textbook_edition": "一年级原创补充（参考目录，非教材）",
+      "knowledge_points": 8,
+      "exercises": 16,
+      "chunks": 24,
+      "embedded_chunks": 24
+    },
+    {
+      "id": "0c277934-4ac3-5a66-9a22-32df730d8e1c",
+      "code": "DEMO-CN-G1-MATH-SECOND",
+      "title": "一年级数学下学期（原创补充）",
+      "grade": 1,
+      "semester": "second",
+      "textbook_edition": "一年级原创补充（参考目录，非教材）",
+      "knowledge_points": 7,
+      "exercises": 14,
+      "chunks": 21,
+      "embedded_chunks": 21
+    }
+  ],
+  "import": [
+    {
+      "dataset": "g1-math-first-reviewed-v1",
+      "topics_in_dataset": 8,
+      "exercises_in_dataset": 16
+    },
+    {
+      "dataset": "g1-math-second-reviewed-v1",
+      "topics_in_dataset": 7,
+      "exercises_in_dataset": 14
+    }
+  ],
+  "embedded_this_run": 45,
+  "idempotence_verified": true,
+  "grade_three_vectors_unchanged": true,
+  "reference_metadata_preserved": true,
+  "empty_or_conflicting_scope_skips_model": true,
+  "retrieval": [
+    {
+      "question": "9+6可以怎样凑十计算？",
+      "semester": "first",
+      "expected_topic_rank": 1,
+      "sources_within_scope": true
+    },
+    {
+      "question": "4元3角是多少角？",
+      "semester": "second",
+      "expected_topic_rank": 1,
+      "sources_within_scope": true
+    },
+    {
+      "question": "73是几个十和几个一组成的？",
+      "semester": "second",
+      "expected_topic_rank": 1,
+      "sources_within_scope": true
+    }
+  ],
+  "paid_model_calls": 0
+}

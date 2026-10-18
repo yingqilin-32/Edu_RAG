@@ -1,0 +1,279 @@
+{
+  "set": "scoped-g1-g3-development-v3",
+  "note": "Frozen before first V3 run. Authored near-source development cases, not a held-out benchmark. Natural queries use course-qualified topic relevance; identifier queries require the exact exercise code. Every case is included, including regressions.",
+  "cases": [
+    {
+      "id": "g3-01",
+      "question": "四位数比较大小时先看哪一位？",
+      "topic": "place-value",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-02",
+      "question": "三位数减法个位不够减时应该怎么办？",
+      "topic": "addition-subtraction",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-03",
+      "question": "每袋8支铅笔，5袋一共有多少支？",
+      "topic": "multiplication-facts",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-04",
+      "question": "32乘12可以怎样拆开计算？",
+      "topic": "two-digit-multiplication",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-05",
+      "question": "53人坐船，每条船最多8人，至少几条船？",
+      "topic": "division-with-remainder",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-06",
+      "question": "有余数的除法应该怎样验算？",
+      "topic": "division-check",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-07",
+      "question": "1米长的绳子剪去35厘米，还剩多长？",
+      "topic": "length-units",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-08",
+      "question": "3千克加500克一共多少克？",
+      "topic": "mass-units",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-09",
+      "question": "从8点35分到9点10分经过多少分钟？",
+      "topic": "time-duration",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-10",
+      "question": "长方形长8厘米宽3厘米，周长是多少？",
+      "topic": "rectangle-perimeter",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-11",
+      "question": "长方形长9厘米宽4厘米，面积是多少？",
+      "topic": "rectangle-area",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-12",
+      "question": "正方形周长24厘米，它的面积怎样计算？",
+      "topic": "square-area",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-13",
+      "question": "同样大的蛋糕，三分之一和六分之一哪个更大？",
+      "topic": "unit-fraction",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-14",
+      "question": "同分母分数相加时分母要相加吗？",
+      "topic": "same-denominator-fractions",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-15",
+      "question": "付10元买7.8元的物品，应找回多少钱？",
+      "topic": "decimal-money",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g3-16",
+      "question": "分类统计中怎样避免重复计数，怎样求总数？",
+      "topic": "data-classification",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-01",
+      "question": "十位和个位怎么表示17？",
+      "topic": "numbers-within-20",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-02",
+      "question": "一共几个和从右边数第几个，有什么不同？",
+      "topic": "comparison-and-position",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-03",
+      "question": "比两根绳子谁更长，起点要怎么摆？",
+      "topic": "comparing-objects",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-04",
+      "question": "原来四颗珠子，又放三颗，应该用加法还是减法？",
+      "topic": "addition-subtraction-within-10",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-05",
+      "question": "9加6怎样先拼成十再算？",
+      "topic": "addition-subtraction-within-20",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-06",
+      "question": "给物体分类时，能不能一会儿看颜色一会儿看形状？",
+      "topic": "classifying-objects",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-07",
+      "question": "正方体和正方形有什么差别？",
+      "topic": "basic-shapes",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-first-08",
+      "question": "长针指6，短针刚过3，应该怎么读钟？",
+      "topic": "reading-clocks",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-01",
+      "question": "只说两个一样的三角形，就一定能拼成长方形吗？",
+      "topic": "shape-composition",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-02",
+      "question": "红花五朵蓝花三朵黄花两朵，记录后怎样求总数？",
+      "topic": "classification-and-data",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-03",
+      "question": "四元三角换成角，应该怎么算？",
+      "topic": "money-units",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-04",
+      "question": "73里面有多少个十和多少个一？",
+      "topic": "numbers-within-100",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-05",
+      "question": "52减7，个位的2不够减应该怎么办？",
+      "topic": "addition-subtraction-within-100",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-06",
+      "question": "18减去括号里的5加4，先计算哪一步？",
+      "topic": "parentheses",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "g1-second-07",
+      "question": "按红蓝蓝重复排列，怎么找出第七个的颜色？",
+      "topic": "patterns",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "natural-topic"
+    },
+    {
+      "id": "identifier-01",
+      "question": "请查找题号 V1-RECTANGLE-AREA-002 的题目",
+      "exercise_code": "V1-RECTANGLE-AREA-002",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-02",
+      "question": "请查找题号 V1-TIME-DURATION-002 的题目",
+      "exercise_code": "V1-TIME-DURATION-002",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-03",
+      "question": "请查找题号 V1-DIVISION-WITH-REMAINDER-001 的题目",
+      "exercise_code": "V1-DIVISION-WITH-REMAINDER-001",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-04",
+      "question": "请查找题号 V1-DECIMAL-MONEY-003 的题目",
+      "exercise_code": "V1-DECIMAL-MONEY-003",
+      "course_code": "DEMO-CN-G3-MATH",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-05",
+      "question": "请查找题号 G1-MATH-FIRST-REVIEWED-V1-READING-CLOCKS-002 的题目",
+      "exercise_code": "G1-MATH-FIRST-REVIEWED-V1-READING-CLOCKS-002",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-06",
+      "question": "请查找题号 G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001 的题目",
+      "exercise_code": "G1-MATH-FIRST-REVIEWED-V1-BASIC-SHAPES-001",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-07",
+      "question": "请查找题号 G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001 的题目",
+      "exercise_code": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "exact-exercise-id"
+    },
+    {
+      "id": "identifier-08",
+      "question": "请查找题号 G1-MATH-SECOND-REVIEWED-V1-PARENTHESES-002 的题目",
+      "exercise_code": "G1-MATH-SECOND-REVIEWED-V1-PARENTHESES-002",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "group": "exact-exercise-id"
+    }
+  ]
+}

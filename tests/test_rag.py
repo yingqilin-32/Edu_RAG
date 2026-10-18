@@ -42,7 +42,8 @@ def test_citations_resolve_to_retrieved_sources():
 
 
 def test_retrieved_exercise_solution_reaches_answer_generation(monkeypatch):
-    row = {"id": "chunk-1", "exercise_id": "exercise-1", "document_id": None,
+    row = {"id": "chunk-1", "similarity": 0.9, "exercise_id": "exercise-1", "document_id": None,
+           "grade": 4, "subject": "math", "textbook_edition": "原创测试版", "semester": "first",
            "source_title": "周长练习", "content": "长方形长8厘米、宽3厘米，周长是多少？",
            "exercise_answer": "22厘米", "exercise_explanation": "周长=(长+宽)×2=(8+3)×2=22厘米。"}
     engine = MagicMock()
@@ -58,6 +59,9 @@ def test_retrieved_exercise_solution_reaches_answer_generation(monkeypatch):
         assert row["exercise_answer"] in evidence["content"]
         assert row["exercise_explanation"] in evidence["content"]
         assert evidence["citation"] == "C1"
+        assert evidence["course_scope"]["grade"] == 4
+        assert evidence["course_scope"]["textbook_edition"] == "原创测试版"
+        assert "适合小学三年级学生" not in body["messages"][0]["content"]
 
     generate = rag.generate
     with model_client("周长=(8+3)×2=22厘米。[C1]", check_request=check_evidence) as client:

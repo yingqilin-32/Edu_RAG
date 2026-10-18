@@ -1,0 +1,35 @@
+{
+  "verified_at_utc": "2026-10-18T00:19:47.329770+00:00",
+  "scope": {
+    "grade": 3,
+    "textbook_edition": "自编演示资料",
+    "semester": "full_year",
+    "subject": "math"
+  },
+  "question": "长方形长8厘米、宽3厘米，周长和面积分别是多少？",
+  "status": "answered",
+  "model": "deepseek-flash",
+  "answer": "周长：22 厘米。计算依据：周长=(长+宽)×2=(8+3)×2=22 厘米 [C1]。\n\n面积：24 平方厘米。计算依据：面积=长×宽=8×3=24，单位为平方厘米 [C2]。",
+  "usage": {
+    "prompt_tokens": 834,
+    "completion_tokens": 59,
+    "total_tokens": 893
+  },
+  "all_sources_match_scope": true,
+  "citations": [
+    {
+      "citation": "C1",
+      "source_title": "V1-RECTANGLE-PERIMETER-001",
+      "grade": 3,
+      "textbook_edition": "自编演示资料",
+      "semester": "full_year"
+    },
+    {
+      "citation": "C2",
+      "source_title": "DEMO-AREA-001",
+      "grade": 3,
+      "textbook_edition": "自编演示资料",
+      "semester": "full_year"
+    }
+  ]
+}

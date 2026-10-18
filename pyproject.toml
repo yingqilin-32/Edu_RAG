@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edu-rag-lab"
-version = "0.1.0"
+version = "0.3.2"
 description = "Educational RAG: original knowledge, BGE-M3 retrieval and cited answers"
 requires-python = ">=3.11,<3.14"
 dependencies = [

@@ -1,6 +1,15 @@
 {
   "dataset_id": "v1-original-g3-math",
   "course_code": "DEMO-CN-G3-MATH",
+  "course": {
+    "title": "三年级数学演示课程",
+    "curriculum": "自编演示课程（非官方课标）",
+    "school_stage": "primary",
+    "grade": 3,
+    "subject": "math",
+    "semester": "full_year",
+    "textbook_edition": "自编演示资料"
+  },
   "license_note": "本项目原创演示资料，可用于学习和测试；非官方课标，未覆盖完整教材。",
   "topics": [
     {

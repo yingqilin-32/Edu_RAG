@@ -1,9 +1,10 @@
-"""Local V1 knowledge browser and RAG API; ingestion remains an explicit CLI action."""
+"""Local V3 knowledge browser and scoped hybrid RAG API."""
 
 from pathlib import Path
 from uuid import UUID
+from typing import Annotated
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import HTMLResponse
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
@@ -13,6 +14,7 @@ from edu_rag.config import ConfigurationError
 from edu_rag.db import database_status, get_engine
 from edu_rag import knowledge, rag
 from edu_rag.embedding import EmbeddingError
+from edu_rag.scope import CurriculumScope
 
 app = FastAPI(title="Edu RAG", version=__version__)
 
@@ -24,7 +26,7 @@ def home():
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "version": __version__, "stage": "V1"}
+    return {"status": "ok", "version": __version__, "stage": "V3"}
 
 
 @app.get("/health/db")
@@ -53,25 +55,31 @@ def list_courses() -> list[dict]:
 
 
 @app.get("/api/v1/courses")
-def v1_courses():
+@app.get("/api/v2/courses")
+@app.get("/api/v3/courses")
+def v1_courses(scope: Annotated[CurriculumScope, Query()]):
     try:
-        return knowledge.courses(get_engine())
+        return knowledge.courses(get_engine(), scope)
     except (ConfigurationError, SQLAlchemyError):
         raise HTTPException(503, "数据库尚未就绪，请检查本机连接。") from None
 
 
 @app.get("/api/v1/knowledge-points")
-def topics(course_id: UUID | None = None):
+@app.get("/api/v2/knowledge-points")
+@app.get("/api/v3/knowledge-points")
+def topics(scope: Annotated[CurriculumScope, Query()]):
     try:
-        return knowledge.knowledge_points(get_engine(), course_id)
+        return knowledge.knowledge_points(get_engine(), scope=scope)
     except (ConfigurationError, SQLAlchemyError):
         raise HTTPException(503, "暂时无法读取知识目录。") from None
 
 
 @app.get("/api/v1/knowledge-points/{knowledge_point_id}")
-def topic_detail(knowledge_point_id: UUID):
+@app.get("/api/v2/knowledge-points/{knowledge_point_id}")
+@app.get("/api/v3/knowledge-points/{knowledge_point_id}")
+def topic_detail(knowledge_point_id: UUID, scope: Annotated[CurriculumScope, Query()]):
     try:
-        result = knowledge.knowledge_detail(get_engine(), knowledge_point_id)
+        result = knowledge.knowledge_detail(get_engine(), knowledge_point_id, scope)
     except (ConfigurationError, SQLAlchemyError):
         raise HTTPException(503, "暂时无法读取知识正文。") from None
     if result is None:
@@ -91,11 +99,20 @@ def run_rag(operation, request):
 
 
 @app.post("/api/v1/search")
+@app.post("/api/v2/search")
+@app.post("/api/v3/search")
 def search(request: rag.SearchRequest):
     return run_rag(rag.search, request)
 
 
+@app.post("/api/v3/plan")
+def plan(request: rag.SearchRequest):
+    return run_rag(rag.construct_plan, request)
+
+
 @app.post("/api/v1/ask")
+@app.post("/api/v2/ask")
+@app.post("/api/v3/ask")
 def ask(request: rag.SearchRequest):
     return run_rag(rag.ask, request)
 

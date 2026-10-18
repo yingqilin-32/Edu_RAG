@@ -1,0 +1,128 @@
+{
+  "source_id": "sohu-431916810-99911694",
+  "url": "https://www.sohu.com/a/431916810_99911694",
+  "title": "小学一年级数学知识点（含上下册全部知识点）",
+  "publisher_account": "小学一年级数学",
+  "published_date": "2020-11-15",
+  "reviewed_date": "2026-10-18",
+  "source_type": "web_reference",
+  "school_stage": "primary",
+  "grade": 1,
+  "subject": "math",
+  "semesters": [
+    "first",
+    "second"
+  ],
+  "textbook_edition": null,
+  "curriculum_alignment": "unverified",
+  "redistribution_license": "not_established",
+  "review_status": "topic_reference_processed",
+  "ingested_into_database": true,
+  "storage_note": "仅记录来源、主题索引和质量检查结论，不存储整篇转载正文。标题中的完整覆盖宣称未独立核验。",
+  "proposed_edition_label": "网页参考资料（教材版本未注明）",
+  "topic_index": {
+    "first": [
+      {
+        "code": "numbers-within-20",
+        "title": "20以内的数与数位"
+      },
+      {
+        "code": "comparison-and-position",
+        "title": "大小比较、数量与序位"
+      },
+      {
+        "code": "comparing-objects",
+        "title": "物体数量与属性的比较"
+      },
+      {
+        "code": "addition-subtraction-within-10",
+        "title": "10以内加减及数量关系"
+      },
+      {
+        "code": "addition-subtraction-within-20",
+        "title": "20以内加减与凑十"
+      },
+      {
+        "code": "classifying-objects",
+        "title": "按不同标准分类"
+      },
+      {
+        "code": "basic-shapes",
+        "title": "平面与立体形状初步认识"
+      },
+      {
+        "code": "reading-clocks",
+        "title": "钟面和时刻"
+      }
+    ],
+    "second": [
+      {
+        "code": "shape-composition",
+        "title": "图形识别与拼组"
+      },
+      {
+        "code": "classification-and-data",
+        "title": "分类记录与简单数据整理"
+      },
+      {
+        "code": "money-units",
+        "title": "人民币单位及换算"
+      },
+      {
+        "code": "numbers-within-100",
+        "title": "100以内的数与数位"
+      },
+      {
+        "code": "addition-subtraction-within-100",
+        "title": "100以内加减及进退位"
+      },
+      {
+        "code": "parentheses",
+        "title": "括号和计算顺序"
+      },
+      {
+        "code": "patterns",
+        "title": "重复与数列规律"
+      }
+    ]
+  },
+  "review_findings": [
+    {
+      "kind": "metadata",
+      "note": "年级及上下册可从正文确认，教材出版社、版次和对应课标未注明；不能标为人教版等指定教材。"
+    },
+    {
+      "kind": "mathematical_accuracy",
+      "note": "零的单双数措辞需要修订；统一采用奇偶定义，零属于偶数。图形拼组结论应补足必要的图形条件。"
+    },
+    {
+      "kind": "extraction_quality",
+      "note": "部分加减算式在网页文本层中存在数字或注记粘连，须对照原排版人工核验，不能猜测修复后自动发布。"
+    },
+    {
+      "kind": "image_dependency",
+      "note": "正文包含图形、钟面和人民币配图。依赖图片条件的题目应保留图片并核验，不能只导入题干文字。"
+    }
+  ],
+  "next_processing_steps": [
+    "将上下册分成两个明确学期的课程范围，保留原网址。",
+    "核验数学表述、算式和图片条件，区分来源原文、审校修订和新增原创练习。",
+    "通过 V2 预览检查切分与元数据，再选择经核验内容进入知识库。"
+  ],
+  "original_article_body_ingested": false,
+  "ingestion_mode": "topic_reference_with_authored_lessons",
+  "ingested_at_utc": "2026-10-18T15:49:44.008849+00:00",
+  "derived_datasets": [
+    {
+      "dataset_id": "g1-math-first-reviewed-v1",
+      "course_code": "DEMO-CN-G1-MATH-FIRST",
+      "source_uri": "data/g1/math_first.md"
+    },
+    {
+      "dataset_id": "g1-math-second-reviewed-v1",
+      "course_code": "DEMO-CN-G1-MATH-SECOND",
+      "source_uri": "data/g1/math_second.md"
+    }
+  ],
+  "review_resolution": "参考主题目录后重新编写讲解与练习；原网页的歧义算式、未核验表述和图片依赖题未直接导入。"
+}
