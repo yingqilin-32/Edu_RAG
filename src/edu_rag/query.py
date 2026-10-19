@@ -11,7 +11,7 @@ from edu_rag.config import ConfigurationError
 from edu_rag.llm import ModelError, complete
 from edu_rag.scope import CurriculumScope
 
-PLAN_VERSION = "four-intent-v2"
+PLAN_VERSION = "four-intent-v3"
 Intent = Literal["knowledge_qa", "knowledge_summary", "exercise_search", "problem_solving"]
 DIFFICULTY_LEVELS = {"easy": [1, 2], "medium": [3], "hard": [4, 5]}
 QUESTION_TYPES = {"计算题": "calculation", "填空题": "fill_blank", "单选题": "single_choice", "选择题": "single_choice", "多选题": "multiple_choice", "简答题": "short_answer"}
@@ -19,6 +19,7 @@ Difficulty = Literal["easy", "medium", "hard"] | Annotated[int, Field(strict=Tru
 CHINESE_NUMBERS = {word: value for value, word in enumerate(
     ("零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"))}
 CODE = re.compile(r"(?<![A-Za-z0-9])(?:[A-Za-z][A-Za-z0-9]*-){1,15}\d{3}(?![A-Za-z0-9])")
+EXERCISE_REQUEST = re.compile(r"查找|查题|题号|给我|挑选|推荐|(?:提供|出|找|搜索|检索).{0,35}(?:题|练习)|几道题|\d+道题|[一二三四五六七八九十]道题")
 CONCEPTS = ("周长", "面积", "人民币", "凑十", "乘法", "除法", "分数", "钟面", "时刻", "数位", "分类", "规律", "括号", "加减", "进位", "退位", "统计", "长方形", "正方形", "三角形")
 
 
@@ -111,7 +112,7 @@ def rule_draft(question, courses=()):
                ("subject", subjects), ("textbook_edition", editions)) if len(values) == 1}
     if any(not 1 <= g <= 12 for g in grades):
         filters.pop("grade", None)
-    find = bool(codes or re.search(r"查找|查题|题号|给我|挑选|推荐|找.{0,30}(?:题|练习)|几道题|\d+道题|[一二三四五六七八九十]道题", normalized))
+    find = bool(codes or EXERCISE_REQUEST.search(normalized))
     summary = bool(re.search(r"总结|汇总|梳理|概括|复习|有哪些知识点|知识目录|知识点清单|全部知识|所有知识", normalized))
     exercise_summary = summary and bool(codes or re.search(r"这道题|这些题|错题|题目|解题|这题", normalized))
     if exercise_summary:
@@ -164,6 +165,9 @@ def rule_draft(question, courses=()):
 
 def resolve_topics(question, topics, knowledge_point=None):
     """Resolve literal curriculum concepts to existing, scoped IDs; never invent IDs."""
+    if re.search(r"经过时间|持续|结束时刻|分钟后|秒后|小时后|开始.{0,40}结束", question):
+        return [{"id": str(t["id"]), "title": t["title"]} for t in topics
+                if t.get("code") == "time-duration" or "经过时间" in t["title"]]
     if knowledge_point:
         question = knowledge_point
         if knowledge_point in ("单位分数", "几分之一"):
@@ -265,7 +269,7 @@ def build_plan(question, scope, *, mode, courses, topics=(), intent_override="au
             warnings.append("DeepSeek 查询构建输出未通过结构校验，已回退本地规则；未扩大查询范围。")
             origin = "rules_fallback"
     raw_intent = draft.intent
-    if rule.intent == "problem_solving" or rule.intent == "knowledge_summary" or (rule.intent == "exercise_search" and bool(re.search(r"给我|查找|查题|题号|挑选|推荐|找.{0,30}(?:题|练习)", question))):
+    if rule.intent in ("problem_solving", "knowledge_summary", "exercise_search"):
         draft = draft.model_copy(update={"intent": rule.intent})
     if intent_override != "auto":
         override = {"summary": "knowledge_summary", "knowledge": "knowledge_qa", "exercise": rule.intent if rule.intent in ("exercise_search", "problem_solving") else "exercise_search"}.get(intent_override, intent_override)

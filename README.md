@@ -1,8 +1,10 @@
-# Edu RAG · V3.2
+# Edu RAG · V4
 
-V3.2 实现 **查询构建 → 范围筛选 → 选择检索方式 → 组织上下文 → 回答或展示题目**：区分知识问答、知识总结、查找练习题、解答用户题目；题目总结归入解题子任务。找题支持知识点、题型和难度过滤，展示题库原题和折叠答案；总结按已收录目录组织并报告覆盖率。当前文件夹仍叫 `Edu_RAG_V0`，项目代码版本为 0.3.2。
+V4 使用 **LangGraph 编排查询理解 → 检索 → 证据重排 → 相关性与覆盖评估 → 回答／澄清／拒答**，证据不足时最多改写重检2次，生成后核验引用支持性。沿用四类意图、年级和教材范围、题库标签，以及BGE-M3、BM25和RRF。每次请求返回并本地记录检索路径、重检次数和引用来源。当前代码版本为0.4.0，说明见 [V4工作流与验收口径](docs/V4.md)，逐题结果保存在 `data/v4/runs/`。
 
-固定114个向量片段和51个开发问题完成四组实验：36道检索问题中，DeepSeek查询构建使BM25的nDCG@5从0.7916升至0.9899，加入Dense后指标持平。页面优先选择BM25；免费本地解析和DeepSeek解析均可切换，本次主实验使用DeepSeek。实测数据、限制和复现方法见 [四类意图与对照实验](docs/four-intent-ablation.md)、[逐题完整报告](data/v3/four_way/report_deepseek.json)。V3.1说明和旧数据保留在 [查询构建说明](docs/query-construction.md)、[历史验收记录](data/v3/query_construction/report.json)。
+V4第二轮合成回归验收：不可回答题错误作答0/60（样本内≤5%），可回答题18/20作答；129项自动测试通过，无服务异常，最多2次重检。首轮失败与正例标签审计完整保留，不能把回归结果推广为生产保证，详见 [完整验收报告](data/v4/runs/v2/report.json)。
+
+V3.2曾固定114个向量片段和51个开发问题完成四组实验：36道检索问题中，DeepSeek查询构建使BM25的nDCG@5从0.7916升至0.9899，加入Dense后指标持平。这支持以BM25作为检索对照；V4默认混合检索并增加证据工作流，不能把V3.2的数字直接解释成V4的作答质量。历史数据、限制和复现方法见 [四类意图与对照实验](docs/four-intent-ablation.md)、[逐题完整报告](data/v3/four_way/report_deepseek.json)。V3.1说明和旧数据保留在 [查询构建说明](docs/query-construction.md)、[历史验收记录](data/v3/query_construction/report.json)。
 
 检索入口在 `src/edu_rag/rag.py` 的 `search()`，词项、BM25 和 RRF 在 `src/edu_rag/retrieval.py`。工作台的“资料问答”可切换三种方式，点“仅检索”查看排名、分数和候选。选择本地解析或关闭查询构建时无需调用 DeepSeek；选择 DeepSeek 解析时会单独产生解析调用。无需新增依赖、数据库迁移或重新生成向量。详见 [V3 实现与使用](docs/V3.md)、[实测记录](docs/V3-verification.md) 和 [逐题对照数据](data/v3/retrieval_report.json)。
 
@@ -12,7 +14,7 @@ V3.2 实现 **查询构建 → 范围筛选 → 选择检索方式 → 组织上
 
 ```powershell
 $ragPython = 'D:\Anaconda\envs\edu-rag\python.exe'
-& $ragPython -m pip install -r requirements-rag-lock.txt
+& $ragPython -m pip install -r requirements-v4-lock.txt
 & $ragPython -m pip install --no-deps --no-build-isolation -e .
 & $ragPython -m edu_rag.ingest demo
 & $ragPython -m uvicorn edu_rag.main:app --host 127.0.0.1 --port 8000

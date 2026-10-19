@@ -1,0 +1,19 @@
+{
+  "suite_sha256": "20b8fa74ff727e1fdb5ef4a24bbcd51041390a0a8ac94dae00c5181c9896cf74",
+  "workflow": "evidence-graph-v2",
+  "model": "deepseek-flash",
+  "query_mode": "deepseek",
+  "mode": "hybrid",
+  "code": {
+    "src/edu_rag/workflow.py": "99dfee1b7157db0e171d35ce281df55f1a5ffff44e8cf8320cb66d58e63947a3",
+    "src/edu_rag/query.py": "596de6eddd4fe6f9290586d5c268622695b578b64fa5266fe87e81ee6443c1be",
+    "src/edu_rag/rag.py": "2891ba9541b35a3a0b7808b37681f56c19a56ead83052badf5a28e605bb590d8",
+    "src/edu_rag/retrieval.py": "030111054cd1844f1ff09ff1835595e073c42fa82982703211ac1ac0f54d94df",
+    "src/edu_rag/llm.py": "9250a23efe98206e1b84ad5bd0856601a55fcdd5a7d63a61d6f257692536ec2d",
+    "src/edu_rag/scope.py": "2b0a49be67839203c545062607461e152c427a9a8ea68ec06daeb263a8509cd9",
+    "src/edu_rag/knowledge.py": "d0c71f94af8db32363c211a73a97f8a488d4871a17828dda7343a3d12d0495f5",
+    "src/edu_rag/embedding.py": "7a59276e055982f9cb43e7eb8e691cc3b80c4631d0ccf2cd6cf61703f0c52fb1",
+    "scripts/evaluate_v4.py": "864f257eec44284f673924ccbd4765be3b38fb12f7461aabf083dfa12014e657"
+  },
+  "corpus_sha256": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e"
+}

@@ -1,0 +1,113 @@
+{
+  "completed": 80,
+  "total": 80,
+  "metrics": {
+    "negatives": 60,
+    "false_answers": 0,
+    "false_answer_rate": 0.0,
+    "one_sided_95_percent_binomial_upper": 0.04870291331009749,
+    "confidence_note": "Binomial bound assumes independent representative trials; this authored non-random suite does not establish a production guarantee.",
+    "positives": 20,
+    "answerable_answer_rate": 0.9,
+    "service_error_cases": [],
+    "status_counts": {
+      "refused": 36,
+      "needs_clarification": 26,
+      "answered": 15,
+      "exercises_found": 3
+    },
+    "parser_fallback_cases": [],
+    "retry_distribution": {
+      "0": 59,
+      "2": 18,
+      "1": 3
+    },
+    "retry_bound_respected": true,
+    "citation_checks_passed": true,
+    "median_elapsed_ms": 2503.166,
+    "model_calls": 251,
+    "usage": {
+      "prompt_tokens": 338371,
+      "completion_tokens": 40356,
+      "total_tokens": 378727
+    },
+    "empirical_target_met": true,
+    "category_results": {
+      "adversarial_or_false_premise": {
+        "count": 10,
+        "statuses": {
+          "refused": 6,
+          "needs_clarification": 4
+        },
+        "service_errors": 0
+      },
+      "exercise_search": {
+        "count": 4,
+        "statuses": {
+          "exercises_found": 3,
+          "refused": 1
+        },
+        "service_errors": 0
+      },
+      "knowledge_qa": {
+        "count": 8,
+        "statuses": {
+          "answered": 8
+        },
+        "service_errors": 0
+      },
+      "knowledge_summary": {
+        "count": 2,
+        "statuses": {
+          "answered": 2
+        },
+        "service_errors": 0
+      },
+      "missing_input": {
+        "count": 10,
+        "statuses": {
+          "needs_clarification": 10
+        },
+        "service_errors": 0
+      },
+      "partial_requirements": {
+        "count": 10,
+        "statuses": {
+          "refused": 3,
+          "needs_clarification": 7
+        },
+        "service_errors": 0
+      },
+      "problem_solving": {
+        "count": 6,
+        "statuses": {
+          "answered": 5,
+          "refused": 1
+        },
+        "service_errors": 0
+      },
+      "provenance": {
+        "count": 10,
+        "statuses": {
+          "needs_clarification": 5,
+          "refused": 5
+        },
+        "service_errors": 0
+      },
+      "unavailable_scope": {
+        "count": 10,
+        "statuses": {
+          "refused": 10
+        },
+        "service_errors": 0
+      },
+      "unsupported_topic": {
+        "count": 10,
+        "statuses": {
+          "refused": 10
+        },
+        "service_errors": 0
+      }
+    }
+  }
+}

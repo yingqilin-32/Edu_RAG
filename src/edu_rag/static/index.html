@@ -14,7 +14,7 @@
 <div class="shell">
 <aside class="side"><div><div class="brand">Edu <span>RAG.</span></div><div class="eyebrow">a little more understanding</div></div><nav class="nav"><button id="learnNav" class="active">▦　知识库</button><button id="askNav">◇　资料问答</button></nav><div class="side-note"><strong>从理解开始，<br>让每一步都有依据。</strong><p>原创数学样例<br>适合验证检索与问答流程</p><a href="/docs" target="_blank" rel="noopener">查看 API 文档 ↗</a></div></aside>
 <main>
-<header class="top"><span class="top-label">你的数学学习工作台</span><select id="course" aria-label="选择课程"></select><span class="version">V3.2</span></header>
+<header class="top"><span class="top-label">你的数学学习工作台</span><select id="course" aria-label="选择课程"></select><span class="version">V4</span></header>
 <div class="scope-filters" style="display:flex;flex-wrap:wrap;gap:14px;margin-top:20px;align-items:center">
 <label>年级 <select id="grade" aria-label="选择年级"><option value="">全部年级</option></select></label>
 <label>教材 <select id="edition" aria-label="选择教材版本"><option value="">全部教材版本</option></select></label>
@@ -24,7 +24,7 @@
 <section class="hero"><span class="kicker">LEARN WITH EVIDENCE</span><h1 id="heroTitle">把知识看清楚，再把问题想明白。</h1><p>浏览知识讲解、练习与解析，或者根据已收录的资料提问。这里是原创演示知识库，尚未覆盖完整教材或课标。</p></section>
 <div class="stats"><div class="stat"><b id="topicCount">—</b><span>个知识点</span></div><div class="stat"><b id="exerciseCount">—</b><span>道练习题</span></div><div class="stat"><b id="chunkCount">—</b><span>个已向量化片段</span></div></div>
 <section id="learnView" class="content"><div><p class="section-label">知识目录 · 点击查看</p><div id="topics" class="topic-list"></div></div><article id="detail" class="panel"><p class="empty">正在读取知识库…</p></article></section>
-<section id="askView" class="ask-grid hidden"><div class="panel ask-panel"><form id="askForm"><label for="question">今天想弄明白什么？</label><textarea id="question" maxlength="2000" required placeholder="例如：长方形的周长和面积有什么区别？"></textarea><div class="retrieval-options"><label for="retrievalMode">检索方式</label><select id="retrievalMode"><option value="hybrid">混合检索 · 语义 + 关键词 · RRF</option><option value="dense">语义检索 · Dense</option><option value="bm25" selected>关键词检索 · BM25</option></select></div><div class="retrieval-options"><label for="queryMode">查询理解</label><select id="queryMode"><option value="rules">本地解析 · 免费</option><option value="deepseek">DeepSeek 解析 · API</option><option value="off">关闭 · 原问题检索</option></select></div><div class="retrieval-options"><label><input type="checkbox" id="allScopeCourses"> 使用当前筛选下的全部课程（适合年级总览）</label></div><div class="ask-actions"><span id="queryCostHint" class="hint">本地解析与找题展示免费；生成讲解会调用 DeepSeek。</span><button id="searchButton" type="button" class="secondary">仅检索</button><button id="askButton" type="submit" class="primary">回答／展示题目 →</button></div></form><div id="answer" aria-live="polite"></div></div><aside><p class="section-label">可以从这些问题开始</p><div class="suggestions"><button data-question="长方形长8厘米、宽3厘米，周长和面积分别是多少？">长方形的周长和面积怎么区分？</button><button data-question="53个人乘船，每条船最多坐8人，至少需要几条船？">有余数时，为什么还要多一条船？</button><button data-question="同样大的蛋糕，三分之一和六分之一哪个更大？">分母越大，每一份就越大吗？</button></div><p class="footer">引用用于定位依据；它不保证所有计算和解释都正确。重要结论请结合原文核对。</p></aside></section>
+<section id="askView" class="ask-grid hidden"><div class="panel ask-panel"><form id="askForm"><label for="question">今天想弄明白什么？</label><textarea id="question" maxlength="2000" required placeholder="例如：长方形的周长和面积有什么区别？"></textarea><div class="retrieval-options"><label for="retrievalMode">检索方式</label><select id="retrievalMode"><option value="hybrid" selected>混合检索 · 语义 + 关键词 · RRF</option><option value="dense">语义检索 · Dense</option><option value="bm25">关键词检索 · BM25</option></select></div><div class="retrieval-options"><label for="workflowMode">回答流程</label><select id="workflowMode"><option value="v4">V4 · 证据评估与有限重检</option><option value="v3">V3 · 原有查询与检索</option></select></div><div class="retrieval-options" id="retryOptions"><label for="maxRetries">最多重检</label><select id="maxRetries"><option value="0">0 次</option><option value="1">1 次</option><option value="2" selected>2 次</option></select></div><div class="retrieval-options"><label for="queryMode">查询理解</label><select id="queryMode"><option value="rules">本地解析 · 免费</option><option value="deepseek">DeepSeek 解析 · API</option><option value="off">关闭 · 原问题检索</option></select></div><div class="retrieval-options"><label><input type="checkbox" id="allScopeCourses"> 使用当前筛选下的全部课程（适合年级总览）</label></div><div class="ask-actions"><span id="queryCostHint" class="hint">本地解析与找题展示免费；生成讲解会调用 DeepSeek。</span><button id="searchButton" type="button" class="secondary">仅检索</button><button id="askButton" type="submit" class="primary">回答／展示题目 →</button></div></form><div id="answer" aria-live="polite"></div></div><aside><p class="section-label">可以从这些问题开始</p><div class="suggestions"><button data-question="长方形长8厘米、宽3厘米，周长和面积分别是多少？">长方形的周长和面积怎么区分？</button><button data-question="53个人乘船，每条船最多坐8人，至少需要几条船？">有余数时，为什么还要多一条船？</button><button data-question="同样大的蛋糕，三分之一和六分之一哪个更大？">分母越大，每一份就越大吗？</button></div><p class="footer">引用用于定位依据；它不保证所有计算和解释都正确。重要结论请结合原文核对。</p></aside></section>
 <footer class="footer">Edu RAG · 原创演示资料 · 语义与关键词双路检索 · RRF 排名融合</footer>
 </main></div>
 <script>
@@ -85,6 +85,18 @@ function renderPlan(plan,box){
   for(const warning of plan.warnings||[])box.append(el('p','retrieval-note',warning));
   const details=el('details','trace');details.append(el('summary','','查看结构化查询计划'),el('pre','prose',JSON.stringify(plan,null,2)));box.append(details);
 }
+function renderWorkflow(trace,box){
+  if(!trace)return;
+  const decisions={answer:'回答／展示题目',clarify:'澄清',refuse:'拒答'};
+  box.append(el('h3','exercise-title','V4 证据决策 · '+(decisions[trace.decision]||trace.decision)));
+  box.append(el('p','retrieval-note','重检 '+trace.retry_count+' / '+trace.max_retries+' 次 · 共检索 '+trace.retrieval_count+' 次 · 总耗时 '+number(trace.elapsed_ms,0)+' ms'));
+  const assessment=trace.assessment||{};
+  if(assessment.requirement_coverage!==undefined)box.append(el('p','retrieval-note','必要要求证据覆盖 '+number(assessment.requirement_coverage*100,0)+'% · 合格来源 '+assessment.qualified_sources+' 条。评分为模型判断，不代表答案正确率。'));
+  if(trace.error)box.append(el('p','error','证据服务未能完成校验，本次已停止回答。'));
+  const details=el('details','trace');details.append(el('summary','','查看检索路径、证据评分与引用来源'));
+  details.append(el('p','retrieval-note',trace.events.map(e=>e.node).join(' → ')));
+  details.append(el('pre','prose',JSON.stringify(trace,null,2)));box.append(details);
+}
 function renderExercises(result,box){
   if(!result.exercises?.length)return false;
   const kinds={calculation:'计算题',short_answer:'简答题',fill_blank:'填空题',single_choice:'单选题',multiple_choice:'多选题'};
@@ -113,18 +125,26 @@ function renderRetrieval(result,box,searchOnly){
   if(searchOnly)for(const c of result.sources){const card=el('details','citation');card.append(el('summary','','['+c.citation+'] '+c.source_title),el('p','prose',c.content));appendReferences(card,c);box.append(card);}
 }
 $('retrievalMode').onchange=()=>{retrievalRevision++;$('answer').replaceChildren();};
-$('queryMode').onchange=()=>{retrievalRevision++;$('answer').replaceChildren();$('queryCostHint').textContent=$('queryMode').value==='deepseek'?'解析调用一次 API；需要生成讲解时再调用一次。找题直接展示题库原文。':'本地解析与找题展示免费；生成讲解会调用 DeepSeek。';};
+function updateWorkflowControls(){
+  const graph=$('workflowMode').value==='v4';
+  $('queryMode').querySelector('option[value="off"]').disabled=graph;
+  if(graph&&$('queryMode').value==='off')$('queryMode').value='rules';
+  $('retryOptions').classList.toggle('hidden',!graph);
+  $('queryCostHint').textContent=graph?'V4 的证据重排、改写和答案核验会调用 DeepSeek；仅检索也包含证据评估。':($('queryMode').value==='deepseek'?'解析调用一次 API；生成讲解再调用一次。':'本地解析与找题展示免费；生成讲解会调用 DeepSeek。');
+}
+for(const id of ['queryMode','workflowMode','maxRetries'])$(id).onchange=()=>{retrievalRevision++;$('answer').replaceChildren();updateWorkflowControls();};
+$('queryMode').value='deepseek';updateWorkflowControls();
 $('allScopeCourses').onchange=()=>{retrievalRevision++;$('answer').replaceChildren();};
 async function submitQuestion(searchOnly){
   error('');if(isAsking||!$('course').value)return;
   const question=$('question').value.trim();if(question.length<2){error('请输入至少两个字符的问题。');return;}
   const revision=scopeRevision,modeRevision=retrievalRevision;isAsking=true;updateAskButton();$(searchOnly?'searchButton':'askButton').textContent='正在处理…';$('answer').replaceChildren();
   try{
-    const result=await api('/api/v3/'+(searchOnly?'search':'ask'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,...scope(!$('allScopeCourses').checked),top_k:5,retrieval_mode:$('retrievalMode').value,query_mode:$('queryMode').value})});if(revision!==scopeRevision||modeRevision!==retrievalRevision)return;
+    const graph=$('workflowMode').value==='v4';const result=await api('/api/'+$('workflowMode').value+'/'+(searchOnly?'search':'ask'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,...scope(!$('allScopeCourses').checked),top_k:5,retrieval_mode:$('retrievalMode').value,query_mode:$('queryMode').value,...(graph?{max_retries:Number($('maxRetries').value)}:{})})});if(revision!==scopeRevision||modeRevision!==retrievalRevision)return;
     const box=el('section','answer');box.append(el('span','badge',modeNames[result.retrieval.mode]));
-    renderPlan(result.query_plan,box);
+    renderPlan(result.query_plan,box);renderWorkflow(result.workflow,box);
     const showsExercises=renderExercises(result,box);
-    if(!searchOnly&&!showsExercises&&(!result.query_plan||result.query_plan.status==='ready')){box.append(el('h3','',result.status==='answered'?'回答':'资料不足，暂不下结论'),el('div','prose',result.answer));
+    if(!showsExercises&&(result.workflow||(!searchOnly&&(!result.query_plan||result.query_plan.status==='ready')))){const labels={answered:'回答',needs_clarification:'需要补充条件',refused:'证据不足，暂不回答',evidence_ready:'证据已就绪'};box.append(el('h3','',labels[result.status]||'资料不足，暂不下结论'),el('div','prose',result.answer));
       if(result.citations.length)box.append(el('h3','exercise-title','查看引用依据'));
       for(const c of result.citations){const card=el('section','citation');card.append(el('strong','','['+c.citation+'] '+c.source_title),el('p','prose',c.content),el('div','source',(c.source_uri||'原创演示题库')+' · '+c.grade+' 年级 · '+c.textbook_edition));appendReferences(card,c);box.append(card);}}
     renderRetrieval(result,box,searchOnly&&!showsExercises);$('answer').replaceChildren(box);

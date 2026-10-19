@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pos-02",
+    "original_question": "怎样用单位小正方形理解长方形的面积？",
+    "revised_question": "计算长方形面积前，应怎样处理长和宽的长度单位？",
+    "reason": "Original asked for unit-square tiling derivation, which is absent; replaced by an explicitly documented rule.",
+    "source_basis": "data/v1/math_g3.json#rectangle-area"
+  },
+  {
+    "id": "pos-08",
+    "original_question": "钟面上的分针走一小格表示多久？",
+    "revised_question": "读钟面整时和半时时，分针分别指向哪里？",
+    "reason": "Original asked about a small clock tick, absent from this card; replaced by explicit whole/half-hour reading.",
+    "source_basis": "data/g1/math_first.json#reading-clocks"
+  },
+  {
+    "id": "pos-15",
+    "original_question": "给我2道三年级难度2的长方形面积计算题。",
+    "revised_question": "给我2道三年级难度2的长方形面积相关计算题，可含已知面积求边长。",
+    "reason": "Clarifies the intended topic-wide matching: both direct and inverse area calculations are permitted.",
+    "source_basis": "data/v1/math_g3.json#rectangle-area"
+  },
+  {
+    "id": "pos-16",
+    "original_question": "找3道三年级正方形周长计算题。",
+    "revised_question": "找2道三年级正方形面积相关计算题，可以是求面积或根据面积求边长。",
+    "reason": "Original topic tag square-area was incorrectly assumed to imply perimeter exercises. Stored stems are area-related.",
+    "source_basis": "data/v1/math_g3.json#square-area"
+  }
+]
