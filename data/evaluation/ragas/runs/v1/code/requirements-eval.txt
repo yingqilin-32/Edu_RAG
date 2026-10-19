@@ -1,0 +1,10 @@
+# Install in a separate, plain Python 3.11 venv. Do not install the app here:
+# Ragas 0.4.3 uses LangChain 0.3; the application uses LangGraph + LangChain 1.x.
+ragas==0.4.3
+langchain==0.3.30
+langchain-core==0.3.86
+langchain-community==0.3.31
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+openai==1.109.1
+instructor==1.11.3

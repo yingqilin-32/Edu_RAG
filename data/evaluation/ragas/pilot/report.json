@@ -1,0 +1,320 @@
+{
+  "ragas_version": "0.4.3",
+  "judge_model": "deepseek-flash",
+  "policies": {
+    "adaptive": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 2,
+      "positive_statuses": {
+        "answered": 2
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 0.5,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.775,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0,
+          "all_positive_utility_abstention_zero": 1.0
+        }
+      }
+    },
+    "always_retry": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 2,
+      "positive_statuses": {
+        "answered": 2
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 0.5,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.775,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0,
+          "all_positive_utility_abstention_zero": 1.0
+        }
+      }
+    },
+    "single_pass": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 1,
+      "positive_statuses": {
+        "answered": 1,
+        "refused": 1
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.75,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1,
+          "all_positive_utility_abstention_zero": 0.5
+        }
+      }
+    }
+  },
+  "excluding_known_ambiguous_case": {
+    "adaptive": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 2,
+      "positive_statuses": {
+        "answered": 2
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 0.5,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.775,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0,
+          "all_positive_utility_abstention_zero": 1.0
+        }
+      }
+    },
+    "always_retry": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 2,
+      "positive_statuses": {
+        "answered": 2
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 0.5,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.775,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 2,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 0,
+          "all_positive_utility_abstention_zero": 1.0
+        }
+      }
+    },
+    "single_pass": {
+      "positives": 2,
+      "negatives": 0,
+      "completed": 1,
+      "positive_statuses": {
+        "answered": 1,
+        "refused": 1
+      },
+      "negative_status_flags": 0,
+      "metrics": {
+        "faithfulness": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "factual_correctness": {
+          "mean_conditional": 0.75,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "context_precision": {
+          "mean_conditional": 0.9999999999,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "context_recall": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1
+        },
+        "answer_accuracy": {
+          "mean_conditional": 1.0,
+          "scored": 1,
+          "positive_total": 2,
+          "errors": 0,
+          "not_applicable": 1,
+          "all_positive_utility_abstention_zero": 0.5
+        }
+      }
+    }
+  },
+  "errors": 0,
+  "provider": {
+    "distinct_saved_responses": 20,
+    "usage": {
+      "prompt_tokens": 18713,
+      "completion_tokens": 2455,
+      "total_tokens": 21168,
+      "prompt_cache_hit_tokens": 7168,
+      "prompt_cache_miss_tokens": 11545
+    },
+    "response_models": [
+      "deepseek-flash"
+    ]
+  },
+  "this_invocation": {
+    "actual_http_attempts": 20,
+    "actual_total_tokens": 21168
+  },
+  "limits": [
+    "Same model family generates and judges; not independent human assessment.",
+    "Standard context metrics use only retrieved text, not an appended question or reference.",
+    "Mathematical question premises and valid arithmetic may lack verbatim support in generic cards.",
+    "Ragas scores are graded diagnostics, not binary accuracy or hallucination rates.",
+    "Conditional means exclude unanswered positives; abstention-zero answer utility reports all positives separately.",
+    "Negative status flags reuse saved routing results, not semantic LLM adjudication.",
+    "Authored development set, no new representative holdout; complex-07 is ambiguous.",
+    "Provider token cap checked between calls and may overshoot on the last response."
+  ]
+}

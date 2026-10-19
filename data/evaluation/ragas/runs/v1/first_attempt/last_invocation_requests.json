@@ -1,0 +1,4632 @@
+[
+  {
+    "key": "eb1f64a59cf86d50a2582fd264f733e4da4b6bfb7875bf2f6f58be77779bcbe6",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 548,
+      "completion_tokens": 62,
+      "total_tokens": 610,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 548
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1331.130700011272
+  },
+  {
+    "key": "4feebb0587d94ba84858939f9e615bd0dc9ab86091236aca33561923dd0cbbed",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1136,
+      "completion_tokens": 166,
+      "total_tokens": 1302,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1136
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1112.0281999756116
+  },
+  {
+    "key": "afd3bc85c817e40250366bb77fda8f395150feb2c8d3f92b909d1c939a5d1233",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 60,
+      "total_tokens": 595,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 535
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 876.3959000061732
+  },
+  {
+    "key": "0318f6cc85dc7228cff1b508eddf924c40c6f4cd48c52aa8e099a68ef2e11d9c",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1041,
+      "completion_tokens": 195,
+      "total_tokens": 1236,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1041
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1355.836900009308
+  },
+  {
+    "key": "481ae68201a65daa42c06e6240f80fc4c512d45674fb4d42682464c2536d8939",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 506,
+      "completion_tokens": 47,
+      "total_tokens": 553,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 250
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 872.9162000236101
+  },
+  {
+    "key": "7dbe604c3f211427880eaacbbb451c5f95367c3d50fff7b8e98bf0eeb6081019",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1056,
+      "completion_tokens": 194,
+      "total_tokens": 1250,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 288
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1260.8151999884285
+  },
+  {
+    "key": "247432047bc9edfdfb582134993e613584f29c5bf64001ae5f84c7f9e49660ac",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1189,
+      "completion_tokens": 58,
+      "total_tokens": 1247,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1189
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1014.246099977754
+  },
+  {
+    "key": "47bd23acf240b7e00b998d3bf4d593ec1d4cb25764d7c12c9ba5dda1c932b624",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1671,
+      "completion_tokens": 134,
+      "total_tokens": 1805,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1671
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1416.2012999877334
+  },
+  {
+    "key": "24c0653f0a58c695f6582cb7e1add39e05ac745815e19f56fe9b86faf8c23a5c",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 751,
+      "completion_tokens": 6,
+      "total_tokens": 757,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 751
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1061.8052000063471
+  },
+  {
+    "key": "796efa39d70e2641806a8c41e5a0914278e74146acd8b767a84a9d161210c9a1",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 6,
+      "total_tokens": 781,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 775
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1125.0507999793626
+  },
+  {
+    "key": "1c1d04d5c86611469a0d55107cec903dab7ac8ef7d63bafa7edab5a91b34b8ca",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 544,
+      "completion_tokens": 64,
+      "total_tokens": 608,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 288
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1186.392599978717
+  },
+  {
+    "key": "02bb5fc97be2fb601733a04fe2e3306f6cb0eeb0dea666171a3cce3e6ea832e5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1200,
+      "completion_tokens": 256,
+      "total_tokens": 1456,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 432
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1866.5738999843597
+  },
+  {
+    "key": "9b4a249dcc3cae02b2473b837775b23c057ebcc3d3364e2e9720567ce8ef7160",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 63,
+      "total_tokens": 593,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 146
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1024.7230999812018
+  },
+  {
+    "key": "1eebdb6a2883ac802fc40e563af9f5556386288b6efc02862765313fbcf20670",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1036,
+      "completion_tokens": 174,
+      "total_tokens": 1210,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 268
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1222.3425000265706
+  },
+  {
+    "key": "e0885b075237b7b793a18d9d8535a1aaa80b99656643c602fc00943e17d63d88",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 498,
+      "completion_tokens": 45,
+      "total_tokens": 543,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 242
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1202.7630000084173
+  },
+  {
+    "key": "07329d527f2fe0fcc8483edf6aaed588b528fcdeef03601c590d6d327d455d93",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1049,
+      "completion_tokens": 178,
+      "total_tokens": 1227,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 281
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1112.4587999947835
+  },
+  {
+    "key": "a8f58108df1a375eabcab79cfbb0fc5d5fb63b5b58a45f654b1fb6b434e9fa61",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1129,
+      "completion_tokens": 54,
+      "total_tokens": 1183,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 361
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1367.788000003202
+  },
+  {
+    "key": "1fb026c9ad0ec5d6b083834607a6b517a2b5d6486e853abec007183cbd74c65d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1186,
+      "completion_tokens": 52,
+      "total_tokens": 1238,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 162
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1090.310599975055
+  },
+  {
+    "key": "1ffdc3070b81280496755756bb5b0483a3776cec603d81fe8a45f39ceeef034b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1726,
+      "completion_tokens": 123,
+      "total_tokens": 1849,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 446
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 943.1432999845129
+  },
+  {
+    "key": "a8185ad9a4fb6684d3ac20777202b2d4fd6918dd82e01d6bd58fd7a9f4670263",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 739,
+      "completion_tokens": 6,
+      "total_tokens": 745,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 355
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 835.2422000025399
+  },
+  {
+    "key": "7ee83012714be6a926d3d3cc4df033d91789ffb831d58d4a212f1f53c0823c79",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 763,
+      "completion_tokens": 6,
+      "total_tokens": 769,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 251
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 859.0152999968268
+  },
+  {
+    "key": "f3dfdc584ba490a88366c85b5f35d85d6162625ad675898e92c8348613aa705d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 515,
+      "completion_tokens": 47,
+      "total_tokens": 562,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 259
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 716.9158000033349
+  },
+  {
+    "key": "f3d8f492a472234b039e77e23fbefe807da25ca3acb8fcc095f796fdbb5f86cb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1104,
+      "completion_tokens": 125,
+      "total_tokens": 1229,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 336
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1278.724699979648
+  },
+  {
+    "key": "97dad3d9425796cd32fee573f4a5a2c8c518d54daa6d45b7ca265ede583e2e2e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 509,
+      "completion_tokens": 34,
+      "total_tokens": 543,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 253
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 789.9913000001106
+  },
+  {
+    "key": "4d33cd64ca224bbe08264f7c2d9294212a3b057846e246dcd781ffc9513ffd1c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1000,
+      "completion_tokens": 180,
+      "total_tokens": 1180,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 232
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1308.8311000028625
+  },
+  {
+    "key": "45146f33760d577cf8d7ce12cfb851131f6a38c79379f4446bdfb791bbb8f6be",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 492,
+      "completion_tokens": 36,
+      "total_tokens": 528,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 236
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1087.4295000103302
+  },
+  {
+    "key": "ef0fda48302e62939908da1580ff997bbefbab1f6d1f543eda3fdd76d20d53d5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1020,
+      "completion_tokens": 167,
+      "total_tokens": 1187,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 252
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1470.1696000120137
+  },
+  {
+    "key": "c017c0fa0b9f982aae192c10c7fc8fa153b96a47b82b2a691f0b4b6cc0733bfc",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1151,
+      "completion_tokens": 51,
+      "total_tokens": 1202,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 383
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 932.8455000068061
+  },
+  {
+    "key": "7d724dc1c81871d00c048e51ddf12e705d3fe9420343a340493fe7eeb4cc9a67",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1633,
+      "completion_tokens": 238,
+      "total_tokens": 1871,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 353
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1634.4746999966446
+  },
+  {
+    "key": "c572f6e3bce7c6d2ceadc9a1af5cb46b83bf4fac352b44c6cecf4314e9382cbd",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 704,
+      "completion_tokens": 6,
+      "total_tokens": 710,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 320
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1238.0665999953635
+  },
+  {
+    "key": "b5a81b4388de57069c33f3d0f09a8556ab3f4d6101a765ffd8932bc1ff0fc4cd",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 6,
+      "total_tokens": 734,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 216
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 787.9697999742348
+  },
+  {
+    "key": "ccf336ca8ebbc5bf97a4df6f9ed9dbd931da30c84a74628aabfc7caae8b0d25b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 550,
+      "completion_tokens": 64,
+      "total_tokens": 614,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 294
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 906.0095000022557
+  },
+  {
+    "key": "3c1690de8559af7b9e42b3211cbdbe6251c7d51f0b7a4230df2bf8330dd884e5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1202,
+      "completion_tokens": 294,
+      "total_tokens": 1496,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 434
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1891.6586000123061
+  },
+  {
+    "key": "a91e37765e68073f4ce904dfe975ae3894dc02f999c21a4e93a43aff6f96653a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 538,
+      "completion_tokens": 69,
+      "total_tokens": 607,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 154
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1130.1104999729432
+  },
+  {
+    "key": "e7e68caa7b4ae236923a16884f31b6db7043407953bbc64d524ed3917446139a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1050,
+      "completion_tokens": 340,
+      "total_tokens": 1390,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 154
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2021.4250999852084
+  },
+  {
+    "key": "08d69ed445d0c872291d3fc9e64f34ccd2dfdf190c2609e6c0e658673145c63e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 505,
+      "completion_tokens": 43,
+      "total_tokens": 548,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 249
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1240.7188000215683
+  },
+  {
+    "key": "d792b5c2a2c358238a52faf23c302c7079f82a9972605d3921eb1fd863dbc536",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1055,
+      "completion_tokens": 234,
+      "total_tokens": 1289,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 159
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1561.5030000044499
+  },
+  {
+    "key": "a3efc59323688fb9960bcbd6aa97b89e56c971b6d730f9f1d9915ffec3066543",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1181,
+      "completion_tokens": 69,
+      "total_tokens": 1250,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 413
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1063.6526999878697
+  },
+  {
+    "key": "1e4fcb875b492ea59f636a5dea5639ef7cfe65681b6d821894e44a0f43b2ad0d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1146,
+      "completion_tokens": 72,
+      "total_tokens": 1218,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 250
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1221.7986000177916
+  },
+  {
+    "key": "0d6934e644aa527362d923d192c528d61ec6d68ab2998dbda6c713124c1220b1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1732,
+      "completion_tokens": 193,
+      "total_tokens": 1925,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 452
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1414.8099000158254
+  },
+  {
+    "key": "1ba3fa390a014b80e31a47b93a9b934d93b9980c3e4db5abfda284b8ee2d5d4b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 752,
+      "completion_tokens": 6,
+      "total_tokens": 758,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 368
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 939.6218000038061
+  },
+  {
+    "key": "d7d3e263677ffe61967ef26dd6c8b3e2bf25d2612515672fc0414076409c385e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 776,
+      "completion_tokens": 6,
+      "total_tokens": 782,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 136
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 795.861499995226
+  },
+  {
+    "key": "58af8d89649f6735edbfa07caf86d2f2406344cca5c38864ddf0b2b3ce1a4100",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 510,
+      "completion_tokens": 29,
+      "total_tokens": 539,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 254
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 794.8969999852125
+  },
+  {
+    "key": "f57d70c11f90119b16009767fb57896734e5f548a1c882bd61bafa1070f056bb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1081,
+      "completion_tokens": 133,
+      "total_tokens": 1214,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 313
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1007.9753999889363
+  },
+  {
+    "key": "579f587075bd29b7e0eed2a0e65a1a17580a972ccabd1e0a24b3e53f2df67801",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 497,
+      "completion_tokens": 28,
+      "total_tokens": 525,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 241
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1064.20550000621
+  },
+  {
+    "key": "b466a5223a40ed175712a802431661f0c63417f1bb618608f4c13a471116a902",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 992,
+      "completion_tokens": 107,
+      "total_tokens": 1099,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 224
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1110.5768000124954
+  },
+  {
+    "key": "28a3bbb1a35eb991924f685a9bdd02c6c3ed6ad164f43294c556b0ee58105104",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 490,
+      "completion_tokens": 30,
+      "total_tokens": 520,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 234
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 931.820500001777
+  },
+  {
+    "key": "a072faa687b04edd88756e2f858a21f9bbde3ebb0686e5866a23682529c87753",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1001,
+      "completion_tokens": 116,
+      "total_tokens": 1117,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 233
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1282.3264000180643
+  },
+  {
+    "key": "4b56b8498224713fe0ffdb56c89664ce2efadc9f77a42ab99ba9785419f96781",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1152,
+      "completion_tokens": 40,
+      "total_tokens": 1192,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 384
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1107.5402999995276
+  },
+  {
+    "key": "fcaa836e749b8893f884680e5608a4f2668f92ec1973b30db09e219724e4ed4d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1634,
+      "completion_tokens": 98,
+      "total_tokens": 1732,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 354
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1016.6614000045229
+  },
+  {
+    "key": "5d689daf5e081c74636c9ce2928566f72755f3e6c11eb30f9d6808ee88df366e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 697,
+      "completion_tokens": 6,
+      "total_tokens": 703,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 313
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1062.3437000031117
+  },
+  {
+    "key": "13510b8ad6e62b22cf178254f2b9c33c11c09bf330bc7d8ceebf5ed0594eadca",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 721,
+      "completion_tokens": 6,
+      "total_tokens": 727,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 209
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 921.9401000009384
+  },
+  {
+    "key": "bdeb3108565f2f232effa4195ef84e5da22465e5ce63f3ef25182654a851fb54",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 52,
+      "total_tokens": 587,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 151
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 872.5276999757625
+  },
+  {
+    "key": "4c9358aef1d3f0c77236285efb784f65e96004688c431ae92e971719b00b78d5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 168,
+      "total_tokens": 1306,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 370
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1199.4088999927044
+  },
+  {
+    "key": "22e97f179594b027defdfecf3ab4284ade60b01f41873cb6f793ad57eed7f7bb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 525,
+      "completion_tokens": 47,
+      "total_tokens": 572,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 141
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1076.7921999795362
+  },
+  {
+    "key": "b079f8eae1eb393470433bae7b5251122e670eeb6a50c7a43e179a61d5ac48e0",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1027,
+      "completion_tokens": 176,
+      "total_tokens": 1203,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 259
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1353.8862999994308
+  },
+  {
+    "key": "652b8599110458ea25895a66c48d4790c0e2a0c982f0956e111031d7b60e1ed6",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 505,
+      "completion_tokens": 43,
+      "total_tokens": 548,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 249
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 803.9011000073515
+  },
+  {
+    "key": "b23f8d555f14df6a11b508cd5375187905dfb69f36a83b1ca973fc3ff132ebe4",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1043,
+      "completion_tokens": 179,
+      "total_tokens": 1222,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 147
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1257.6980000012554
+  },
+  {
+    "key": "d8dc2ac33bdc826e810a45f899c36446b66609a54c4993388aeac952475ae35c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1197,
+      "completion_tokens": 90,
+      "total_tokens": 1287,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 429
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1570.6962999829557
+  },
+  {
+    "key": "a4974f72bc260016016980098a680057dc1963f570d2e62f27751bdab2590f99",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1679,
+      "completion_tokens": 288,
+      "total_tokens": 1967,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 399
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1597.4686999979895
+  },
+  {
+    "key": "1cd430a487b6c2715a7772a6f8b88f443491692f825ac83889e4e301fdb57c16",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 737,
+      "completion_tokens": 6,
+      "total_tokens": 743,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 353
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 875.8164000173565
+  },
+  {
+    "key": "69b94c25d8e8559b830b9463c99162b9f4d2d4202c7bd5f603ba2017a194c7e2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 761,
+      "completion_tokens": 6,
+      "total_tokens": 767,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 249
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 567.2022000071593
+  },
+  {
+    "key": "cb88509488c2bc4df3d1986bd3ccba3e7a4833613bc7ebd97ca2d4483ea944ac",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 538,
+      "completion_tokens": 71,
+      "total_tokens": 609,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 154
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1388.565999979619
+  },
+  {
+    "key": "edd0691f2732f55798bc2be9bf58c39400b830a2d2a28e432953f1e492564471",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1224,
+      "completion_tokens": 245,
+      "total_tokens": 1469,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 456
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1571.6325000103097
+  },
+  {
+    "key": "0b0ea78bc82440349061ffd3ed0902cab8e72653e5de002a3ca4a6f75c76af89",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 527,
+      "completion_tokens": 65,
+      "total_tokens": 592,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 143
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1189.13009998505
+  },
+  {
+    "key": "d1fc66ec8370a68decdc413904b5f0c29a06d05adf9f38e82df0e025a2fb8c17",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1052,
+      "completion_tokens": 171,
+      "total_tokens": 1223,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 156
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1537.377100001322
+  },
+  {
+    "key": "7acd11d243dd5d18bbf7cd812dc865e03a3d4284d4e6598c73a9a919091c266d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 513,
+      "completion_tokens": 58,
+      "total_tokens": 571,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 257
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1242.6501000009011
+  },
+  {
+    "key": "3156ac8ebe703e1250080ab66602c81bbf4820a967a5403cb6436b45601fbc1c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1060,
+      "completion_tokens": 219,
+      "total_tokens": 1279,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 164
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1672.705600009067
+  },
+  {
+    "key": "131c595f6f18f305b18e7926d816b2c03311173e2cebb6d5a1d426a45d1b8493",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1214,
+      "completion_tokens": 90,
+      "total_tokens": 1304,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 446
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1255.5277000064962
+  },
+  {
+    "key": "c51e30dc65a6f6f8b29fff783e24415f79ec6d1fc697c5e7a518fcf8487b5e82",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1143,
+      "completion_tokens": 56,
+      "total_tokens": 1199,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 247
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1149.6860999905039
+  },
+  {
+    "key": "59162959c71ea4daa6ec30b44421f5e56c646e32fcdfe8fc823802e6e84452ff",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1755,
+      "completion_tokens": 228,
+      "total_tokens": 1983,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 475
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1825.113800005056
+  },
+  {
+    "key": "a51b6f2ededb73714de6919095d750f6380096f66dc7938d543aba7e2a46dc29",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 6,
+      "total_tokens": 754,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 364
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 602.8283000050578
+  },
+  {
+    "key": "27433b197f04015bcc04640311e6b32b54caef01293cb72add39459bdd0db9ab",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 772,
+      "completion_tokens": 6,
+      "total_tokens": 778,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 260
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1025.9067999722902
+  },
+  {
+    "key": "6c99062599ce26673013ff05a851602099f4b673319e355199cb13783d49e78c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 549,
+      "completion_tokens": 90,
+      "total_tokens": 639,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 165
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1133.9023000036832
+  },
+  {
+    "key": "06a8ec95b7c64905ce65929cc965fa27dad1707ef8729aebb135eb5d100e3d49",
+    "cache_hit": false,
+    "error": "ReadTimeout",
+    "http_status": null
+  },
+  {
+    "key": "dc90b550cfb2a77ab14a2eff35edf05ac60fd56759d2d37d5260c3c08bdf91d7",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 534,
+      "completion_tokens": 71,
+      "total_tokens": 605,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 150
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1137.4522999976762
+  },
+  {
+    "key": "925e3bc96847c1437f988a54b83ef97dae8e80a481b69d7bf51343db3b2df7b2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1052,
+      "completion_tokens": 221,
+      "total_tokens": 1273,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 156
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1496.9080000009853
+  },
+  {
+    "key": "7b75cea652c87f31739a0fb7c0c9c2a27f21aab8ce9e0259e4f0e9ac91b9dc6e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 507,
+      "completion_tokens": 50,
+      "total_tokens": 557,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 251
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 952.5215000030585
+  },
+  {
+    "key": "6797acbb19a199ca2e503c6dd0bfdffc763e066953c7a93d36ce24c190ce7a61",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1057,
+      "completion_tokens": 135,
+      "total_tokens": 1192,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 161
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1333.9142999902833
+  },
+  {
+    "key": "6cf7b22b1d5e784fc645da70e8a08399f221b06dd4055ecb44c9023cb116d9d9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1172,
+      "completion_tokens": 42,
+      "total_tokens": 1214,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 404
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 984.0193999989424
+  },
+  {
+    "key": "b5514f899259fa147d63663844cb8ac1b7870711586f845b62837c73844b6594",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1654,
+      "completion_tokens": 155,
+      "total_tokens": 1809,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 374
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1122.5831000192557
+  },
+  {
+    "key": "97747711c949db4a6a04c6481cfe6d4836b785ab84ce1fc86f0faf71bd4fc178",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 753,
+      "completion_tokens": 6,
+      "total_tokens": 759,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 369
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1137.6712000055704
+  },
+  {
+    "key": "bf3c4f03f1e62f37c1b907cb37b9adfa0d1efedfe3e29e45896add36aeef2368",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 777,
+      "completion_tokens": 6,
+      "total_tokens": 783,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 137
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 964.490799990017
+  },
+  {
+    "key": "6c99062599ce26673013ff05a851602099f4b673319e355199cb13783d49e78c",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 549,
+      "completion_tokens": 90,
+      "total_tokens": 639,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 165
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1133.9023000036832
+  },
+  {
+    "key": "06a8ec95b7c64905ce65929cc965fa27dad1707ef8729aebb135eb5d100e3d49",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1146,
+      "completion_tokens": 238,
+      "total_tokens": 1384,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 250
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1502.3174999805633
+  },
+  {
+    "key": "f7af898ef8ecd8bfa9d06c85237256b85fa34225e3263c3c7427110ebddf633a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 122,
+      "total_tokens": 708,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 202
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1094.6912000072189
+  },
+  {
+    "key": "afd7b6aecf918005cb9445c3639f73f6faca29bb68d47365c72fedf915a6f0d4",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1376,
+      "completion_tokens": 442,
+      "total_tokens": 1818,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 352
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2009.7108000190929
+  },
+  {
+    "key": "9406cb6666e1521c5790bd9ef902651f8b19742153340baef01b87a3ac11ad81",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 563,
+      "completion_tokens": 82,
+      "total_tokens": 645,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 179
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1414.454800018575
+  },
+  {
+    "key": "59b5fc414206c1638b6f3b21efce2b6288e376cc61d6273b894bdd768da2eb28",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1070,
+      "completion_tokens": 319,
+      "total_tokens": 1389,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 174
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1541.9738999917172
+  },
+  {
+    "key": "37ee9bad5a0c8446d561750a8b0e2bb8a6cff1ca7e0b6b54d993aeb514cf24e6",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 511,
+      "completion_tokens": 50,
+      "total_tokens": 561,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 255
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 777.4073999898974
+  },
+  {
+    "key": "8869e225a8e96f3e53da40525188949bce63e9c4d7a3de0e9db3b99ea560d392",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1089,
+      "completion_tokens": 277,
+      "total_tokens": 1366,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 193
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1636.7642999975942
+  },
+  {
+    "key": "3be6d5afdb6a5d43906ec5e728d595e35a0b3421eaa08ac7130a47b4c3042dc1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1204,
+      "completion_tokens": 60,
+      "total_tokens": 1264,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 436
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1005.2431999938563
+  },
+  {
+    "key": "9de61667a6119fbe305f96d21895f1299caf4b8097d92170bc1df949feec23e0",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1151,
+      "completion_tokens": 75,
+      "total_tokens": 1226,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 255
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1535.6057999888435
+  },
+  {
+    "key": "a4025484bbabbc5491e7ec940f09803ecae3d3d9a757822ed1f7f2642123045f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1208,
+      "completion_tokens": 70,
+      "total_tokens": 1278,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 184
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1167.2330999863334
+  },
+  {
+    "key": "d489dfbc0dc1d003dc38ca91e80ffa00a5e4b1230dfe3427300191b9137c505a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1858,
+      "completion_tokens": 266,
+      "total_tokens": 2124,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 578
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1578.363000007812
+  },
+  {
+    "key": "6ac1ec7476483ddf69f9f4272671ae9d81c6bc9b406cdcdccbf595743e11a103",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 794,
+      "completion_tokens": 6,
+      "total_tokens": 800,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 410
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 745.1234000036493
+  },
+  {
+    "key": "65e33fff335e7413b421087f04d57076d779a56c122439c5b1c8af09a58078b1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 818,
+      "completion_tokens": 6,
+      "total_tokens": 824,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 178
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 811.0801000148058
+  },
+  {
+    "key": "e828759c8161e9ef4f9c92066a829f81f6c0dbfa316de08a1d77cc01f442761b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 579,
+      "completion_tokens": 99,
+      "total_tokens": 678,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 195
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1034.2928000027314
+  },
+  {
+    "key": "a86c8565f41ce429c68d9989bae44870d2e24846dc95d8232013682e1b62d2f8",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1271,
+      "completion_tokens": 297,
+      "total_tokens": 1568,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 247
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1640.9411999920849
+  },
+  {
+    "key": "734e1692c9e31e2484f0f5dba72a1619e526ddea38189004fb87bc32ce85e900",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 549,
+      "completion_tokens": 34,
+      "total_tokens": 583,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 165
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1500.5382999952417
+  },
+  {
+    "key": "7722a1660e1e68b7b3a1e696b35a23bb89d1619f0a59bbd7fcb6f81984eaf113",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1008,
+      "completion_tokens": 169,
+      "total_tokens": 1177,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 240
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1128.9319000206888
+  },
+  {
+    "key": "b80724c2cdacb3938fef9b6234cf25790b9b92196906e47fff9670d394c3b030",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 499,
+      "completion_tokens": 39,
+      "total_tokens": 538,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 243
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 799.5395000034478
+  },
+  {
+    "key": "d1744c6c4ded33b0ad2a4f5a9de8c31c7a92a2692f66775b3360681ca91b03b9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1062,
+      "completion_tokens": 123,
+      "total_tokens": 1185,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 166
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 928.3231000008527
+  },
+  {
+    "key": "08a6326e139a2b5f489c88526a54f512b41b8003873e0626dd852f99a1d1c0a3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1199,
+      "completion_tokens": 73,
+      "total_tokens": 1272,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 431
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1001.979000022402
+  },
+  {
+    "key": "ce6920f160b6f8b93ad0dccddbc735f19048b98a51b631a8ff5bc9492f46c66c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 58,
+      "total_tokens": 1196,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 242
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 880.2550999971572
+  },
+  {
+    "key": "b42d6bb341e4329b52bc85ecdba48ef59cdfa9e097b36986cc47524f5870ff8f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1136,
+      "completion_tokens": 56,
+      "total_tokens": 1192,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 240
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1081.9403000059538
+  },
+  {
+    "key": "0b9d6c5f5ab5a5f23b62f46d5b949f13a517d633eb99d483e8d1c71bd92c2276",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1777,
+      "completion_tokens": 217,
+      "total_tokens": 1994,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 497
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1781.9222999969497
+  },
+  {
+    "key": "0677108d1c95ed6006df0c51f927295c64db37a1bb2de5a90db1d2b14bc83174",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 6,
+      "total_tokens": 781,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 391
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1061.1709000077099
+  },
+  {
+    "key": "583359e10b261904665e792c74e46ca682c4d5a2a4faed2892bfab158620f35f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 799,
+      "completion_tokens": 6,
+      "total_tokens": 805,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 159
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 923.4924999764189
+  },
+  {
+    "key": "506c8713f61fa03b959c2e10689f26261c84c716f322553e647b67cf853f819e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 84,
+      "total_tokens": 700,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 232
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 765.1623999990989
+  },
+  {
+    "key": "5e722584c8e59628f9c8d18b2f8e321cbb209924a08f7e11fc087fcea766b2ad",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1283,
+      "completion_tokens": 548,
+      "total_tokens": 1831,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 515
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2191.9189999753144
+  },
+  {
+    "key": "71a7ea8320b809fbee7771429a8ed73d72abcb9e5445ff25d2c64c033aaa2cde",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 90,
+      "total_tokens": 677,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 203
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1005.9567999851424
+  },
+  {
+    "key": "70bde4f9ce71ab6e425e50b5e164b8fa399a8a9cd2a9d08e7e512f0f1a1faa5b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1089,
+      "completion_tokens": 259,
+      "total_tokens": 1348,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 193
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1338.4232000098564
+  },
+  {
+    "key": "5074ed04abd8b420c88f9756b1e89a76413928ab7a66cde9425efacef238c326",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 67,
+      "total_tokens": 590,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 139
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1170.8259000151884
+  },
+  {
+    "key": "c9af57188913f586207c6daf21ded3c30794caee57810f47f1400583b59f92ef",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1130,
+      "completion_tokens": 326,
+      "total_tokens": 1456,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 234
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1599.9867000209633
+  },
+  {
+    "key": "7e5cef99f3cf75f4ce0b305281bc9ce68c2008ed4faaab3d3a5cc41b546b9bdb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1228,
+      "completion_tokens": 91,
+      "total_tokens": 1319,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 460
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1176.8417000130285
+  },
+  {
+    "key": "18b2b3be8d53dc1288eed32019f08bba022097f02d761b69dd90075751824100",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1171,
+      "completion_tokens": 89,
+      "total_tokens": 1260,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 275
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1169.9202999880072
+  },
+  {
+    "key": "bb4da6e2c5f32f5837ab59808f04d599cf8fa8c18d4a973fea5782f7afbf4ee2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 83,
+      "total_tokens": 1253,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 274
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1200.6859999964945
+  },
+  {
+    "key": "aed75cd32ba18d3ffa65eb5dc3dbac5876a795c905fbd42055867886169f815f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1827,
+      "completion_tokens": 389,
+      "total_tokens": 2216,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 547
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1884.1744000092149
+  },
+  {
+    "key": "651e86cb7f44131f20a9172fa33d662f1d2c96627088c68af7d182d4a25730a2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 836,
+      "completion_tokens": 6,
+      "total_tokens": 842,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 452
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 646.8640000093728
+  },
+  {
+    "key": "47fbc1c432bb9cf870667a67853c899631c6fbca74b9bf43a2b06538bdf57413",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 860,
+      "completion_tokens": 6,
+      "total_tokens": 866,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 220
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 903.4740000206511
+  },
+  {
+    "key": "1ff04843f3ab73edd887dac4048b5b7d072f7a1fa7eaba3cddcc3983a687c92c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 569,
+      "completion_tokens": 80,
+      "total_tokens": 649,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 185
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1588.7059000087902
+  },
+  {
+    "key": "0dc9ad8a4ce0fc592ab8624928b2abfa1e91a3eec70e4e859676f395d64b53f6",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1303,
+      "completion_tokens": 253,
+      "total_tokens": 1556,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 535
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1433.0623999994714
+  },
+  {
+    "key": "43e032b83c2cebed137c783556a4f2094b982a1e2f9579fd730d549e4438a88b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 536,
+      "completion_tokens": 45,
+      "total_tokens": 581,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 152
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 918.0492000014056
+  },
+  {
+    "key": "dabd07b520ce33ca4325e8ce265ae789878e3cb0a62d246984fcb084378a9b8d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1040,
+      "completion_tokens": 205,
+      "total_tokens": 1245,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 144
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1377.9371000127867
+  },
+  {
+    "key": "4ed4a163e96c6ca5e693cc167aeaaadae79140b7c432ec0e0e3e601523369beb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 520,
+      "completion_tokens": 62,
+      "total_tokens": 582,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 136
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1165.891599986935
+  },
+  {
+    "key": "dc26974be6428343a172c0e7e18198a288c0c014af1f278f4fed91f22cdfcecd",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1072,
+      "completion_tokens": 178,
+      "total_tokens": 1250,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 176
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1516.9728999899235
+  },
+  {
+    "key": "7a07a522bf24bee4f9466d457906ad3489a1461f820f3c51110ea4ee79682edb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1176,
+      "completion_tokens": 68,
+      "total_tokens": 1244,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 408
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1247.2227000107523
+  },
+  {
+    "key": "9d34491b4f7f3b44a0df790b0ad279d42824c9ec2ff1df7b3a7c3ddc324e73f3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1243,
+      "completion_tokens": 78,
+      "total_tokens": 1321,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 347
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1203.570400015451
+  },
+  {
+    "key": "9f6e383fc126c519ce54838c037c481b9cc1cbcbe672dbed79ab71de848d561d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1174,
+      "completion_tokens": 53,
+      "total_tokens": 1227,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 278
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1214.503399998648
+  },
+  {
+    "key": "f787915949aac3f51ea2bd862c4620eb8aecfb807f7c9341f77e41ffba75bdcf",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1850,
+      "completion_tokens": 304,
+      "total_tokens": 2154,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 570
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1793.0453000008129
+  },
+  {
+    "key": "386b6454211d3efaa6b82e3407fdcd0c78ca275dcfb82b8698db5389b3fdea76",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 6,
+      "total_tokens": 792,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 402
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1094.4326000171714
+  },
+  {
+    "key": "c06d937b5fd167014a6d83b22e74ad499bdb25a010e35048d35e53a51d1ef2ad",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 810,
+      "completion_tokens": 6,
+      "total_tokens": 816,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 170
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 872.5863000145182
+  },
+  {
+    "key": "ecce9ca89d8e73af2fc118cac26acdf58e241813cb64f15453f6f62c972afdfc",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 576,
+      "completion_tokens": 76,
+      "total_tokens": 652,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 192
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1173.6123000155203
+  },
+  {
+    "key": "9201abb175e6e7102f1a850b889214e283302481bf738f19d09306602a669e6d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1163,
+      "completion_tokens": 275,
+      "total_tokens": 1438,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 395
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1462.305599998217
+  },
+  {
+    "key": "0484cf79899eeb67a58ea71a93a22f0299caf7685bf28a971495b6739ed0e91d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 544,
+      "completion_tokens": 51,
+      "total_tokens": 595,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 160
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 880.9297000116203
+  },
+  {
+    "key": "f7ff4da76a283faa2868ad196e3fc1ac8e712268ea1d32dd88aeee7ca8131f79",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1035,
+      "completion_tokens": 192,
+      "total_tokens": 1227,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 139
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1474.511899985373
+  },
+  {
+    "key": "e427e38912952ed01b864fa61ba1d8ff38d73891a35a879a2af9753800f36bef",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 509,
+      "completion_tokens": 48,
+      "total_tokens": 557,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 253
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 895.2276000054553
+  },
+  {
+    "key": "c31e8786647294a896b4793cebd4b97b5b4d21948b7e78d014fb00c0bd8423f8",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1072,
+      "completion_tokens": 200,
+      "total_tokens": 1272,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 176
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1252.71829997655
+  },
+  {
+    "key": "45df5255d8451bbeb7931997c418948f671a71a0069dfaf6fdb383b380b9ef55",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1223,
+      "completion_tokens": 73,
+      "total_tokens": 1296,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 455
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 960.9737000137102
+  },
+  {
+    "key": "dee002abd48a6e3805adde5c19afb22c1cac922586793abb327fb427f6e26894",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1705,
+      "completion_tokens": 182,
+      "total_tokens": 1887,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 425
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1379.0806999895722
+  },
+  {
+    "key": "7ba33c322c2aab0b75f5c92117f4770d064de6965ee352a00477f4f992875d96",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 782,
+      "completion_tokens": 6,
+      "total_tokens": 788,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 398
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 743.3369999926072
+  },
+  {
+    "key": "fcc769a3b7368c763aae9c9395d1b86e67aff9c44ca7a12a409b9eda7f57aff2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 806,
+      "completion_tokens": 6,
+      "total_tokens": 812,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 166
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1066.8210000148974
+  },
+  {
+    "key": "dde339cfab135800fe84e2de26ce42fe9b52dbb8bbf41b48f053bb5708e58aba",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 557,
+      "completion_tokens": 113,
+      "total_tokens": 670,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 173
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 908.5111000167672
+  },
+  {
+    "key": "12accb475ea92dbc94297ca81d6d66094075a847b4ec79b1c971208c0ff608dd",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1246,
+      "completion_tokens": 429,
+      "total_tokens": 1675,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 478
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2384.070999978576
+  },
+  {
+    "key": "7bf0acf7e54a34912465d61c13d794ba4c6e2d30a152012baacdf24d03d201e1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 526,
+      "completion_tokens": 33,
+      "total_tokens": 559,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 142
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1083.101700001862
+  },
+  {
+    "key": "e423deb24583dc8c13be00dcf665ae0bdc1d2f82e3ca176e97cb8abfe4803238",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1010,
+      "completion_tokens": 167,
+      "total_tokens": 1177,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 242
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1076.3363000005484
+  },
+  {
+    "key": "63db68776d5f6d9edf59edeabcfa6b620e87b0207ed07336d6501e5460f8666c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 502,
+      "completion_tokens": 44,
+      "total_tokens": 546,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 246
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 869.4125000038184
+  },
+  {
+    "key": "928ff964866b376b601c4f3b7d9328c7e1eab481e6300725fab4eb6c9cbc2027",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1045,
+      "completion_tokens": 219,
+      "total_tokens": 1264,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 149
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1314.416600012919
+  },
+  {
+    "key": "f57c2e73e837eae50ceb6b077e4888c593060cb9fdb556a9a3bcb9ded12e9bcb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1216,
+      "completion_tokens": 62,
+      "total_tokens": 1278,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 448
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1105.007400008617
+  },
+  {
+    "key": "bfcdc7f8a51f1d4cbc3d229bff2a08d93722165c2c7bc4ef4266fd4141ef8415",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1132,
+      "completion_tokens": 79,
+      "total_tokens": 1211,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 236
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1140.1636000082362
+  },
+  {
+    "key": "cca44b3aa3db2fe0466d07e492d91fba502edd0240fd13d40a38edd88b00d60b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1737,
+      "completion_tokens": 332,
+      "total_tokens": 2069,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 457
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2101.9521999987774
+  },
+  {
+    "key": "89cdaa36142911b107070ec659ff7b9c5e8a18dc5ded22a83ad447e622e7b7ce",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 756,
+      "completion_tokens": 6,
+      "total_tokens": 762,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 372
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 796.7179999977816
+  },
+  {
+    "key": "27fd31aadc440e67344372291f3178b7592b79b71e4ee055d086ec1d40ff3e95",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 780,
+      "completion_tokens": 6,
+      "total_tokens": 786,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 140
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 866.5433999849483
+  },
+  {
+    "key": "83186dd2d897416c520236b6edcd79f19b76025c376af69265fc61c25e09aa97",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 570,
+      "completion_tokens": 83,
+      "total_tokens": 653,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 186
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1287.135099992156
+  },
+  {
+    "key": "d894b9dacede804150aec1bf957b1a849fc2caeb57f419ba5f0dfc061068ad07",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1158,
+      "completion_tokens": 391,
+      "total_tokens": 1549,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 390
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1922.7141999872401
+  },
+  {
+    "key": "fd78ac74d9223cd406153614d6fee76f37b7fe61c1059c18690adcbe362a6d69",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 540,
+      "completion_tokens": 67,
+      "total_tokens": 607,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 156
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1212.4274999951012
+  },
+  {
+    "key": "0bc33575d6455d329ec293cf2d92320b05c9f914c2bb1a42c7a1db77f1231228",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1062,
+      "completion_tokens": 293,
+      "total_tokens": 1355,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 166
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1261.986400000751
+  },
+  {
+    "key": "b18cb82976e54bbf53807897d398bca0e37662c9b56b7d81411cfa24d57eb0ad",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 519,
+      "completion_tokens": 61,
+      "total_tokens": 580,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 135
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1052.0293999870773
+  },
+  {
+    "key": "0eb9c67e12240b36cdd5c9624db9ac04a9f719e13ea7251a0036a7eb29402afe",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1077,
+      "completion_tokens": 263,
+      "total_tokens": 1340,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 181
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1696.6753999877255
+  },
+  {
+    "key": "0ecf08bbe4ebbb1ef237e31f1108778dc4c12c38e0bbbd0ce6645c14b61b1caf",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1217,
+      "completion_tokens": 89,
+      "total_tokens": 1306,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 449
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1188.4659999923315
+  },
+  {
+    "key": "94739292e4b1b1c8459f9fb63c8d2bde3dab7f50e549911cf837306c1205fb44",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1699,
+      "completion_tokens": 262,
+      "total_tokens": 1961,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 419
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1458.2304000214208
+  },
+  {
+    "key": "1ca4a8903e769daf10a41475b12e600a4bbf51964995a1aa565625ede29463ec",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 6,
+      "total_tokens": 792,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 402
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 835.7851000037044
+  },
+  {
+    "key": "529b64ff14991ce1894929a29f54ff52393927b74a08a89223bf0e683055471e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 810,
+      "completion_tokens": 6,
+      "total_tokens": 816,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 170
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 735.6961000186857
+  },
+  {
+    "key": "af64c5169019ba747548efd25739a1c6f87a6277572a46ad43b32eefbc2aeca9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 659,
+      "completion_tokens": 127,
+      "total_tokens": 786,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 275
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1351.564899989171
+  },
+  {
+    "key": "1185f9582a29bf8b8ed3db362e4ae8bcf5561842e7a830b9c64f8ed4c94b84ee",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1436,
+      "completion_tokens": 412,
+      "total_tokens": 1848,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 412
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1824.7622000053525
+  },
+  {
+    "key": "285befe0481215ad5a33365d3d1d4e6b068cebbece6fdd527926aa674abbc945",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 634,
+      "completion_tokens": 102,
+      "total_tokens": 736,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 250
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1056.4319999830332
+  },
+  {
+    "key": "5c08effcf2a223b0852b8db2518a0521791f9f9d439976c88d40066c3b6bee3b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1091,
+      "completion_tokens": 373,
+      "total_tokens": 1464,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 195
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1641.657700005453
+  },
+  {
+    "key": "eb8a263ece10bbf6c2f5b39364891eb343521167bf08b143345b171a8f6d0803",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 511,
+      "completion_tokens": 47,
+      "total_tokens": 558,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 255
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 852.9894000093918
+  },
+  {
+    "key": "83918c06c1db43e072fe8add0d21b94e902717656b154e3bd1b26172b28ed2a5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1155,
+      "completion_tokens": 171,
+      "total_tokens": 1326,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 259
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1443.171799997799
+  },
+  {
+    "key": "f3fddec7ee2f6f8aa5f0bb76dc6c96f9beae8557916961a333b8bfe75e7c5041",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1206,
+      "completion_tokens": 97,
+      "total_tokens": 1303,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 438
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1412.06480000983
+  },
+  {
+    "key": "5e67208b99433083ffcc16aa3163f6fff661a9010d118677852d892c50b3902d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1151,
+      "completion_tokens": 63,
+      "total_tokens": 1214,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 255
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1287.511500006076
+  },
+  {
+    "key": "caef7403d7d683a08de1f372fe13dcdc1bc706853303ff0d0cc89009171d975b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1153,
+      "completion_tokens": 64,
+      "total_tokens": 1217,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 257
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 988.0869000044186
+  },
+  {
+    "key": "0f5c297b8e6ee4836f4ca57f1e62662de7e1fca9664cb85525b513f77d7bc0f0",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1210,
+      "completion_tokens": 55,
+      "total_tokens": 1265,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 186
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1075.9448999888264
+  },
+  {
+    "key": "7820c158f6f553cdaf573672a1da2efa14951d38fbf08ff9ef40076b163282bb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1915,
+      "completion_tokens": 225,
+      "total_tokens": 2140,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 635
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1494.2482999758795
+  },
+  {
+    "key": "fd56a2543526bfb1233f23c24c4c4927188b499f40e8abf5f8a854d016429328",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 867,
+      "completion_tokens": 6,
+      "total_tokens": 873,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 483
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 563.9174999960233
+  },
+  {
+    "key": "00e0610037e49d5e7ce636f60ac1a6fcac1d2511d5f08ba6ddd6b6824b90d1c3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 891,
+      "completion_tokens": 6,
+      "total_tokens": 897,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 251
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 975.3332999825943
+  },
+  {
+    "key": "c9410cd4f97f43a1e5972858f285ab857dc13d15469845a7e11ef081f8019978",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 572,
+      "completion_tokens": 100,
+      "total_tokens": 672,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 188
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1279.9051999754738
+  },
+  {
+    "key": "0165bb4af1f0905611023011ce982ce543ec66f967ad67ca694b90b58e7d85de",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1325,
+      "completion_tokens": 483,
+      "total_tokens": 1808,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 557
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2300.191199989058
+  },
+  {
+    "key": "c388ba1770af2166ccc648f4a1f0b213dccf8f7295c9af666a2e1d33b660179f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 541,
+      "completion_tokens": 62,
+      "total_tokens": 603,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 157
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 793.0262999725528
+  },
+  {
+    "key": "511a7077be59a9ee0d73d86df1ea9ee27d686953a353e54102267a0c43049890",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1060,
+      "completion_tokens": 348,
+      "total_tokens": 1408,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 164
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1828.2304999884218
+  },
+  {
+    "key": "620649e7d51b8a1af59cccb5f2b787982c37f3010b9a9d7cbb07f8d825f42f43",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 520,
+      "completion_tokens": 71,
+      "total_tokens": 591,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 136
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1048.6203999898862
+  },
+  {
+    "key": "5c6f8ec0498665e8166edfe0afc6c2054a1f954e99086cfe7a44681ce7180859",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1089,
+      "completion_tokens": 317,
+      "total_tokens": 1406,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 193
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1680.5316000245512
+  },
+  {
+    "key": "f34e067362bf4a460ee868ecff396fa4ced23830dce5dde991679646ef34ffde",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1160,
+      "completion_tokens": 59,
+      "total_tokens": 1219,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 392
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1045.0022000004537
+  },
+  {
+    "key": "2a493ec466ca5a239d563a08b45830f888ab63f73ed70211faba722d2386bebf",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1204,
+      "completion_tokens": 91,
+      "total_tokens": 1295,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 308
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1280.1515999890398
+  },
+  {
+    "key": "e1fb14096fe971765a1b02b278ff74f4a8fe8c7109771d74c54542f28b8321e0",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1221,
+      "completion_tokens": 75,
+      "total_tokens": 1296,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 325
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1360.414299997501
+  },
+  {
+    "key": "975113cf6bb99106fbabde7f2180e30564c5572bac62f84936c0fcc33d91bf6f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1847,
+      "completion_tokens": 283,
+      "total_tokens": 2130,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 567
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1503.1055999861564
+  },
+  {
+    "key": "febd517b53bdc6700e29f2b9f946a4cc31e01f2aded513ca8b9e43861533651e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 6,
+      "total_tokens": 795,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 405
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1059.13400001009
+  },
+  {
+    "key": "6c419d3329460ac3355c14c5000653d6cc0e9b250ddcd609c134161957b1ceb3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 813,
+      "completion_tokens": 6,
+      "total_tokens": 819,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 173
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1177.4418000131845
+  },
+  {
+    "key": "3da74509d0d9c0611bfbb5d77db3747dfff9179f8afff637a7f9059530dd16af",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 115,
+      "total_tokens": 710,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 211
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1283.6990000214428
+  },
+  {
+    "key": "e536c5f475c0d69205c73e403d68e59ec771517348753692d92a1fb8e9086fed",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1368,
+      "completion_tokens": 368,
+      "total_tokens": 1736,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 344
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2002.7472999936435
+  },
+  {
+    "key": "e5d96149857d8964b5ee0266053fcb6e4cd18ab0e4f40bf0dc0e3455ebd1c005",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 561,
+      "completion_tokens": 40,
+      "total_tokens": 601,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 177
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 880.7603000022937
+  },
+  {
+    "key": "2f8bb9268aa0b398749e599e2372df9f78f3a4e693d375c4dfa22dfc0cf469af",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1021,
+      "completion_tokens": 192,
+      "total_tokens": 1213,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 253
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1308.963000017684
+  },
+  {
+    "key": "731477bda115bf7e883705b423a38c4bd02972eb1edd0ba33507e4ab87b8a903",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 505,
+      "completion_tokens": 69,
+      "total_tokens": 574,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 249
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1311.0533999861218
+  },
+  {
+    "key": "c390dc3c12326d448925cd70bce514a4aa3f298d33e508445982dd2a626acd3c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1106,
+      "completion_tokens": 289,
+      "total_tokens": 1395,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 210
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1517.1075999969617
+  },
+  {
+    "key": "1f0093927da1cc7ef11cbd3021958cecbbca15855e0f262efe4cb9ed5d832add",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1209,
+      "completion_tokens": 67,
+      "total_tokens": 1276,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 441
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1249.6360999939498
+  },
+  {
+    "key": "67332bd20d49accbcc3cf94996a725a40c95ddf77cc02301265430d1d01e4179",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1221,
+      "completion_tokens": 71,
+      "total_tokens": 1292,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 325
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1109.545999992406
+  },
+  {
+    "key": "0a0d49bc50d566e406d54ee0d6cf8d04dc56ae8ba4bdccaf8c448a216bf914f9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1148,
+      "completion_tokens": 63,
+      "total_tokens": 1211,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 252
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1082.4079999874812
+  },
+  {
+    "key": "a9e48b8095b60622a5f2446fbfb100e9beb7d6bae3a2e4b2d16bdb3a4d228126",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1863,
+      "completion_tokens": 199,
+      "total_tokens": 2062,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 583
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1385.903699992923
+  },
+  {
+    "key": "89dbf7223be47bfd782372953c08a100a93a98284896bcfa323865aa24e2f7c2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 797,
+      "completion_tokens": 6,
+      "total_tokens": 803,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 413
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 800.8242000069004
+  },
+  {
+    "key": "3afe29f10bb3c9ac67edc4696f3b31f93c2a49cfd1bce83c006f83bff7b9d86b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 821,
+      "completion_tokens": 6,
+      "total_tokens": 827,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 181
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 517.8662000107579
+  },
+  {
+    "key": "26dcc3c7c3f204c761808a1beef27ebd10e17babec1821133e4366edbacd8312",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 61,
+      "total_tokens": 653,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 208
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1066.0193999938201
+  },
+  {
+    "key": "a0a143cc6d82aed87cc2b52bd001b427136751480b88939c91078e73cf8862bc",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1257,
+      "completion_tokens": 389,
+      "total_tokens": 1646,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 489
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2253.140299988445
+  },
+  {
+    "key": "4684f6f56235e6a6777e61eb88303fc320080578069820bc2a9a2fd1afcd5840",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 555,
+      "completion_tokens": 71,
+      "total_tokens": 626,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 171
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1282.087200001115
+  },
+  {
+    "key": "f0c8c811dd6c1e47ec5b11591f3739c0ba428fee8e0b771c6dd3d6e5074ada51",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1055,
+      "completion_tokens": 286,
+      "total_tokens": 1341,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 159
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2077.8704000113066
+  },
+  {
+    "key": "71658230c5fd22cb884baa4ab4744baa51d1241539d3bb399737c722ab0a0bf7",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 509,
+      "completion_tokens": 52,
+      "total_tokens": 561,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 253
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 983.8954999868292
+  },
+  {
+    "key": "da40b02475ee76f6d2d186e0e59451ee7e7ddfa3a92e75a06f524467e0835581",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1082,
+      "completion_tokens": 149,
+      "total_tokens": 1231,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 186
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1505.1871000032406
+  },
+  {
+    "key": "410b438e41a0184854638f3938c32033c5d4eebdbe8716a0648e088b4649b07b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1213,
+      "completion_tokens": 82,
+      "total_tokens": 1295,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 445
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1409.0955999854486
+  },
+  {
+    "key": "8a95da60cfafc1b13622b80724f5d524a0358700c58a96c4bf1c71782b7260c8",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1228,
+      "completion_tokens": 81,
+      "total_tokens": 1309,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 332
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1322.7751000085846
+  },
+  {
+    "key": "ff4ae96a78e3838855fab693a623d3ba742a956ef54cc1fc85b4a9576f455edd",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1818,
+      "completion_tokens": 340,
+      "total_tokens": 2158,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 538
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2220.405500003835
+  },
+  {
+    "key": "174ed566c0862de4dae72a7bf47652fa427d6a64587cac3b453b821fbcdd51e3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 798,
+      "completion_tokens": 6,
+      "total_tokens": 804,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 414
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 809.3009000003804
+  },
+  {
+    "key": "cb3fd89231e178b5ffda7f0592d9556e55372c137b8acdd090ce11c7d5eda90f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 822,
+      "completion_tokens": 6,
+      "total_tokens": 828,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 182
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 618.2291000150144
+  },
+  {
+    "key": "38c9a83f4c5baeeb7f0c81e57610b7bcdff2745be1869a69f36736e8e94928bc",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 579,
+      "completion_tokens": 71,
+      "total_tokens": 650,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 323
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 953.143499995349
+  },
+  {
+    "key": "2d16f009c614ff96b9c92ba9510f7173f6fe36f0814d5c4a5ea021b1eaccbf17",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1160,
+      "completion_tokens": 389,
+      "total_tokens": 1549,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 392
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2354.945900005987
+  },
+  {
+    "key": "6ac7103de4fc45504d007294b74002b0538797b18c15711dad3c6b0c49fe8fc2",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 548,
+      "completion_tokens": 69,
+      "total_tokens": 617,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 164
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1039.010300009977
+  },
+  {
+    "key": "9a96128eceba9ec9f933d9b45b92a0b458b83b27f51cd98c8d813ce6ec9aa05a",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1059,
+      "completion_tokens": 279,
+      "total_tokens": 1338,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 291
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1729.8813000088558
+  },
+  {
+    "key": "15e3b7406d067ac9c50987ea7f3521dfa6c2eac88b7e9b7610a521991ae4cd02",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 515,
+      "completion_tokens": 71,
+      "total_tokens": 586,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 259
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 919.8510999849532
+  },
+  {
+    "key": "91cf93ffeeee1de2c315e77314c3ea73d0eb689159a6bc86f9fccb761fa645e5",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1096,
+      "completion_tokens": 233,
+      "total_tokens": 1329,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 328
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1710.1129999791738
+  },
+  {
+    "key": "8002c7302391faf11aefdf734cbc155bcb0cf2e3c3ed8378580b34d3d2492a58",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1230,
+      "completion_tokens": 78,
+      "total_tokens": 1308,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 462
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1026.8737000005785
+  },
+  {
+    "key": "f1c7fe2ab50f6166edb62e3a146b0e1f94db039628e000e28caa22e277f78f68",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 1712,
+      "completion_tokens": 325,
+      "total_tokens": 2037,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 432
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1997.678799991263
+  },
+  {
+    "key": "799327b5b82cb254a477a02235a660cc70945b65c41a23de224fe11261a1d95d",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 791,
+      "completion_tokens": 6,
+      "total_tokens": 797,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 407
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 613.2934000052046
+  },
+  {
+    "key": "d2cd48443d55dff89d6cbcd0ccedc62eff2fbbad27c3de8f0988cd08da7a5c62",
+    "cache_hit": true,
+    "usage": {
+      "prompt_tokens": 815,
+      "completion_tokens": 6,
+      "total_tokens": 821,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 303
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1030.9872000070754
+  },
+  {
+    "key": "84c97c43f8c93aa4f8ed0d8b8cf6ba0bc1de392768a21fdb69eca3777ba32936",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 562,
+      "completion_tokens": 82,
+      "total_tokens": 644,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 178
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1030.8866999985185
+  },
+  {
+    "key": "f3214cc7acf33f40b6b77e60595bac54ff700bee42fa47a4f5e7198c961cec1a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1157,
+      "completion_tokens": 366,
+      "total_tokens": 1523,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 261
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2110.3295999928378
+  },
+  {
+    "key": "aff52eb58c78a6c9486380ee98abac20ef611a2b54e78aa093b4aa8af180d617",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 535,
+      "completion_tokens": 41,
+      "total_tokens": 576,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 151
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 898.6108000099193
+  },
+  {
+    "key": "512efc4526b501bf0d0b9bce819c39f5302bbf8060d24b2eba63d873728b9fdf",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1014,
+      "completion_tokens": 210,
+      "total_tokens": 1224,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 246
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1418.4674999851268
+  },
+  {
+    "key": "f531823ee3c79ff17a21fbe27ef90f19f843fd84b953d6104ea7b8bf93ad2a65",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 497,
+      "completion_tokens": 35,
+      "total_tokens": 532,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 241
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 896.9267000211403
+  },
+  {
+    "key": "63827cfe3066f0209231649d2206ca39f70ad5be6e1641e638d95f58a3130cd3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1043,
+      "completion_tokens": 113,
+      "total_tokens": 1156,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 147
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1288.2345999823883
+  },
+  {
+    "key": "4934ba207142ac996258bd2695363f8e89c31569bd9efc06a31d299de7d225b1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1191,
+      "completion_tokens": 88,
+      "total_tokens": 1279,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 423
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1450.88270000997
+  },
+  {
+    "key": "6fc3b40d41c0ec70762dbeb210e965525a5f2e4e8d38c25dba1ac5bd2d0f6760",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1673,
+      "completion_tokens": 163,
+      "total_tokens": 1836,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 393
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1319.3921000056434
+  },
+  {
+    "key": "0055bca28caab5600bd1c3d80b5d479f353116c40fabb9bbaa55d83b311b0ad5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 756,
+      "completion_tokens": 6,
+      "total_tokens": 762,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 372
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 836.6117000114173
+  },
+  {
+    "key": "4472191c785409c6bcf49292649353c2cc11bc6a417da65dd27b647c16c49130",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 780,
+      "completion_tokens": 6,
+      "total_tokens": 786,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 140
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 767.0301999896765
+  },
+  {
+    "key": "c23eb5ffc519715586eec724e8c2f73c5509a9349cf7a13089f0d6ba7c8747e1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 561,
+      "completion_tokens": 109,
+      "total_tokens": 670,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 177
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 925.7280000019819
+  },
+  {
+    "key": "70bf29954182c3c6808ca6881140806bc7355d7730220e18ec5aa7ffcab8aaed",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1225,
+      "completion_tokens": 315,
+      "total_tokens": 1540,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 457
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2205.1542999979574
+  },
+  {
+    "key": "6db52b57633bba0618d222c681d6be86d976853ab3880f43f4bda151d145b873",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 530,
+      "completion_tokens": 34,
+      "total_tokens": 564,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 146
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 891.4785000088159
+  },
+  {
+    "key": "45ae67958916fb3050d864f53e6e729b16e5cd66e3c2cb3fbf010c4630520530",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1012,
+      "completion_tokens": 124,
+      "total_tokens": 1136,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 244
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1334.8272999865003
+  },
+  {
+    "key": "6927cafc7dcade81b56128ec0d031c89491aec20e0f4ba45b33d5c5fb79a7188",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 504,
+      "completion_tokens": 44,
+      "total_tokens": 548,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 248
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1116.2152999895625
+  },
+  {
+    "key": "d9f8eea9ade615b7a08ae1844f4f2cc45f0ad05f27685b76cfbb217971283cf4",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1048,
+      "completion_tokens": 148,
+      "total_tokens": 1196,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 152
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1105.9867000149097
+  },
+  {
+    "key": "093e88733cf8502c9b8bfb5300e7f4f1bfd0bf7230f4c76ba08e725d2132559f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1152,
+      "completion_tokens": 108,
+      "total_tokens": 1260,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 384
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1240.4129999922588
+  },
+  {
+    "key": "abd415e24d3e1a3dbf7c4b43348aa0ab3f6dfd4238c93f7b35acede30ef9f61f",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1188,
+      "completion_tokens": 73,
+      "total_tokens": 1261,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 164
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1267.3010999860708
+  },
+  {
+    "key": "4bfe75da727c483609f420d08c9e1a2f567b799989e85367f0e27efe35bc4f0e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1728,
+      "completion_tokens": 259,
+      "total_tokens": 1987,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 448
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1520.1838000211865
+  },
+  {
+    "key": "b5efd103ffa9497c8fd0c2d9a4791e09ad94e31fe666c56a4531121d153cd1d5",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 762,
+      "completion_tokens": 6,
+      "total_tokens": 768,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 378
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1241.230199986603
+  },
+  {
+    "key": "701191e79010b8ae2cf76f2758ce5f0980166e2f84cb82e7d6cc45ffd4605a91",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 6,
+      "total_tokens": 792,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 146
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1053.5684000060428
+  },
+  {
+    "key": "7fe98d80dcb19456d0ab77ee6d76bc5bf9c121bde5278f085ad6e475f3545415",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 624,
+      "completion_tokens": 96,
+      "total_tokens": 720,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 240
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1340.68059999845
+  },
+  {
+    "key": "3a0c78be325b95ca6392799c72c355a4616dfc460d1e2e18d46609548a61a3f7",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1282,
+      "completion_tokens": 369,
+      "total_tokens": 1651,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 258
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2090.442400018219
+  },
+  {
+    "key": "e68ad85994f94f2bb5449df757115309291ea15bb77067ddb0dd27bc60e5c4e9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 52,
+      "total_tokens": 644,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 208
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1198.7858000211418
+  },
+  {
+    "key": "e22c5ff09beb630ca60d01ffb528d758748daca45dc26ec526d7294b8bcb2bd3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1034,
+      "completion_tokens": 200,
+      "total_tokens": 1234,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 138
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1520.0568999862298
+  },
+  {
+    "key": "4cb5da2ce64af6262431f3b1adfc1a73ff10b61309da9e1c8c8e15ec6ddb5863",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 506,
+      "completion_tokens": 55,
+      "total_tokens": 561,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 250
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1271.7605000070762
+  },
+  {
+    "key": "3ae063b6398252fbdd63beb919da821158c46ffd3bf052a03de760dab867eeb9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1122,
+      "completion_tokens": 232,
+      "total_tokens": 1354,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 226
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1506.7878999980167
+  },
+  {
+    "key": "72305e74ed9599fcd4f5361fb1f20394f4c65c252f96a8b6c6c516d35f8f89a6",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1191,
+      "completion_tokens": 78,
+      "total_tokens": 1269,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 423
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1411.236200015992
+  },
+  {
+    "key": "5872cc57685738e108b5cc9e53332b48395aa1ee63cf13a770f7d8bf6f31b484",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1220,
+      "completion_tokens": 61,
+      "total_tokens": 1281,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 324
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 996.8126000021584
+  },
+  {
+    "key": "ee3b8f7719e3525256d6e33c48bba3e3fc62e7fca534ea8cb12fb52d7881087a",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1796,
+      "completion_tokens": 234,
+      "total_tokens": 2030,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 516
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1380.0294999964535
+  },
+  {
+    "key": "8ff4e569a6ec5d08abadd040243b510b2cd899c551b276040f0b47dc1ec0119c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 827,
+      "completion_tokens": 6,
+      "total_tokens": 833,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 443
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 912.7487000077963
+  },
+  {
+    "key": "c33cf431883754f25e4e08d30cfcc14778705a3d1482235d2da46fabcb45489c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 851,
+      "completion_tokens": 6,
+      "total_tokens": 857,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 211
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1011.3498999853618
+  },
+  {
+    "key": "00c2d7d706028b8b1a3ac797985b3112f1f55cb614f01ba52d10f570ba93a4d6",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 134,
+      "total_tokens": 730,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 212
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1520.530800014967
+  },
+  {
+    "key": "bf97d190c9f23749f04a79de4007c6d350d46e57b44131c8de1a5276b64825c1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1295,
+      "completion_tokens": 543,
+      "total_tokens": 1838,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 527
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2223.804699984612
+  },
+  {
+    "key": "ecd9eaf6b0b67acb520be92df5240272628c0f6ef1439d850e6cc2ffd1b40fb9",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 566,
+      "completion_tokens": 119,
+      "total_tokens": 685,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 182
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1124.513599992497
+  },
+  {
+    "key": "f32a828e25267bb12474a3120e5ec8c0bcc526d1a3dcf804e6457a15a9aa14b1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1130,
+      "completion_tokens": 569,
+      "total_tokens": 1699,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 234
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2415.560399997048
+  },
+  {
+    "key": "0c07e88ea981618af55daa35d8eb606e18ed664b1388b72dd2ec4602c849a3e1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 531,
+      "completion_tokens": 81,
+      "total_tokens": 612,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 147
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 832.3016000213102
+  },
+  {
+    "key": "f35d21f7a1d399bf781f671d7477cdf478e9f14acfe62af7616d8bc5bcb41958",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1126,
+      "completion_tokens": 379,
+      "total_tokens": 1505,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 230
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1965.0505999743473
+  },
+  {
+    "key": "efbea7331618b52182088142575e7692e429a7e334b7bbd5002a13042e85c700",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1190,
+      "completion_tokens": 68,
+      "total_tokens": 1258,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 422
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1109.7312000056263
+  },
+  {
+    "key": "783db23e3da3010c01e6a318fb613da6dbb8a15aab1105acf04af2502133ca4c",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1243,
+      "completion_tokens": 98,
+      "total_tokens": 1341,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 347
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1397.2797000024002
+  },
+  {
+    "key": "27f09f7fdc72c7c2f0467b8bbf60e0f4c7bf58db6793d64bff9485cd4aae5528",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1795,
+      "completion_tokens": 272,
+      "total_tokens": 2067,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 515
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1573.7613000092097
+  },
+  {
+    "key": "d1bbef18886bfe47c097c3f0f894d52d21349573034e9f2f2a8d54f04b88a147",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 824,
+      "completion_tokens": 6,
+      "total_tokens": 830,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 440
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1031.3285999873187
+  },
+  {
+    "key": "008d8c924923585f6d0d60c69cb175d4b13bb9514786c647c540fe3b29788805",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 848,
+      "completion_tokens": 6,
+      "total_tokens": 854,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 208
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1033.2740000158083
+  },
+  {
+    "key": "4839d6091327a56968a76dcb10ae000a066e18e730cebce6a24ed8a27096e098",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 641,
+      "completion_tokens": 155,
+      "total_tokens": 796,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 257
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1027.222200005781
+  },
+  {
+    "key": "2289587574ce4cb6d86a58111bbc3b7faa73774689eabd75137b1bdaa92f8fb3",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1499,
+      "completion_tokens": 572,
+      "total_tokens": 2071,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 731
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2433.3144999982323
+  },
+  {
+    "key": "c8f8d86cec62b68ce752dda223577a4b2c8dc88f2ac9f94d4e4b715be0f21443",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 90,
+      "total_tokens": 704,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 230
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1394.3667999992613
+  },
+  {
+    "key": "90a07f690c737899174ec302fd7332740e96bbd5b5e9450c6ec5475c22d41292",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1089,
+      "completion_tokens": 371,
+      "total_tokens": 1460,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 193
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1892.9811000125483
+  },
+  {
+    "key": "974912f3fc7b9419de9cd95cd4bdec08c5736a9586defefd9f0ae6e913f66fb1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 68,
+      "total_tokens": 591,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 139
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1004.1509000002407
+  },
+  {
+    "key": "d43f54072ecde60e07608e82eb0248b749c490d3c3b6e4d13fc32ee01dfafb16",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1159,
+      "completion_tokens": 340,
+      "total_tokens": 1499,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 263
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1872.4967000016477
+  },
+  {
+    "key": "fa6424f42d038d4a43dbb8775940d8342b4a3f8495595e781a8635a809be7a2d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1224,
+      "completion_tokens": 71,
+      "total_tokens": 1295,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 456
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1249.4732000050135
+  },
+  {
+    "key": "5d6b05cb8ff314112caa19f01c2d3530a61eadcf56bc93aa45fca2027c327a7e",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1203,
+      "completion_tokens": 65,
+      "total_tokens": 1268,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 307
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1020.8939000149257
+  },
+  {
+    "key": "4d9548affcecbb03f47f31308e305ba9e1b7b38fd86db4951f679863c0d28102",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1220,
+      "completion_tokens": 91,
+      "total_tokens": 1311,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 324
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1116.9228999933694
+  },
+  {
+    "key": "72d2330827c3b6f605e1d7780c41a74ff35870c25a5375cc4f24117c4d410deb",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1160,
+      "completion_tokens": 67,
+      "total_tokens": 1227,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 264
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1295.3637999889906
+  },
+  {
+    "key": "cf59be7950ce84a5e3082903c768fa9b803acc0b945cd60edf6a98af49c74a80",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1961,
+      "completion_tokens": 523,
+      "total_tokens": 2484,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 681
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2398.9721999969333
+  },
+  {
+    "key": "8a8a98a1b4612cbd6f88ca489accae6bbb0f5969d626f1fea08527ad94fc126d",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 861,
+      "completion_tokens": 6,
+      "total_tokens": 867,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 477
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 673.659599997336
+  },
+  {
+    "key": "48727221e1c1c8467d61012b5172b7e79c3b5d644069df0a5470c8c56725cc99",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 885,
+      "completion_tokens": 6,
+      "total_tokens": 891,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 245
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 637.5130000233185
+  },
+  {
+    "key": "f947a4259e29c5b06efcba2e7cbf2e93c4454e4cf57db6445ed3d4e610f73eea",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 164,
+      "total_tokens": 770,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 222
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1112.823200004641
+  },
+  {
+    "key": "c65c99faa29a532a76b12db122cbfd5819cc34ab49f9ec3a57aaf75c915fbc4b",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1416,
+      "completion_tokens": 699,
+      "total_tokens": 2115,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 520
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 2766.0956000036094
+  },
+  {
+    "key": "f6fd17d821406c7e72bd05aacb68073a5be1f60725c49917eed3d4fa232454e2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 580,
+      "completion_tokens": 116,
+      "total_tokens": 696,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 196
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1124.4241999811493
+  },
+  {
+    "key": "391d55bb9a3949ba1d80046babff0ecb6683f90ac525d6f62ae30365626deef4",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1112,
+      "completion_tokens": 484,
+      "total_tokens": 1596,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 216
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1944.9161000084132
+  },
+  {
+    "key": "b00aa6ffc457418f1fab6b0c5a69e42ae4399fd1665a22b5f4ff7daa5aae0d40",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 518,
+      "completion_tokens": 55,
+      "total_tokens": 573,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 134
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 922.8488999942783
+  },
+  {
+    "key": "b5644b8ef8daa7126fcfee17e5301dbb8d641d15fffccf66fdfdc529732d6da2",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1108,
+      "completion_tokens": 172,
+      "total_tokens": 1280,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 212
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1027.0850000088103
+  },
+  {
+    "key": "84c3347720770b465a2a479c6fc360ba9f153d849cd12258f4675b589d011a85",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1208,
+      "completion_tokens": 85,
+      "total_tokens": 1293,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 440
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1203.2425999932457
+  },
+  {
+    "key": "fe409bd30aaf90c32ccc567740da71795901d5146840c8801049d832fcb27a21",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1173,
+      "completion_tokens": 90,
+      "total_tokens": 1263,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 277
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1195.13310000184
+  },
+  {
+    "key": "66c6c8c92a881084f2abc908dd1e7b5bebaa3f253e73fb5b015518d8c8c0df13",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1212,
+      "completion_tokens": 100,
+      "total_tokens": 1312,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      },
+      "prompt_cache_hit_tokens": 896,
+      "prompt_cache_miss_tokens": 316
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 994.371200009482
+  },
+  {
+    "key": "ed7d502c4a9b427f4caa386b12f8e6b91e60bceab39bed3f847a7f0d6d5ad5e0",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 1868,
+      "completion_tokens": 200,
+      "total_tokens": 2068,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 588
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 1568.8086999871302
+  },
+  {
+    "key": "0fc7c58a45354f571fa59a04d9264628f601008dd05cf758d475eeee2f1cead8",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 821,
+      "completion_tokens": 6,
+      "total_tokens": 827,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 437
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 772.2664999892004
+  },
+  {
+    "key": "459643fc4c4496078d84c41581bbcd52388c50bff80bac6881e7e0b1ef6d24b1",
+    "cache_hit": false,
+    "usage": {
+      "prompt_tokens": 845,
+      "completion_tokens": 6,
+      "total_tokens": 851,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 205
+    },
+    "response_model": "deepseek-flash",
+    "provider_elapsed_ms": 884.0982000110671
+  }
+]

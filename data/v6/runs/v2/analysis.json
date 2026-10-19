@@ -1,0 +1,381 @@
+{
+  "modes": {
+    "none": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 3,
+      "condition_retention": 6,
+      "routing_and_conditions_pass": 3,
+      "negative_status_flags": 0,
+      "model_calls_followups": 29,
+      "model_calls_all_turns": 117,
+      "tokens_followups": 52563,
+      "tokens_all_turns": 152731,
+      "avg_context_characters_followups": 0,
+      "avg_input_tokens_followups": 2904.764705882353,
+      "median_api_latency_proxy_ms": 1241.8309999920893,
+      "service_errors": 0,
+      "resolution_calls": 0,
+      "status_counts_followups": {
+        "needs_clarification": 13,
+        "answered": 3,
+        "refused": 1
+      },
+      "strict_followup_success": 3,
+      "strict_success_ids": [
+        "clock-switch-2",
+        "fraction-control-2",
+        "topic-switch-2"
+      ],
+      "answer_evaluation_errors": 0,
+      "ragas_math_scored": 3,
+      "ragas_math_total": 13,
+      "ragas_answer_accuracy_conditional": 1.0,
+      "ragas_answer_utility_abstention_zero": 0.23076923076923078,
+      "followup_cost_estimate_rmb": {
+        "off_peak": 0.05282644,
+        "peak": 0.10565288
+      },
+      "strict_failures": [
+        {
+          "id": "rectangle-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "rectangle-3",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "square-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "square-3",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "money-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": true,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "division-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "rope-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": true,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "clarification-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "clock-switch-3",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": true,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        },
+        {
+          "id": "exercise-tags-2",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false,
+              "exercise_tags": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "exercise_metadata_check",
+            "value": 0.0
+          }
+        },
+        {
+          "id": "long-history-7",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        }
+      ]
+    },
+    "history": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 14,
+      "condition_retention": 14,
+      "routing_and_conditions_pass": 14,
+      "negative_status_flags": 0,
+      "model_calls_followups": 80,
+      "model_calls_all_turns": 168,
+      "tokens_followups": 74158,
+      "tokens_all_turns": 170275,
+      "avg_context_characters_followups": 408.6470588235294,
+      "avg_input_tokens_followups": 3846,
+      "median_api_latency_proxy_ms": 6284.833800018532,
+      "service_errors": 0,
+      "resolution_calls": 11,
+      "status_counts_followups": {
+        "answered": 13,
+        "exercises_found": 1,
+        "needs_clarification": 1,
+        "refused": 2
+      },
+      "strict_followup_success": 14,
+      "strict_success_ids": [
+        "rectangle-2",
+        "rectangle-3",
+        "square-2",
+        "square-3",
+        "money-2",
+        "division-2",
+        "rope-2",
+        "clarification-2",
+        "clock-switch-2",
+        "clock-switch-3",
+        "fraction-control-2",
+        "topic-switch-2",
+        "exercise-tags-2",
+        "long-history-7"
+      ],
+      "answer_evaluation_errors": 0,
+      "ragas_math_scored": 13,
+      "ragas_math_total": 13,
+      "ragas_answer_accuracy_conditional": 1.0,
+      "ragas_answer_utility_abstention_zero": 1.0,
+      "followup_cost_estimate_rmb": {
+        "off_peak": 0.0891964,
+        "peak": 0.1783928
+      },
+      "strict_failures": []
+    },
+    "structured": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 13,
+      "condition_retention": 13,
+      "routing_and_conditions_pass": 13,
+      "negative_status_flags": 0,
+      "model_calls_followups": 74,
+      "model_calls_all_turns": 162,
+      "tokens_followups": 67964,
+      "tokens_all_turns": 164081,
+      "avg_context_characters_followups": 498,
+      "avg_input_tokens_followups": 3528.0588235294117,
+      "median_api_latency_proxy_ms": 6028.2452999963425,
+      "service_errors": 0,
+      "resolution_calls": 10,
+      "status_counts_followups": {
+        "answered": 12,
+        "exercises_found": 1,
+        "needs_clarification": 2,
+        "refused": 2
+      },
+      "strict_followup_success": 13,
+      "strict_success_ids": [
+        "rectangle-2",
+        "rectangle-3",
+        "square-2",
+        "square-3",
+        "money-2",
+        "division-2",
+        "rope-2",
+        "clarification-2",
+        "clock-switch-2",
+        "clock-switch-3",
+        "fraction-control-2",
+        "topic-switch-2",
+        "exercise-tags-2"
+      ],
+      "answer_evaluation_errors": 0,
+      "ragas_math_scored": 12,
+      "ragas_math_total": 13,
+      "ragas_answer_accuracy_conditional": 1.0,
+      "ragas_answer_utility_abstention_zero": 0.9230769230769231,
+      "followup_cost_estimate_rmb": {
+        "off_peak": 0.0806354,
+        "peak": 0.1612708
+      },
+      "strict_failures": [
+        {
+          "id": "long-history-7",
+          "status": "needs_clarification",
+          "assessment": {
+            "checks": {
+              "required_conditions": false,
+              "source_scope": false
+            },
+            "answered": false,
+            "routing_and_conditions_pass": false,
+            "negative_status_flag": false
+          },
+          "score": {
+            "status": "not_answered",
+            "value": null
+          }
+        }
+      ]
+    }
+  },
+  "common_strict_success_ids": [
+    "clock-switch-2",
+    "fraction-control-2",
+    "topic-switch-2"
+  ],
+  "common_success_costs": {
+    "none": {
+      "followups": 3,
+      "model_calls": 15,
+      "tokens": 16416
+    },
+    "history": {
+      "followups": 3,
+      "model_calls": 15,
+      "tokens": 13217
+    },
+    "structured": {
+      "followups": 3,
+      "model_calls": 15,
+      "tokens": 13217
+    }
+  },
+  "first_turn_provider_requests_identical": true,
+  "budget_calls_respected": true,
+  "core_code_and_inputs_unchanged": true,
+  "corpus_unchanged": true,
+  "metric_note": "Strict follow-up success combines saved routing/keyword/scope checks and full Ragas answer match, or deterministic exercise tag checks; not independently human annotated accuracy.",
+  "negative_sample_note": "Only three negative follow-ups per arm; do not claim a <=5% production false-answer guarantee.",
+  "latency_note": "API latency proxy replays original provider duration for cached prompts; real end-to-end smoke tests are separate.",
+  "compression_note": "Structured mode retains four recent records; lower cost can reflect forgetting and safe abstention, not equal-quality compression."
+}

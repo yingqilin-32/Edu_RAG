@@ -1,0 +1,29 @@
+{
+  "reviewer": "Codex assistant reading all completed follow-up answer texts and exercise metadata; not independent human annotation",
+  "core_results_checked": {
+    "rectangle-2": "24 square centimeters",
+    "rectangle-3": "30 square centimeters after changing length to 10 and preserving width 3",
+    "square-2": "25 square centimeters",
+    "square-3": "perimeter 28 centimeters, area 49 square centimeters",
+    "money-2": "total 8.3 yuan, change 11.7 yuan from 20",
+    "division-2": "5 full boxes, 7 pencils remaining",
+    "rope-2": "100 centimeters remaining after 200-85-15",
+    "clarification-2": "perimeter 22 centimeters after supplying width 3",
+    "clock-switch-2": "whole hour, grade 1 first semester",
+    "clock-switch-3": "half hour, grade 1 first semester retained",
+    "fraction-control-2": "one third is greater than one sixth for the same whole",
+    "topic-switch-2": "new square with side 4, perimeter 16 centimeters; no old rectangle dimensions",
+    "exercise-tags-2": "exactly one grade-3 rectangle-area calculation exercise, difficulty 1; avoiding repeated exercises was not requested",
+    "long-history-7": "24 square centimeters for original 8 by 3 rectangle in full-history mode"
+  },
+  "findings": [
+    "No discrepancy in core numeric results, units or quantity labels found among the completed follow-up answers in this authored set.",
+    "Structured rope and clarification answers differ in wording from the full-history answers but give the same correct core results.",
+    "The structured long-history arm asks for the evicted original conditions, rather than guessing an old result.",
+    "One long-history setup question about currency conversion is refused in every arm; it is not a scored follow-up and not a service error.",
+    "All three negative follow-ups stop in every arm, but some requests for missing provenance are worded as clarification rather than a direct evidence refusal. This does not establish ideal refusal wording.",
+    "The comparison does not establish support for every sentence or citation, or robustness to a previously accepted incorrect answer contaminating future memory."
+  ],
+  "validation": {"automatic_tests_passed": 184, "live_http_checks_passed": 8, "independent_database_fingerprint_unchanged": true},
+  "limits": "Same model family generates and judges. Ragas match=1 plus keyword/scope checks is a development success criterion, not independent human accuracy. Three negative examples per arm cannot verify a production error rate <=5%."
+}

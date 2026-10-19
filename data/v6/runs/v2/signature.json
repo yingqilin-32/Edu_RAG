@@ -1,0 +1,12 @@
+{
+  "suite_sha256": "a95818b0b8eec35e3374e0449fdc6b59e3240e7193d42bc98c827b533f058d25",
+  "code_sha256": "8f2c4a7fcaa34f2006517ab625d10a01f6d48ac8391040b381929b12867892a5",
+  "model": "deepseek-flash",
+  "budgets": {
+    "max_retries": 2,
+    "max_branches": 3,
+    "max_model_calls": 10,
+    "max_total_tokens": 30000
+  },
+  "started_at": "2026-10-19T18:23:56.040046+00:00"
+}

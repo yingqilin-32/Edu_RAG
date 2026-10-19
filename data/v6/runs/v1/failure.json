@@ -1,0 +1,5 @@
+{
+  "error": "TypeError: UUID exercise ID was not JSON serializable in the next-turn memory payload",
+  "completed_rows": 64,
+  "resolution": "Convert database UUID exercise IDs to strings; regression test added; preserve v1 and resume exact-input provider caches into v2. No dialog/reference or retrieval changes."
+}

@@ -1,0 +1,9 @@
+{
+  "case": "complex-12",
+  "issue": "Frozen-plan accounting in v1 replayed successful DeepSeek plans but omitted a planner call whose response failed schema validation and fell back to local rules.",
+  "common_missing_usage_per_arm": {"model_calls": 1, "prompt_tokens": 2467, "completion_tokens": 122, "total_tokens": 2589},
+  "correction": "v2 replays both successful and fallback planner calls in per-request budgets. Production HTTP metering already counted these calls correctly; no workflow code change was required.",
+  "preservation": "v1 reports, original responses and code preserved. v2 reuses the identical suite, frozen plans, first retrievals and cached provider responses. No question, answerability label, prompt, retrieval policy or budget was changed.",
+  "expected_effect": "Add one common call and 2589 tokens to every arm. The affected case already completed before any retry, so completion outcomes should remain identical; verify explicitly.",
+  "verification": {"outcomes_and_answer_texts_identical": true, "compared_results": 276, "v2_provider_cache_misses": 0}
+}

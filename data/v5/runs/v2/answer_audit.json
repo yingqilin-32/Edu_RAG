@@ -1,0 +1,41 @@
+{
+  "reviewer": "Codex assistant reading all 26 distinct completed answer texts, expected core facts, and saved retrieval paths; not independent human annotation or another API judge",
+  "reviewed_unique_answers": 26,
+  "scope": "Core mathematical outcomes, stated conditions and quantity labels. This audit does not establish support for every sentence or correctness of every citation.",
+  "flagged_completed_answers": [
+    {
+      "id": "complex-07",
+      "policies": ["single_pass", "always_retry", "adaptive"],
+      "expected": "495 books remain after the loan; these make 55 packages, with no unpacked remainder.",
+      "observation": "The working correctly gives 495 books and 55 packages, but the final sentence says '剩0本书', conflating remaining inventory with unpacked remainder. Treat conservatively as an unclear/incorrect final answer, not a fully correct completion.",
+      "effect": "Subtract one clear-core-correct result from every arm. This does not change the paired benefit of recovering complex-17."
+    }
+  ],
+  "conservative_clear_core_correct_counts": {
+    "single_pass": {"complex": 16, "complex_total": 24, "simple": 8, "simple_total": 8},
+    "always_retry": {"complex": 17, "complex_total": 24, "simple": 8, "simple_total": 8},
+    "adaptive": {"complex": 17, "complex_total": 24, "simple": 8, "simple_total": 8}
+  },
+  "recovered_case": {
+    "id": "complex-17",
+    "question": "96 yuan buys books at 8 yuan each, then books are split over 3 shelves.",
+    "verified_core_result": "96/8=12 books; 12/3=4 books per shelf.",
+    "new_selected_evidence_id": "3a5d1294-af72-5cd2-94f8-d023d2230af3",
+    "always_retry": {"retrieval_retries": 2, "model_calls_including_common_planning": 10},
+    "adaptive": {"retrieval_retries": 1, "model_calls_including_common_planning": 7}
+  },
+  "unresolved_complex_cases": {
+    "complex-02": "Perimeter-to-area calculation plus explanation of unit differences; initial topic filter only exposes square-area materials, gate reports missing unit explanation.",
+    "complex-03": "Boat count and rental cost; retrieval/gate does not cover the required multiplication method and remaining-call reservation stops further retries.",
+    "complex-06": "Elapsed time and group multiplication; the frozen topic resolution prioritizes time-duration and excludes the multiplication material.",
+    "complex-09": "Mass conversion and packing division; fixed topic scope excludes a needed division method.",
+    "complex-15": "Classification sum followed by packing division; initial topical scope is too narrow to recover the required methods.",
+    "complex-20": "Square perimeter/area example with unit explanation; similar final-context explanation gap to complex-02."
+  },
+  "negative_status_flags": 0,
+  "limits": [
+    "The 60 negatives are reused regression questions and retain previously documented preflight clarification defects. Safe stopping does not mean every clarification is ideal.",
+    "The 24 complex positives are authored development cases, with one response per distinct prompt. A one-case gain is not statistically robust evidence of a general production improvement.",
+    "Some completed answers omit adjacent citations for conversions or intermediate operations; no claim of perfect sentence-level grounding is made."
+  ]
+}

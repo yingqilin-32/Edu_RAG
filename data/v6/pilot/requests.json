@@ -1,0 +1,1262 @@
+[
+  {
+    "key": "86106cdb9c4553a966522419fa1db0891bdd187a0e283b8b48b2e7b3cc447c98",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1425.2419999975245,
+    "usage": {
+      "prompt_tokens": 2457,
+      "completion_tokens": 119,
+      "total_tokens": 2576,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1945
+    }
+  },
+  {
+    "key": "2561e2a731ab9ff1a9d7ace7546afd473a2c6ff483ad479c7af440892d85a401",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1360.3154000011273,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 259,
+      "total_tokens": 1045,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 786
+    }
+  },
+  {
+    "key": "53918562fca732076d2d2f8a1f81bfd806bee40ac6e7088a3e732e0a471499ac",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1084.5530000224244,
+    "usage": {
+      "prompt_tokens": 808,
+      "completion_tokens": 108,
+      "total_tokens": 916,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 552
+    }
+  },
+  {
+    "key": "33b138cb9e8c4d21e085ef92372e5463a308bae8aed6694e69dfc1bfb146135f",
+    "cache_hit": false,
+    "provider_elapsed_ms": 917.8469000034966,
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 65,
+      "total_tokens": 710,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 645
+    }
+  },
+  {
+    "key": "e08f7185b0aac304707e15f3a1f625379f91e804da5a37e5946c7498743635ca",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1162.5153000059072,
+    "usage": {
+      "prompt_tokens": 459,
+      "completion_tokens": 70,
+      "total_tokens": 529,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 459
+    }
+  },
+  {
+    "key": "f18cade061f2373bd188632e1a031f09b99678a4d14d3ce63dd7ff1e4e30e13f",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1227.1555000043008,
+    "usage": {
+      "prompt_tokens": 2446,
+      "completion_tokens": 121,
+      "total_tokens": 2567,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1934
+    }
+  },
+  {
+    "key": "60147c0a1526c4215e4dacb4f26922da923096465c07b89301c0ee51d280fe90",
+    "cache_hit": false,
+    "provider_elapsed_ms": 2022.2154000075534,
+    "usage": {
+      "prompt_tokens": 2454,
+      "completion_tokens": 136,
+      "total_tokens": 2590,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1942
+    }
+  },
+  {
+    "key": "5eb699161a08877ee0c2f0a4e28c572ddc8df5b14abe9396d235f9eb217ad690",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1072.9360000113957,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 119,
+      "total_tokens": 1755,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "2561e2a731ab9ff1a9d7ace7546afd473a2c6ff483ad479c7af440892d85a401",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1360.3154000011273,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 259,
+      "total_tokens": 1045,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 786
+    }
+  },
+  {
+    "key": "53918562fca732076d2d2f8a1f81bfd806bee40ac6e7088a3e732e0a471499ac",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1084.5530000224244,
+    "usage": {
+      "prompt_tokens": 808,
+      "completion_tokens": 108,
+      "total_tokens": 916,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 552
+    }
+  },
+  {
+    "key": "33b138cb9e8c4d21e085ef92372e5463a308bae8aed6694e69dfc1bfb146135f",
+    "cache_hit": true,
+    "provider_elapsed_ms": 917.8469000034966,
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 65,
+      "total_tokens": 710,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 645
+    }
+  },
+  {
+    "key": "e08f7185b0aac304707e15f3a1f625379f91e804da5a37e5946c7498743635ca",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1162.5153000059072,
+    "usage": {
+      "prompt_tokens": 459,
+      "completion_tokens": 70,
+      "total_tokens": 529,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 459
+    }
+  },
+  {
+    "key": "9ab1f8f49eb3337836a65e678260feeab22b1efef859f95f73f640b86b25efe5",
+    "cache_hit": false,
+    "provider_elapsed_ms": 815.6563999946229,
+    "usage": {
+      "prompt_tokens": 409,
+      "completion_tokens": 35,
+      "total_tokens": 444,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 409
+    }
+  },
+  {
+    "key": "a56d6096efec5f5aa1483c6fb39a96ef0f82d3050b63f05d3ec389f3bd7acbdf",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1287.2765000211075,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 115,
+      "total_tokens": 1751,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "8e903c5cf2a3c0635b3b656bcd4aeb288eb4c2f100a6ce61b47bdacb0c254a31",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1801.4931000070646,
+    "usage": {
+      "prompt_tokens": 1112,
+      "completion_tokens": 453,
+      "total_tokens": 1565,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1112
+    }
+  },
+  {
+    "key": "e648a6e4acfc8b9c906dd0b8d7ea213a91e4f138454ba2c8183d8a5b17b6c808",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1536.3823000225239,
+    "usage": {
+      "prompt_tokens": 905,
+      "completion_tokens": 120,
+      "total_tokens": 1025,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 649
+    }
+  },
+  {
+    "key": "7368a871e00b21489d8919c73a2450f4c5328bb0639933b57c3665740cee3c77",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1176.8792000075337,
+    "usage": {
+      "prompt_tokens": 783,
+      "completion_tokens": 51,
+      "total_tokens": 834,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 783
+    }
+  },
+  {
+    "key": "41287e64a64a453c042d865efd655f6d687621e780be60968de6b134662efbcb",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1078.4138000162784,
+    "usage": {
+      "prompt_tokens": 394,
+      "completion_tokens": 53,
+      "total_tokens": 447,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 394
+    }
+  },
+  {
+    "key": "58165b7d61c0b90606b31c663f155b5f6a2c8dc727fbb0117b9643b12467f8f4",
+    "cache_hit": false,
+    "provider_elapsed_ms": 855.7922999898437,
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 35,
+      "total_tokens": 556,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 521
+    }
+  },
+  {
+    "key": "4cc314c91bf7bfb4c486ad73c46ce8a0a51b57d43943fac956ff48be0c0ebcfc",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1222.799600014696,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 126,
+      "total_tokens": 1762,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "0584bd8a50b11d3966a784f1a99eaa7700d714fe8c385c6e06db165e1af88c79",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1593.357500009006,
+    "usage": {
+      "prompt_tokens": 1112,
+      "completion_tokens": 271,
+      "total_tokens": 1383,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1112
+    }
+  },
+  {
+    "key": "87b268d1ae86ea3d25d9543afb98267d4a93b1755575e7495953562e16f4369a",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1017.3569000035059,
+    "usage": {
+      "prompt_tokens": 1102,
+      "completion_tokens": 93,
+      "total_tokens": 1195,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 846
+    }
+  },
+  {
+    "key": "95aa9c034aba30ad9401bbe32430a9752f0b680040b8e5b44cc2b6969da3f75f",
+    "cache_hit": false,
+    "provider_elapsed_ms": 849.4417000038084,
+    "usage": {
+      "prompt_tokens": 1044,
+      "completion_tokens": 26,
+      "total_tokens": 1070,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1044
+    }
+  },
+  {
+    "key": "31c44c1541c9d165f490eb3efac7fc9b4a8d0eca36223d4dfa9e2753a47b3ddc",
+    "cache_hit": false,
+    "provider_elapsed_ms": 932.1716999984346,
+    "usage": {
+      "prompt_tokens": 423,
+      "completion_tokens": 60,
+      "total_tokens": 483,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 423
+    }
+  },
+  {
+    "key": "5eb699161a08877ee0c2f0a4e28c572ddc8df5b14abe9396d235f9eb217ad690",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1072.9360000113957,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 119,
+      "total_tokens": 1755,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "2561e2a731ab9ff1a9d7ace7546afd473a2c6ff483ad479c7af440892d85a401",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1360.3154000011273,
+    "usage": {
+      "prompt_tokens": 786,
+      "completion_tokens": 259,
+      "total_tokens": 1045,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 786
+    }
+  },
+  {
+    "key": "53918562fca732076d2d2f8a1f81bfd806bee40ac6e7088a3e732e0a471499ac",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1084.5530000224244,
+    "usage": {
+      "prompt_tokens": 808,
+      "completion_tokens": 108,
+      "total_tokens": 916,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 552
+    }
+  },
+  {
+    "key": "33b138cb9e8c4d21e085ef92372e5463a308bae8aed6694e69dfc1bfb146135f",
+    "cache_hit": true,
+    "provider_elapsed_ms": 917.8469000034966,
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 65,
+      "total_tokens": 710,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 645
+    }
+  },
+  {
+    "key": "e08f7185b0aac304707e15f3a1f625379f91e804da5a37e5946c7498743635ca",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1162.5153000059072,
+    "usage": {
+      "prompt_tokens": 459,
+      "completion_tokens": 70,
+      "total_tokens": 529,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 459
+    }
+  },
+  {
+    "key": "734da5d6a3f6a756ca5b9b1be9133e0906ee9743c4f9722bf7d4ca6a43c397a4",
+    "cache_hit": false,
+    "provider_elapsed_ms": 942.8460999915842,
+    "usage": {
+      "prompt_tokens": 439,
+      "completion_tokens": 35,
+      "total_tokens": 474,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 439
+    }
+  },
+  {
+    "key": "a56d6096efec5f5aa1483c6fb39a96ef0f82d3050b63f05d3ec389f3bd7acbdf",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1287.2765000211075,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 115,
+      "total_tokens": 1751,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "8e903c5cf2a3c0635b3b656bcd4aeb288eb4c2f100a6ce61b47bdacb0c254a31",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1801.4931000070646,
+    "usage": {
+      "prompt_tokens": 1112,
+      "completion_tokens": 453,
+      "total_tokens": 1565,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1112
+    }
+  },
+  {
+    "key": "e648a6e4acfc8b9c906dd0b8d7ea213a91e4f138454ba2c8183d8a5b17b6c808",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1536.3823000225239,
+    "usage": {
+      "prompt_tokens": 905,
+      "completion_tokens": 120,
+      "total_tokens": 1025,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 649
+    }
+  },
+  {
+    "key": "7368a871e00b21489d8919c73a2450f4c5328bb0639933b57c3665740cee3c77",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1176.8792000075337,
+    "usage": {
+      "prompt_tokens": 783,
+      "completion_tokens": 51,
+      "total_tokens": 834,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 783
+    }
+  },
+  {
+    "key": "41287e64a64a453c042d865efd655f6d687621e780be60968de6b134662efbcb",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1078.4138000162784,
+    "usage": {
+      "prompt_tokens": 394,
+      "completion_tokens": 53,
+      "total_tokens": 447,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 394
+    }
+  },
+  {
+    "key": "6b11b463e3358ebb38340787c8959dbaf0ff385a2eb60ce5ec2080a35a33eeaf",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1170.0894000241533,
+    "usage": {
+      "prompt_tokens": 550,
+      "completion_tokens": 35,
+      "total_tokens": 585,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 422
+    }
+  },
+  {
+    "key": "4cc314c91bf7bfb4c486ad73c46ce8a0a51b57d43943fac956ff48be0c0ebcfc",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1222.799600014696,
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 126,
+      "total_tokens": 1762,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1124
+    }
+  },
+  {
+    "key": "0584bd8a50b11d3966a784f1a99eaa7700d714fe8c385c6e06db165e1af88c79",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1593.357500009006,
+    "usage": {
+      "prompt_tokens": 1112,
+      "completion_tokens": 271,
+      "total_tokens": 1383,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1112
+    }
+  },
+  {
+    "key": "87b268d1ae86ea3d25d9543afb98267d4a93b1755575e7495953562e16f4369a",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1017.3569000035059,
+    "usage": {
+      "prompt_tokens": 1102,
+      "completion_tokens": 93,
+      "total_tokens": 1195,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 846
+    }
+  },
+  {
+    "key": "95aa9c034aba30ad9401bbe32430a9752f0b680040b8e5b44cc2b6969da3f75f",
+    "cache_hit": true,
+    "provider_elapsed_ms": 849.4417000038084,
+    "usage": {
+      "prompt_tokens": 1044,
+      "completion_tokens": 26,
+      "total_tokens": 1070,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1044
+    }
+  },
+  {
+    "key": "31c44c1541c9d165f490eb3efac7fc9b4a8d0eca36223d4dfa9e2753a47b3ddc",
+    "cache_hit": true,
+    "provider_elapsed_ms": 932.1716999984346,
+    "usage": {
+      "prompt_tokens": 423,
+      "completion_tokens": 60,
+      "total_tokens": 483,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 423
+    }
+  },
+  {
+    "key": "9f371f8070465dcfffe809fa70ec9e141372a9823e475b0b2d68be242c0208de",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1104.1414000210352,
+    "usage": {
+      "prompt_tokens": 2453,
+      "completion_tokens": 118,
+      "total_tokens": 2571,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1941
+    }
+  },
+  {
+    "key": "121e1921a4d95a55a5596fae5191a56c03daa0b423070c109910eb1200b3a5bb",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1236.680800007889,
+    "usage": {
+      "prompt_tokens": 747,
+      "completion_tokens": 233,
+      "total_tokens": 980,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 747
+    }
+  },
+  {
+    "key": "6c770dce2af347d9b69c94c61292ce783adc95385b46e1f7b8dab142dafd15db",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1239.8490000050515,
+    "usage": {
+      "prompt_tokens": 778,
+      "completion_tokens": 99,
+      "total_tokens": 877,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 522
+    }
+  },
+  {
+    "key": "84c2a8a69c73005e808709977f91b5c5cdd28f139caa9af9a206feb6c68dfea2",
+    "cache_hit": false,
+    "provider_elapsed_ms": 831.7428999871481,
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 42,
+      "total_tokens": 657,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 615
+    }
+  },
+  {
+    "key": "40bde99765b56998fce50fda143af6d076116cabff2534e9f9cf737a5b93c41e",
+    "cache_hit": false,
+    "provider_elapsed_ms": 891.3170000014361,
+    "usage": {
+      "prompt_tokens": 403,
+      "completion_tokens": 54,
+      "total_tokens": 457,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 403
+    }
+  },
+  {
+    "key": "985306c4033b8d305b489d16d55d4ba48e7ab4f9b305d29cf7778a1fd95ed086",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1058.2409999915399,
+    "usage": {
+      "prompt_tokens": 2460,
+      "completion_tokens": 123,
+      "total_tokens": 2583,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1948
+    }
+  },
+  {
+    "key": "a70a4ff3679f9230c336a4aaf076967b65d5201e70772c6cf3452cdaa3e54ca1",
+    "cache_hit": false,
+    "provider_elapsed_ms": 818.8413000025321,
+    "usage": {
+      "prompt_tokens": 402,
+      "completion_tokens": 37,
+      "total_tokens": 439,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 402
+    }
+  },
+  {
+    "key": "cbb5c6f7f26c5decd51b92427b01389fe4cd821555ea7e291c74f76050f1d4c6",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1184.7762999823317,
+    "usage": {
+      "prompt_tokens": 698,
+      "completion_tokens": 79,
+      "total_tokens": 777,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 442
+    }
+  },
+  {
+    "key": "6ccbb6f26a4ed84f06a38888463c865ccccffeaf3d8129e25e32e3dba2fc1d1c",
+    "cache_hit": false,
+    "provider_elapsed_ms": 860.681599995587,
+    "usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 40,
+      "total_tokens": 487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 447
+    }
+  },
+  {
+    "key": "30d823118d17202a7263c0bf26d384dc47f5dc493c6b9f018f9578ddd92f125e",
+    "cache_hit": false,
+    "provider_elapsed_ms": 836.1197000194807,
+    "usage": {
+      "prompt_tokens": 352,
+      "completion_tokens": 48,
+      "total_tokens": 400,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 352
+    }
+  },
+  {
+    "key": "bb202d05c71100b131cf3983d6b51464558afcdc155a03a7bb40311b94c885bb",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1085.9477999911178,
+    "usage": {
+      "prompt_tokens": 2449,
+      "completion_tokens": 130,
+      "total_tokens": 2579,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1937
+    }
+  },
+  {
+    "key": "c248d677a22a36a81897e3debe81ef6811818dd7c53fd6e5c0b6972bae700be9",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1169.8310000065248,
+    "usage": {
+      "prompt_tokens": 1632,
+      "completion_tokens": 118,
+      "total_tokens": 1750,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1120
+    }
+  },
+  {
+    "key": "121e1921a4d95a55a5596fae5191a56c03daa0b423070c109910eb1200b3a5bb",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1236.680800007889,
+    "usage": {
+      "prompt_tokens": 747,
+      "completion_tokens": 233,
+      "total_tokens": 980,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 747
+    }
+  },
+  {
+    "key": "6c770dce2af347d9b69c94c61292ce783adc95385b46e1f7b8dab142dafd15db",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1239.8490000050515,
+    "usage": {
+      "prompt_tokens": 778,
+      "completion_tokens": 99,
+      "total_tokens": 877,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 522
+    }
+  },
+  {
+    "key": "84c2a8a69c73005e808709977f91b5c5cdd28f139caa9af9a206feb6c68dfea2",
+    "cache_hit": true,
+    "provider_elapsed_ms": 831.7428999871481,
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 42,
+      "total_tokens": 657,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 615
+    }
+  },
+  {
+    "key": "40bde99765b56998fce50fda143af6d076116cabff2534e9f9cf737a5b93c41e",
+    "cache_hit": true,
+    "provider_elapsed_ms": 891.3170000014361,
+    "usage": {
+      "prompt_tokens": 403,
+      "completion_tokens": 54,
+      "total_tokens": 457,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 403
+    }
+  },
+  {
+    "key": "4ce6333706db3b2bd08793af46401b47cffb7de223c049cf80dc501d133473ec",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1193.769000004977,
+    "usage": {
+      "prompt_tokens": 1347,
+      "completion_tokens": 120,
+      "total_tokens": 1467,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 835
+    }
+  },
+  {
+    "key": "a70a4ff3679f9230c336a4aaf076967b65d5201e70772c6cf3452cdaa3e54ca1",
+    "cache_hit": true,
+    "provider_elapsed_ms": 818.8413000025321,
+    "usage": {
+      "prompt_tokens": 402,
+      "completion_tokens": 37,
+      "total_tokens": 439,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 402
+    }
+  },
+  {
+    "key": "cbb5c6f7f26c5decd51b92427b01389fe4cd821555ea7e291c74f76050f1d4c6",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1184.7762999823317,
+    "usage": {
+      "prompt_tokens": 698,
+      "completion_tokens": 79,
+      "total_tokens": 777,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 442
+    }
+  },
+  {
+    "key": "6ccbb6f26a4ed84f06a38888463c865ccccffeaf3d8129e25e32e3dba2fc1d1c",
+    "cache_hit": true,
+    "provider_elapsed_ms": 860.681599995587,
+    "usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 40,
+      "total_tokens": 487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 447
+    }
+  },
+  {
+    "key": "30d823118d17202a7263c0bf26d384dc47f5dc493c6b9f018f9578ddd92f125e",
+    "cache_hit": true,
+    "provider_elapsed_ms": 836.1197000194807,
+    "usage": {
+      "prompt_tokens": 352,
+      "completion_tokens": 48,
+      "total_tokens": 400,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 352
+    }
+  },
+  {
+    "key": "8736c27e84fcca7e93aecd0bac6f57f263513998154e4dae4e459bbcf3aa273c",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1012.1945000137202,
+    "usage": {
+      "prompt_tokens": 494,
+      "completion_tokens": 36,
+      "total_tokens": 530,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 494
+    }
+  },
+  {
+    "key": "4f224618b451572dc25bc76333713199664630c91a14e316030fccf843e25230",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1321.3967999909073,
+    "usage": {
+      "prompt_tokens": 1345,
+      "completion_tokens": 120,
+      "total_tokens": 1465,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 833
+    }
+  },
+  {
+    "key": "9b54d1b130967c09db220438001a0780ecfe7a11c2e2d7bd457eac5c507d3886",
+    "cache_hit": false,
+    "provider_elapsed_ms": 919.0467000007629,
+    "usage": {
+      "prompt_tokens": 400,
+      "completion_tokens": 66,
+      "total_tokens": 466,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 400
+    }
+  },
+  {
+    "key": "be565fb8ce7fca3c1289cadc976ecaf612d0532fbc3cb3350e6f4b5bf2796f5f",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1356.708199979039,
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 92,
+      "total_tokens": 788,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 440
+    }
+  },
+  {
+    "key": "69282b4b2acb28d297233f7a60b5b28b12df7196b451fe44f29e1c5711f9b885",
+    "cache_hit": false,
+    "provider_elapsed_ms": 1122.8178000019398,
+    "usage": {
+      "prompt_tokens": 445,
+      "completion_tokens": 53,
+      "total_tokens": 498,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 445
+    }
+  },
+  {
+    "key": "d50e6fa0868a7f443e7153ab59a9a5f8aad46f6eefcfcd431a973db1a4ce84a5",
+    "cache_hit": false,
+    "provider_elapsed_ms": 965.8324999909382,
+    "usage": {
+      "prompt_tokens": 359,
+      "completion_tokens": 50,
+      "total_tokens": 409,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 359
+    }
+  },
+  {
+    "key": "c248d677a22a36a81897e3debe81ef6811818dd7c53fd6e5c0b6972bae700be9",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1169.8310000065248,
+    "usage": {
+      "prompt_tokens": 1632,
+      "completion_tokens": 118,
+      "total_tokens": 1750,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 1120
+    }
+  },
+  {
+    "key": "121e1921a4d95a55a5596fae5191a56c03daa0b423070c109910eb1200b3a5bb",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1236.680800007889,
+    "usage": {
+      "prompt_tokens": 747,
+      "completion_tokens": 233,
+      "total_tokens": 980,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 747
+    }
+  },
+  {
+    "key": "6c770dce2af347d9b69c94c61292ce783adc95385b46e1f7b8dab142dafd15db",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1239.8490000050515,
+    "usage": {
+      "prompt_tokens": 778,
+      "completion_tokens": 99,
+      "total_tokens": 877,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 522
+    }
+  },
+  {
+    "key": "84c2a8a69c73005e808709977f91b5c5cdd28f139caa9af9a206feb6c68dfea2",
+    "cache_hit": true,
+    "provider_elapsed_ms": 831.7428999871481,
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 42,
+      "total_tokens": 657,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 615
+    }
+  },
+  {
+    "key": "40bde99765b56998fce50fda143af6d076116cabff2534e9f9cf737a5b93c41e",
+    "cache_hit": true,
+    "provider_elapsed_ms": 891.3170000014361,
+    "usage": {
+      "prompt_tokens": 403,
+      "completion_tokens": 54,
+      "total_tokens": 457,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 403
+    }
+  },
+  {
+    "key": "4ce6333706db3b2bd08793af46401b47cffb7de223c049cf80dc501d133473ec",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1193.769000004977,
+    "usage": {
+      "prompt_tokens": 1347,
+      "completion_tokens": 120,
+      "total_tokens": 1467,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 835
+    }
+  },
+  {
+    "key": "a70a4ff3679f9230c336a4aaf076967b65d5201e70772c6cf3452cdaa3e54ca1",
+    "cache_hit": true,
+    "provider_elapsed_ms": 818.8413000025321,
+    "usage": {
+      "prompt_tokens": 402,
+      "completion_tokens": 37,
+      "total_tokens": 439,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 402
+    }
+  },
+  {
+    "key": "cbb5c6f7f26c5decd51b92427b01389fe4cd821555ea7e291c74f76050f1d4c6",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1184.7762999823317,
+    "usage": {
+      "prompt_tokens": 698,
+      "completion_tokens": 79,
+      "total_tokens": 777,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 442
+    }
+  },
+  {
+    "key": "6ccbb6f26a4ed84f06a38888463c865ccccffeaf3d8129e25e32e3dba2fc1d1c",
+    "cache_hit": true,
+    "provider_elapsed_ms": 860.681599995587,
+    "usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 40,
+      "total_tokens": 487,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 447
+    }
+  },
+  {
+    "key": "30d823118d17202a7263c0bf26d384dc47f5dc493c6b9f018f9578ddd92f125e",
+    "cache_hit": true,
+    "provider_elapsed_ms": 836.1197000194807,
+    "usage": {
+      "prompt_tokens": 352,
+      "completion_tokens": 48,
+      "total_tokens": 400,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 352
+    }
+  },
+  {
+    "key": "0f1c3b33fddb6a9a58b4d6a80515c654651da8b9cf401b855799e708de93d9b5",
+    "cache_hit": false,
+    "provider_elapsed_ms": 851.8444999936037,
+    "usage": {
+      "prompt_tokens": 523,
+      "completion_tokens": 36,
+      "total_tokens": 559,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 523
+    }
+  },
+  {
+    "key": "4f224618b451572dc25bc76333713199664630c91a14e316030fccf843e25230",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1321.3967999909073,
+    "usage": {
+      "prompt_tokens": 1345,
+      "completion_tokens": 120,
+      "total_tokens": 1465,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 833
+    }
+  },
+  {
+    "key": "9b54d1b130967c09db220438001a0780ecfe7a11c2e2d7bd457eac5c507d3886",
+    "cache_hit": true,
+    "provider_elapsed_ms": 919.0467000007629,
+    "usage": {
+      "prompt_tokens": 400,
+      "completion_tokens": 66,
+      "total_tokens": 466,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 400
+    }
+  },
+  {
+    "key": "be565fb8ce7fca3c1289cadc976ecaf612d0532fbc3cb3350e6f4b5bf2796f5f",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1356.708199979039,
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 92,
+      "total_tokens": 788,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 440
+    }
+  },
+  {
+    "key": "69282b4b2acb28d297233f7a60b5b28b12df7196b451fe44f29e1c5711f9b885",
+    "cache_hit": true,
+    "provider_elapsed_ms": 1122.8178000019398,
+    "usage": {
+      "prompt_tokens": 445,
+      "completion_tokens": 53,
+      "total_tokens": 498,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 445
+    }
+  },
+  {
+    "key": "d50e6fa0868a7f443e7153ab59a9a5f8aad46f6eefcfcd431a973db1a4ce84a5",
+    "cache_hit": true,
+    "provider_elapsed_ms": 965.8324999909382,
+    "usage": {
+      "prompt_tokens": 359,
+      "completion_tokens": 50,
+      "total_tokens": 409,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 359
+    }
+  }
+]

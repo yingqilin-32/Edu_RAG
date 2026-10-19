@@ -1,0 +1,49 @@
+{
+  "input_sha256": "04008bba382d2d0819e3a56a42540b30fa4ed495f6e1a7306e7a903fff581fc4",
+  "references_sha256": "cbbaad6e5e27ecbee422517135e36e73a8b51ff356fa95114de213bfb6ecfa9c",
+  "samples_sha256": "093268808dd2d0b70e094d6c351a355e8bca9cb7f527f67434d6cac1213a26d9",
+  "sample_rows": 6,
+  "case_ids": [
+    "complex-17",
+    "pos-01"
+  ],
+  "context_stage": "final generation contexts only, exact source.content in original order",
+  "adapter": "deepseek-json-schema-v1",
+  "metrics": [
+    "faithfulness",
+    "factual_correctness",
+    "context_precision",
+    "context_recall",
+    "answer_accuracy"
+  ],
+  "metric_parameters": {
+    "factual_correctness": {
+      "mode": "f1",
+      "atomicity": "low",
+      "coverage": "low"
+    },
+    "answer_accuracy": {
+      "max_retries": 1
+    }
+  },
+  "known_ambiguities": {
+    "complex-07": "剩几本书 can mean inventory after borrowing or unpacked remainder. Preserve the original question and report this case separately; do not silently relabel it."
+  },
+  "identity": {
+    "ragas": "0.4.3",
+    "adapter": "deepseek-json-schema-v1",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "metric_parameters": {
+      "factual_correctness": {
+        "mode": "f1",
+        "atomicity": "low",
+        "coverage": "low"
+      },
+      "answer_accuracy": {
+        "max_retries": 1
+      }
+    }
+  },
+  "evaluation_started_at": "2026-10-19T15:58:40.120635+00:00"
+}

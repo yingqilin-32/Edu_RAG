@@ -1,0 +1,5041 @@
+{
+  "health": {
+    "status": "ok",
+    "version": "0.6.0",
+    "stage": "V6"
+  },
+  "all_passed": true,
+  "checks": [
+    {
+      "mode": "structured",
+      "turn": 1,
+      "status": "answered",
+      "passed": true,
+      "elapsed_ms": 27498.412300017662,
+      "response": {
+        "question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "embedding_model": "BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181:dense-l2-fp32:maxlen=512",
+        "sources": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "ready",
+          "message": "",
+          "intent": "problem_solving",
+          "search_text": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "raw_intent": "problem_solving",
+          "intent_guard_applied": false,
+          "needs_clarification": false,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": "solve",
+          "content_kind": "all",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": 3,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": "math",
+            "curriculum": null
+          },
+          "extracted_filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 2457,
+            "completion_tokens": 115,
+            "total_tokens": 2572
+          },
+          "model": "deepseek-flash",
+          "topic_filter": [
+            {
+              "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "title": "长方形的周长"
+            }
+          ]
+        },
+        "exercises": [],
+        "presentation": "context",
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "bm25_k1": 1.2,
+          "bm25_b": 0.75,
+          "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+          "scanned_candidates": 4,
+          "candidate_lists": {
+            "dense": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 0.878348775008408,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 2,
+                "score": 0.706400776672456,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 3,
+                "score": 0.692204713821416,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 4,
+                "score": 0.668547630310063,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              }
+            ],
+            "bm25": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 5.375186849501275,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 2,
+                "score": 3.7855766561989372,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 3,
+                "score": 2.696383817411161,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 4,
+                "score": 2.4716612020956426,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              }
+            ]
+          },
+          "timing_ms": {
+            "planning": 0.055,
+            "embedding": 18444.55,
+            "database": 514.382,
+            "ranking": 1.041,
+            "total": 18960.028
+          }
+        },
+        "answer": "周长 =（长 + 宽）× 2 =（8 + 3）× 2 = 22（厘米）。[C1][C2]\n\n答：这个长方形的周长是 22 厘米。",
+        "status": "answered",
+        "citations": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5127,
+          "completion_tokens": 528,
+          "total_tokens": 5655
+        },
+        "workflow": {
+          "trace_id": "8f750c13-7f25-45c5-829a-17b509b6cbef",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:11.214220+00:00",
+          "decision": "answer",
+          "status": "answered",
+          "reason": "草稿正确使用长方形周长公式，代入长8厘米、宽3厘米计算得22厘米，单位正确；C1和C2均明确支持该公式与计算结果，并回答了求周长的要求。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 1,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 3411.322,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "retrieve",
+              "attempt": 0,
+              "elapsed_ms": 18960.258,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "select_context",
+              "attempt": 0,
+              "elapsed_ms": 1929.636,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "gate",
+              "attempt": 0,
+              "elapsed_ms": 1130.682,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。"
+            },
+            {
+              "node": "generate",
+              "attempt": 0,
+              "elapsed_ms": 966.796,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。"
+            },
+            {
+              "node": "verify",
+              "attempt": 0,
+              "elapsed_ms": 1013.432,
+              "decision": "answer",
+              "reason": "草稿正确使用长方形周长公式，代入长8厘米、宽3厘米计算得22厘米，单位正确；C1和C2均明确支持该公式与计算结果，并回答了求周长的要求。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.045,
+              "decision": "answer",
+              "reason": "草稿正确使用长方形周长公式，代入长8厘米、宽3厘米计算得22厘米，单位正确；C1和C2均明确支持该公式与计算结果，并回答了求周长的要求。"
+            }
+          ],
+          "searches": [
+            {
+              "attempt": 0,
+              "mode": "hybrid",
+              "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+              "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+              "effective_scope": {
+                "course_id": null,
+                "grade": 3,
+                "textbook_edition": null,
+                "semester": null,
+                "subject": "math",
+                "curriculum": null
+              },
+              "filters": {
+                "grade": 3,
+                "subject": "math",
+                "knowledge_point": "长方形的周长"
+              },
+              "source_references": [
+                {
+                  "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                  "citation": "C1",
+                  "source_title": "V1-RECTANGLE-PERIMETER-001",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "citation": "C2",
+                  "source_title": "长方形的周长 · 原创知识卡",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "citation": "C3",
+                  "source_title": "V1-RECTANGLE-PERIMETER-002",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "bf89e10b-72ff-5127-a141-50cd47d795b8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                  "citation": "C4",
+                  "source_title": "V1-RECTANGLE-PERIMETER-003",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "08a9a756-f8d7-5f04-9ddc-24a1a4ed7f0f",
+                  "chunk_index": 0
+                }
+              ],
+              "retrieval": {
+                "mode": "hybrid",
+                "candidate_k": 20,
+                "rrf_k": 60,
+                "bm25_k1": 1.2,
+                "bm25_b": 0.75,
+                "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+                "scanned_candidates": 4,
+                "candidate_lists": {
+                  "dense": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 0.878348775008408,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 2,
+                      "score": 0.706400776672456,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 3,
+                      "score": 0.692204713821416,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 4,
+                      "score": 0.668547630310063,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    }
+                  ],
+                  "bm25": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 5.375186849501275,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 2,
+                      "score": 3.7855766561989372,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 3,
+                      "score": 2.696383817411161,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 4,
+                      "score": 2.4716612020956426,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    }
+                  ]
+                },
+                "timing_ms": {
+                  "planning": 0.055,
+                  "embedding": 18444.55,
+                  "database": 514.382,
+                  "ranking": 1.041,
+                  "total": 18960.028
+                }
+              },
+              "context_selection": {
+                "policy": "llm_rerank_filter",
+                "candidate_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "ordered_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "selected_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+                ],
+                "budget": 5,
+                "relevance_threshold": 0.75,
+                "scores": [
+                  {
+                    "citation": "C1",
+                    "score": 1.0,
+                    "quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C2",
+                    "score": 1.0,
+                    "quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C3",
+                    "score": 0.2,
+                    "quote": "长方形长 10 米、宽 6 米，周长是多少米？"
+                  },
+                  {
+                    "citation": "C4",
+                    "score": 0.2,
+                    "quote": "长方形周长 26 厘米，宽 5 厘米，长是多少？"
+                  }
+                ]
+              },
+              "assessment": {
+                "context_policy": "llm_rerank_filter",
+                "gate_enabled": true,
+                "relevance_threshold": 0.75,
+                "coverage_threshold": 1.0,
+                "requirement_coverage": 1.0,
+                "supported_requirements": [
+                  {
+                    "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "能代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "missing_requirements": [],
+                "summary_coverage": null,
+                "selected_sources": 2,
+                "sufficient": true
+              },
+              "evidence_review": {
+                "requirements": [
+                  {
+                    "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "能代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "answerable": true,
+                "needs_clarification": false,
+                "clarification": "",
+                "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。",
+                "gap_type": "none"
+              }
+            }
+          ],
+          "assessment": {
+            "context_policy": "llm_rerank_filter",
+            "gate_enabled": true,
+            "relevance_threshold": 0.75,
+            "coverage_threshold": 1.0,
+            "requirement_coverage": 1.0,
+            "supported_requirements": [
+              {
+                "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              },
+              {
+                "requirement": "能代入长8厘米、宽3厘米计算周长",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              }
+            ],
+            "missing_requirements": [],
+            "summary_coverage": null,
+            "selected_sources": 2,
+            "sufficient": true
+          },
+          "answer_check": {
+            "supported": true,
+            "addresses_question": true,
+            "citations_valid": true,
+            "reason": "草稿正确使用长方形周长公式，代入长8厘米、宽3厘米计算得22厘米，单位正确；C1和C2均明确支持该公式与计算结果，并回答了求周长的要求。"
+          },
+          "calls": [
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 2457,
+                "completion_tokens": 115,
+                "total_tokens": 2572
+              }
+            },
+            {
+              "stage": "rerank",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 786,
+                "completion_tokens": 196,
+                "total_tokens": 982
+              }
+            },
+            {
+              "stage": "gate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 808,
+                "completion_tokens": 108,
+                "total_tokens": 916
+              }
+            },
+            {
+              "stage": "generate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 645,
+                "completion_tokens": 44,
+                "total_tokens": 689
+              }
+            },
+            {
+              "stage": "verify",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 431,
+                "completion_tokens": 65,
+                "total_tokens": 496
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 5127,
+            "completion_tokens": 528,
+            "total_tokens": 5655
+          },
+          "error": null,
+          "elapsed_ms": 27422.073,
+          "citation_sources": [
+            {
+              "id": "a167c339-0037-594a-a455-5a55b29edf66",
+              "citation": "C1",
+              "source_title": "V1-RECTANGLE-PERIMETER-001",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+              "chunk_index": 0
+            },
+            {
+              "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+              "citation": "C2",
+              "source_title": "长方形的周长 · 原创知识卡",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+              "chunk_index": 0
+            }
+          ],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 5,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 5655,
+            "actual_total_tokens": 5655,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 2457,
+                  "completion_tokens": 115,
+                  "total_tokens": 2572,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2304
+                  },
+                  "prompt_cache_hit_tokens": 2304,
+                  "prompt_cache_miss_tokens": 153
+                },
+                "status": "ok",
+                "input_and_output_estimate": 9819,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1216.349
+              },
+              {
+                "stage": "rerank",
+                "usage": {
+                  "prompt_tokens": 786,
+                  "completion_tokens": 196,
+                  "total_tokens": 982,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 146
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5522,
+                "output_cap": 2500,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1920.61
+              },
+              {
+                "stage": "gate",
+                "usage": {
+                  "prompt_tokens": 808,
+                  "completion_tokens": 108,
+                  "total_tokens": 916,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 168
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5539,
+                "output_cap": 1800,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1129.38
+              },
+              {
+                "stage": "generate",
+                "usage": {
+                  "prompt_tokens": 645,
+                  "completion_tokens": 44,
+                  "total_tokens": 689,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 511
+                  },
+                  "prompt_cache_hit_tokens": 511,
+                  "prompt_cache_miss_tokens": 134
+                },
+                "status": "ok",
+                "input_and_output_estimate": 3897,
+                "output_cap": 1024,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 966.488
+              },
+              {
+                "stage": "verify",
+                "usage": {
+                  "prompt_tokens": 431,
+                  "completion_tokens": 65,
+                  "total_tokens": 496,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 431
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2615,
+                "output_cap": 700,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1013.24
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "answered",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "structured",
+            "history_turns": 0,
+            "retained_tasks": 0,
+            "context_characters": 146,
+            "full_history_characters": 0,
+            "resolution_used": false,
+            "previous_pending": false,
+            "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+            "inherited_scope": {
+              "course_id": null,
+              "grade": null,
+              "textbook_edition": null,
+              "semester": null,
+              "subject": null,
+              "curriculum": null
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "structured",
+          "history_turns": 0,
+          "retained_tasks": 0,
+          "context_characters": 146,
+          "full_history_characters": 0,
+          "resolution_used": false,
+          "previous_pending": false,
+          "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "inherited_scope": {
+            "course_id": null,
+            "grade": null,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": null,
+            "curriculum": null
+          },
+          "session_id": "69c6bafa-80a4-478c-aae5-b806954e2a21",
+          "turn": 1,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "mode": "structured",
+      "turn": 2,
+      "status": "answered",
+      "passed": true,
+      "elapsed_ms": 8877.78320000507,
+      "response": {
+        "question": "那面积呢？",
+        "embedding_model": "BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181:dense-l2-fp32:maxlen=512",
+        "sources": [
+          {
+            "id": "50000000-0000-4000-8000-000000000003",
+            "content": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "40000000-0000-4000-8000-000000000001",
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true
+            },
+            "similarity": 0.867481529712677,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "DEMO-AREA-001",
+            "source_uri": "",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": "DEMO-AREA-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 2,
+            "bm25_score": 6.765622553689764,
+            "rrf_score": 0.03252247488101534,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+          },
+          {
+            "id": "50000000-0000-4000-8000-000000000001",
+            "content": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "30000000-0000-4000-8000-000000000001",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true,
+              "heading": "长方形的面积"
+            },
+            "similarity": 0.694932025368932,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "数学演示知识卡片",
+            "source_uri": "data/samples/math_g3.md",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 1,
+            "bm25_score": 8.262335215773714,
+            "rrf_score": 0.032266458495966696,
+            "citation": "C2",
+            "evidence_score": 0.95,
+            "evidence_quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+          },
+          {
+            "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+            "content": "# 长方形的面积\n\n面积表示平面图形内部的大小。长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米；长、宽用米时，面积用平方米。例如长 9 厘米、宽 4 厘米，面积是 9×4=36 平方厘米。已知面积和宽，长 = 面积÷宽。面积计算与周长计算不同：周长求边线总长，面积求内部大小。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "1964c760-612e-5677-81ba-2681a74f4d99",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "2427376c9f04a8cd8f5dab57d12d379ea7243314b6ca4914846db5d8c7776990",
+              "token_count": 121,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "2427376c9f04a8cd8f5dab57d12d379ea7243314b6ca4914846db5d8c7776990",
+              "content_sha256": "7ab5ea2b86c07a093b4745db07292ee67c5eb9895e7c6cecb9ebfc4abd8e1a19",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.634146985484393,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的面积 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-area",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 5,
+            "bm25_rank": 4,
+            "bm25_score": 4.104556181157915,
+            "rrf_score": 0.031009615384615385,
+            "citation": "C4",
+            "evidence_score": 0.75,
+            "evidence_quote": "长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米"
+          }
+        ],
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "ready",
+          "message": "",
+          "intent": "problem_solving",
+          "search_text": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的面积"
+          },
+          "raw_intent": "problem_solving",
+          "intent_guard_applied": false,
+          "needs_clarification": false,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": "solve",
+          "content_kind": "all",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": 3,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": "math",
+            "curriculum": null
+          },
+          "extracted_filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的面积"
+          },
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 1636,
+            "completion_tokens": 115,
+            "total_tokens": 1751
+          },
+          "model": "deepseek-flash",
+          "topic_filter": [
+            {
+              "id": "20000000-0000-4000-8000-000000000001",
+              "title": "长方形的面积"
+            }
+          ]
+        },
+        "exercises": [],
+        "presentation": "context",
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "bm25_k1": 1.2,
+          "bm25_b": 0.75,
+          "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+          "scanned_candidates": 7,
+          "candidate_lists": {
+            "dense": [
+              {
+                "id": "50000000-0000-4000-8000-000000000003",
+                "rank": 1,
+                "score": 0.867481529712677,
+                "title": "DEMO-AREA-001"
+              },
+              {
+                "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                "rank": 2,
+                "score": 0.733202131604899,
+                "title": "V1-RECTANGLE-AREA-001"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000001",
+                "rank": 3,
+                "score": 0.694932025368932,
+                "title": "数学演示知识卡片"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000004",
+                "rank": 4,
+                "score": 0.636167466640472,
+                "title": "DEMO-AREA-002"
+              },
+              {
+                "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                "rank": 5,
+                "score": 0.634146985484393,
+                "title": "长方形的面积 · 原创知识卡"
+              },
+              {
+                "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                "rank": 6,
+                "score": 0.623248137429247,
+                "title": "V1-RECTANGLE-AREA-003"
+              },
+              {
+                "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                "rank": 7,
+                "score": 0.610791921615601,
+                "title": "V1-RECTANGLE-AREA-002"
+              }
+            ],
+            "bm25": [
+              {
+                "id": "50000000-0000-4000-8000-000000000001",
+                "rank": 1,
+                "score": 8.262335215773714,
+                "title": "数学演示知识卡片"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000003",
+                "rank": 2,
+                "score": 6.765622553689764,
+                "title": "DEMO-AREA-001"
+              },
+              {
+                "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                "rank": 3,
+                "score": 4.439832884595594,
+                "title": "V1-RECTANGLE-AREA-001"
+              },
+              {
+                "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                "rank": 4,
+                "score": 4.104556181157915,
+                "title": "长方形的面积 · 原创知识卡"
+              },
+              {
+                "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                "rank": 5,
+                "score": 1.9983777922434258,
+                "title": "V1-RECTANGLE-AREA-003"
+              },
+              {
+                "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                "rank": 6,
+                "score": 1.0537354919935704,
+                "title": "V1-RECTANGLE-AREA-002"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000004",
+                "rank": 7,
+                "score": 1.020362481690981,
+                "title": "DEMO-AREA-002"
+              }
+            ]
+          },
+          "timing_ms": {
+            "planning": 0.058,
+            "embedding": 354.464,
+            "database": 326.506,
+            "ranking": 0.973,
+            "total": 682.002
+          }
+        },
+        "answer": "长方形面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米，所以面积是 **24 平方厘米**。[C1][C2]",
+        "status": "answered",
+        "citations": [
+          {
+            "id": "50000000-0000-4000-8000-000000000003",
+            "content": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "40000000-0000-4000-8000-000000000001",
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true
+            },
+            "similarity": 0.867481529712677,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "DEMO-AREA-001",
+            "source_uri": "",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": "DEMO-AREA-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 2,
+            "bm25_score": 6.765622553689764,
+            "rrf_score": 0.03252247488101534,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+          },
+          {
+            "id": "50000000-0000-4000-8000-000000000001",
+            "content": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "30000000-0000-4000-8000-000000000001",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true,
+              "heading": "长方形的面积"
+            },
+            "similarity": 0.694932025368932,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "数学演示知识卡片",
+            "source_uri": "data/samples/math_g3.md",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 1,
+            "bm25_score": 8.262335215773714,
+            "rrf_score": 0.032266458495966696,
+            "citation": "C2",
+            "evidence_score": 0.95,
+            "evidence_quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+          }
+        ],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5226,
+          "completion_tokens": 788,
+          "total_tokens": 6014
+        },
+        "workflow": {
+          "trace_id": "68216ca9-470d-4ae5-83b9-21360560bf79",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:20.091725+00:00",
+          "decision": "answer",
+          "status": "answered",
+          "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了求面积的问题。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 1,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 3047.959,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "retrieve",
+              "attempt": 0,
+              "elapsed_ms": 682.257,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "select_context",
+              "attempt": 0,
+              "elapsed_ms": 2025.396,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "gate",
+              "attempt": 0,
+              "elapsed_ms": 1230.134,
+              "decision": "answer",
+              "reason": "资料给出长方形面积公式及单位规则，题干已给出长8厘米、宽3厘米，可直接计算得24平方厘米。"
+            },
+            {
+              "node": "generate",
+              "attempt": 0,
+              "elapsed_ms": 859.061,
+              "decision": "answer",
+              "reason": "资料给出长方形面积公式及单位规则，题干已给出长8厘米、宽3厘米，可直接计算得24平方厘米。"
+            },
+            {
+              "node": "verify",
+              "attempt": 0,
+              "elapsed_ms": 979.702,
+              "decision": "answer",
+              "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了求面积的问题。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.047,
+              "decision": "answer",
+              "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了求面积的问题。"
+            }
+          ],
+          "searches": [
+            {
+              "attempt": 0,
+              "mode": "hybrid",
+              "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+              "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+              "effective_scope": {
+                "course_id": null,
+                "grade": 3,
+                "textbook_edition": null,
+                "semester": null,
+                "subject": "math",
+                "curriculum": null
+              },
+              "filters": {
+                "grade": 3,
+                "subject": "math",
+                "knowledge_point": "长方形的面积"
+              },
+              "source_references": [
+                {
+                  "id": "50000000-0000-4000-8000-000000000003",
+                  "citation": "C1",
+                  "source_title": "DEMO-AREA-001",
+                  "source_uri": "",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "40000000-0000-4000-8000-000000000001",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "50000000-0000-4000-8000-000000000001",
+                  "citation": "C2",
+                  "source_title": "数学演示知识卡片",
+                  "source_uri": "data/samples/math_g3.md",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "document_id": "30000000-0000-4000-8000-000000000001",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "citation": "C3",
+                  "source_title": "V1-RECTANGLE-AREA-001",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "663bf276-b47e-5f73-a347-9e82937bacda",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "citation": "C4",
+                  "source_title": "长方形的面积 · 原创知识卡",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "document_id": "1964c760-612e-5677-81ba-2681a74f4d99",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "50000000-0000-4000-8000-000000000004",
+                  "citation": "C5",
+                  "source_title": "DEMO-AREA-002",
+                  "source_uri": "",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "40000000-0000-4000-8000-000000000002",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                  "citation": "C6",
+                  "source_title": "V1-RECTANGLE-AREA-003",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "27b6b57f-b852-5376-9895-5e8b31f87192",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                  "citation": "C7",
+                  "source_title": "V1-RECTANGLE-AREA-002",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "84ee0713-37e5-58af-9629-19b4558100a4",
+                  "chunk_index": 0
+                }
+              ],
+              "retrieval": {
+                "mode": "hybrid",
+                "candidate_k": 20,
+                "rrf_k": 60,
+                "bm25_k1": 1.2,
+                "bm25_b": 0.75,
+                "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+                "scanned_candidates": 7,
+                "candidate_lists": {
+                  "dense": [
+                    {
+                      "id": "50000000-0000-4000-8000-000000000003",
+                      "rank": 1,
+                      "score": 0.867481529712677,
+                      "title": "DEMO-AREA-001"
+                    },
+                    {
+                      "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                      "rank": 2,
+                      "score": 0.733202131604899,
+                      "title": "V1-RECTANGLE-AREA-001"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000001",
+                      "rank": 3,
+                      "score": 0.694932025368932,
+                      "title": "数学演示知识卡片"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000004",
+                      "rank": 4,
+                      "score": 0.636167466640472,
+                      "title": "DEMO-AREA-002"
+                    },
+                    {
+                      "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                      "rank": 5,
+                      "score": 0.634146985484393,
+                      "title": "长方形的面积 · 原创知识卡"
+                    },
+                    {
+                      "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                      "rank": 6,
+                      "score": 0.623248137429247,
+                      "title": "V1-RECTANGLE-AREA-003"
+                    },
+                    {
+                      "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                      "rank": 7,
+                      "score": 0.610791921615601,
+                      "title": "V1-RECTANGLE-AREA-002"
+                    }
+                  ],
+                  "bm25": [
+                    {
+                      "id": "50000000-0000-4000-8000-000000000001",
+                      "rank": 1,
+                      "score": 8.262335215773714,
+                      "title": "数学演示知识卡片"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000003",
+                      "rank": 2,
+                      "score": 6.765622553689764,
+                      "title": "DEMO-AREA-001"
+                    },
+                    {
+                      "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                      "rank": 3,
+                      "score": 4.439832884595594,
+                      "title": "V1-RECTANGLE-AREA-001"
+                    },
+                    {
+                      "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                      "rank": 4,
+                      "score": 4.104556181157915,
+                      "title": "长方形的面积 · 原创知识卡"
+                    },
+                    {
+                      "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                      "rank": 5,
+                      "score": 1.9983777922434258,
+                      "title": "V1-RECTANGLE-AREA-003"
+                    },
+                    {
+                      "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                      "rank": 6,
+                      "score": 1.0537354919935704,
+                      "title": "V1-RECTANGLE-AREA-002"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000004",
+                      "rank": 7,
+                      "score": 1.020362481690981,
+                      "title": "DEMO-AREA-002"
+                    }
+                  ]
+                },
+                "timing_ms": {
+                  "planning": 0.058,
+                  "embedding": 354.464,
+                  "database": 326.506,
+                  "ranking": 0.973,
+                  "total": 682.002
+                }
+              },
+              "context_selection": {
+                "policy": "llm_rerank_filter",
+                "candidate_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "50000000-0000-4000-8000-000000000004",
+                  "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                  "165885e8-0d72-5976-87fd-d124d947331e"
+                ],
+                "ordered_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                  "50000000-0000-4000-8000-000000000004",
+                  "165885e8-0d72-5976-87fd-d124d947331e"
+                ],
+                "selected_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d"
+                ],
+                "budget": 5,
+                "relevance_threshold": 0.75,
+                "scores": [
+                  {
+                    "citation": "C1",
+                    "score": 1.0,
+                    "quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+                  },
+                  {
+                    "citation": "C2",
+                    "score": 0.95,
+                    "quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+                  },
+                  {
+                    "citation": "C4",
+                    "score": 0.75,
+                    "quote": "长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米"
+                  },
+                  {
+                    "citation": "C3",
+                    "score": 0.6,
+                    "quote": "长方形长 9 厘米、宽 4 厘米，面积是多少？\n\n参考答案：36 平方厘米。\n解析：长方形面积=长×宽=9×4=36，单位是平方厘米。"
+                  },
+                  {
+                    "citation": "C6",
+                    "score": 0.5,
+                    "quote": "教室一块长 6 米、宽 3 米的地面，面积是多少？\n\n参考答案：18 平方米。\n解析：用长乘宽：6×3=18，面积单位为平方米。"
+                  },
+                  {
+                    "citation": "C5",
+                    "score": 0.2,
+                    "quote": "一个长方形面积为 35 平方米，宽为 5 米，长是多少？\n\n参考答案：7 米\n解析：长 = 面积 ÷ 宽 = 35 ÷ 5 = 7，长度单位是米。"
+                  },
+                  {
+                    "citation": "C7",
+                    "score": 0.2,
+                    "quote": "长方形面积 48 平方米，宽 6 米，长是多少？\n\n参考答案：8 米。\n解析：长=面积÷宽=48÷6=8 米。"
+                  }
+                ]
+              },
+              "assessment": {
+                "context_policy": "llm_rerank_filter",
+                "gate_enabled": true,
+                "relevance_threshold": 0.75,
+                "coverage_threshold": 1.0,
+                "requirement_coverage": 1.0,
+                "supported_requirements": [
+                  {
+                    "requirement": "使用长方形面积公式：面积=长×宽，并正确使用平方厘米作单位",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  }
+                ],
+                "missing_requirements": [],
+                "summary_coverage": null,
+                "selected_sources": 3,
+                "sufficient": true
+              },
+              "evidence_review": {
+                "requirements": [
+                  {
+                    "requirement": "使用长方形面积公式：面积=长×宽，并正确使用平方厘米作单位",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  }
+                ],
+                "answerable": true,
+                "needs_clarification": false,
+                "clarification": "",
+                "reason": "资料给出长方形面积公式及单位规则，题干已给出长8厘米、宽3厘米，可直接计算得24平方厘米。",
+                "gap_type": "none"
+              }
+            }
+          ],
+          "assessment": {
+            "context_policy": "llm_rerank_filter",
+            "gate_enabled": true,
+            "relevance_threshold": 0.75,
+            "coverage_threshold": 1.0,
+            "requirement_coverage": 1.0,
+            "supported_requirements": [
+              {
+                "requirement": "使用长方形面积公式：面积=长×宽，并正确使用平方厘米作单位",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2",
+                  "C4"
+                ]
+              }
+            ],
+            "missing_requirements": [],
+            "summary_coverage": null,
+            "selected_sources": 3,
+            "sufficient": true
+          },
+          "answer_check": {
+            "supported": true,
+            "addresses_question": true,
+            "citations_valid": true,
+            "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了求面积的问题。"
+          },
+          "calls": [
+            {
+              "stage": "memory_resolve",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 411,
+                "completion_tokens": 35,
+                "total_tokens": 446
+              }
+            },
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 1636,
+                "completion_tokens": 115,
+                "total_tokens": 1751
+              }
+            },
+            {
+              "stage": "rerank",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 1112,
+                "completion_tokens": 442,
+                "total_tokens": 1554
+              }
+            },
+            {
+              "stage": "gate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 905,
+                "completion_tokens": 97,
+                "total_tokens": 1002
+              }
+            },
+            {
+              "stage": "generate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 783,
+                "completion_tokens": 40,
+                "total_tokens": 823
+              }
+            },
+            {
+              "stage": "verify",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 379,
+                "completion_tokens": 59,
+                "total_tokens": 438
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 5226,
+            "completion_tokens": 788,
+            "total_tokens": 6014
+          },
+          "error": null,
+          "elapsed_ms": 8834.198,
+          "citation_sources": [
+            {
+              "id": "50000000-0000-4000-8000-000000000003",
+              "citation": "C1",
+              "source_title": "DEMO-AREA-001",
+              "source_uri": "",
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+              "knowledge_point_title": "长方形的面积",
+              "exercise_id": "40000000-0000-4000-8000-000000000001",
+              "chunk_index": 0
+            },
+            {
+              "id": "50000000-0000-4000-8000-000000000001",
+              "citation": "C2",
+              "source_title": "数学演示知识卡片",
+              "source_uri": "data/samples/math_g3.md",
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+              "knowledge_point_title": "长方形的面积",
+              "document_id": "30000000-0000-4000-8000-000000000001",
+              "chunk_index": 0
+            }
+          ],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 6,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 6014,
+            "actual_total_tokens": 6014,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "memory_resolve",
+                "usage": {
+                  "prompt_tokens": 411,
+                  "completion_tokens": 35,
+                  "total_tokens": 446,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 128
+                  },
+                  "prompt_cache_hit_tokens": 128,
+                  "prompt_cache_miss_tokens": 283
+                },
+                "status": "ok",
+                "input_and_output_estimate": 3161,
+                "output_cap": 1200,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 791.826
+              },
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 1636,
+                  "completion_tokens": 115,
+                  "total_tokens": 1751,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 512
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 1124
+                },
+                "status": "ok",
+                "input_and_output_estimate": 7503,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 973.254
+              },
+              {
+                "stage": "rerank",
+                "usage": {
+                  "prompt_tokens": 1112,
+                  "completion_tokens": 442,
+                  "total_tokens": 1554,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 1112
+                },
+                "status": "ok",
+                "input_and_output_estimate": 6750,
+                "output_cap": 2500,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 2024.464
+              },
+              {
+                "stage": "gate",
+                "usage": {
+                  "prompt_tokens": 905,
+                  "completion_tokens": 97,
+                  "total_tokens": 1002,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 256
+                  },
+                  "prompt_cache_hit_tokens": 256,
+                  "prompt_cache_miss_tokens": 649
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5978,
+                "output_cap": 1800,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1229.564
+              },
+              {
+                "stage": "generate",
+                "usage": {
+                  "prompt_tokens": 783,
+                  "completion_tokens": 40,
+                  "total_tokens": 823,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 783
+                },
+                "status": "ok",
+                "input_and_output_estimate": 4482,
+                "output_cap": 1024,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 858.873
+              },
+              {
+                "stage": "verify",
+                "usage": {
+                  "prompt_tokens": 379,
+                  "completion_tokens": 59,
+                  "total_tokens": 438,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 379
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2496,
+                "output_cap": 700,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 979.411
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "answered",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "structured",
+            "history_turns": 1,
+            "retained_tasks": 1,
+            "context_characters": 386,
+            "full_history_characters": 268,
+            "resolution_used": true,
+            "previous_pending": false,
+            "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+            "inherited_scope": {
+              "grade": 3,
+              "subject": "math"
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "structured",
+          "history_turns": 1,
+          "retained_tasks": 1,
+          "context_characters": 386,
+          "full_history_characters": 268,
+          "resolution_used": true,
+          "previous_pending": false,
+          "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "inherited_scope": {
+            "grade": 3,
+            "subject": "math"
+          },
+          "session_id": "69c6bafa-80a4-478c-aae5-b806954e2a21",
+          "turn": 2,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "mode": "history",
+      "turn": 1,
+      "status": "answered",
+      "passed": true,
+      "elapsed_ms": 7473.0164000066,
+      "response": {
+        "question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "embedding_model": "BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181:dense-l2-fp32:maxlen=512",
+        "sources": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "ready",
+          "message": "",
+          "intent": "problem_solving",
+          "search_text": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "raw_intent": "problem_solving",
+          "intent_guard_applied": false,
+          "needs_clarification": false,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": "solve",
+          "content_kind": "all",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。 长方形 周长",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": 3,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": "math",
+            "curriculum": null
+          },
+          "extracted_filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 2457,
+            "completion_tokens": 119,
+            "total_tokens": 2576
+          },
+          "model": "deepseek-flash",
+          "topic_filter": [
+            {
+              "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "title": "长方形的周长"
+            }
+          ]
+        },
+        "exercises": [],
+        "presentation": "context",
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "bm25_k1": 1.2,
+          "bm25_b": 0.75,
+          "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+          "scanned_candidates": 4,
+          "candidate_lists": {
+            "dense": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 0.878348775008408,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 2,
+                "score": 0.706400776672456,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 3,
+                "score": 0.692204713821416,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 4,
+                "score": 0.668547630310063,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              }
+            ],
+            "bm25": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 5.375186849501275,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 2,
+                "score": 3.7855766561989372,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 3,
+                "score": 2.696383817411161,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 4,
+                "score": 2.4716612020956426,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              }
+            ]
+          },
+          "timing_ms": {
+            "planning": 0.06,
+            "embedding": 297.924,
+            "database": 308.835,
+            "ranking": 0.852,
+            "total": 607.672
+          }
+        },
+        "answer": "长方形周长 = (长 + 宽) × 2 = (8 + 3) × 2 = 22 厘米。[C1][C2]",
+        "status": "answered",
+        "citations": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5114,
+          "completion_tokens": 563,
+          "total_tokens": 5677
+        },
+        "workflow": {
+          "trace_id": "197971c3-d975-4b53-a1a7-0e32a17c0579",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:27.563899+00:00",
+          "decision": "answer",
+          "status": "answered",
+          "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 1,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 2209.998,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "retrieve",
+              "attempt": 0,
+              "elapsed_ms": 607.916,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "select_context",
+              "attempt": 0,
+              "elapsed_ms": 1595.835,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "gate",
+              "attempt": 0,
+              "elapsed_ms": 1242.869,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。"
+            },
+            {
+              "node": "generate",
+              "attempt": 0,
+              "elapsed_ms": 853.608,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。"
+            },
+            {
+              "node": "verify",
+              "attempt": 0,
+              "elapsed_ms": 918.023,
+              "decision": "answer",
+              "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.042,
+              "decision": "answer",
+              "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+            }
+          ],
+          "searches": [
+            {
+              "attempt": 0,
+              "mode": "hybrid",
+              "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+              "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。 长方形 周长",
+              "effective_scope": {
+                "course_id": null,
+                "grade": 3,
+                "textbook_edition": null,
+                "semester": null,
+                "subject": "math",
+                "curriculum": null
+              },
+              "filters": {
+                "grade": 3,
+                "subject": "math",
+                "knowledge_point": "长方形的周长"
+              },
+              "source_references": [
+                {
+                  "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                  "citation": "C1",
+                  "source_title": "V1-RECTANGLE-PERIMETER-001",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "citation": "C2",
+                  "source_title": "长方形的周长 · 原创知识卡",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "citation": "C3",
+                  "source_title": "V1-RECTANGLE-PERIMETER-002",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "bf89e10b-72ff-5127-a141-50cd47d795b8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                  "citation": "C4",
+                  "source_title": "V1-RECTANGLE-PERIMETER-003",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "08a9a756-f8d7-5f04-9ddc-24a1a4ed7f0f",
+                  "chunk_index": 0
+                }
+              ],
+              "retrieval": {
+                "mode": "hybrid",
+                "candidate_k": 20,
+                "rrf_k": 60,
+                "bm25_k1": 1.2,
+                "bm25_b": 0.75,
+                "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+                "scanned_candidates": 4,
+                "candidate_lists": {
+                  "dense": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 0.878348775008408,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 2,
+                      "score": 0.706400776672456,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 3,
+                      "score": 0.692204713821416,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 4,
+                      "score": 0.668547630310063,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    }
+                  ],
+                  "bm25": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 5.375186849501275,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 2,
+                      "score": 3.7855766561989372,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 3,
+                      "score": 2.696383817411161,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 4,
+                      "score": 2.4716612020956426,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    }
+                  ]
+                },
+                "timing_ms": {
+                  "planning": 0.06,
+                  "embedding": 297.924,
+                  "database": 308.835,
+                  "ranking": 0.852,
+                  "total": 607.672
+                }
+              },
+              "context_selection": {
+                "policy": "llm_rerank_filter",
+                "candidate_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "ordered_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "selected_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+                ],
+                "budget": 5,
+                "relevance_threshold": 0.75,
+                "scores": [
+                  {
+                    "citation": "C1",
+                    "score": 1.0,
+                    "quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C2",
+                    "score": 1.0,
+                    "quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C3",
+                    "score": 0.2,
+                    "quote": "长方形长 10 米、宽 6 米，周长是多少米？\n\n参考答案：32 米。\n解析：(10+6)×2=32，周长为 32 米。"
+                  },
+                  {
+                    "citation": "C4",
+                    "score": 0.2,
+                    "quote": "长方形周长 26 厘米，宽 5 厘米，长是多少？\n\n参考答案：8 厘米。\n解析：长与宽的和是 26÷2=13 厘米，长=13-5=8 厘米。"
+                  }
+                ]
+              },
+              "assessment": {
+                "context_policy": "llm_rerank_filter",
+                "gate_enabled": true,
+                "relevance_threshold": 0.75,
+                "coverage_threshold": 1.0,
+                "requirement_coverage": 1.0,
+                "supported_requirements": [
+                  {
+                    "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "能代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "missing_requirements": [],
+                "summary_coverage": null,
+                "selected_sources": 2,
+                "sufficient": true
+              },
+              "evidence_review": {
+                "requirements": [
+                  {
+                    "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "能代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "answerable": true,
+                "needs_clarification": false,
+                "clarification": "",
+                "reason": "资料给出长方形周长公式及相同数值的完整计算过程，可直接支持求解。",
+                "gap_type": "none"
+              }
+            }
+          ],
+          "assessment": {
+            "context_policy": "llm_rerank_filter",
+            "gate_enabled": true,
+            "relevance_threshold": 0.75,
+            "coverage_threshold": 1.0,
+            "requirement_coverage": 1.0,
+            "supported_requirements": [
+              {
+                "requirement": "掌握长方形周长公式：周长=(长+宽)×2",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              },
+              {
+                "requirement": "能代入长8厘米、宽3厘米计算周长",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              }
+            ],
+            "missing_requirements": [],
+            "summary_coverage": null,
+            "selected_sources": 2,
+            "sufficient": true
+          },
+          "answer_check": {
+            "supported": true,
+            "addresses_question": true,
+            "citations_valid": true,
+            "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+          },
+          "calls": [
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 2457,
+                "completion_tokens": 119,
+                "total_tokens": 2576
+              }
+            },
+            {
+              "stage": "rerank",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 786,
+                "completion_tokens": 259,
+                "total_tokens": 1045
+              }
+            },
+            {
+              "stage": "gate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 808,
+                "completion_tokens": 108,
+                "total_tokens": 916
+              }
+            },
+            {
+              "stage": "generate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 645,
+                "completion_tokens": 34,
+                "total_tokens": 679
+              }
+            },
+            {
+              "stage": "verify",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 418,
+                "completion_tokens": 43,
+                "total_tokens": 461
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 5114,
+            "completion_tokens": 563,
+            "total_tokens": 5677
+          },
+          "error": null,
+          "elapsed_ms": 7437.59,
+          "citation_sources": [
+            {
+              "id": "a167c339-0037-594a-a455-5a55b29edf66",
+              "citation": "C1",
+              "source_title": "V1-RECTANGLE-PERIMETER-001",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+              "chunk_index": 0
+            },
+            {
+              "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+              "citation": "C2",
+              "source_title": "长方形的周长 · 原创知识卡",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+              "chunk_index": 0
+            }
+          ],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 5,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 5677,
+            "actual_total_tokens": 5677,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 2457,
+                  "completion_tokens": 119,
+                  "total_tokens": 2576,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2304
+                  },
+                  "prompt_cache_hit_tokens": 2304,
+                  "prompt_cache_miss_tokens": 153
+                },
+                "status": "ok",
+                "input_and_output_estimate": 9819,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1221.22
+              },
+              {
+                "stage": "rerank",
+                "usage": {
+                  "prompt_tokens": 786,
+                  "completion_tokens": 259,
+                  "total_tokens": 1045,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 146
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5522,
+                "output_cap": 2500,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1595.054
+              },
+              {
+                "stage": "gate",
+                "usage": {
+                  "prompt_tokens": 808,
+                  "completion_tokens": 108,
+                  "total_tokens": 916,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 168
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5539,
+                "output_cap": 1800,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1242.397
+              },
+              {
+                "stage": "generate",
+                "usage": {
+                  "prompt_tokens": 645,
+                  "completion_tokens": 34,
+                  "total_tokens": 679,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 511
+                  },
+                  "prompt_cache_hit_tokens": 511,
+                  "prompt_cache_miss_tokens": 134
+                },
+                "status": "ok",
+                "input_and_output_estimate": 3897,
+                "output_cap": 1024,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 853.371
+              },
+              {
+                "stage": "verify",
+                "usage": {
+                  "prompt_tokens": 418,
+                  "completion_tokens": 43,
+                  "total_tokens": 461,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 418
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2563,
+                "output_cap": 700,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 917.809
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "answered",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "history",
+            "history_turns": 0,
+            "retained_tasks": 0,
+            "context_characters": 28,
+            "full_history_characters": 0,
+            "resolution_used": false,
+            "previous_pending": false,
+            "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+            "inherited_scope": {
+              "course_id": null,
+              "grade": null,
+              "textbook_edition": null,
+              "semester": null,
+              "subject": null,
+              "curriculum": null
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "history",
+          "history_turns": 0,
+          "retained_tasks": 0,
+          "context_characters": 28,
+          "full_history_characters": 0,
+          "resolution_used": false,
+          "previous_pending": false,
+          "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "inherited_scope": {
+            "course_id": null,
+            "grade": null,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": null,
+            "curriculum": null
+          },
+          "session_id": "08e7445d-d5ae-4c8c-9a37-700b79333e40",
+          "turn": 1,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "mode": "history",
+      "turn": 2,
+      "status": "answered",
+      "passed": true,
+      "elapsed_ms": 8307.027800008655,
+      "response": {
+        "question": "那面积呢？",
+        "embedding_model": "BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181:dense-l2-fp32:maxlen=512",
+        "sources": [
+          {
+            "id": "50000000-0000-4000-8000-000000000003",
+            "content": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "40000000-0000-4000-8000-000000000001",
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true
+            },
+            "similarity": 0.867481529712677,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "DEMO-AREA-001",
+            "source_uri": "",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": "DEMO-AREA-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 2,
+            "bm25_score": 6.765622553689764,
+            "rrf_score": 0.03252247488101534,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+          },
+          {
+            "id": "50000000-0000-4000-8000-000000000001",
+            "content": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "30000000-0000-4000-8000-000000000001",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true,
+              "heading": "长方形的面积"
+            },
+            "similarity": 0.694932025368932,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "数学演示知识卡片",
+            "source_uri": "data/samples/math_g3.md",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 1,
+            "bm25_score": 8.262335215773714,
+            "rrf_score": 0.032266458495966696,
+            "citation": "C2",
+            "evidence_score": 0.95,
+            "evidence_quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+          },
+          {
+            "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+            "content": "# 长方形的面积\n\n面积表示平面图形内部的大小。长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米；长、宽用米时，面积用平方米。例如长 9 厘米、宽 4 厘米，面积是 9×4=36 平方厘米。已知面积和宽，长 = 面积÷宽。面积计算与周长计算不同：周长求边线总长，面积求内部大小。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "1964c760-612e-5677-81ba-2681a74f4d99",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "2427376c9f04a8cd8f5dab57d12d379ea7243314b6ca4914846db5d8c7776990",
+              "token_count": 121,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "2427376c9f04a8cd8f5dab57d12d379ea7243314b6ca4914846db5d8c7776990",
+              "content_sha256": "7ab5ea2b86c07a093b4745db07292ee67c5eb9895e7c6cecb9ebfc4abd8e1a19",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.634146985484393,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的面积 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-area",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 5,
+            "bm25_rank": 3,
+            "bm25_score": 4.567150817842871,
+            "rrf_score": 0.03125763125763126,
+            "citation": "C4",
+            "evidence_score": 0.75,
+            "evidence_quote": "长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米"
+          }
+        ],
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "ready",
+          "message": "",
+          "intent": "problem_solving",
+          "search_text": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的面积"
+          },
+          "raw_intent": "problem_solving",
+          "intent_guard_applied": false,
+          "needs_clarification": false,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": "solve",
+          "content_kind": "all",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。 长方形面积 长8厘米 宽3厘米",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": 3,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": "math",
+            "curriculum": null
+          },
+          "extracted_filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的面积"
+          },
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 1636,
+            "completion_tokens": 126,
+            "total_tokens": 1762
+          },
+          "model": "deepseek-flash",
+          "topic_filter": [
+            {
+              "id": "20000000-0000-4000-8000-000000000001",
+              "title": "长方形的面积"
+            }
+          ]
+        },
+        "exercises": [],
+        "presentation": "context",
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "bm25_k1": 1.2,
+          "bm25_b": 0.75,
+          "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+          "scanned_candidates": 7,
+          "candidate_lists": {
+            "dense": [
+              {
+                "id": "50000000-0000-4000-8000-000000000003",
+                "rank": 1,
+                "score": 0.867481529712677,
+                "title": "DEMO-AREA-001"
+              },
+              {
+                "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                "rank": 2,
+                "score": 0.733202131604899,
+                "title": "V1-RECTANGLE-AREA-001"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000001",
+                "rank": 3,
+                "score": 0.694932025368932,
+                "title": "数学演示知识卡片"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000004",
+                "rank": 4,
+                "score": 0.636167466640472,
+                "title": "DEMO-AREA-002"
+              },
+              {
+                "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                "rank": 5,
+                "score": 0.634146985484393,
+                "title": "长方形的面积 · 原创知识卡"
+              },
+              {
+                "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                "rank": 6,
+                "score": 0.623248137429247,
+                "title": "V1-RECTANGLE-AREA-003"
+              },
+              {
+                "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                "rank": 7,
+                "score": 0.610791921615601,
+                "title": "V1-RECTANGLE-AREA-002"
+              }
+            ],
+            "bm25": [
+              {
+                "id": "50000000-0000-4000-8000-000000000001",
+                "rank": 1,
+                "score": 8.262335215773714,
+                "title": "数学演示知识卡片"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000003",
+                "rank": 2,
+                "score": 6.765622553689764,
+                "title": "DEMO-AREA-001"
+              },
+              {
+                "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                "rank": 3,
+                "score": 4.567150817842871,
+                "title": "长方形的面积 · 原创知识卡"
+              },
+              {
+                "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                "rank": 4,
+                "score": 4.439832884595594,
+                "title": "V1-RECTANGLE-AREA-001"
+              },
+              {
+                "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                "rank": 5,
+                "score": 2.1297160851540875,
+                "title": "V1-RECTANGLE-AREA-002"
+              },
+              {
+                "id": "50000000-0000-4000-8000-000000000004",
+                "rank": 6,
+                "score": 2.0424049189978173,
+                "title": "DEMO-AREA-002"
+              },
+              {
+                "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                "rank": 7,
+                "score": 1.9983777922434258,
+                "title": "V1-RECTANGLE-AREA-003"
+              }
+            ]
+          },
+          "timing_ms": {
+            "planning": 0.059,
+            "embedding": 283.431,
+            "database": 303.585,
+            "ranking": 1.12,
+            "total": 588.195
+          }
+        },
+        "answer": "这是求解新题，按题目给出的条件计算。\n\n长方形面积 = 长 × 宽 = 8 × 3 = 24，单位为平方厘米，所以面积是 **24 平方厘米**。[C1][C2]",
+        "status": "answered",
+        "citations": [
+          {
+            "id": "50000000-0000-4000-8000-000000000003",
+            "content": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "40000000-0000-4000-8000-000000000001",
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true
+            },
+            "similarity": 0.867481529712677,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "DEMO-AREA-001",
+            "source_uri": "",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": "DEMO-AREA-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 2,
+            "bm25_score": 6.765622553689764,
+            "rrf_score": 0.03252247488101534,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+          },
+          {
+            "id": "50000000-0000-4000-8000-000000000001",
+            "content": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "30000000-0000-4000-8000-000000000001",
+            "exercise_id": null,
+            "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+            "source_page": null,
+            "chunk_index": 0,
+            "metadata": {
+              "sample": true,
+              "heading": "长方形的面积"
+            },
+            "similarity": 0.694932025368932,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "数学演示知识卡片",
+            "source_uri": "data/samples/math_g3.md",
+            "knowledge_point_title": "长方形的面积",
+            "knowledge_point_code": "rectangle-area",
+            "knowledge_sort_order": 1,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 1,
+            "bm25_score": 8.262335215773714,
+            "rrf_score": 0.032266458495966696,
+            "citation": "C2",
+            "evidence_score": 0.95,
+            "evidence_quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+          }
+        ],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5195,
+          "completion_tokens": 832,
+          "total_tokens": 6027
+        },
+        "workflow": {
+          "trace_id": "fcd11b9a-46b0-4228-a1b7-078131f9ddb4",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:35.872709+00:00",
+          "decision": "answer",
+          "status": "answered",
+          "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了原问题。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 1,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 3067.038,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "retrieve",
+              "attempt": 0,
+              "elapsed_ms": 588.441,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "select_context",
+              "attempt": 0,
+              "elapsed_ms": 1909.138,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "gate",
+              "attempt": 0,
+              "elapsed_ms": 915.238,
+              "decision": "answer",
+              "reason": "资料给出长方形面积公式及单位规则，题干已完整给出长8厘米、宽3厘米，可直接计算得24平方厘米。"
+            },
+            {
+              "node": "generate",
+              "attempt": 0,
+              "elapsed_ms": 822.441,
+              "decision": "answer",
+              "reason": "资料给出长方形面积公式及单位规则，题干已完整给出长8厘米、宽3厘米，可直接计算得24平方厘米。"
+            },
+            {
+              "node": "verify",
+              "attempt": 0,
+              "elapsed_ms": 961.262,
+              "decision": "answer",
+              "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了原问题。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.046,
+              "decision": "answer",
+              "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了原问题。"
+            }
+          ],
+          "searches": [
+            {
+              "attempt": 0,
+              "mode": "hybrid",
+              "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+              "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求面积。 长方形面积 长8厘米 宽3厘米",
+              "effective_scope": {
+                "course_id": null,
+                "grade": 3,
+                "textbook_edition": null,
+                "semester": null,
+                "subject": "math",
+                "curriculum": null
+              },
+              "filters": {
+                "grade": 3,
+                "subject": "math",
+                "knowledge_point": "长方形的面积"
+              },
+              "source_references": [
+                {
+                  "id": "50000000-0000-4000-8000-000000000003",
+                  "citation": "C1",
+                  "source_title": "DEMO-AREA-001",
+                  "source_uri": "",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "40000000-0000-4000-8000-000000000001",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "50000000-0000-4000-8000-000000000001",
+                  "citation": "C2",
+                  "source_title": "数学演示知识卡片",
+                  "source_uri": "data/samples/math_g3.md",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "document_id": "30000000-0000-4000-8000-000000000001",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "citation": "C3",
+                  "source_title": "V1-RECTANGLE-AREA-001",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "663bf276-b47e-5f73-a347-9e82937bacda",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "citation": "C4",
+                  "source_title": "长方形的面积 · 原创知识卡",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "document_id": "1964c760-612e-5677-81ba-2681a74f4d99",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "50000000-0000-4000-8000-000000000004",
+                  "citation": "C5",
+                  "source_title": "DEMO-AREA-002",
+                  "source_uri": "",
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "40000000-0000-4000-8000-000000000002",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                  "citation": "C6",
+                  "source_title": "V1-RECTANGLE-AREA-002",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "84ee0713-37e5-58af-9629-19b4558100a4",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                  "citation": "C7",
+                  "source_title": "V1-RECTANGLE-AREA-003",
+                  "source_uri": "data/v1/math_g3.md#rectangle-area",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+                  "knowledge_point_title": "长方形的面积",
+                  "exercise_id": "27b6b57f-b852-5376-9895-5e8b31f87192",
+                  "chunk_index": 0
+                }
+              ],
+              "retrieval": {
+                "mode": "hybrid",
+                "candidate_k": 20,
+                "rrf_k": 60,
+                "bm25_k1": 1.2,
+                "bm25_b": 0.75,
+                "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+                "scanned_candidates": 7,
+                "candidate_lists": {
+                  "dense": [
+                    {
+                      "id": "50000000-0000-4000-8000-000000000003",
+                      "rank": 1,
+                      "score": 0.867481529712677,
+                      "title": "DEMO-AREA-001"
+                    },
+                    {
+                      "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                      "rank": 2,
+                      "score": 0.733202131604899,
+                      "title": "V1-RECTANGLE-AREA-001"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000001",
+                      "rank": 3,
+                      "score": 0.694932025368932,
+                      "title": "数学演示知识卡片"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000004",
+                      "rank": 4,
+                      "score": 0.636167466640472,
+                      "title": "DEMO-AREA-002"
+                    },
+                    {
+                      "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                      "rank": 5,
+                      "score": 0.634146985484393,
+                      "title": "长方形的面积 · 原创知识卡"
+                    },
+                    {
+                      "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                      "rank": 6,
+                      "score": 0.623248137429247,
+                      "title": "V1-RECTANGLE-AREA-003"
+                    },
+                    {
+                      "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                      "rank": 7,
+                      "score": 0.610791921615601,
+                      "title": "V1-RECTANGLE-AREA-002"
+                    }
+                  ],
+                  "bm25": [
+                    {
+                      "id": "50000000-0000-4000-8000-000000000001",
+                      "rank": 1,
+                      "score": 8.262335215773714,
+                      "title": "数学演示知识卡片"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000003",
+                      "rank": 2,
+                      "score": 6.765622553689764,
+                      "title": "DEMO-AREA-001"
+                    },
+                    {
+                      "id": "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                      "rank": 3,
+                      "score": 4.567150817842871,
+                      "title": "长方形的面积 · 原创知识卡"
+                    },
+                    {
+                      "id": "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                      "rank": 4,
+                      "score": 4.439832884595594,
+                      "title": "V1-RECTANGLE-AREA-001"
+                    },
+                    {
+                      "id": "165885e8-0d72-5976-87fd-d124d947331e",
+                      "rank": 5,
+                      "score": 2.1297160851540875,
+                      "title": "V1-RECTANGLE-AREA-002"
+                    },
+                    {
+                      "id": "50000000-0000-4000-8000-000000000004",
+                      "rank": 6,
+                      "score": 2.0424049189978173,
+                      "title": "DEMO-AREA-002"
+                    },
+                    {
+                      "id": "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                      "rank": 7,
+                      "score": 1.9983777922434258,
+                      "title": "V1-RECTANGLE-AREA-003"
+                    }
+                  ]
+                },
+                "timing_ms": {
+                  "planning": 0.059,
+                  "embedding": 283.431,
+                  "database": 303.585,
+                  "ranking": 1.12,
+                  "total": 588.195
+                }
+              },
+              "context_selection": {
+                "policy": "llm_rerank_filter",
+                "candidate_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "50000000-0000-4000-8000-000000000004",
+                  "165885e8-0d72-5976-87fd-d124d947331e",
+                  "ce61347d-ce5c-51e9-93ea-e1122bc0f52b"
+                ],
+                "ordered_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d",
+                  "be2fc601-8efa-5504-a5b4-9a27caf55f7a",
+                  "ce61347d-ce5c-51e9-93ea-e1122bc0f52b",
+                  "50000000-0000-4000-8000-000000000004",
+                  "165885e8-0d72-5976-87fd-d124d947331e"
+                ],
+                "selected_ids": [
+                  "50000000-0000-4000-8000-000000000003",
+                  "50000000-0000-4000-8000-000000000001",
+                  "9fa1e0e3-f9d4-50da-8a89-4f4f9489d34d"
+                ],
+                "budget": 5,
+                "relevance_threshold": 0.75,
+                "scores": [
+                  {
+                    "citation": "C1",
+                    "score": 1.0,
+                    "quote": "一个长方形长 8 厘米、宽 3 厘米，它的面积是多少？\n\n参考答案：24 平方厘米\n解析：长方形的面积 = 长 × 宽 = 8 × 3 = 24，面积单位是平方厘米。"
+                  },
+                  {
+                    "citation": "C2",
+                    "score": 0.95,
+                    "quote": "长方形的面积等于长乘宽。计算前，长和宽应使用相同的长度单位。长和宽以厘米为单位时，面积以平方厘米为单位。例如长 8 厘米、宽 3 厘米，面积是 24 平方厘米。"
+                  },
+                  {
+                    "citation": "C4",
+                    "score": 0.75,
+                    "quote": "长方形面积 = 长 × 宽；计算前长和宽必须使用相同的长度单位。长、宽用厘米时，面积用平方厘米"
+                  },
+                  {
+                    "citation": "C3",
+                    "score": 0.6,
+                    "quote": "长方形长 9 厘米、宽 4 厘米，面积是多少？\n\n参考答案：36 平方厘米。\n解析：长方形面积=长×宽=9×4=36，单位是平方厘米。"
+                  },
+                  {
+                    "citation": "C7",
+                    "score": 0.6,
+                    "quote": "教室一块长 6 米、宽 3 米的地面，面积是多少？\n\n参考答案：18 平方米。\n解析：用长乘宽：6×3=18，面积单位为平方米。"
+                  },
+                  {
+                    "citation": "C5",
+                    "score": 0.3,
+                    "quote": "一个长方形面积为 35 平方米，宽为 5 米，长是多少？\n\n参考答案：7 米\n解析：长 = 面积 ÷ 宽 = 35 ÷ 5 = 7，长度单位是米。"
+                  },
+                  {
+                    "citation": "C6",
+                    "score": 0.3,
+                    "quote": "长方形面积 48 平方米，宽 6 米，长是多少？\n\n参考答案：8 米。\n解析：长=面积÷宽=48÷6=8 米。"
+                  }
+                ]
+              },
+              "assessment": {
+                "context_policy": "llm_rerank_filter",
+                "gate_enabled": true,
+                "relevance_threshold": 0.75,
+                "coverage_threshold": 1.0,
+                "requirement_coverage": 1.0,
+                "supported_requirements": [
+                  {
+                    "requirement": "长方形面积公式：面积=长×宽",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  },
+                  {
+                    "requirement": "长和宽单位相同时，面积单位为平方厘米",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  }
+                ],
+                "missing_requirements": [],
+                "summary_coverage": null,
+                "selected_sources": 3,
+                "sufficient": true
+              },
+              "evidence_review": {
+                "requirements": [
+                  {
+                    "requirement": "长方形面积公式：面积=长×宽",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  },
+                  {
+                    "requirement": "长和宽单位相同时，面积单位为平方厘米",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2",
+                      "C4"
+                    ]
+                  }
+                ],
+                "answerable": true,
+                "needs_clarification": false,
+                "clarification": "",
+                "reason": "资料给出长方形面积公式及单位规则，题干已完整给出长8厘米、宽3厘米，可直接计算得24平方厘米。",
+                "gap_type": "none"
+              }
+            }
+          ],
+          "assessment": {
+            "context_policy": "llm_rerank_filter",
+            "gate_enabled": true,
+            "relevance_threshold": 0.75,
+            "coverage_threshold": 1.0,
+            "requirement_coverage": 1.0,
+            "supported_requirements": [
+              {
+                "requirement": "长方形面积公式：面积=长×宽",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2",
+                  "C4"
+                ]
+              },
+              {
+                "requirement": "长和宽单位相同时，面积单位为平方厘米",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2",
+                  "C4"
+                ]
+              }
+            ],
+            "missing_requirements": [],
+            "summary_coverage": null,
+            "selected_sources": 3,
+            "sufficient": true
+          },
+          "answer_check": {
+            "supported": true,
+            "addresses_question": true,
+            "citations_valid": true,
+            "reason": "草稿结论为面积24平方厘米，计算8×3=24及单位平方厘米均被相邻引用C1、C2明确支持，且完整回答了原问题。"
+          },
+          "calls": [
+            {
+              "stage": "memory_resolve",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 368,
+                "completion_tokens": 35,
+                "total_tokens": 403
+              }
+            },
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 1636,
+                "completion_tokens": 126,
+                "total_tokens": 1762
+              }
+            },
+            {
+              "stage": "rerank",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 1112,
+                "completion_tokens": 442,
+                "total_tokens": 1554
+              }
+            },
+            {
+              "stage": "gate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 905,
+                "completion_tokens": 122,
+                "total_tokens": 1027
+              }
+            },
+            {
+              "stage": "generate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 783,
+                "completion_tokens": 49,
+                "total_tokens": 832
+              }
+            },
+            {
+              "stage": "verify",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 391,
+                "completion_tokens": 58,
+                "total_tokens": 449
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 5195,
+            "completion_tokens": 832,
+            "total_tokens": 6027
+          },
+          "error": null,
+          "elapsed_ms": 8272.825,
+          "citation_sources": [
+            {
+              "id": "50000000-0000-4000-8000-000000000003",
+              "citation": "C1",
+              "source_title": "DEMO-AREA-001",
+              "source_uri": "",
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+              "knowledge_point_title": "长方形的面积",
+              "exercise_id": "40000000-0000-4000-8000-000000000001",
+              "chunk_index": 0
+            },
+            {
+              "id": "50000000-0000-4000-8000-000000000001",
+              "citation": "C2",
+              "source_title": "数学演示知识卡片",
+              "source_uri": "data/samples/math_g3.md",
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "20000000-0000-4000-8000-000000000001",
+              "knowledge_point_title": "长方形的面积",
+              "document_id": "30000000-0000-4000-8000-000000000001",
+              "chunk_index": 0
+            }
+          ],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 6,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 6027,
+            "actual_total_tokens": 6027,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "memory_resolve",
+                "usage": {
+                  "prompt_tokens": 368,
+                  "completion_tokens": 35,
+                  "total_tokens": 403,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 128
+                  },
+                  "prompt_cache_hit_tokens": 128,
+                  "prompt_cache_miss_tokens": 240
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2985,
+                "output_cap": 1200,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 916.588
+              },
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 1636,
+                  "completion_tokens": 126,
+                  "total_tokens": 1762,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 1408
+                  },
+                  "prompt_cache_hit_tokens": 1408,
+                  "prompt_cache_miss_tokens": 228
+                },
+                "status": "ok",
+                "input_and_output_estimate": 7503,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1102.876
+              },
+              {
+                "stage": "rerank",
+                "usage": {
+                  "prompt_tokens": 1112,
+                  "completion_tokens": 442,
+                  "total_tokens": 1554,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 472
+                },
+                "status": "ok",
+                "input_and_output_estimate": 6750,
+                "output_cap": 2500,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1908.327
+              },
+              {
+                "stage": "gate",
+                "usage": {
+                  "prompt_tokens": 905,
+                  "completion_tokens": 122,
+                  "total_tokens": 1027,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 768
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 137
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5978,
+                "output_cap": 1800,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 914.671
+              },
+              {
+                "stage": "generate",
+                "usage": {
+                  "prompt_tokens": 783,
+                  "completion_tokens": 49,
+                  "total_tokens": 832,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 143
+                },
+                "status": "ok",
+                "input_and_output_estimate": 4482,
+                "output_cap": 1024,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 822.258
+              },
+              {
+                "stage": "verify",
+                "usage": {
+                  "prompt_tokens": 391,
+                  "completion_tokens": 58,
+                  "total_tokens": 449,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 391
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2550,
+                "output_cap": 700,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 961.079
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "answered",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "history",
+            "history_turns": 1,
+            "retained_tasks": 1,
+            "context_characters": 252,
+            "full_history_characters": 252,
+            "resolution_used": true,
+            "previous_pending": false,
+            "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+            "inherited_scope": {
+              "grade": 3,
+              "subject": "math"
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "history",
+          "history_turns": 1,
+          "retained_tasks": 1,
+          "context_characters": 252,
+          "full_history_characters": 252,
+          "resolution_used": true,
+          "previous_pending": false,
+          "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求面积。",
+          "inherited_scope": {
+            "grade": 3,
+            "subject": "math"
+          },
+          "session_id": "08e7445d-d5ae-4c8c-9a37-700b79333e40",
+          "turn": 2,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "mode": "none",
+      "turn": 1,
+      "status": "answered",
+      "passed": true,
+      "elapsed_ms": 6743.458399985684,
+      "response": {
+        "question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "embedding_model": "BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181:dense-l2-fp32:maxlen=512",
+        "sources": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "ready",
+          "message": "",
+          "intent": "problem_solving",
+          "search_text": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "raw_intent": "problem_solving",
+          "intent_guard_applied": false,
+          "needs_clarification": false,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": "solve",
+          "content_kind": "all",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": 3,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": "math",
+            "curriculum": null
+          },
+          "extracted_filters": {
+            "grade": 3,
+            "subject": "math",
+            "knowledge_point": "长方形的周长"
+          },
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 2457,
+            "completion_tokens": 115,
+            "total_tokens": 2572
+          },
+          "model": "deepseek-flash",
+          "topic_filter": [
+            {
+              "id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "title": "长方形的周长"
+            }
+          ]
+        },
+        "exercises": [],
+        "presentation": "context",
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "bm25_k1": 1.2,
+          "bm25_b": 0.75,
+          "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+          "scanned_candidates": 4,
+          "candidate_lists": {
+            "dense": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 0.878348775008408,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 2,
+                "score": 0.706400776672456,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 3,
+                "score": 0.692204713821416,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 4,
+                "score": 0.668547630310063,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              }
+            ],
+            "bm25": [
+              {
+                "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                "rank": 1,
+                "score": 5.375186849501275,
+                "title": "V1-RECTANGLE-PERIMETER-001"
+              },
+              {
+                "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                "rank": 2,
+                "score": 3.7855766561989372,
+                "title": "长方形的周长 · 原创知识卡"
+              },
+              {
+                "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                "rank": 3,
+                "score": 2.696383817411161,
+                "title": "V1-RECTANGLE-PERIMETER-003"
+              },
+              {
+                "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                "rank": 4,
+                "score": 2.4716612020956426,
+                "title": "V1-RECTANGLE-PERIMETER-002"
+              }
+            ]
+          },
+          "timing_ms": {
+            "planning": 0.053,
+            "embedding": 293.208,
+            "database": 315.915,
+            "ranking": 0.987,
+            "total": 610.163
+          }
+        },
+        "answer": "长方形周长 =（长 + 宽）× 2 =（8 + 3）× 2 = 22 厘米 [C1][C2]。",
+        "status": "answered",
+        "citations": [
+          {
+            "id": "a167c339-0037-594a-a455-5a55b29edf66",
+            "content": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": null,
+            "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "kind": "exercise",
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "token_count": 21,
+              "content_sha256": "58691ea9cf32c2217364b1da880ccd62936a3b2b24953c181995c4f103db8362"
+            },
+            "similarity": 0.878348775008408,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "V1-RECTANGLE-PERIMETER-001",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": "V1-RECTANGLE-PERIMETER-001",
+            "question_type": "calculation",
+            "difficulty": 1,
+            "exercise_stem": "长方形长 8 厘米、宽 3 厘米，周长是多少？",
+            "exercise_options": [],
+            "dense_rank": 1,
+            "bm25_rank": 1,
+            "bm25_score": 5.375186849501275,
+            "rrf_score": 0.03278688524590164,
+            "citation": "C1",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+          },
+          {
+            "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+            "content": "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。",
+            "course_id": "10000000-0000-4000-8000-000000000001",
+            "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+            "exercise_id": null,
+            "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+            "source_page": 1,
+            "chunk_index": 0,
+            "metadata": {
+              "dataset": "v1-original-g3-math",
+              "pipeline": "v2-nfc-sections-1",
+              "max_tokens": 448,
+              "raw_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "token_count": 123,
+              "section_path": [],
+              "removed_lines": 0,
+              "cleaned_sha256": "8e3dc8c9d579b9c487a1983a206c32275c9df4a2e94160a92eab38599f7c3d18",
+              "content_sha256": "392eec2847bbc2798edb20472bc8deaa52a2671262e40c5f4d95da52c6a18fa6",
+              "duplicate_blocks": 0
+            },
+            "similarity": 0.692204713821416,
+            "grade": 3,
+            "textbook_edition": "自编演示资料",
+            "semester": "full_year",
+            "subject": "math",
+            "curriculum": "自编演示课程（非官方课标）",
+            "source_title": "长方形的周长 · 原创知识卡",
+            "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+            "knowledge_point_title": "长方形的周长",
+            "knowledge_point_code": "rectangle-perimeter",
+            "knowledge_sort_order": 20,
+            "exercise_code": null,
+            "question_type": null,
+            "difficulty": null,
+            "exercise_stem": null,
+            "exercise_options": null,
+            "dense_rank": 3,
+            "bm25_rank": 2,
+            "bm25_score": 3.7855766561989372,
+            "rrf_score": 0.03200204813108039,
+            "citation": "C2",
+            "evidence_score": 1.0,
+            "evidence_quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+          }
+        ],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 5113,
+          "completion_tokens": 553,
+          "total_tokens": 5666
+        },
+        "workflow": {
+          "trace_id": "bb5ac229-555a-4f56-8083-b71a5664ef65",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:42.615408+00:00",
+          "decision": "answer",
+          "status": "answered",
+          "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 1,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 2105.979,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "retrieve",
+              "attempt": 0,
+              "elapsed_ms": 610.42,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "select_context",
+              "attempt": 0,
+              "elapsed_ms": 1427.435,
+              "decision": "retrieve",
+              "reason": ""
+            },
+            {
+              "node": "gate",
+              "attempt": 0,
+              "elapsed_ms": 1026.996,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及同参数计算示例，可直接支持求解。"
+            },
+            {
+              "node": "generate",
+              "attempt": 0,
+              "elapsed_ms": 785.211,
+              "decision": "answer",
+              "reason": "资料给出长方形周长公式及同参数计算示例，可直接支持求解。"
+            },
+            {
+              "node": "verify",
+              "attempt": 0,
+              "elapsed_ms": 741.613,
+              "decision": "answer",
+              "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.043,
+              "decision": "answer",
+              "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+            }
+          ],
+          "searches": [
+            {
+              "attempt": 0,
+              "mode": "hybrid",
+              "semantic_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+              "bm25_query": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+              "effective_scope": {
+                "course_id": null,
+                "grade": 3,
+                "textbook_edition": null,
+                "semester": null,
+                "subject": "math",
+                "curriculum": null
+              },
+              "filters": {
+                "grade": 3,
+                "subject": "math",
+                "knowledge_point": "长方形的周长"
+              },
+              "source_references": [
+                {
+                  "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                  "citation": "C1",
+                  "source_title": "V1-RECTANGLE-PERIMETER-001",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "citation": "C2",
+                  "source_title": "长方形的周长 · 原创知识卡",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "citation": "C3",
+                  "source_title": "V1-RECTANGLE-PERIMETER-002",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "bf89e10b-72ff-5127-a141-50cd47d795b8",
+                  "chunk_index": 0
+                },
+                {
+                  "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                  "citation": "C4",
+                  "source_title": "V1-RECTANGLE-PERIMETER-003",
+                  "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+                  "source_page": 1,
+                  "course_id": "10000000-0000-4000-8000-000000000001",
+                  "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+                  "knowledge_point_title": "长方形的周长",
+                  "exercise_id": "08a9a756-f8d7-5f04-9ddc-24a1a4ed7f0f",
+                  "chunk_index": 0
+                }
+              ],
+              "retrieval": {
+                "mode": "hybrid",
+                "candidate_k": 20,
+                "rrf_k": 60,
+                "bm25_k1": 1.2,
+                "bm25_b": 0.75,
+                "tokenizer": "nfkc-casefold-cjk-1-2gram-identifiers-v1",
+                "scanned_candidates": 4,
+                "candidate_lists": {
+                  "dense": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 0.878348775008408,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 2,
+                      "score": 0.706400776672456,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 3,
+                      "score": 0.692204713821416,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 4,
+                      "score": 0.668547630310063,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    }
+                  ],
+                  "bm25": [
+                    {
+                      "id": "a167c339-0037-594a-a455-5a55b29edf66",
+                      "rank": 1,
+                      "score": 5.375186849501275,
+                      "title": "V1-RECTANGLE-PERIMETER-001"
+                    },
+                    {
+                      "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                      "rank": 2,
+                      "score": 3.7855766561989372,
+                      "title": "长方形的周长 · 原创知识卡"
+                    },
+                    {
+                      "id": "fa8456c4-e156-55c2-9a5c-033da3fdac82",
+                      "rank": 3,
+                      "score": 2.696383817411161,
+                      "title": "V1-RECTANGLE-PERIMETER-003"
+                    },
+                    {
+                      "id": "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                      "rank": 4,
+                      "score": 2.4716612020956426,
+                      "title": "V1-RECTANGLE-PERIMETER-002"
+                    }
+                  ]
+                },
+                "timing_ms": {
+                  "planning": 0.053,
+                  "embedding": 293.208,
+                  "database": 315.915,
+                  "ranking": 0.987,
+                  "total": 610.163
+                }
+              },
+              "context_selection": {
+                "policy": "llm_rerank_filter",
+                "candidate_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "ordered_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+                  "6e05429d-836f-5e94-ae94-38c2e36726f8",
+                  "fa8456c4-e156-55c2-9a5c-033da3fdac82"
+                ],
+                "selected_ids": [
+                  "a167c339-0037-594a-a455-5a55b29edf66",
+                  "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+                ],
+                "budget": 5,
+                "relevance_threshold": 0.75,
+                "scores": [
+                  {
+                    "citation": "C1",
+                    "score": 1.0,
+                    "quote": "长方形长 8 厘米、宽 3 厘米，周长是多少？\n\n参考答案：22 厘米。\n解析：周长=(长+宽)×2=(8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C2",
+                    "score": 1.0,
+                    "quote": "长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。"
+                  },
+                  {
+                    "citation": "C3",
+                    "score": 0.2,
+                    "quote": "长方形长 10 米、宽 6 米，周长是多少米？\n\n参考答案：32 米。\n解析：(10+6)×2=32，周长为 32 米。"
+                  },
+                  {
+                    "citation": "C4",
+                    "score": 0.2,
+                    "quote": "长方形周长 26 厘米，宽 5 厘米，长是多少？\n\n参考答案：8 厘米。\n解析：长与宽的和是 26÷2=13 厘米，长=13-5=8 厘米。"
+                  }
+                ]
+              },
+              "assessment": {
+                "context_policy": "llm_rerank_filter",
+                "gate_enabled": true,
+                "relevance_threshold": 0.75,
+                "coverage_threshold": 1.0,
+                "requirement_coverage": 1.0,
+                "supported_requirements": [
+                  {
+                    "requirement": "长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "missing_requirements": [],
+                "summary_coverage": null,
+                "selected_sources": 2,
+                "sufficient": true
+              },
+              "evidence_review": {
+                "requirements": [
+                  {
+                    "requirement": "长方形周长公式：周长=(长+宽)×2",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  },
+                  {
+                    "requirement": "代入长8厘米、宽3厘米计算周长",
+                    "supported": true,
+                    "citations": [
+                      "C1",
+                      "C2"
+                    ]
+                  }
+                ],
+                "answerable": true,
+                "needs_clarification": false,
+                "clarification": "",
+                "reason": "资料给出长方形周长公式及同参数计算示例，可直接支持求解。",
+                "gap_type": "none"
+              }
+            }
+          ],
+          "assessment": {
+            "context_policy": "llm_rerank_filter",
+            "gate_enabled": true,
+            "relevance_threshold": 0.75,
+            "coverage_threshold": 1.0,
+            "requirement_coverage": 1.0,
+            "supported_requirements": [
+              {
+                "requirement": "长方形周长公式：周长=(长+宽)×2",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              },
+              {
+                "requirement": "代入长8厘米、宽3厘米计算周长",
+                "supported": true,
+                "citations": [
+                  "C1",
+                  "C2"
+                ]
+              }
+            ],
+            "missing_requirements": [],
+            "summary_coverage": null,
+            "selected_sources": 2,
+            "sufficient": true
+          },
+          "answer_check": {
+            "supported": true,
+            "addresses_question": true,
+            "citations_valid": true,
+            "reason": "草稿结论与计算均被C1、C2明确支持，且完整回答了求周长的问题。"
+          },
+          "calls": [
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 2457,
+                "completion_tokens": 115,
+                "total_tokens": 2572
+              }
+            },
+            {
+              "stage": "rerank",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 786,
+                "completion_tokens": 259,
+                "total_tokens": 1045
+              }
+            },
+            {
+              "stage": "gate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 808,
+                "completion_tokens": 104,
+                "total_tokens": 912
+              }
+            },
+            {
+              "stage": "generate",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 645,
+                "completion_tokens": 32,
+                "total_tokens": 677
+              }
+            },
+            {
+              "stage": "verify",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 417,
+                "completion_tokens": 43,
+                "total_tokens": 460
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 5113,
+            "completion_tokens": 553,
+            "total_tokens": 5666
+          },
+          "error": null,
+          "elapsed_ms": 6706.158,
+          "citation_sources": [
+            {
+              "id": "a167c339-0037-594a-a455-5a55b29edf66",
+              "citation": "C1",
+              "source_title": "V1-RECTANGLE-PERIMETER-001",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "exercise_id": "9dd52c8a-40a2-5a7a-9bd7-d6d480b706f7",
+              "chunk_index": 0
+            },
+            {
+              "id": "ddcc3253-aabb-5f65-9204-fa7da56c44f4",
+              "citation": "C2",
+              "source_title": "长方形的周长 · 原创知识卡",
+              "source_uri": "data/v1/math_g3.md#rectangle-perimeter",
+              "source_page": 1,
+              "course_id": "10000000-0000-4000-8000-000000000001",
+              "knowledge_point_id": "cc77d437-bfc0-511f-b608-8124441e8d29",
+              "knowledge_point_title": "长方形的周长",
+              "document_id": "f4ff0d42-0f4f-5e96-8cd3-7e59e623fee8",
+              "chunk_index": 0
+            }
+          ],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 5,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 5666,
+            "actual_total_tokens": 5666,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 2457,
+                  "completion_tokens": 115,
+                  "total_tokens": 2572,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2304
+                  },
+                  "prompt_cache_hit_tokens": 2304,
+                  "prompt_cache_miss_tokens": 153
+                },
+                "status": "ok",
+                "input_and_output_estimate": 9819,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1214.905
+              },
+              {
+                "stage": "rerank",
+                "usage": {
+                  "prompt_tokens": 786,
+                  "completion_tokens": 259,
+                  "total_tokens": 1045,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 146
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5522,
+                "output_cap": 2500,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1426.826
+              },
+              {
+                "stage": "gate",
+                "usage": {
+                  "prompt_tokens": 808,
+                  "completion_tokens": 104,
+                  "total_tokens": 912,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 640
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 168
+                },
+                "status": "ok",
+                "input_and_output_estimate": 5539,
+                "output_cap": 1800,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1026.522
+              },
+              {
+                "stage": "generate",
+                "usage": {
+                  "prompt_tokens": 645,
+                  "completion_tokens": 32,
+                  "total_tokens": 677,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 511
+                  },
+                  "prompt_cache_hit_tokens": 511,
+                  "prompt_cache_miss_tokens": 134
+                },
+                "status": "ok",
+                "input_and_output_estimate": 3897,
+                "output_cap": 1024,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 785.038
+              },
+              {
+                "stage": "verify",
+                "usage": {
+                  "prompt_tokens": 417,
+                  "completion_tokens": 43,
+                  "total_tokens": 460,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  },
+                  "prompt_cache_hit_tokens": 0,
+                  "prompt_cache_miss_tokens": 417
+                },
+                "status": "ok",
+                "input_and_output_estimate": 2568,
+                "output_cap": 700,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 741.385
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "answered",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "none",
+            "history_turns": 0,
+            "retained_tasks": 0,
+            "context_characters": 0,
+            "full_history_characters": 0,
+            "resolution_used": false,
+            "previous_pending": false,
+            "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+            "inherited_scope": {
+              "course_id": null,
+              "grade": null,
+              "textbook_edition": null,
+              "semester": null,
+              "subject": null,
+              "curriculum": null
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "none",
+          "history_turns": 0,
+          "retained_tasks": 0,
+          "context_characters": 0,
+          "full_history_characters": 0,
+          "resolution_used": false,
+          "previous_pending": false,
+          "effective_question": "三年级数学：长方形长8厘米、宽3厘米，求周长。",
+          "inherited_scope": {
+            "course_id": null,
+            "grade": null,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": null,
+            "curriculum": null
+          },
+          "session_id": "c7f3606b-daf9-46e3-b33a-770baad3bb13",
+          "turn": 1,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "mode": "none",
+      "turn": 2,
+      "status": "needs_clarification",
+      "passed": true,
+      "elapsed_ms": 1811.483799974667,
+      "response": {
+        "question": "那面积呢？",
+        "sources": [],
+        "embedding_model": null,
+        "retrieval": {
+          "mode": "hybrid",
+          "candidate_k": 20,
+          "rrf_k": 60,
+          "candidate_lists": {
+            "dense": [],
+            "bm25": []
+          },
+          "timing_ms": {
+            "total": 0,
+            "planning": 0,
+            "embedding": 0,
+            "database": 0,
+            "ranking": 0
+          }
+        },
+        "query_plan": {
+          "version": "four-intent-v3",
+          "origin": "deepseek",
+          "status": "needs_clarification",
+          "message": "请问您想了解哪个图形或哪部分内容的面积？例如长方形面积、正方形面积等。",
+          "intent": "knowledge_qa",
+          "search_text": "面积",
+          "filters": {},
+          "raw_intent": "knowledge_qa",
+          "intent_guard_applied": false,
+          "needs_clarification": true,
+          "limit": null,
+          "summary_scope": "overview",
+          "summary_level": "grade",
+          "exercise_task": null,
+          "content_kind": "knowledge",
+          "strategy": "filtered_retrieval",
+          "semantic_query": "面积",
+          "bm25_query": "面积",
+          "exercise_code": null,
+          "requested_limit": null,
+          "effective_top_k": 5,
+          "effective_scope": {
+            "course_id": null,
+            "grade": null,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": null,
+            "curriculum": null
+          },
+          "extracted_filters": {},
+          "question_type": null,
+          "difficulty_levels": null,
+          "warnings": [],
+          "usage": {
+            "prompt_tokens": 2446,
+            "completion_tokens": 121,
+            "total_tokens": 2567
+          },
+          "model": "deepseek-flash"
+        },
+        "exercises": [],
+        "answer": "请问您想了解哪个图形或哪部分内容的面积？例如长方形面积、正方形面积等。",
+        "status": "needs_clarification",
+        "citations": [],
+        "model": "deepseek-flash",
+        "usage": {
+          "prompt_tokens": 2446,
+          "completion_tokens": 121,
+          "total_tokens": 2567
+        },
+        "workflow": {
+          "trace_id": "40e5c99b-2ff4-498e-9888-81b294ff21c8",
+          "version": "adaptive-branches-v1",
+          "created_at": "2026-10-19T18:29:44.430314+00:00",
+          "decision": "clarify",
+          "status": "needs_clarification",
+          "reason": "请问您想了解哪个图形或哪部分内容的面积？例如长方形面积、正方形面积等。",
+          "retry_count": 0,
+          "max_retries": 2,
+          "retrieval_count": 0,
+          "events": [
+            {
+              "node": "understand",
+              "attempt": 0,
+              "elapsed_ms": 1775.491,
+              "decision": "clarify",
+              "reason": "请问您想了解哪个图形或哪部分内容的面积？例如长方形面积、正方形面积等。"
+            },
+            {
+              "node": "finish",
+              "attempt": 0,
+              "elapsed_ms": 0.02,
+              "decision": "clarify",
+              "reason": "请问您想了解哪个图形或哪部分内容的面积？例如长方形面积、正方形面积等。"
+            }
+          ],
+          "searches": [],
+          "assessment": {},
+          "answer_check": null,
+          "calls": [
+            {
+              "stage": "understand",
+              "attempt": 0,
+              "model": "deepseek-flash",
+              "status": "ok",
+              "usage": {
+                "prompt_tokens": 2446,
+                "completion_tokens": 121,
+                "total_tokens": 2567
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 2446,
+            "completion_tokens": 121,
+            "total_tokens": 2567
+          },
+          "error": null,
+          "elapsed_ms": 1779.875,
+          "citation_sources": [],
+          "retry_policy": "adaptive",
+          "budget": {
+            "max_model_calls": 10,
+            "model_calls": 1,
+            "max_total_tokens": 30000,
+            "accounted_total_tokens": 2567,
+            "actual_total_tokens": 2567,
+            "missing_usage_calls": 0,
+            "max_elapsed_seconds": 90,
+            "denied_reason": null,
+            "records": [
+              {
+                "stage": "understand",
+                "usage": {
+                  "prompt_tokens": 2446,
+                  "completion_tokens": 121,
+                  "total_tokens": 2567,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2304
+                  },
+                  "prompt_cache_hit_tokens": 2304,
+                  "prompt_cache_miss_tokens": 142
+                },
+                "status": "ok",
+                "input_and_output_estimate": 9769,
+                "output_cap": 1000,
+                "response_model": "deepseek-flash",
+                "elapsed_ms": 1186.93
+              }
+            ],
+            "token_limit_note": "Conservative byte-based admission estimate plus actual-usage stop; not an exact tokenizer-based hard total-token guarantee.",
+            "deadline_note": "Model calls use remaining HTTP timeout. In-flight local embedding/database work is checked between nodes, not cancelled."
+          },
+          "branch_history": [],
+          "max_branches": 3,
+          "stop_reason": "missing_input",
+          "memory": {
+            "version": "session-memory-v1",
+            "mode": "none",
+            "history_turns": 1,
+            "retained_tasks": 1,
+            "context_characters": 0,
+            "full_history_characters": 249,
+            "resolution_used": false,
+            "previous_pending": false,
+            "effective_question": "那面积呢？",
+            "inherited_scope": {
+              "course_id": null,
+              "grade": null,
+              "textbook_edition": null,
+              "semester": null,
+              "subject": null,
+              "curriculum": null
+            }
+          },
+          "persisted": true
+        },
+        "resolved_question": "那面积呢？",
+        "memory": {
+          "version": "session-memory-v1",
+          "mode": "none",
+          "history_turns": 1,
+          "retained_tasks": 1,
+          "context_characters": 0,
+          "full_history_characters": 249,
+          "resolution_used": false,
+          "previous_pending": false,
+          "effective_question": "那面积呢？",
+          "inherited_scope": {
+            "course_id": null,
+            "grade": null,
+            "textbook_edition": null,
+            "semester": null,
+            "subject": null,
+            "curriculum": null
+          },
+          "session_id": "c7f3606b-daf9-46e3-b33a-770baad3bb13",
+          "turn": 2,
+          "frame_limit": 4,
+          "turn_limit": 12,
+          "expires_after_seconds": 1800
+        }
+      }
+    },
+    {
+      "case": "reset",
+      "http_status": 404,
+      "passed": true
+    },
+    {
+      "case": "client_history_rejected",
+      "http_status": 422,
+      "passed": true
+    }
+  ],
+  "note": "Live HTTP without application/provider-response memoization; first request includes BGE cold-start. Small integration smoke, not paired production latency benchmark."
+}

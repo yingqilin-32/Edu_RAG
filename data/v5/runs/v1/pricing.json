@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-10-19",
+  "model": "deepseek-flash",
+  "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "off_peak_rmb_per_million": {
+    "input_hit": 0.02,
+    "input_miss": 1,
+    "output": 4
+  },
+  "peak_rmb_per_million": {
+    "input_hit": 0.04,
+    "input_miss": 2,
+    "output": 8
+  },
+  "note": "Estimated range using published rates, not a provider invoice. Missing cache counters are conservatively treated as cache misses."
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pos-01",
+    "policy": "single_pass",
+    "answerable": true,
+    "partition": "simple_control",
+    "status": "answered",
+    "user_input": "长方形的周长为什么要把长和宽相加后乘2？",
+    "response": "因为长方形有两条长和两条宽，周长是封闭图形一周边线的总长度，所以周长 = (长 + 宽) × 2 [C1]。例如长 8 厘米、宽 3 厘米时，周长是 (8+3)×2=22 厘米 [C1]。",
+    "retrieved_contexts": [
+      "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。"
+    ],
+    "retrieved_context_ids": [
+      "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+    ],
+    "reference": "周长是封闭图形一周边线的总长度。长方形两条长相等、两条宽相等，所以周长=长+宽+长+宽=(长+宽)×2。",
+    "known_ambiguity": false
+  },
+  {
+    "id": "pos-01",
+    "policy": "always_retry",
+    "answerable": true,
+    "partition": "simple_control",
+    "status": "answered",
+    "user_input": "长方形的周长为什么要把长和宽相加后乘2？",
+    "response": "因为长方形有两条长和两条宽，周长是封闭图形一周边线的总长度，所以周长 = (长 + 宽) × 2 [C1]。例如长 8 厘米、宽 3 厘米时，周长是 (8+3)×2=22 厘米 [C1]。",
+    "retrieved_contexts": [
+      "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。"
+    ],
+    "retrieved_context_ids": [
+      "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+    ],
+    "reference": "周长是封闭图形一周边线的总长度。长方形两条长相等、两条宽相等，所以周长=长+宽+长+宽=(长+宽)×2。",
+    "known_ambiguity": false
+  },
+  {
+    "id": "pos-01",
+    "policy": "adaptive",
+    "answerable": true,
+    "partition": "simple_control",
+    "status": "answered",
+    "user_input": "长方形的周长为什么要把长和宽相加后乘2？",
+    "response": "因为长方形有两条长和两条宽，周长是封闭图形一周边线的总长度，所以周长 = (长 + 宽) × 2 [C1]。例如长 8 厘米、宽 3 厘米时，周长是 (8+3)×2=22 厘米 [C1]。",
+    "retrieved_contexts": [
+      "# 长方形的周长\n\n周长是封闭图形一周边线的总长度。长方形有两条长和两条宽，所以周长 = (长 + 宽) × 2。例：长 8 厘米、宽 3 厘米，周长是 (8+3)×2=22 厘米。已知周长和宽，长 = 周长÷2 - 宽。周长描述边线长度，用厘米或米；面积描述内部大小，用平方厘米或平方米，不要混用公式和单位。"
+    ],
+    "retrieved_context_ids": [
+      "ddcc3253-aabb-5f65-9204-fa7da56c44f4"
+    ],
+    "reference": "周长是封闭图形一周边线的总长度。长方形两条长相等、两条宽相等，所以周长=长+宽+长+宽=(长+宽)×2。",
+    "known_ambiguity": false
+  },
+  {
+    "id": "complex-17",
+    "policy": "single_pass",
+    "answerable": true,
+    "partition": "new_authored_complex",
+    "status": "refused",
+    "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+    "response": "当前资料不足，无法在所选范围内给出有依据的回答。请补充相关资料或缩小问题范围。",
+    "retrieved_contexts": [],
+    "retrieved_context_ids": [],
+    "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+    "known_ambiguity": false
+  },
+  {
+    "id": "complex-17",
+    "policy": "always_retry",
+    "answerable": true,
+    "partition": "new_authored_complex",
+    "status": "answered",
+    "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+    "response": "先算能买几本：96÷8＝12（本），表示96元里面包含12个8元 [C22]。\n再把这些书平均放到3个架子上：12÷3＝4（本），每架放4本 [C22]。\n答：能买12本；平均放到3个架子上，每架4本。",
+    "retrieved_contexts": [
+      "# 一位数除法与验算\n\n除法可以看成把一个数量平均分，或求里面包含几个相同的数量。计算多位数除以一位数时，从被除数的高位除起，商写在对应数位上。不带余数的除法，用商 × 除数 = 被除数来验算；有余数时，用商 × 除数 + 余数来验算。例如 84÷4=21，可用 21×4=84 验算；47÷5=9……2，可用 9×5+2=47 验算。"
+    ],
+    "retrieved_context_ids": [
+      "3a5d1294-af72-5cd2-94f8-d023d2230af3"
+    ],
+    "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+    "known_ambiguity": false
+  },
+  {
+    "id": "complex-17",
+    "policy": "adaptive",
+    "answerable": true,
+    "partition": "new_authored_complex",
+    "status": "answered",
+    "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+    "response": "先算能买几本：96÷8＝12（本），表示96元里面包含12个8元 [C22]。\n再把这些书平均放到3个架子上：12÷3＝4（本），每架放4本 [C22]。\n答：能买12本；平均放到3个架子上，每架4本。",
+    "retrieved_contexts": [
+      "# 一位数除法与验算\n\n除法可以看成把一个数量平均分，或求里面包含几个相同的数量。计算多位数除以一位数时，从被除数的高位除起，商写在对应数位上。不带余数的除法，用商 × 除数 = 被除数来验算；有余数时，用商 × 除数 + 余数来验算。例如 84÷4=21，可用 21×4=84 验算；47÷5=9……2，可用 9×5+2=47 验算。"
+    ],
+    "retrieved_context_ids": [
+      "3a5d1294-af72-5cd2-94f8-d023d2230af3"
+    ],
+    "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+    "known_ambiguity": false
+  }
+]

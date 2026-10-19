@@ -1,0 +1,418 @@
+{
+  "input_manifest_verified": true,
+  "evaluation_code_verified": true,
+  "reference_file_verified": true,
+  "rows": 276,
+  "distinct_completed_answer_texts": 26,
+  "metric_statuses": {
+    "not_applicable": 995,
+    "scored": 385
+  },
+  "all_saved_provider_responses": 288,
+  "all_saved_usage": {
+    "prompt_tokens": 281467,
+    "completion_tokens": 37340,
+    "total_tokens": 318807
+  },
+  "estimated_evaluation_cost_rmb": {
+    "off_peak": 0.24254156,
+    "peak": 0.48508312
+  },
+  "pricing_asof": "2026-10-19",
+  "cost_note": "Distinct saved judge responses including pilot reused by full run; not RAG generation cost or provider invoice.",
+  "known_ambiguity": [
+    {
+      "id": "complex-07",
+      "policy": "single_pass",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "answered",
+      "user_input": "三年级数学：原有586本书，添127本后借出218本，剩下的每9本装一包，剩几本书，能装几包？",
+      "response": "先算剩下多少本：586 + 127 − 218 = 495（本）[C4]。\n\n再按每9本装一包：495 ÷ 9 = 55（包），没有剩余。\n\n答：剩 0 本书，能装 55 包。",
+      "retrieved_contexts": [
+        "29 个苹果每 4 个装一袋，能装满几袋，还剩几个？\n\n参考答案：7 袋，还剩 1 个。\n解析：29÷4=7……1，表示装满 7 袋后剩 1 个。",
+        "# 三位数加减法\n\n列竖式计算三位数加减法时，相同数位要对齐，从个位算起。加法中，哪一位相加满十，就向前一位进一。减法中，哪一位不够减，就从前一位退一作十。例：368 + 257 = 625；702 - 468 = 234。遇到两步应用题，先说明每一步表示什么，再列式。例：原有 425 本书，新购 178 本，借出 96 本，剩下 425 + 178 - 96 = 507 本。",
+        "计算 46 ÷ 6，写出商和余数。\n\n参考答案：商 7，余数 4。\n解析：6×7=42，46-42=4，且 4<6，所以 46÷6=7……4。"
+      ],
+      "retrieved_context_ids": [
+        "58051768-80b6-5ba4-abaf-1eeac63e374e",
+        "6ef1d128-8293-543c-b4ee-a607d053f599",
+        "d865c2c0-3f80-5d4c-ba76-2e5c7d024418"
+      ],
+      "reference": "借出后剩余库存=586+127-218=495本。495÷9=55包，无未装包余数；剩余库存495本、能装55包、装包后未入包0本是不同数量。",
+      "known_ambiguity": true,
+      "metrics": {
+        "faithfulness": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "1ff04843f3ab73edd887dac4048b5b7d072f7a1fa7eaba3cddcc3983a687c92c",
+            "0dc9ad8a4ce0fc592ab8624928b2abfa1e91a3eec70e4e859676f395d64b53f6"
+          ],
+          "metric_key": "effaadbc4096c3cbb2d1857f9a1e9ec236226c1a4ea577e19442288c76082488"
+        },
+        "factual_correctness": {
+          "status": "scored",
+          "value": 0.89,
+          "provider_keys": [
+            "43e032b83c2cebed137c783556a4f2094b982a1e2f9579fd730d549e4438a88b",
+            "dabd07b520ce33ca4325e8ce265ae789878e3cb0a62d246984fcb084378a9b8d",
+            "4ed4a163e96c6ca5e693cc167aeaaadae79140b7c432ec0e0e3e601523369beb",
+            "dc26974be6428343a172c0e7e18198a288c0c014af1f278f4fed91f22cdfcecd"
+          ],
+          "metric_key": "d65c9ce6e27ce985873506cde4b9a01bc23c53e60baf457258d344a6f90ff06b"
+        },
+        "context_precision": {
+          "status": "scored",
+          "value": 0.49999999995,
+          "provider_keys": [
+            "7a07a522bf24bee4f9466d457906ad3489a1461f820f3c51110ea4ee79682edb",
+            "9d34491b4f7f3b44a0df790b0ad279d42824c9ec2ff1df7b3a7c3ddc324e73f3",
+            "9f6e383fc126c519ce54838c037c481b9cc1cbcbe672dbed79ab71de848d561d"
+          ],
+          "metric_key": "9ee4cd323ad7640e93c1871f4cbc6ca12898910c8cec4b88e2c393f116edbb12"
+        },
+        "context_recall": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "f787915949aac3f51ea2bd862c4620eb8aecfb807f7c9341f77e41ffba75bdcf"
+          ],
+          "metric_key": "6435b6f3036130bc66f41b5eca0069dfdebe0eb8922ebb0a8790a20c7b74b71c"
+        },
+        "answer_accuracy": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "386b6454211d3efaa6b82e3407fdcd0c78ca275dcfb82b8698db5389b3fdea76",
+            "c06d937b5fd167014a6d83b22e74ad499bdb25a010e35048d35e53a51d1ef2ad"
+          ],
+          "metric_key": "f57096e2fd3f85dc29daac3553a2eb796a24da6aba28af51f5ccaa54a0f079b6"
+        }
+      }
+    },
+    {
+      "id": "complex-07",
+      "policy": "always_retry",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "answered",
+      "user_input": "三年级数学：原有586本书，添127本后借出218本，剩下的每9本装一包，剩几本书，能装几包？",
+      "response": "先算剩下多少本：586 + 127 − 218 = 495（本）[C4]。\n\n再按每9本装一包：495 ÷ 9 = 55（包），没有剩余。\n\n答：剩 0 本书，能装 55 包。",
+      "retrieved_contexts": [
+        "29 个苹果每 4 个装一袋，能装满几袋，还剩几个？\n\n参考答案：7 袋，还剩 1 个。\n解析：29÷4=7……1，表示装满 7 袋后剩 1 个。",
+        "# 三位数加减法\n\n列竖式计算三位数加减法时，相同数位要对齐，从个位算起。加法中，哪一位相加满十，就向前一位进一。减法中，哪一位不够减，就从前一位退一作十。例：368 + 257 = 625；702 - 468 = 234。遇到两步应用题，先说明每一步表示什么，再列式。例：原有 425 本书，新购 178 本，借出 96 本，剩下 425 + 178 - 96 = 507 本。",
+        "计算 46 ÷ 6，写出商和余数。\n\n参考答案：商 7，余数 4。\n解析：6×7=42，46-42=4，且 4<6，所以 46÷6=7……4。"
+      ],
+      "retrieved_context_ids": [
+        "58051768-80b6-5ba4-abaf-1eeac63e374e",
+        "6ef1d128-8293-543c-b4ee-a607d053f599",
+        "d865c2c0-3f80-5d4c-ba76-2e5c7d024418"
+      ],
+      "reference": "借出后剩余库存=586+127-218=495本。495÷9=55包，无未装包余数；剩余库存495本、能装55包、装包后未入包0本是不同数量。",
+      "known_ambiguity": true,
+      "metrics": {
+        "faithfulness": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "1ff04843f3ab73edd887dac4048b5b7d072f7a1fa7eaba3cddcc3983a687c92c",
+            "0dc9ad8a4ce0fc592ab8624928b2abfa1e91a3eec70e4e859676f395d64b53f6"
+          ],
+          "metric_key": "effaadbc4096c3cbb2d1857f9a1e9ec236226c1a4ea577e19442288c76082488"
+        },
+        "factual_correctness": {
+          "status": "scored",
+          "value": 0.89,
+          "provider_keys": [
+            "43e032b83c2cebed137c783556a4f2094b982a1e2f9579fd730d549e4438a88b",
+            "dabd07b520ce33ca4325e8ce265ae789878e3cb0a62d246984fcb084378a9b8d",
+            "4ed4a163e96c6ca5e693cc167aeaaadae79140b7c432ec0e0e3e601523369beb",
+            "dc26974be6428343a172c0e7e18198a288c0c014af1f278f4fed91f22cdfcecd"
+          ],
+          "metric_key": "d65c9ce6e27ce985873506cde4b9a01bc23c53e60baf457258d344a6f90ff06b"
+        },
+        "context_precision": {
+          "status": "scored",
+          "value": 0.49999999995,
+          "provider_keys": [
+            "7a07a522bf24bee4f9466d457906ad3489a1461f820f3c51110ea4ee79682edb",
+            "9d34491b4f7f3b44a0df790b0ad279d42824c9ec2ff1df7b3a7c3ddc324e73f3",
+            "9f6e383fc126c519ce54838c037c481b9cc1cbcbe672dbed79ab71de848d561d"
+          ],
+          "metric_key": "9ee4cd323ad7640e93c1871f4cbc6ca12898910c8cec4b88e2c393f116edbb12"
+        },
+        "context_recall": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "f787915949aac3f51ea2bd862c4620eb8aecfb807f7c9341f77e41ffba75bdcf"
+          ],
+          "metric_key": "6435b6f3036130bc66f41b5eca0069dfdebe0eb8922ebb0a8790a20c7b74b71c"
+        },
+        "answer_accuracy": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "386b6454211d3efaa6b82e3407fdcd0c78ca275dcfb82b8698db5389b3fdea76",
+            "c06d937b5fd167014a6d83b22e74ad499bdb25a010e35048d35e53a51d1ef2ad"
+          ],
+          "metric_key": "f57096e2fd3f85dc29daac3553a2eb796a24da6aba28af51f5ccaa54a0f079b6"
+        }
+      }
+    },
+    {
+      "id": "complex-07",
+      "policy": "adaptive",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "answered",
+      "user_input": "三年级数学：原有586本书，添127本后借出218本，剩下的每9本装一包，剩几本书，能装几包？",
+      "response": "先算剩下多少本：586 + 127 − 218 = 495（本）[C4]。\n\n再按每9本装一包：495 ÷ 9 = 55（包），没有剩余。\n\n答：剩 0 本书，能装 55 包。",
+      "retrieved_contexts": [
+        "29 个苹果每 4 个装一袋，能装满几袋，还剩几个？\n\n参考答案：7 袋，还剩 1 个。\n解析：29÷4=7……1，表示装满 7 袋后剩 1 个。",
+        "# 三位数加减法\n\n列竖式计算三位数加减法时，相同数位要对齐，从个位算起。加法中，哪一位相加满十，就向前一位进一。减法中，哪一位不够减，就从前一位退一作十。例：368 + 257 = 625；702 - 468 = 234。遇到两步应用题，先说明每一步表示什么，再列式。例：原有 425 本书，新购 178 本，借出 96 本，剩下 425 + 178 - 96 = 507 本。",
+        "计算 46 ÷ 6，写出商和余数。\n\n参考答案：商 7，余数 4。\n解析：6×7=42，46-42=4，且 4<6，所以 46÷6=7……4。"
+      ],
+      "retrieved_context_ids": [
+        "58051768-80b6-5ba4-abaf-1eeac63e374e",
+        "6ef1d128-8293-543c-b4ee-a607d053f599",
+        "d865c2c0-3f80-5d4c-ba76-2e5c7d024418"
+      ],
+      "reference": "借出后剩余库存=586+127-218=495本。495÷9=55包，无未装包余数；剩余库存495本、能装55包、装包后未入包0本是不同数量。",
+      "known_ambiguity": true,
+      "metrics": {
+        "faithfulness": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "1ff04843f3ab73edd887dac4048b5b7d072f7a1fa7eaba3cddcc3983a687c92c",
+            "0dc9ad8a4ce0fc592ab8624928b2abfa1e91a3eec70e4e859676f395d64b53f6"
+          ],
+          "metric_key": "effaadbc4096c3cbb2d1857f9a1e9ec236226c1a4ea577e19442288c76082488"
+        },
+        "factual_correctness": {
+          "status": "scored",
+          "value": 0.89,
+          "provider_keys": [
+            "43e032b83c2cebed137c783556a4f2094b982a1e2f9579fd730d549e4438a88b",
+            "dabd07b520ce33ca4325e8ce265ae789878e3cb0a62d246984fcb084378a9b8d",
+            "4ed4a163e96c6ca5e693cc167aeaaadae79140b7c432ec0e0e3e601523369beb",
+            "dc26974be6428343a172c0e7e18198a288c0c014af1f278f4fed91f22cdfcecd"
+          ],
+          "metric_key": "d65c9ce6e27ce985873506cde4b9a01bc23c53e60baf457258d344a6f90ff06b"
+        },
+        "context_precision": {
+          "status": "scored",
+          "value": 0.49999999995,
+          "provider_keys": [
+            "7a07a522bf24bee4f9466d457906ad3489a1461f820f3c51110ea4ee79682edb",
+            "9d34491b4f7f3b44a0df790b0ad279d42824c9ec2ff1df7b3a7c3ddc324e73f3",
+            "9f6e383fc126c519ce54838c037c481b9cc1cbcbe672dbed79ab71de848d561d"
+          ],
+          "metric_key": "9ee4cd323ad7640e93c1871f4cbc6ca12898910c8cec4b88e2c393f116edbb12"
+        },
+        "context_recall": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "f787915949aac3f51ea2bd862c4620eb8aecfb807f7c9341f77e41ffba75bdcf"
+          ],
+          "metric_key": "6435b6f3036130bc66f41b5eca0069dfdebe0eb8922ebb0a8790a20c7b74b71c"
+        },
+        "answer_accuracy": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "386b6454211d3efaa6b82e3407fdcd0c78ca275dcfb82b8698db5389b3fdea76",
+            "c06d937b5fd167014a6d83b22e74ad499bdb25a010e35048d35e53a51d1ef2ad"
+          ],
+          "metric_key": "f57096e2fd3f85dc29daac3553a2eb796a24da6aba28af51f5ccaa54a0f079b6"
+        }
+      }
+    }
+  ],
+  "recovered_case": [
+    {
+      "id": "complex-17",
+      "policy": "single_pass",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "refused",
+      "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+      "response": "当前资料不足，无法在所选范围内给出有依据的回答。请补充相关资料或缩小问题范围。",
+      "retrieved_contexts": [],
+      "retrieved_context_ids": [],
+      "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+      "known_ambiguity": false,
+      "metrics": {
+        "faithfulness": {
+          "status": "not_applicable",
+          "value": null
+        },
+        "factual_correctness": {
+          "status": "not_applicable",
+          "value": null
+        },
+        "context_precision": {
+          "status": "not_applicable",
+          "value": null
+        },
+        "context_recall": {
+          "status": "not_applicable",
+          "value": null
+        },
+        "answer_accuracy": {
+          "status": "not_applicable",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "complex-17",
+      "policy": "always_retry",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "answered",
+      "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+      "response": "先算能买几本：96÷8＝12（本），表示96元里面包含12个8元 [C22]。\n再把这些书平均放到3个架子上：12÷3＝4（本），每架放4本 [C22]。\n答：能买12本；平均放到3个架子上，每架4本。",
+      "retrieved_contexts": [
+        "# 一位数除法与验算\n\n除法可以看成把一个数量平均分，或求里面包含几个相同的数量。计算多位数除以一位数时，从被除数的高位除起，商写在对应数位上。不带余数的除法，用商 × 除数 = 被除数来验算；有余数时，用商 × 除数 + 余数来验算。例如 84÷4=21，可用 21×4=84 验算；47÷5=9……2，可用 9×5+2=47 验算。"
+      ],
+      "retrieved_context_ids": [
+        "3a5d1294-af72-5cd2-94f8-d023d2230af3"
+      ],
+      "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+      "known_ambiguity": false,
+      "metrics": {
+        "faithfulness": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "38c9a83f4c5baeeb7f0c81e57610b7bcdff2745be1869a69f36736e8e94928bc",
+            "2d16f009c614ff96b9c92ba9510f7173f6fe36f0814d5c4a5ea021b1eaccbf17"
+          ],
+          "metric_key": "084eae86ccb4e622807767444c892150e2943122ed99edfd40ad66f305b70688"
+        },
+        "factual_correctness": {
+          "status": "scored",
+          "value": 0.8,
+          "provider_keys": [
+            "6ac7103de4fc45504d007294b74002b0538797b18c15711dad3c6b0c49fe8fc2",
+            "9a96128eceba9ec9f933d9b45b92a0b458b83b27f51cd98c8d813ce6ec9aa05a",
+            "15e3b7406d067ac9c50987ea7f3521dfa6c2eac88b7e9b7610a521991ae4cd02",
+            "91cf93ffeeee1de2c315e77314c3ea73d0eb689159a6bc86f9fccb761fa645e5"
+          ],
+          "metric_key": "e1db92197b3ada89ffc0631317b72353e2dadf21dd69612ddc7de267cbe8d8c4"
+        },
+        "context_precision": {
+          "status": "scored",
+          "value": 0.9999999999,
+          "provider_keys": [
+            "8002c7302391faf11aefdf734cbc155bcb0cf2e3c3ed8378580b34d3d2492a58"
+          ],
+          "metric_key": "4d3bd0f7f875505ff8b8817bb3a4d3a44af8a6271ec0142583b6c10e483c48c9"
+        },
+        "context_recall": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "f1c7fe2ab50f6166edb62e3a146b0e1f94db039628e000e28caa22e277f78f68"
+          ],
+          "metric_key": "d17c71d71d5336404ade7a78af771cfaf2fa23e5a770e58cfb82a1edf8ba52b7"
+        },
+        "answer_accuracy": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "799327b5b82cb254a477a02235a660cc70945b65c41a23de224fe11261a1d95d",
+            "d2cd48443d55dff89d6cbcd0ccedc62eff2fbbad27c3de8f0988cd08da7a5c62"
+          ],
+          "metric_key": "85e83477150ee69c7ecbde4e5733a4ff340423b0ba6c07fad6a774764486e0ae"
+        }
+      }
+    },
+    {
+      "id": "complex-17",
+      "policy": "adaptive",
+      "answerable": true,
+      "partition": "new_authored_complex",
+      "status": "answered",
+      "user_input": "三年级数学：96元买每本8元的书，能买几本？把这些书平均放到3个架子上，每架几本？",
+      "response": "先算能买几本：96÷8＝12（本），表示96元里面包含12个8元 [C22]。\n再把这些书平均放到3个架子上：12÷3＝4（本），每架放4本 [C22]。\n答：能买12本；平均放到3个架子上，每架4本。",
+      "retrieved_contexts": [
+        "# 一位数除法与验算\n\n除法可以看成把一个数量平均分，或求里面包含几个相同的数量。计算多位数除以一位数时，从被除数的高位除起，商写在对应数位上。不带余数的除法，用商 × 除数 = 被除数来验算；有余数时，用商 × 除数 + 余数来验算。例如 84÷4=21，可用 21×4=84 验算；47÷5=9……2，可用 9×5+2=47 验算。"
+      ],
+      "retrieved_context_ids": [
+        "3a5d1294-af72-5cd2-94f8-d023d2230af3"
+      ],
+      "reference": "总价÷单价=数量，96÷8=12本书。平均分到3个架子，每架12÷3=4本。可用8×12=96、3×4=12验算。",
+      "known_ambiguity": false,
+      "metrics": {
+        "faithfulness": {
+          "status": "scored",
+          "value": 0.0,
+          "provider_keys": [
+            "38c9a83f4c5baeeb7f0c81e57610b7bcdff2745be1869a69f36736e8e94928bc",
+            "2d16f009c614ff96b9c92ba9510f7173f6fe36f0814d5c4a5ea021b1eaccbf17"
+          ],
+          "metric_key": "084eae86ccb4e622807767444c892150e2943122ed99edfd40ad66f305b70688"
+        },
+        "factual_correctness": {
+          "status": "scored",
+          "value": 0.8,
+          "provider_keys": [
+            "6ac7103de4fc45504d007294b74002b0538797b18c15711dad3c6b0c49fe8fc2",
+            "9a96128eceba9ec9f933d9b45b92a0b458b83b27f51cd98c8d813ce6ec9aa05a",
+            "15e3b7406d067ac9c50987ea7f3521dfa6c2eac88b7e9b7610a521991ae4cd02",
+            "91cf93ffeeee1de2c315e77314c3ea73d0eb689159a6bc86f9fccb761fa645e5"
+          ],
+          "metric_key": "e1db92197b3ada89ffc0631317b72353e2dadf21dd69612ddc7de267cbe8d8c4"
+        },
+        "context_precision": {
+          "status": "scored",
+          "value": 0.9999999999,
+          "provider_keys": [
+            "8002c7302391faf11aefdf734cbc155bcb0cf2e3c3ed8378580b34d3d2492a58"
+          ],
+          "metric_key": "4d3bd0f7f875505ff8b8817bb3a4d3a44af8a6271ec0142583b6c10e483c48c9"
+        },
+        "context_recall": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "f1c7fe2ab50f6166edb62e3a146b0e1f94db039628e000e28caa22e277f78f68"
+          ],
+          "metric_key": "d17c71d71d5336404ade7a78af771cfaf2fa23e5a770e58cfb82a1edf8ba52b7"
+        },
+        "answer_accuracy": {
+          "status": "scored",
+          "value": 1.0,
+          "provider_keys": [
+            "799327b5b82cb254a477a02235a660cc70945b65c41a23de224fe11261a1d95d",
+            "d2cd48443d55dff89d6cbcd0ccedc62eff2fbbad27c3de8f0988cd08da7a5c62"
+          ],
+          "metric_key": "85e83477150ee69c7ecbde4e5733a4ff340423b0ba6c07fad6a774764486e0ae"
+        }
+      }
+    }
+  ],
+  "assistant_review_of_low_answer_accuracy": {
+    "reviewer": "Codex assistant, not independent human annotation",
+    "case_ids": [
+      "pos-03",
+      "pos-06",
+      "pos-07"
+    ],
+    "observation": "Each scored 0.75: the two Ragas judge prompts returned 2 and 4. Reading the answers confirms correct core square perimeter, unit conversions and borrowing rules. References add details not explicitly requested in every question. The rating-only judge output gives no reason, so verbosity or judge disagreement is a possible explanation, not a proven cause. Keep original references and scores unchanged.",
+    "ambiguous_case_caveat": "complex-07 scores AnswerAccuracy=1.0 despite the previously flagged ambiguous final remaining-book count. This false acceptance limits use as a binary mathematical verifier."
+  },
+  "first_attempt": {
+    "metric_errors": 1,
+    "invocation": {
+      "actual_http_attempts": 269,
+      "actual_total_tokens": 297639
+    },
+    "resolution": "Exact-input success already obtained by another policy; replayed in clean environment with no new HTTP calls. First scores, report and request ledger preserved."
+  }
+}

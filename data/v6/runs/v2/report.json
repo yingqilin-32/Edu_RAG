@@ -1,0 +1,89 @@
+{
+  "complete": true,
+  "corpus_sha256_before": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e",
+  "corpus_sha256_after": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e",
+  "corpus_unchanged": true,
+  "modes": {
+    "none": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 3,
+      "condition_retention": 6,
+      "routing_and_conditions_pass": 3,
+      "negative_status_flags": 0,
+      "model_calls_followups": 29,
+      "model_calls_all_turns": 117,
+      "tokens_followups": 52563,
+      "tokens_all_turns": 152731,
+      "avg_context_characters_followups": 0,
+      "avg_input_tokens_followups": 2904.764705882353,
+      "median_api_latency_proxy_ms": 1241.8309999920893,
+      "service_errors": 0,
+      "resolution_calls": 0,
+      "status_counts_followups": {
+        "needs_clarification": 13,
+        "answered": 3,
+        "refused": 1
+      }
+    },
+    "history": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 14,
+      "condition_retention": 14,
+      "routing_and_conditions_pass": 14,
+      "negative_status_flags": 0,
+      "model_calls_followups": 80,
+      "model_calls_all_turns": 168,
+      "tokens_followups": 74158,
+      "tokens_all_turns": 170275,
+      "avg_context_characters_followups": 408.6470588235294,
+      "avg_input_tokens_followups": 3846,
+      "median_api_latency_proxy_ms": 6284.833800018532,
+      "service_errors": 0,
+      "resolution_calls": 11,
+      "status_counts_followups": {
+        "answered": 13,
+        "exercises_found": 1,
+        "needs_clarification": 1,
+        "refused": 2
+      }
+    },
+    "structured": {
+      "all_turns": 36,
+      "positive_followups": 14,
+      "negative_followups": 3,
+      "positive_answered": 13,
+      "condition_retention": 13,
+      "routing_and_conditions_pass": 13,
+      "negative_status_flags": 0,
+      "model_calls_followups": 74,
+      "model_calls_all_turns": 162,
+      "tokens_followups": 67964,
+      "tokens_all_turns": 164081,
+      "avg_context_characters_followups": 498,
+      "avg_input_tokens_followups": 3528.0588235294117,
+      "median_api_latency_proxy_ms": 6028.2452999963425,
+      "service_errors": 0,
+      "resolution_calls": 10,
+      "status_counts_followups": {
+        "answered": 12,
+        "exercises_found": 1,
+        "needs_clarification": 2,
+        "refused": 2
+      }
+    }
+  },
+  "actual_new_http_calls": 57,
+  "actual_new_tokens": 70109,
+  "limits": [
+    "Authored development dialogs, one response per distinct prompt; not a representative holdout.",
+    "Exact-prompt provider responses shared across arms; outcomes are correlated.",
+    "Routing/condition pass does not establish mathematical answer correctness; see separate Ragas evaluation and answer audit.",
+    "Latency proxy sums original provider times, not end-to-end latency; cached-run wall time is not production latency.",
+    "Structured memory retains four recent records; full history retains at most twelve turns. No LLM narrative summarization.",
+    "In-process checkpoints, no authenticated multi-user hosting or restart persistence."
+  ]
+}

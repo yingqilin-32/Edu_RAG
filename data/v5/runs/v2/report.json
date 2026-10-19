@@ -1,0 +1,237 @@
+{
+  "signature": {
+    "suite_sha256": "5f0d1099620a0459cd7c38400ea5cc2c8e1450fbda2c6a99e905f48590f9bb7a",
+    "version": "adaptive-branches-v1",
+    "code": {
+      "src/edu_rag/adaptive.py": "2d464d266468d6af87417262c175783ae2271be26c6daeb2645510f42aba9a20",
+      "src/edu_rag/budget.py": "e2914a5e1bcba3c94b1b20c1d9167cd1f74e30cd25d4118328f5cbfb14d9a40a",
+      "src/edu_rag/gating.py": "e488122bb7a1ad6250a329ab168b92a8e0104424cb56b767cc779d5f0dfe92ba",
+      "src/edu_rag/workflow.py": "cd802d6bae53f5dbf971d78e126442966fe59265e1f9ffcbe1996a48448322e0",
+      "src/edu_rag/query.py": "596de6eddd4fe6f9290586d5c268622695b578b64fa5266fe87e81ee6443c1be",
+      "src/edu_rag/rag.py": "2891ba9541b35a3a0b7808b37681f56c19a56ead83052badf5a28e605bb590d8",
+      "src/edu_rag/retrieval.py": "030111054cd1844f1ff09ff1835595e073c42fa82982703211ac1ac0f54d94df",
+      "src/edu_rag/llm.py": "9250a23efe98206e1b84ad5bd0856601a55fcdd5a7d63a61d6f257692536ec2d",
+      "src/edu_rag/scope.py": "2b0a49be67839203c545062607461e152c427a9a8ea68ec06daeb263a8509cd9",
+      "src/edu_rag/knowledge.py": "d0c71f94af8db32363c211a73a97f8a488d4871a17828dda7343a3d12d0495f5",
+      "src/edu_rag/embedding.py": "7a59276e055982f9cb43e7eb8e691cc3b80c4631d0ccf2cd6cf61703f0c52fb1",
+      "scripts/evaluate_v5.py": "71c7e1af094ec471575d37a96f06e2ef4ce7753022012adbfc0a1bafe25336fa"
+    },
+    "model": "deepseek-flash",
+    "policies": [
+      "single_pass",
+      "always_retry",
+      "adaptive"
+    ],
+    "request": {
+      "max_retries": 2,
+      "max_model_calls": 10,
+      "max_total_tokens": 30000,
+      "max_branches": 3,
+      "max_elapsed_seconds": 90
+    },
+    "corpus_sha256": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e",
+    "frozen_inputs_sha256": "4efc3672799a5f1f35dfc7b11cd32168a770701ecd75f38b9c3710cb07d4cf5f"
+  },
+  "complete": true,
+  "metrics": {
+    "single_pass": {
+      "cases": 92,
+      "positive_completed": 25,
+      "positives": 32,
+      "false_answer_statuses": 0,
+      "negatives": 60,
+      "partitions": {
+        "simple_control": {
+          "count": 8,
+          "completed": 8,
+          "model_calls": 40,
+          "total_tokens": 41537
+        },
+        "new_authored_complex": {
+          "count": 24,
+          "completed": 17,
+          "model_calls": 104,
+          "total_tokens": 149491
+        },
+        "reused_negative": {
+          "count": 60,
+          "completed": 0,
+          "model_calls": 80,
+          "total_tokens": 165692
+        }
+      },
+      "service_errors": [],
+      "budget_stops": [],
+      "nominal_model_calls": 224,
+      "max_observed_model_calls": 5,
+      "nominal_total_tokens": 356720,
+      "median_tokens": 3068.5,
+      "retry_distribution": {
+        "0": 92
+      },
+      "stop_reasons": {
+        "insufficient_evidence": 14,
+        "missing_input": 26,
+        "single_pass": 27,
+        "answered": 25
+      },
+      "bounds_respected": true,
+      "estimated_rmb_off_peak": 0.42148597999999987,
+      "estimated_rmb_peak": 0.8429719599999997,
+      "positive_failures": [
+        "complex-02",
+        "complex-03",
+        "complex-06",
+        "complex-09",
+        "complex-15",
+        "complex-17",
+        "complex-20"
+      ]
+    },
+    "always_retry": {
+      "cases": 92,
+      "positive_completed": 26,
+      "positives": 32,
+      "false_answer_statuses": 0,
+      "negatives": 60,
+      "partitions": {
+        "simple_control": {
+          "count": 8,
+          "completed": 8,
+          "model_calls": 40,
+          "total_tokens": 41537
+        },
+        "new_authored_complex": {
+          "count": 24,
+          "completed": 18,
+          "model_calls": 131,
+          "total_tokens": 175712
+        },
+        "reused_negative": {
+          "count": 60,
+          "completed": 0,
+          "model_calls": 157,
+          "total_tokens": 211527
+        }
+      },
+      "service_errors": [],
+      "budget_stops": [
+        "neg-partial_requirements-01",
+        "neg-partial_requirements-02",
+        "neg-adversarial_or_false_premise-05",
+        "complex-02",
+        "complex-03",
+        "complex-06",
+        "complex-09",
+        "complex-20"
+      ],
+      "nominal_model_calls": 328,
+      "max_observed_model_calls": 10,
+      "nominal_total_tokens": 428776,
+      "median_tokens": 4497.0,
+      "retry_distribution": {
+        "0": 65,
+        "2": 19,
+        "1": 8
+      },
+      "stop_reasons": {
+        "insufficient_evidence": 14,
+        "missing_input": 26,
+        "retry_limit": 18,
+        "reserve_final_calls": 8,
+        "answered": 26
+      },
+      "bounds_respected": true,
+      "estimated_rmb_off_peak": 0.5081576599999998,
+      "estimated_rmb_peak": 1.0163153199999997,
+      "positive_failures": [
+        "complex-02",
+        "complex-03",
+        "complex-06",
+        "complex-09",
+        "complex-15",
+        "complex-20"
+      ],
+      "gained": [
+        "complex-17"
+      ],
+      "lost": []
+    },
+    "adaptive": {
+      "cases": 92,
+      "positive_completed": 26,
+      "positives": 32,
+      "false_answer_statuses": 0,
+      "negatives": 60,
+      "partitions": {
+        "simple_control": {
+          "count": 8,
+          "completed": 8,
+          "model_calls": 40,
+          "total_tokens": 41537
+        },
+        "new_authored_complex": {
+          "count": 24,
+          "completed": 18,
+          "model_calls": 117,
+          "total_tokens": 160912
+        },
+        "reused_negative": {
+          "count": 60,
+          "completed": 0,
+          "model_calls": 108,
+          "total_tokens": 190418
+        }
+      },
+      "service_errors": [],
+      "budget_stops": [
+        "complex-03"
+      ],
+      "nominal_model_calls": 265,
+      "max_observed_model_calls": 7,
+      "nominal_total_tokens": 392867,
+      "median_tokens": 3288.5,
+      "retry_distribution": {
+        "0": 66,
+        "2": 3,
+        "1": 23
+      },
+      "stop_reasons": {
+        "insufficient_evidence": 14,
+        "missing_input": 26,
+        "retry_limit": 3,
+        "no_new_evidence": 21,
+        "missing_knowledge": 1,
+        "answered": 26,
+        "reserve_final_calls": 1
+      },
+      "bounds_respected": true,
+      "estimated_rmb_off_peak": 0.46593617999999987,
+      "estimated_rmb_peak": 0.9318723599999997,
+      "positive_failures": [
+        "complex-02",
+        "complex-03",
+        "complex-06",
+        "complex-09",
+        "complex-15",
+        "complex-20"
+      ],
+      "gained": [
+        "complex-17"
+      ],
+      "lost": []
+    }
+  },
+  "corpus_unchanged": true,
+  "corpus_after": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e",
+  "unique_provider_calls": 236,
+  "actual_experiment_tokens": 261480,
+  "notes": [
+    "60 reused negatives, 8 reused simple positives, 24 new authored complex positives; small development sample, not a representative holdout.",
+    "Same frozen plan/first retrieval, ranking/filter/gate/generation/verification prompts and count budgets. Only retry policy and branch retrieval differ.",
+    "Common planning calls/usage replayed for nominal request budget and cost; raw provider cache counts actual distinct API calls, including new-case planning.",
+    "Completion is not independent answer correctness. Audit core facts and any negative status flags separately.",
+    "Budget call limit is hard; total-token admission uses a conservative estimate, not an exact provider tokenizer. Local DB/embedding work is not forcibly interrupted.",
+    "Always-retry control uses the same new nodes and focused single-query rewrites; it is not a bit-identical rerun of historical V4."
+  ]
+}

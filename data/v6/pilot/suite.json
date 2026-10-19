@@ -1,0 +1,73 @@
+{
+  "name": "memory-paired-dialogues-v1",
+  "note": "Authored development dialogues frozen before API evaluation. Follow-up gold references never enter the application. All arms share the same V5 pipeline and budgets; only memory representation differs.",
+  "dialogs": [
+    {
+      "id": "rectangle",
+      "category": "parameter_edit",
+      "turns": [
+        {
+          "question": "三年级数学：长方形长8厘米、宽3厘米，周长是多少？"
+        },
+        {
+          "question": "那面积呢？",
+          "answerable": true,
+          "reference": "长方形长8厘米、宽3厘米，面积=8×3=24平方厘米。",
+          "must_contain": [
+            "长方形",
+            "8",
+            "3",
+            "面积"
+          ],
+          "grade": 3
+        },
+        {
+          "question": "把长改成10厘米，宽保持不变，面积是多少？",
+          "answerable": true,
+          "reference": "长10厘米、宽仍为3厘米，面积=10×3=30平方厘米。",
+          "must_contain": [
+            "长方形",
+            "10",
+            "3",
+            "面积"
+          ],
+          "must_not_contain": [
+            "长8"
+          ],
+          "grade": 3
+        }
+      ]
+    },
+    {
+      "id": "clock-switch",
+      "category": "scope_switch",
+      "turns": [
+        {
+          "question": "三年级数学：正方形边长5厘米，面积是多少？"
+        },
+        {
+          "question": "换到一年级上册数学，分针指12时表示整时还是半时？",
+          "answerable": true,
+          "reference": "分针指12时表示整时。",
+          "must_contain": [
+            "12",
+            "分针"
+          ],
+          "grade": 1,
+          "semester": "first"
+        },
+        {
+          "question": "那分针指6呢？",
+          "answerable": true,
+          "reference": "读钟面时，分针指6表示半时。",
+          "must_contain": [
+            "分针",
+            "6"
+          ],
+          "grade": 1,
+          "semester": "first"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "inputs_sha256": "9a3fb3e4f14e6fc10d32b3264c63923b96412e9ffb9857fd32884d17be18bae1",
+  "suite_sha256": "a95818b0b8eec35e3374e0449fdc6b59e3240e7193d42bc98c827b533f058d25",
+  "model": "deepseek-flash",
+  "ragas": "0.4.3",
+  "metric": "AnswerAccuracy",
+  "max_retries": 1,
+  "reference_use": "Only in evaluator; user_input contains full canonical user dialog, not the system's rewritten question.",
+  "code_sha256": "12baad6cc9678007076a09e88741d8f7096b9170515a8d59da815056022ccf8d"
+}

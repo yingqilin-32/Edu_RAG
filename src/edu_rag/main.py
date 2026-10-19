@@ -12,9 +12,10 @@ from sqlalchemy.exc import SQLAlchemyError
 from edu_rag import __version__
 from edu_rag.config import ConfigurationError
 from edu_rag.db import database_status, get_engine
-from edu_rag import knowledge, rag, workflow, deployment
+from edu_rag import knowledge, rag, workflow, deployment, adaptive
 from edu_rag.embedding import EmbeddingError
 from edu_rag.scope import CurriculumScope
+from edu_rag import conversation
 
 app = FastAPI(title="Edu RAG", version=__version__)
 
@@ -26,7 +27,7 @@ def home():
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "version": __version__, "stage": "V4"}
+    return {"status": "ok", "version": __version__, "stage": "V6"}
 
 
 @app.get("/health/db")
@@ -125,4 +126,39 @@ def v4_ask(request: workflow.WorkflowRequest):
 @app.post("/api/v4/search")
 def v4_search(request: workflow.WorkflowRequest):
     return run_rag(deployment.search, request)
+
+
+@app.post("/api/v5/ask")
+def v5_ask(request: adaptive.AdaptiveRequest):
+    return run_rag(adaptive.ask, request)
+
+
+@app.post("/api/v5/search")
+def v5_search(request: adaptive.AdaptiveRequest):
+    return run_rag(adaptive.search, request)
+
+
+@app.post("/api/v6/ask")
+def v6_ask(request: conversation.ConversationRequest):
+    try:
+        return run_rag(conversation.service.run, request)
+    except conversation.SessionError as exc:
+        raise HTTPException(exc.status, str(exc)) from None
+
+
+@app.delete("/api/v6/sessions/{session_id}")
+def v6_delete(session_id: UUID):
+    try:
+        conversation.service.delete(session_id)
+        return {"status": "cleared"}
+    except conversation.SessionError as exc:
+        raise HTTPException(exc.status, str(exc)) from None
+
+
+@app.post("/api/v6/search")
+def v6_search(request: conversation.ConversationRequest):
+    try:
+        return run_rag(lambda req: conversation.service.run(req, preview=True), request)
+    except conversation.SessionError as exc:
+        raise HTTPException(exc.status, str(exc)) from None
 

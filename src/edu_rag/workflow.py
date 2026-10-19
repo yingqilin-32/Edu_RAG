@@ -374,6 +374,9 @@ class EvidenceWorkflow:
     def _finish(self, state):
         return {}
 
+    def trace_details(self, state):
+        return {}
+
     def run(self, request: WorkflowRequest, *, preview=False):
         state = self.graph.invoke({"request": request.model_dump(mode="json"), "preview": preview,
                                    "started": perf_counter(), "trace_id": str(uuid4()), "retry_count": 0,
@@ -406,6 +409,7 @@ class EvidenceWorkflow:
                  "calls": state["calls"], "usage": usage, "error": state.get("fault"),
                  "elapsed_ms": round((perf_counter()-state["started"])*1000, 3),
                  "citation_sources": [source_reference(s) for s in citations]}
+        trace.update(self.trace_details(state))
         trace["persisted"] = self.trace_file is not None
         if self.trace_file is not None:
             path = Path(self.trace_file)
