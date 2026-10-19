@@ -1,0 +1,947 @@
+[
+  {
+    "id": "pos-01",
+    "question": "长方形的周长为什么要把长和宽相加后乘2？",
+    "expected_answer": null,
+    "answer": "因为长方形有两条长和两条宽，周长是一周边线的总长度，所以先算出一条长与一条宽的和，再乘2，即：周长 =（长 + 宽）× 2 [C1]。例如长8厘米、宽3厘米，周长是（8+3）×2=22厘米 [C1]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-02",
+    "question": "计算长方形面积前，应怎样处理长和宽的长度单位？",
+    "expected_answer": null,
+    "answer": "计算长方形面积前，应先把长和宽换算成相同的长度单位，再用“长×宽”计算面积 [C1][C2]。面积单位由长度单位决定：长、宽都用厘米时，面积用平方厘米；长、宽都用米时，面积用平方米 [C1][C2]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-02",
+    "question": "计算长方形面积前，应怎样处理长和宽的长度单位？",
+    "expected_answer": null,
+    "answer": "计算长方形面积前，应先把长和宽统一成相同的长度单位 [C1][C2]。统一单位后，面积单位由长度单位决定：长、宽用厘米时，面积用平方厘米；长、宽用米时，面积用平方米 [C1][C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-03",
+    "question": "正方形的周长和边长有什么关系？",
+    "expected_answer": null,
+    "answer": "正方形四条边长度相等，所以周长是边长的4倍，即：正方形周长 = 边长 × 4 [C1]。例如边长5厘米时，周长是20厘米 [C1]。反过来，已知周长时，边长 = 周长 ÷ 4 [C1]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-04",
+    "question": "同样大的整体，五分之一和八分之一哪个更大？",
+    "expected_answer": null,
+    "answer": "五分之一（1/5）更大。\n\n依据：整体大小相同时，平均分的份数越多，每份反而越小。五分之一是把整体平均分成5份取1份，八分之一是平均分成8份取1份；分成5份时每份比分成8份时大，所以 1/5 > 1/8 [C2]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-04",
+    "question": "同样大的整体，五分之一和八分之一哪个更大？",
+    "expected_answer": null,
+    "answer": "五分之一更大。因为整体同样大时，平均分的份数越多，每份反而越小；分成5份比分成8份少，所以五分之一大于八分之一 [C2]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-04",
+    "question": "同样大的整体，五分之一和八分之一哪个更大？",
+    "expected_answer": null,
+    "answer": "五分之一更大。\n\n依据：把一个整体平均分的份数越多，每一份反而越小 [C2]。五分之一是把同样大的整体平均分成 5 份取 1 份，八分之一是平均分成 8 份取 1 份；8 份比 5 份多，所以八分之一更小，即 **1/5＞1/8** [C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-05",
+    "question": "人民币1元等于多少角，1角等于多少分？",
+    "expected_answer": null,
+    "answer": "1元 = 10角，1角 = 10分。[C2]",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-05",
+    "question": "人民币1元等于多少角，1角等于多少分？",
+    "expected_answer": null,
+    "answer": "1元=10角，1角=10分，所以1元=100分。[C2]",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-05",
+    "question": "人民币1元等于多少角，1角等于多少分？",
+    "expected_answer": null,
+    "answer": "1元 = 10角，1角 = 10分，因此1元 = 100分 [C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-06",
+    "question": "长度单位厘米、分米和米如何换算？",
+    "expected_answer": null,
+    "answer": "厘米、分米和米之间的换算关系是：1分米 = 10厘米，1米 = 100厘米 [C1]。因此，1米 = 10分米。进行长度加减计算时，应先统一单位，例如1米减35厘米，需先把1米换成100厘米，再计算100 - 35 = 65厘米 [C1]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-07",
+    "question": "计算三位数减法时，不够减应该怎么办？",
+    "expected_answer": null,
+    "answer": "三位数减法中，哪一位不够减，就从前一位退一作十，再继续减；列竖式时相同数位对齐，从个位算起 [C1]。\n\n例如计算 702 − 468 时，个位 2 不够减 8，需要连续退位，按位计算后得 234 [C2]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-07",
+    "question": "计算三位数减法时，不够减应该怎么办？",
+    "expected_answer": null,
+    "answer": "计算三位数减法时，哪一位不够减，就从前一位退一作十，再继续减 [C1]。例如 702 - 468 中，个位 2 不够减 8，需要连续退位，最后得 234 [C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-08",
+    "question": "读钟面整时和半时时，分针分别指向哪里？",
+    "expected_answer": null,
+    "answer": "读整时时，分针指向12，时针指向几就是几时；读半时时，分针指向6，时针位于两个相邻数字之间，时针刚经过几，就读作几时半。例如时针在3和4之间、分针指6，是3时半。必须同时看两根针。[C1]",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-09",
+    "question": "长方形长9厘米、宽4厘米，周长和面积分别是多少？",
+    "expected_answer": null,
+    "answer": "长方形长 9 厘米、宽 4 厘米：\n\n- 周长 =（长 + 宽）× 2 =（9 + 4）× 2 = 26 厘米。公式依据见 [C2]、[C5]（参考题数值不同，此处按本题 9、4 计算）。\n- 面积 = 长 × 宽 = 9 × 4 = 36 平方厘米 [C1][C4]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-09",
+    "question": "长方形长9厘米、宽4厘米，周长和面积分别是多少？",
+    "expected_answer": null,
+    "answer": "周长 = (9 + 4) × 2 = 26 厘米 [C7]；面积 = 9 × 4 = 36 平方厘米 [C4][C1]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-09",
+    "question": "长方形长9厘米、宽4厘米，周长和面积分别是多少？",
+    "expected_answer": null,
+    "answer": "周长：\\((9+4)\\times2=26\\) 厘米 [C7]\n面积：\\(9\\times4=36\\) 平方厘米 [C1][C4]\n\n答：周长是26厘米，面积是36平方厘米。注意周长用厘米，面积用平方厘米，不能混用单位 [C7]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "pos-09",
+    "question": "长方形长9厘米、宽4厘米，周长和面积分别是多少？",
+    "expected_answer": null,
+    "answer": "长方形长9厘米、宽4厘米：\n\n- 周长 = (长 + 宽) × 2 = (9 + 4) × 2 = 26 厘米 [C7]\n- 面积 = 长 × 宽 = 9 × 4 = 36 平方厘米 [C4][C1]\n\n注意周长用厘米、面积用平方厘米，两者不能混用 [C4][C7]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-10",
+    "question": "正方形边长7米，周长是多少？",
+    "expected_answer": null,
+    "answer": "正方形周长 = 边长 × 4 [C4]。边长 7 米时，周长 = 7 × 4 = 28 米。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-10",
+    "question": "正方形边长7米，周长是多少？",
+    "expected_answer": null,
+    "answer": "正方形周长 = 边长 × 4 [C4]。边长 7 米，周长 = 7 × 4 = 28 米 [C4]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-10",
+    "question": "正方形边长7米，周长是多少？",
+    "expected_answer": null,
+    "answer": "正方形周长 = 边长 × 4，所以边长为 7 米时，周长是 7 × 4 = 28 米。[C4]",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-11",
+    "question": "50名同学乘船，每条船最多8人，至少需要几条船？",
+    "expected_answer": null,
+    "answer": "50÷8=6……2。6条船坐48人，还剩2人，需要再加1条船，所以至少需要 **7条船** [C3]。\n\n（说明：C1是53人乘船的参考题，人数不同，不能直接照搬其“7条”这个答案；本题是按同样的“有余数除法、剩下的人也要安排”的方法计算 [C3]。）",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-11",
+    "question": "50名同学乘船，每条船最多8人，至少需要几条船？",
+    "expected_answer": null,
+    "answer": "至少需要 **7条船**。\n\n计算：50÷8=6……2，6条船坐满后还剩2人，这2人也需要1条船，所以共需要 6+1=7 条船。[C3]\n\n（注意：资料C1是“53人”的参考题，数值不同，不能直接照搬其答案；本题按50人计算。）[C1][C3]",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-11",
+    "question": "50名同学乘船，每条船最多8人，至少需要几条船？",
+    "expected_answer": null,
+    "answer": "50 ÷ 8 = 6……2。6 条船坐满后还剩 2 人，这 2 人也需要 1 条船，所以至少需要 7 条船。[C3]",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-12",
+    "question": "小梅有4元，买文具花了2元5角，还剩多少钱？",
+    "expected_answer": null,
+    "answer": "还剩 1.5 元（即 1 元 5 角）。\n\n计算：4 元 − 2 元 5 角 = 4.0 − 2.5 = 1.5 元。依据：1 元 = 10 角，2 元 5 角写成 2.5 元，小数钱数相减小数点对齐 [C10]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-12",
+    "question": "小梅有4元，买文具花了2元5角，还剩多少钱？",
+    "expected_answer": null,
+    "answer": "这是求解新题。\n\n把 2元5角看成 2.5元，列式 4 - 2.5 = 1.5元，即还剩1元5角。依据：1元=10角，小数点后第一位表示角，钱数加减时相同单位对齐。[C10]",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-13",
+    "question": "下午2时20分开始活动，40分钟后结束，结束时刻是多少？",
+    "expected_answer": null,
+    "answer": "下午2时20分即14:20；在开始时间上加40分钟：14:20＋40分钟＝15:00，所以结束时刻是下午3时00分（15:00）[C4]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-13",
+    "question": "下午2时20分开始活动，40分钟后结束，结束时刻是多少？",
+    "expected_answer": null,
+    "answer": "下午2时20分开始，经过40分钟：14:20 + 40分钟 = 15:00，所以结束时刻是下午3时（15:00）[C4]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-14",
+    "question": "用三位数加减法算一算：526加187再减95得多少？",
+    "expected_answer": null,
+    "answer": "先加后减：526+187=713，713-95=618，所以得数是618。计算时相同数位对齐，从个位算起，加法满十进一、减法不够减时向前一位退一作十 [C3]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-14",
+    "question": "用三位数加减法算一算：526加187再减95得多少？",
+    "expected_answer": null,
+    "answer": "先算 526 + 187 = 713，再算 713 - 95 = 618。计算时按三位数加减法规则，相同数位对齐、从个位算起 [C3]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "pos-14",
+    "question": "用三位数加减法算一算：526加187再减95得多少？",
+    "expected_answer": null,
+    "answer": "526 + 187 − 95 = 618。\n\n计算依据：按三位数加减法的运算顺序，先算 526 + 187 = 713，再算 713 − 95 = 618；列竖式时相同数位对齐、从个位算起，加法满十进一，减法不够减时从前一位退一作十 [C3]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "pos-14",
+    "question": "用三位数加减法算一算：526加187再减95得多少？",
+    "expected_answer": null,
+    "answer": "526 + 187 - 95 = 618。\n\n计算依据：三位数加减法列竖式时，相同数位对齐，从个位算起；加法满十向前一位进一，减法不够减从前一位退一作十 [C3]。本题先算 526 + 187 = 713，再算 713 - 95 = 618 [C3]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "pos-15",
+    "question": "给我2道三年级难度2的长方形面积相关计算题，可含已知面积求边长。",
+    "expected_answer": null,
+    "answer": "匹配到 2 道题，按题库原文展示；未用其他条件的题目补齐。",
+    "exercises": [
+      {
+        "id": "40000000-0000-4000-8000-000000000002",
+        "code": "DEMO-AREA-002",
+        "citation": "C1",
+        "stem": "一个长方形面积为 35 平方米，宽为 5 米，长是多少？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 2,
+        "knowledge_point": "长方形的面积",
+        "answer": "7 米",
+        "explanation": "长 = 面积 ÷ 宽 = 35 ÷ 5 = 7，长度单位是米。"
+      },
+      {
+        "id": "27b6b57f-b852-5376-9895-5e8b31f87192",
+        "code": "V1-RECTANGLE-AREA-003",
+        "citation": "C2",
+        "stem": "教室一块长 6 米、宽 3 米的地面，面积是多少？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 2,
+        "knowledge_point": "长方形的面积",
+        "answer": "18 平方米。",
+        "explanation": "用长乘宽：6×3=18，面积单位为平方米。"
+      }
+    ],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-16",
+    "question": "找2道三年级正方形面积相关计算题，可以是求面积或根据面积求边长。",
+    "expected_answer": null,
+    "answer": "匹配到 2 道题，按题库原文展示；未用其他条件的题目补齐。",
+    "exercises": [
+      {
+        "id": "279f4abc-3b43-5057-8911-fc049baa7e8e",
+        "code": "V1-SQUARE-AREA-001",
+        "citation": "C1",
+        "stem": "正方形边长 5 厘米，面积是多少？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "正方形的周长和面积",
+        "answer": "25 平方厘米。",
+        "explanation": "面积=边长×边长=5×5=25 平方厘米。"
+      },
+      {
+        "id": "73dc186b-e882-5f55-8f66-a56b0e436de7",
+        "code": "V1-SQUARE-AREA-002",
+        "citation": "C2",
+        "stem": "正方形面积 49 平方厘米，边长是多少？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "正方形的周长和面积",
+        "answer": "7 厘米。",
+        "explanation": "寻找相同两数相乘等于 49：7×7=49，所以边长是 7 厘米。"
+      }
+    ],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-17",
+    "question": "给我2道一年级下学期人民币计算题。",
+    "expected_answer": null,
+    "answer": "匹配到 2 道题，按题库原文展示；未用其他条件的题目补齐。",
+    "exercises": [
+      {
+        "id": "493b302e-4dda-5251-83fd-b0b2aa4a3e71",
+        "code": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-002",
+        "citation": "C1",
+        "stem": "2元6角加7角，合起来是几元几角？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "人民币单位及换算",
+        "answer": "3元3角。",
+        "explanation": "2元6角是26角，26+7=33角，33角换成3元3角。"
+      },
+      {
+        "id": "f23355b1-e59a-5e23-9089-5467fb864f6c",
+        "code": "G1-MATH-SECOND-REVIEWED-V1-MONEY-UNITS-001",
+        "citation": "C2",
+        "stem": "4元3角一共是多少角？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "人民币单位及换算",
+        "answer": "43角。",
+        "explanation": "4元换成40角，再加3角，40+3=43角。"
+      }
+    ],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-18",
+    "question": "找2道三年级有余数除法计算题。",
+    "expected_answer": null,
+    "answer": "匹配到 2 道题，按题库原文展示；未用其他条件的题目补齐。",
+    "exercises": [
+      {
+        "id": "a01fe88f-7de2-5207-94cf-7097f802f08b",
+        "code": "V1-DIVISION-WITH-REMAINDER-002",
+        "citation": "C1",
+        "stem": "计算 46 ÷ 6，写出商和余数。",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "有余数除法",
+        "answer": "商 7，余数 4。",
+        "explanation": "6×7=42，46-42=4，且 4<6，所以 46÷6=7……4。"
+      },
+      {
+        "id": "66fceb50-f64c-58db-8aca-633ce7a7538e",
+        "code": "V1-DIVISION-WITH-REMAINDER-001",
+        "citation": "C2",
+        "stem": "29 个苹果每 4 个装一袋，能装满几袋，还剩几个？",
+        "options": [],
+        "question_type": "calculation",
+        "difficulty": 1,
+        "knowledge_point": "有余数除法",
+        "answer": "7 袋，还剩 1 个。",
+        "explanation": "29÷4=7……1，表示装满 7 袋后剩 1 个。"
+      }
+    ],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-19",
+    "question": "总结三年级数学已收录的知识点。",
+    "expected_answer": null,
+    "answer": "# 三年级数学已收录知识点总结\n\n以下仅依据提供的 16 个自编演示资料片段整理，属于收录范围内的知识点，**不代表完整教材或整个年级的完整知识目录**。\n\n## 一、知识要点\n\n**1. 数与运算**\n- 四位数数位：从右向左为个位、十位、百位、千位；同一数字在不同数位表示大小不同。[C3]\n- 三位数加减法：相同数位对齐，从个位算起；加法满十进一，减法不够减退一作十。[C4]\n- 乘法：求几个相同加数的和用乘法，每组的数量×组数=总数；两因数交换位置积不变。[C5]\n- 两位数乘法：可把一个因数分成几十和几，分别相乘后相加。[C6]\n- 有余数除法：被除数=除数×商+余数，余数必须小于除数。[C7]\n- 一位数除法：从被除数高位除起，商写在对应数位上。[C8]\n\n**2. 分数与小数**\n- 几分之一：把整体平均分成若干份，其中一份就是几分之一；分母表示份数，分子 1 表示取一份。[C2]\n- 同分母分数加减：分母不变，分子相加减；整体可写成分子分母相同的分数，如 1=5/5。[C14]\n- 小数与人民币：1 元=10 角，1 角=0.1 元；小数加减时小数点对齐。[C15]\n\n**3. 图形与测量**\n- 长方形面积=长×宽，计算前长宽须用相同长度单位。[C1]\n- 长方形周长=(长+宽)×2；已知周长和宽，长=周长÷2−宽。[C12]\n- 正方形周长=边长×4，面积=边长×边长；已知周长可先求边长再求面积。[C13]\n- 长度单位：毫米、厘米、分米、米、千米；1 厘米=10 毫米，1 分米=10 厘米，1 米=100 厘米，1 千米=1000 米。[C9]\n- 质量单位：克、千克、吨；1 千克=1000 克，1 吨=1000 千克。[C10]\n- 时间：1 时=60 分，1 分=60 秒；计算经过时间可先数到整时再数剩余分钟。[C11]\n\n**4. 统计**\n- 统计前明确分类标准，每个对象只计入一类；求总数用加法，比较相差用减法。[C16]\n\n## 二、公式或方法\n\n| 内容 | 公式或方法 | 来源 |\n|---|---|---|\n| 长方形面积 | 长×宽 | [C1] |\n| 长方形周长 | (长+宽)×2；长=周长÷2−宽 | [C12] |\n| 正方形周长、面积 | 边长×4；边长×边长 | [C13] |\n| 有余数除法 | 被除数=除数×商+余数（余数<除数） | [C7] |\n| 除法验算 | 商×除数=被除数；有余数时商×除数+余数=被除数 | [C8] |\n| 两位数乘法 | 32×12=32×10+32×2=384 | [C6] |\n| 同分母分数加减 | 分母不变，分子相加减；1−3/5=5/5−3/5=2/5 | [C14] |\n| 长度换算 | 1 米=100 厘米，1 千米=1000 米等 | [C9] |\n| 质量换算 | 1 千克=1000 克，1 吨=1000 千克 | [C10] |\n| 经过时间 | 先数到整时，再数剩余分钟 | [C11] |\n\n## 三、易错点\n\n- 计算面积前长和宽必须用相同单位；长度用厘米、米，面积用平方单位，二者不能混用。[C1][C9]\n- 周长描述边线长度，面积描述内部大小，公式和单位不要混用。[C12]\n- 比较几分之一必须针对相同大小的整体；分的份数越多，每份反而越小（如 1/3 大于 1/6）；没有平均分不能用此法表示。[C2]\n- 同分母分数相加减须对应同一个或相同大小的整体。[C14]\n- 有余数除法中余数必须小于除数；安排车辆、船只时剩下的人也要安排，如 53÷8=6……5，至少需 7 条船。[C7]\n- 两位数乘法竖式中十位部分积必须按数位对齐。[C6]\n- 长度、质量加减前要先统一单位，如 3 千克+500 克先换成 3000 克+500 克。[C9][C10]\n- 小数钱数加减时小数点对齐，计算后检查单位和数量是否合理。[C15]\n- 读数时中间连续的零只读一个“零”，末尾的零不读；比较位数相同的数从最高位开始。[C3]\n- 统计时每个对象只计入符合要求的类别，避免漏数和重复；统计结果只描述本次调查。[C16]\n\n## 四、覆盖说明\n\n- 本次共收录 16 个知识点片段，每个知识点仅取一个片段，已全部纳入总结，无遗漏主题。[coverage]\n- 资料为“自编演示资料”，属自编演示课程（非官方课标），**不能等同于某本正式教材或整个三年级数学的完整知识目录**。\n- 片段内容为知识点示例，未覆盖各知识点的全部正文与题型。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "pos-20",
+    "question": "汇总一年级全年数学已收录的知识点。",
+    "expected_answer": null,
+    "answer": "# 一年级数学已收录知识点汇总\n\n说明：以下仅汇总给定资料中已收录的片段，不代表完整教材目录。\n\n## 一、知识要点\n\n**第一学期（C1、C4、C5、C7、C10、C11、C13、C15）**\n- 20以内的数与数位：10个一合成1个十；个位在右、十位在左；0表示一个也没有，且0属于偶数 [C1]。\n- 大小比较、数量与序位：越靠后的数越大；“几个”表总数，“第几个”表位置，说序位须先说明从哪端数 [C4]。\n- 物体数量与属性比较：一一配对比多少；比长短要对齐一端；比轻重看称量结果；甲>乙、乙>丙可推出甲>丙 [C5]。\n- 10以内加减：合起来用加法，拿走求剩余用减法；加法交换位置结果不变，减法不可随意交换；加减0仍是原数 [C7]。\n- 20以内加减与凑十：先凑成10再加剩余；退位减法可把十几分成10和几，先算10减 [C10]。\n- 按不同标准分类：先定标准，同一标准下不重不漏；换标准结果可能不同 [C11]。\n- 平面与立体形状初步认识：三角形、长方形、正方形、圆是平面形状；正方体有6个同样大的正方形面 [C13]。\n- 钟面和时刻：分针指12读整时；分针指6、时针在两数之间读几时半，须同时看两根针 [C15]。\n\n**第二学期（C2、C3、C6、C8、C9、C12、C14）**\n- 图形识别与拼组：拼图要看小图形的形状、大小和摆放方式；4个同样正方形两行贴合可成大正方形；两个三角形能否拼成长方形取决于种类和接边 [C2]。\n- 分类记录与数据整理：先分类，再画记号或写数记录，每对象只记一次；求和用加法，比差用大数减小数 [C3]。\n- 人民币单位及换算：元、角、分；1元=10角，1角=10分，1元=100分；计算前先统一单位 [C6]。\n- 100以内的数与数位：右起个位、十位、百位；10个十是1个百；比较两位数先比十位再比个位 [C8]。\n- 100以内加减及进退位：个位满10合成1个十；个位不够减从十位取1个十；可用相反运算检查 [C9]。\n- 括号和计算顺序：无括号加减从左往右；有小括号先算括号内，再放回原式 [C12]。\n- 重复与数列规律：先说清规则；重复图案圈出一组；数列看相邻增减；有限几个数可能有多种延续规则 [C14]。\n\n## 二、公式或方法\n- 1元=10角，1角=10分，1元=100分 [C6]。\n- 凑十法：拆一个加数凑成10，再加剩余部分 [C10]。\n- 退位减法：十几分成10和几，先算10减减数，再加留下的几 [C10]。\n- 求和用加法，求差用大数减小数 [C3]。\n- 有括号先算括号内，再代回原式 [C12]。\n\n## 三、易错点\n- 0属于偶数，不要排除 [C1]。\n- 说“第几个”要先说明从哪端数 [C4]。\n- 比较轻重不能只看外表大小 [C5]。\n- 减法随意交换两数结果不一定不变 [C7]。\n- 拼图不能只按块数下结论；两个三角形不一定拼成长方形 [C2]。\n- 记录时每个对象只记一次，防漏防重 [C3][C11]。\n- 人民币计算前先看清单位，不能把元与角当同单位相加 [C6]。\n- 比较两位数先比十位，再比个位 [C8]。\n- 数位改变只是表示方法，总量不能凭空增减 [C9]。\n- 分类不能一部分按颜色、一部分按形状而不说明 [C11]。\n- 有限几个数可能有多种规律，须说明规则 [C14]。\n- 读时刻必须同时看两根针 [C15]。\n\n## 四、覆盖说明\n资料共收录15个知识点（第一学期8个、第二学期7个），本次已全部汇总，无遗漏。但资料为“原创补充（参考目录，非教材）”，不能视为完整教材或年级知识目录。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-01",
+    "question": "三年级数学：61人乘船，每条船最多坐9人，至少要几条船？",
+    "expected_answer": "7条",
+    "answer": "61÷9=6……7，6条船坐不完，剩下的7人还需要1条船，所以至少要7条船。[C1][C2]",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-01",
+    "question": "三年级数学：61人乘船，每条船最多坐9人，至少要几条船？",
+    "expected_answer": "7条",
+    "answer": "至少需要 **7 条船**。\n\n计算：61 ÷ 9 = 6……7，即坐满 6 条船后还剩 7 人，这 7 人还需要 1 条船，所以至少 6 + 1 = 7 条船。安排船只时，剩下的人也需要安排 [C2]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-01",
+    "question": "三年级数学：61人乘船，每条船最多坐9人，至少要几条船？",
+    "expected_answer": "7条",
+    "answer": "61÷9=6……7 [C2]。6条船坐不完，剩下7人还需要1条船，所以至少要7条船 [C1][C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-01",
+    "question": "三年级数学：61人乘船，每条船最多坐9人，至少要几条船？",
+    "expected_answer": "7条",
+    "answer": "61÷9=6……7，6条船坐不完，剩下7人还需要1条船，所以至少要7条船。[C2][C1]",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-02",
+    "question": "三年级数学：47支笔每6支装一盒，能装满几盒，还余几支？",
+    "expected_answer": "7盒，余5支",
+    "answer": "47 ÷ 6 = 7……5，所以能装满 7 盒，还余 5 支。[C2]\n\n依据：有余数除法中，余数必须小于除数；且 6×7+5=47，符合“被除数 = 除数 × 商 + 余数”。[C2]",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-02",
+    "question": "三年级数学：47支笔每6支装一盒，能装满几盒，还余几支？",
+    "expected_answer": "7盒，余5支",
+    "answer": "47 ÷ 6 = 7……5，所以能装满 **7盒**，还余 **5支**。\n\n依据：有余数除法中，余数必须小于除数；且被除数 = 除数 × 商 + 余数。这里 6×7+5=47，5<6，符合规则 [C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-03",
+    "question": "三年级数学：90个杯子，每箱最多装8个，全部运走至少需要几箱？",
+    "expected_answer": "12箱",
+    "answer": "90÷8=11……2，11箱装满后还剩2个杯子，剩下的2个也需要1箱，所以至少需要11+1=12箱。[C3]\n\n（这是“有余数除法”中“剩下部分也要再安排一份”的用法，参考船、袋的同类问题。[C1][C2][C3]）",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-03",
+    "question": "三年级数学：90个杯子，每箱最多装8个，全部运走至少需要几箱？",
+    "expected_answer": "12箱",
+    "answer": "计算：90÷8=11……2 [C3]。11箱装满后还剩2个杯子，剩下的2个也要再装1箱，所以至少需要11+1=12箱。[C3]\n\n答案：至少需要12箱。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-03",
+    "question": "三年级数学：90个杯子，每箱最多装8个，全部运走至少需要几箱？",
+    "expected_answer": "12箱",
+    "answer": "至少需要 **12箱**。\n\n计算：90 ÷ 8 = 11……2，即11箱装88个，还剩2个杯子；余下的2个也需要1箱，所以共需 11 + 1 = 12箱。[C3]\n\n依据：有余数除法中“剩下的人也需要安排”的思路，同样适用于装箱问题。[C3]",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-03",
+    "question": "三年级数学：90个杯子，每箱最多装8个，全部运走至少需要几箱？",
+    "expected_answer": "12箱",
+    "answer": "这是求解新题，按“有余数除法”计算：\n\n90 ÷ 8 = 11……2。  \n即11箱能装 8×11=88 个，还剩2个杯子，也需要再装1箱，所以至少需要 11+1=12 箱。\n\n依据：余数要小于除数，且剩下不够一整箱的也要另装箱 [C3]；安排车辆、船只等时，剩下部分也需要安排，方法与之相同 [C3][C1]。\n\n答案：至少需要 12 箱。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-04",
+    "question": "三年级数学：图书馆原有586本书，新添127本，再借出218本，还剩几本？",
+    "expected_answer": "495本",
+    "answer": "先算新添后共有：586 + 127 = 713（本）[C2]；再算借出后剩下：713 - 218 = 495（本）[C2]。\n\n**答：还剩 495 本。**",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-04",
+    "question": "三年级数学：图书馆原有586本书，新添127本，再借出218本，还剩几本？",
+    "expected_answer": "495本",
+    "answer": "还剩 **495 本**。\n\n计算：先算新添后共有 586 + 127 = 713（本），再算借出后剩下 713 - 218 = 495（本），所以列式为 **586 + 127 - 218 = 495（本）**。这是两步应用题，先说明第一步表示“新添后共有多少本”，再说明第二步表示“借出后还剩多少本”[C2]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-04",
+    "question": "三年级数学：图书馆原有586本书，新添127本，再借出218本，还剩几本？",
+    "expected_answer": "495本",
+    "answer": "这是求解新题。按题意列式：\n\n586 + 127 - 218 = 713 - 218 = 495（本）\n\n答：还剩 495 本。\n\n依据：两步应用题先说明每一步表示什么，再列式；三位数加减法列竖式时相同数位对齐，从个位算起 [C2]。参考题中数值与本题不同，不能直接沿用其答案，本题需按 586、127、218 重新计算 [C1][C2]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-04",
+    "question": "三年级数学：图书馆原有586本书，新添127本，再借出218本，还剩几本？",
+    "expected_answer": "495本",
+    "answer": "还剩 **495 本**。\n\n计算：586 + 127 − 218 = 495（本）。\n\n依据：两步应用题先说明每一步表示什么，再列式；本题先算添书后共有 586+127=713 本，再算借出后剩 713−218=495 本，方法参见 [C2]。参考题中数值不同，不能直接套用其答案 [C1]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-05",
+    "question": "三年级数学：8个小组，每组9名同学，一共有多少名同学？",
+    "expected_answer": "72人",
+    "answer": "共有 72 名同学。\n\n计算依据：每组 9 名同学，共 8 个小组，求 8 个 9 是多少，用乘法：9 × 8 = 72（名）[C10]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-05",
+    "question": "三年级数学：8个小组，每组9名同学，一共有多少名同学？",
+    "expected_answer": "72人",
+    "answer": "一共有 72 名同学。\n\n计算依据：每组 9 名，共 8 组，求 8 个 9 是多少，用乘法：9×8=72（名）。[C10]",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-05",
+    "question": "三年级数学：8个小组，每组9名同学，一共有多少名同学？",
+    "expected_answer": "72人",
+    "answer": "8 × 9 = 72（名）。求8个9是多少，用乘法计算 [C10]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-06",
+    "question": "三年级数学：每袋7颗糖，6袋再加5颗，共有多少颗糖？",
+    "expected_answer": "47颗",
+    "answer": "先算6袋：7×6=42（颗），再加5颗：42+5=47（颗）。答：共有47颗糖。[C7]",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-07",
+    "question": "三年级数学：活动上午9时45分开始，35分钟后结束，结束时刻是几点几分？",
+    "expected_answer": "上午10时20分",
+    "answer": "开始时刻 9时45分，经过 35 分钟：\n\n9时45分 + 15分钟 = 10时00分，还剩 35−15=20 分钟，所以 10时00分 + 20分钟 = 10时20分。\n\n答：结束时刻是 **10时20分**。\n\n依据：求结束时间可在开始时间上加经过时长，并可先数到整时再数剩余分钟 [C3]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-07",
+    "question": "三年级数学：活动上午9时45分开始，35分钟后结束，结束时刻是几点几分？",
+    "expected_answer": "上午10时20分",
+    "answer": "结束时刻是 **10时20分**。\n\n依据：1时=60分，求结束时间可在开始时间上加经过时长，9:45加35分钟：9:45到10:00是15分钟，还剩20分钟，所以是10:20 [C3]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-07",
+    "question": "三年级数学：活动上午9时45分开始，35分钟后结束，结束时刻是几点几分？",
+    "expected_answer": "上午10时20分",
+    "answer": "结束时刻是上午10时20分 [C3]。\n\n计算依据：9时45分到10时是15分钟，还剩35−15=20分钟，所以是10时20分 [C3]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-07",
+    "question": "三年级数学：活动上午9时45分开始，35分钟后结束，结束时刻是几点几分？",
+    "expected_answer": "上午10时20分",
+    "answer": "结束时刻是上午10时20分。\n\n计算：9时45分到10时是15分钟，还剩35−15=20分钟，所以是10时20分。[C3]",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-08",
+    "question": "三年级数学：下午2时25分开始，下午3时10分结束，经过了多少分钟？",
+    "expected_answer": "45分钟",
+    "answer": "从下午2时25分到下午3时10分，经过 **45分钟**。\n\n计算依据：先算到整时，2时25分到3时是 35 分钟（1小时=60分钟，60−25=35）[C1]；3时到3时10分是 10 分钟 [C1]；合计 35+10=45 分钟 [C1]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-08",
+    "question": "三年级数学：下午2时25分开始，下午3时10分结束，经过了多少分钟？",
+    "expected_answer": "45分钟",
+    "answer": "下午2时25分到下午3时10分，经过了 **45分钟**。\n\n计算依据：先算到下午3时，2时25分到3时是35分钟；再算3时到3时10分是10分钟；合计35＋10＝45分钟。[C1]\n\n（这是按你题中的时间计算，不套用资料里 8:35 到 9:10 那道参考题的答案。）",
+    "exercises": [],
+    "arms": [
+      "score_filter",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-09",
+    "question": "三年级数学：书包15元，铅笔2元5角，合计多少钱？",
+    "expected_answer": "17元5角",
+    "answer": "铅笔2元5角 = 2.5元 [C2][C3]。合计：15 + 2.5 = 17.5元，即17元5角 [C3]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-09",
+    "question": "三年级数学：书包15元，铅笔2元5角，合计多少钱？",
+    "expected_answer": "17元5角",
+    "answer": "2元5角 = 2.5元 [C3]。合计：15 + 2.5 = 17.5元，即17元5角 [C3]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank",
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-09",
+    "question": "三年级数学：书包15元，铅笔2元5角，合计多少钱？",
+    "expected_answer": "17元5角",
+    "answer": "铅笔2元5角 = 2.5元 [C2][C3]。  \n书包15元 + 铅笔2.5元 = 17.5元，即17元5角 [C3]。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-10",
+    "question": "三年级数学：2米长的绳子剪去85厘米，还剩多少厘米？",
+    "expected_answer": "115厘米",
+    "answer": "还剩 115 厘米。\n\n计算依据：先统一单位，1 米=100 厘米 [C2][C3]，所以 2 米=200 厘米；再计算 200-85=115 厘米 [C1][C3]。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-10",
+    "question": "三年级数学：2米长的绳子剪去85厘米，还剩多少厘米？",
+    "expected_answer": "115厘米",
+    "answer": "先统一单位：1米=100厘米，所以2米=200厘米 [C3]。再计算：200−85=115厘米 [C3]。\n\n答：还剩115厘米。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-10",
+    "question": "三年级数学：2米长的绳子剪去85厘米，还剩多少厘米？",
+    "expected_answer": "115厘米",
+    "answer": "先统一单位：2米=200厘米 [C3]，再计算：200−85=115厘米。答：还剩115厘米。[C1][C3]",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-10",
+    "question": "三年级数学：2米长的绳子剪去85厘米，还剩多少厘米？",
+    "expected_answer": "115厘米",
+    "answer": "2米 = 200厘米 [C3]，所以还剩 200 − 85 = 115厘米 [C3]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-11",
+    "question": "三年级数学：长方形纸板的四条边依次为9、4、9、4厘米，沿边围一圈需要多少厘米绳子？",
+    "expected_answer": "26厘米",
+    "answer": "沿边围一圈的长度就是长方形的周长。长方形有两条长和两条宽，周长 = (长 + 宽) × 2 [C2]。\n\n本题长 9 厘米、宽 4 厘米：\n(9 + 4) × 2 = 13 × 2 = 26（厘米）\n\n需要绳子 **26 厘米**。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-11",
+    "question": "三年级数学：长方形纸板的四条边依次为9、4、9、4厘米，沿边围一圈需要多少厘米绳子？",
+    "expected_answer": "26厘米",
+    "answer": "沿边围一圈就是求这个长方形的周长。长方形有两条长、两条宽，所以周长 = (长 + 宽) × 2 [C2]。\n\n这里长为9厘米，宽为4厘米：(9 + 4) × 2 = 13 × 2 = 26（厘米）。\n\n答：需要26厘米绳子。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-11",
+    "question": "三年级数学：长方形纸板的四条边依次为9、4、9、4厘米，沿边围一圈需要多少厘米绳子？",
+    "expected_answer": "26厘米",
+    "answer": "沿边围一圈绳子的长度就是长方形纸板的周长：长方形有四条边，两条长、两条宽，周长=(长+宽)×2 [C2]。题中长取9厘米、宽取4厘米，计算为 (9+4)×2=26 厘米 [C2]。答：需要26厘米绳子。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-11",
+    "question": "三年级数学：长方形纸板的四条边依次为9、4、9、4厘米，沿边围一圈需要多少厘米绳子？",
+    "expected_answer": "26厘米",
+    "answer": "沿长方形纸板四条边围一圈，绳子的长度就是长方形纸板的周长。\n\n长方形有两条长和两条宽：\n- 长：9厘米\n- 宽：4厘米\n\n周长公式：\n\\[\n周长=(长+宽)\\times2\n\\]\n\n计算：\n\\[\n(9+4)\\times2=13\\times2=26\\text{厘米}\n\\]\n\n所以，围一圈需要 **26厘米** 绳子。[C2]",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  },
+  {
+    "id": "fresh-12",
+    "question": "三年级数学：长方形纸长12厘米、宽5厘米，把纸面全部涂色，涂色面积是多少？",
+    "expected_answer": "60平方厘米",
+    "answer": "涂色面积是 **60 平方厘米**。\n\n依据：长方形面积 = 长 × 宽；长和宽都用厘米时，面积单位是平方厘米 [C3]。  \n计算：12 × 5 = 60（平方厘米）。",
+    "exercises": [],
+    "arms": [
+      "retrieval_order",
+      "no_pre_generation_gate"
+    ]
+  },
+  {
+    "id": "fresh-12",
+    "question": "三年级数学：长方形纸长12厘米、宽5厘米，把纸面全部涂色，涂色面积是多少？",
+    "expected_answer": "60平方厘米",
+    "answer": "涂色面积就是这张长方形纸的面积。\n\n长方形面积 = 长 × 宽 = 12 × 5 = 60（平方厘米）[C3][C6]\n\n答：涂色面积是 60 平方厘米。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank"
+    ]
+  },
+  {
+    "id": "fresh-12",
+    "question": "三年级数学：长方形纸长12厘米、宽5厘米，把纸面全部涂色，涂色面积是多少？",
+    "expected_answer": "60平方厘米",
+    "answer": "涂色面积 = 长方形面积 = 长 × 宽 = 12 × 5 = 60（平方厘米）[C3][C6]。\n\n答案：60 平方厘米。",
+    "exercises": [],
+    "arms": [
+      "score_filter"
+    ]
+  },
+  {
+    "id": "fresh-12",
+    "question": "三年级数学：长方形纸长12厘米、宽5厘米，把纸面全部涂色，涂色面积是多少？",
+    "expected_answer": "60平方厘米",
+    "answer": "涂色面积是 **60 平方厘米**。\n\n依据：长方形面积 = 长 × 宽；长、宽都用厘米，面积单位用平方厘米 [C3][C6]。\n\n计算：12 × 5 = 60，所以涂色面积是 60 平方厘米 [C3][C6]。",
+    "exercises": [],
+    "arms": [
+      "llm_rerank_filter"
+    ]
+  }
+]

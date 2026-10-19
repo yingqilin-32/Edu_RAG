@@ -91,9 +91,10 @@ function renderWorkflow(trace,box){
   box.append(el('h3','exercise-title','V4 证据决策 · '+(decisions[trace.decision]||trace.decision)));
   box.append(el('p','retrieval-note','重检 '+trace.retry_count+' / '+trace.max_retries+' 次 · 共检索 '+trace.retrieval_count+' 次 · 总耗时 '+number(trace.elapsed_ms,0)+' ms'));
   const assessment=trace.assessment||{};
-  if(assessment.requirement_coverage!==undefined)box.append(el('p','retrieval-note','必要要求证据覆盖 '+number(assessment.requirement_coverage*100,0)+'% · 合格来源 '+assessment.qualified_sources+' 条。评分为模型判断，不代表答案正确率。'));
+  if(assessment.requirement_coverage!==undefined)box.append(el('p','retrieval-note','必要要求证据覆盖 '+number(assessment.requirement_coverage*100,0)+'% · 选入来源 '+(assessment.selected_sources??assessment.qualified_sources??0)+' 条。评估为模型判断，不代表答案正确率。'));
+  if(assessment.missing_requirements?.length)box.append(el('p','retrieval-note','尚缺依据：'+assessment.missing_requirements.join('；')));
   if(trace.error)box.append(el('p','error','证据服务未能完成校验，本次已停止回答。'));
-  const details=el('details','trace');details.append(el('summary','','查看检索路径、证据评分与引用来源'));
+  const details=el('details','trace');details.append(el('summary','','查看检索路径、证据门控与引用来源'));
   details.append(el('p','retrieval-note',trace.events.map(e=>e.node).join(' → ')));
   details.append(el('pre','prose',JSON.stringify(trace,null,2)));box.append(details);
 }

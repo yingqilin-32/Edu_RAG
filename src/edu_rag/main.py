@@ -12,7 +12,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from edu_rag import __version__
 from edu_rag.config import ConfigurationError
 from edu_rag.db import database_status, get_engine
-from edu_rag import knowledge, rag, workflow
+from edu_rag import knowledge, rag, workflow, deployment
 from edu_rag.embedding import EmbeddingError
 from edu_rag.scope import CurriculumScope
 
@@ -119,10 +119,10 @@ def ask(request: rag.SearchRequest):
 
 @app.post("/api/v4/ask")
 def v4_ask(request: workflow.WorkflowRequest):
-    return run_rag(workflow.ask, request)
+    return run_rag(deployment.ask, request)
 
 
 @app.post("/api/v4/search")
 def v4_search(request: workflow.WorkflowRequest):
-    return run_rag(workflow.search, request)
+    return run_rag(deployment.search, request)
 

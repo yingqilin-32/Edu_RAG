@@ -1,0 +1,173 @@
+{
+  "signature": {
+    "suite_sha256": "5aa8fb448fd879e55256b4247bd4357a1b13b38a2a672c4b9db6f14499d4cbb5",
+    "code": {
+      "src/edu_rag/gating.py": "e488122bb7a1ad6250a329ab168b92a8e0104424cb56b767cc779d5f0dfe92ba",
+      "src/edu_rag/workflow.py": "4750a8505cb09810e60902029f72fd5bc843d909f5aa4fd74483edcad29b1dd3",
+      "src/edu_rag/query.py": "596de6eddd4fe6f9290586d5c268622695b578b64fa5266fe87e81ee6443c1be",
+      "src/edu_rag/rag.py": "2891ba9541b35a3a0b7808b37681f56c19a56ead83052badf5a28e605bb590d8",
+      "src/edu_rag/retrieval.py": "030111054cd1844f1ff09ff1835595e073c42fa82982703211ac1ac0f54d94df",
+      "src/edu_rag/llm.py": "9250a23efe98206e1b84ad5bd0856601a55fcdd5a7d63a61d6f257692536ec2d",
+      "src/edu_rag/scope.py": "2b0a49be67839203c545062607461e152c427a9a8ea68ec06daeb263a8509cd9",
+      "src/edu_rag/knowledge.py": "d0c71f94af8db32363c211a73a97f8a488d4871a17828dda7343a3d12d0495f5",
+      "src/edu_rag/embedding.py": "7a59276e055982f9cb43e7eb8e691cc3b80c4631d0ccf2cd6cf61703f0c52fb1",
+      "scripts/evaluate_rerank_gate.py": "803dc90916d8ffad1c36a7fb370a788fd7e4d869f3df421c64c28a184b4db5be"
+    },
+    "model": "deepseek-flash",
+    "max_retries": 0,
+    "arms": [
+      "retrieval_order",
+      "llm_rerank",
+      "score_filter",
+      "llm_rerank_filter",
+      "no_pre_generation_gate"
+    ],
+    "design": "Frozen first-pass query plans/candidate pools; same context count budget, generation and post-verification. Exact prompt cache shared across arms. Gold labels never sent to model.",
+    "adoption_rule": "Prefer retrieval_order unless a rerank arm completes more positive cases with no added negative false answers or service errors. Ranking metrics are secondary; no statistically powered equivalence claim.",
+    "corpus_sha256": "22a72e916102416a0fb9f0f205e6ac2f1c73657adc75f3a788aa2b75c9620a6e",
+    "frozen_inputs_sha256": "18979a63147ee204b333541c94adb95f2394dab9496db7747253072c37f5b5f6"
+  },
+  "complete": true,
+  "metrics": {
+    "retrieval_order": {
+      "count": 92,
+      "positives": 32,
+      "positive_completed": 29,
+      "positive_completion_rate": 0.90625,
+      "negatives": 60,
+      "false_answers": 0,
+      "missing_input_clarifications": 10,
+      "unsupported_generation_attempts": 0,
+      "service_errors": [],
+      "status_counts": {
+        "refused": 37,
+        "needs_clarification": 26,
+        "answered": 25,
+        "exercises_found": 4
+      },
+      "ndcg_at_context_budget": 0.7428409712893789,
+      "precision_at_context_budget": 0.7133333333333334,
+      "topic_coverage_rate": 0.9333333333333333,
+      "nominal_model_calls": 107,
+      "nominal_total_tokens": 103013,
+      "median_provider_time_ms": 1104.6912999881897,
+      "positive_failures": [
+        "pos-12",
+        "fresh-05",
+        "fresh-06"
+      ]
+    },
+    "llm_rerank": {
+      "count": 92,
+      "positives": 32,
+      "positive_completed": 30,
+      "positive_completion_rate": 0.9375,
+      "negatives": 60,
+      "false_answers": 0,
+      "missing_input_clarifications": 10,
+      "unsupported_generation_attempts": 0,
+      "service_errors": [],
+      "status_counts": {
+        "refused": 36,
+        "needs_clarification": 26,
+        "answered": 26,
+        "exercises_found": 4
+      },
+      "ndcg_at_context_budget": 0.8939899678032333,
+      "precision_at_context_budget": 0.7266666666666667,
+      "topic_coverage_rate": 0.9333333333333333,
+      "nominal_model_calls": 160,
+      "nominal_total_tokens": 162040,
+      "median_provider_time_ms": 2175.8096999983536,
+      "positive_failures": [
+        "pos-13",
+        "fresh-06"
+      ]
+    },
+    "score_filter": {
+      "count": 92,
+      "positives": 32,
+      "positive_completed": 32,
+      "positive_completion_rate": 1,
+      "negatives": 60,
+      "false_answers": 0,
+      "missing_input_clarifications": 10,
+      "unsupported_generation_attempts": 0,
+      "service_errors": [],
+      "status_counts": {
+        "refused": 34,
+        "needs_clarification": 26,
+        "answered": 28,
+        "exercises_found": 4
+      },
+      "ndcg_at_context_budget": 0.6947675968934973,
+      "precision_at_context_budget": 0.44666666666666666,
+      "topic_coverage_rate": 0.9,
+      "nominal_model_calls": 142,
+      "nominal_total_tokens": 133954,
+      "median_provider_time_ms": 934.5299499982502,
+      "positive_failures": []
+    },
+    "llm_rerank_filter": {
+      "count": 92,
+      "positives": 32,
+      "positive_completed": 32,
+      "positive_completion_rate": 1,
+      "negatives": 60,
+      "false_answers": 0,
+      "missing_input_clarifications": 10,
+      "unsupported_generation_attempts": 0,
+      "service_errors": [],
+      "status_counts": {
+        "refused": 34,
+        "needs_clarification": 26,
+        "answered": 28,
+        "exercises_found": 4
+      },
+      "ndcg_at_context_budget": 0.7542418911750479,
+      "precision_at_context_budget": 0.44666666666666666,
+      "topic_coverage_rate": 0.9,
+      "nominal_model_calls": 142,
+      "nominal_total_tokens": 133986,
+      "median_provider_time_ms": 934.5299499982502,
+      "positive_failures": []
+    },
+    "no_pre_generation_gate": {
+      "count": 92,
+      "positives": 32,
+      "positive_completed": 29,
+      "positive_completion_rate": 0.90625,
+      "negatives": 60,
+      "false_answers": 2,
+      "missing_input_clarifications": 10,
+      "unsupported_generation_attempts": 19,
+      "service_errors": [],
+      "status_counts": {
+        "refused": 35,
+        "needs_clarification": 26,
+        "answered": 26,
+        "exercises_found": 5
+      },
+      "ndcg_at_context_budget": 0.7428409712893789,
+      "precision_at_context_budget": 0.7133333333333334,
+      "topic_coverage_rate": 0.9333333333333333,
+      "nominal_model_calls": 75,
+      "nominal_total_tokens": 67010,
+      "median_provider_time_ms": 887.6671000034548,
+      "positive_failures": [
+        "pos-12",
+        "fresh-05",
+        "fresh-06"
+      ]
+    }
+  },
+  "unique_provider_calls": 345,
+  "actual_provider_total_tokens": 323825,
+  "notes": [
+    "60 negative + 20 positive reused regression cases; 12 new authored positive variants. Development comparison, not an independent representative holdout.",
+    "Completion is not independent answer correctness; audit outputs separately.",
+    "Latency is sum of original provider durations for each arm (cache hits replay original durations); excludes common planning/retrieval and is not HTTP end-to-end latency.",
+    "Negative controls retain curriculum preflight and post-answer verification; this isolates the pre-generation gate only.",
+    "nDCG averages 30 non-summary positives, with source-level gold relevance 2 for topic-matching knowledge cards or requested exercises, 1 for related examples. Summaries are excluded."
+  ]
+}

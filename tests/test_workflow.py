@@ -5,7 +5,7 @@ import httpx
 import pytest
 from fastapi.testclient import TestClient
 
-from edu_rag import rag, workflow
+from edu_rag import rag, workflow, deployment
 from edu_rag.config import Settings
 from edu_rag.main import app
 
@@ -197,7 +197,7 @@ def test_v4_rejects_unbounded_retries_and_disabled_understanding(body):
 
 
 def test_v4_endpoint_uses_workflow_and_keeps_v3_available(monkeypatch):
-    monkeypatch.setattr(workflow, "ask", lambda r: {"status": "refused", "question": r.question})
+    monkeypatch.setattr(deployment, "ask", lambda r: {"status": "refused", "question": r.question})
     with TestClient(app) as client:
         response = client.post("/api/v4/ask", json={"question": "资料够吗"})
         assert response.status_code == 200 and response.json()["status"] == "refused"

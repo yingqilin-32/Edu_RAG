@@ -157,6 +157,8 @@ def source_reference(source):
 
 
 class EvidenceWorkflow:
+    version = WORKFLOW_VERSION
+
     def __init__(self, *, engine=None, encoder=None, settings=None, client=None, trace_file=TRACE_FILE):
         self.engine, self.encoder = engine, encoder
         self.settings = settings if settings is not None else get_settings()
@@ -395,7 +397,7 @@ class EvidenceWorkflow:
             status, answer, citations = "needs_clarification", state.get("clarification") or state["reason"], []
         else:
             status, answer, citations = "refused", "当前资料不足，无法在所选范围内给出有依据的回答。请补充相关资料或缩小问题范围。", []
-        trace = {"trace_id": state["trace_id"], "version": WORKFLOW_VERSION,
+        trace = {"trace_id": state["trace_id"], "version": self.version,
                  "created_at": datetime.now(timezone.utc).isoformat(), "decision": decision, "status": status,
                  "reason": state.get("reason", ""), "retry_count": state["retry_count"],
                  "max_retries": request.max_retries, "retrieval_count": state["retrieval_count"],

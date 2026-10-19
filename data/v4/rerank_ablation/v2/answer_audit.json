@@ -1,0 +1,50 @@
+{
+  "reviewer": "Codex assistant reading the saved outputs and authored source cards; not independent human annotation and not another API judge",
+  "reviewed_unique_positive_answers": 77,
+  "scope": "Core calculations, requested knowledge, exercise tags/count, and summary topic coverage. This is not a proof that every sentence and citation is correct.",
+  "observed_core_answer_errors_in_completed_positives": 0,
+  "rubric": {
+    "pos-01": "Rectangle perimeter = 2*(length+width), because two pairs of equal sides.",
+    "pos-02": "Unify length units before multiplying; resulting area units must be squared.",
+    "pos-03": "Square perimeter = 4*side; inverse side = perimeter/4.",
+    "pos-04": "For the same whole, 1/5 > 1/8.",
+    "pos-05": "1 yuan = 10 jiao; 1 jiao = 10 fen.",
+    "pos-06": "1 dm = 10 cm; 1 m = 100 cm = 10 dm.",
+    "pos-07": "Borrow one from the preceding place as ten of the current place; 702-468=234.",
+    "pos-08": "Whole hour: minute hand at 12; half hour: minute hand at 6.",
+    "pos-09": "Perimeter 26 cm, area 36 square cm.",
+    "pos-10": "28 m.",
+    "pos-11": "50/8 = 6 remainder 2; at least 7 boats.",
+    "pos-12": "4 - 2.5 = 1.5 yuan.",
+    "pos-13": "14:20 + 40 min = 15:00.",
+    "pos-14": "526 + 187 - 95 = 618.",
+    "pos-15": "Two grade-3 rectangle-area calculation exercises, difficulty 2; inverse-area questions permitted.",
+    "pos-16": "Two grade-3 square-area calculation exercises; inverse-area questions permitted.",
+    "pos-17": "Two grade-1 second-semester money calculation exercises.",
+    "pos-18": "Two grade-3 division-with-remainder calculation exercises; authoritative database tags govern type.",
+    "pos-19": "All 16 registered grade-3 topics; authored coverage caveat included.",
+    "pos-20": "All 15 registered grade-1 topics across both semesters; authored coverage caveat included.",
+    "fresh-01": "ceil(61/9)=7 boats.",
+    "fresh-02": "47/6 = 7 full boxes and 5 pens left.",
+    "fresh-03": "ceil(90/8)=12 boxes.",
+    "fresh-04": "586+127-218=495 books.",
+    "fresh-05": "8*9=72 students.",
+    "fresh-06": "7*6+5=47 sweets.",
+    "fresh-07": "09:45+35 min=10:20.",
+    "fresh-08": "15:10-14:25=45 min.",
+    "fresh-09": "15+2.5=17.5 yuan.",
+    "fresh-10": "200-85=115 cm.",
+    "fresh-11": "9+4+9+4=26 cm.",
+    "fresh-12": "12*5=60 square cm."
+  },
+  "negative_audit": {
+    "missing_input": "10/10 fixed missing-input cases receive targeted clarification in every arm; those cases are handled by the shared query preflight, so they do not isolate the later evidence gate.",
+    "negative_status_flags": "2 flags only in no_pre_generation_gate: one appropriate refusal text incorrectly marked answered, and one irrelevant exercise response. Neither output fabricates a private bank balance or ID. See paired_analysis.json.",
+    "remaining_preflight_quality_limits": [
+      "neg-provenance-04 produces an inappropriate grade-range clarification: the local rule reads the adjacent Chinese numeral in '全国统一三年级' as an invalid grade. This is a pre-existing frozen planning defect, not a retrieval-gate success.",
+      "neg-provenance-01 conflates model/rule textbook disagreement with a user filter conflict.",
+      "Some mixed-topic requests ask for clarification rather than directly stating the missing external data. Safe stopping is measured separately from the quality of the clarification wording."
+    ]
+  },
+  "conclusion": "The deployed arm completes 32/32 authored positives with correct core results in this assistant audit and safely stops all 60 negatives under the frozen status metric. These are development/regression observations, not an independent production accuracy estimate."
+}

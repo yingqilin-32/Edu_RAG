@@ -1,0 +1,9 @@
+{
+  "stage": "Before any ablation-arm execution; v1 contains preparation only, no results",
+  "cases": ["pos-03", "pos-10"],
+  "old_gold_topic": "rectangle-perimeter",
+  "corrected_gold_topic": "square-area",
+  "reason": "The original square-area knowledge card explicitly contains square perimeter = side * 4. The first draft incorrectly mapped square-perimeter questions to the rectangle-perimeter topic.",
+  "source": "data/v1/math_g3.json#square-area",
+  "preservation": "v1 frozen suite/signature/code preserved. v2 reuses identical query plans/candidate pools and setup provider responses. Answerability labels and questions unchanged."
+}
